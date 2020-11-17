@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+#calendario_eventos { 
+	background: url("fnd_calendario_eventos.png") no-repeat 64px 0 #F3F3F3;
+	border: 1px solid #D6D6D6;
+	border-radius: 6px 6px 0 0;
+	border-bottom: none; 
+	display:block; 
+	float:right; 
+	padding: 10px 20px 19px 4px; /*font-family:'Droid Sans'*/
+	width: 257px; /*estando vacío*/}
+
+#calendario_eventos .range { 
+	float:left; 
+	width:58px; 
+	margin: 0; }
+	
+#calendario_eventos #mes h3 { 
+    color: #222222;
+    font-size: 1.8em;
+    margin: 0;
+    text-align: center;}
+	
+#calendario_eventos #mes a { 
+	display:block; 
+	height:20px; 
+	text-indent:-9000px; 
+	width:30px;}
+	
+#calendario_eventos #mes a#mes_siguiente { 
+	background:url("carrusel_adelante.png") no-repeat right center; 
+	float:right; }
+	
+#calendario_eventos #mes #mes_anterior { 
+	background:url("carrusel_atras.png") no-repeat; 
+	float:left; }
+	
+.dia_calendario .cap { 
+	text-transform: capitalize; }
+	
+.range .art { 
+	color:#EE6000; 
+	display:block; 
+	float:left; 
+	font-size:12px; 
+	line-height:8px; 
+	text-align:center; 
+	width:58px; }
+	
+#calendario_eventos #mes { 
+	width:100%; 
+	text-align:center; }
+	
+#calendario_eventos .dia_calendario { 
+	color: #4f6710; 
+	display:block; 
+	float:left; 
+	font-size:14px; 
+	font-weight:bold; 
+	text-align:center; 
+	width:58px;}
+	
+#calendario_eventos p, 
+#calendario_eventos p a { 
+	color:#333333; 
+	display:block; 
+	float:right; 
+	font-size:12px;
+	margin:0 0 3px 4px; 
+	text-decoration:none; 
+	width:191px; }
+	
+#calendario_eventos p { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; }
+	
+#calendario_eventos p a { 
+	font-size:13px; 
+	font-weight:bold; 
+	line-height:13px; color: #454545; 
+	/*font-family:'Droid Sans'*/ }
+	
+#calendario_eventos p a:hover { 
+	text-decoration:underline; }
+	
+#calendario_eventos div { 
+	display:block; 
+	float:left; 
+	margin:5px 0 0; 
+	padding:0 0 5px; 
+	width:100%; }
+	
+.bottom_calendario { 
+	background:url("bottom_calendario2.png") no-repeat; 
+	display:block; 
+	float:right; 
+	width:283px; 
+	margin: 0 0 30px 0; }
+	
+.container_calendario{ 
+	display:block; 
+	float:left; 
+	width:283px;
+	margin-bottom: 15px; }
+	
+.bottom_calendario a.links{ 
+	background:url("bullet_naranja1.gif") no-repeat scroll 5px 5px transparent; 
+	color:#222; 
+	display:block; 
+	font-size:12px; 
+	line-height:12px; 
+	padding:0 0 0 20px; 
+	text-decoration:none; }
+	
+.bottom_calendario a.links:hover { 
+	text-decoration: underline;}

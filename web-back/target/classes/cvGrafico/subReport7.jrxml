@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport7" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f742a2d5-90bf-418c-b788-af24954920af">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long">
+		<parameterDescription><![CDATA[Id del candidato]]></parameterDescription>
+		<defaultValueExpression><![CDATA[6]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT  CONOCIMIENTO_HABILIDAD
+FROM CANDIDATO_CONOCIM_HABILIDAD
+WHERE ID_CANDIDATO = $P{idCandidato}]]>
+	</queryString>
+	<field name="CONOCIMIENTO_HABILIDAD" class="java.lang.String"/>
+	<title>
+		<band height="35" splitType="Stretch">
+			<line>
+				<reportElement x="4" y="25" width="280" height="1" forecolor="#7D7D7D" uuid="5266dca8-097a-4c08-810b-b2ce47538ac8"/>
+			</line>
+			<staticText>
+				<reportElement x="5" y="6" width="279" height="16" forecolor="#7D7D7D" uuid="2c46fcaf-fe20-4966-b92e-7a3478bc7b9d"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ CONOCIMIENTOS COMPLEMENTARIOS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="19" splitType="Stretch">
+			<ellipse>
+				<reportElement x="18" y="7" width="3" height="3" backcolor="#000000" uuid="1a133403-7ff5-4be3-b42f-819c5d1303d7"/>
+			</ellipse>
+			<textField>
+				<reportElement x="31" y="2" width="236" height="15" uuid="a05873b8-2634-4705-80a3-bfcf57fc3ff9"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CONOCIMIENTO_HABILIDAD}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

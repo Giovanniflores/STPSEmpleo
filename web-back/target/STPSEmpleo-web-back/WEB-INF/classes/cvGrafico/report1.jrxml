@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="15a62d8e-0c45-4708-8a3b-59810fc4a481">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="192"/>
+	<property name="ireport.y" value="48"/>
+	<parameter name="idCandidato" class="java.lang.Long">
+		<parameterDescription><![CDATA[Id del candidato]]></parameterDescription>
+		<defaultValueExpression><![CDATA[6]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT UPPER(LPA.TITULO_CV) AS TITULO_CV
+,LPA.RESUMEN_PROFESIONAL
+,LPA.FACEBOOK
+,LPA.TWITTER
+,LPA.LINKEDIN
+,LPA.OBJETIVOS
+,UPPER(SOL.NOMBRE || ' ' || SOL.APELLIDO1 || ' ' || SOL.APELLIDO2) AS NOMBRE
+,CASE WHEN CAN.CONFIDENCIALIDAD_DATOS = 1
+THEN (CP.COLONIA || ',' || MUN.MUNICIPIO || ',' || CP.CODIGO_POSTAL)
+  ELSE ''
+  END AS DOMICILIO
+,CASE WHEN PL.CONTACTO_CORREO = 2
+THEN CAN.CORREO_ELECTRONICO
+  ELSE ''
+  END AS CORREO
+, PL.FOTOGRAFIA
+, PL.CONTACTO_TELEFONO
+, EL.SALARIO_PRETENDIDO
+, A.IMAGEN AS icono_fb
+, A1.IMAGEN AS icono_exp
+, A2.IMAGEN AS icono_lin
+, A3.IMAGEN AS icono_localiza
+, A4.IMAGEN AS icono_correo
+, A5.IMAGEN AS icono_tel
+, A6.IMAGEN AS icono_tw
+, A7.IMAGEN AS icono_for
+, A8.IMAGEN AS icono_idiomas
+, A9.IMAGEN AS icono_certif
+, A10.IMAGEN AS icono_cono
+FROM CANDIDATO CAN
+ LEFT JOIN FORMATO_LPA LPA ON LPA.ID_CANDIDATO = CAN.ID_CANDIDATO
+ INNER JOIN SOLICITANTE SOL ON SOL.ID_CANDIDATO = CAN.ID_CANDIDATO
+ LEFT JOIN DOMICILIO DOM ON DOM.ID_PROPIETARIO = CAN.ID_CANDIDATO
+ LEFT JOIN CODIGO_POSTAL CP ON CP.ID_COLONIA = DOM.ID_COLONIA
+ LEFT JOIN MUNICIPIO MUN ON MUN.ID_ENTIDAD = DOM.ID_ENTIDAD
+        AND MUN.ID_MUNICIPIO = DOM.ID_MUNICIPIO
+ LEFT JOIN PERFIL_LABORAL PL ON PL.ID_CANDIDATO = CAN.ID_CANDIDATO
+ LEFT JOIN EXPECTATIVA_LABORAL EL ON EL.ID_CANDIDATO = CAN.ID_CANDIDATO
+        AND EL.PRINCIPAL = 1
+INNER JOIN IMAGENES_CV A ON A.ID=11
+INNER JOIN IMAGENES_CV A1 ON A1.ID=10
+INNER JOIN IMAGENES_CV A2 ON A2.ID=14
+INNER JOIN IMAGENES_CV A3 ON A3.ID=15
+INNER JOIN IMAGENES_CV A4 ON A4.ID=9
+INNER JOIN IMAGENES_CV A5 ON A5.ID=16
+INNER JOIN IMAGENES_CV A6 ON A6.ID=17
+INNER JOIN IMAGENES_CV A7 ON A7.ID=12
+INNER JOIN IMAGENES_CV A8 ON A8.ID=13
+INNER JOIN IMAGENES_CV A9 ON A9.ID=7
+INNER JOIN IMAGENES_CV A10 ON A10.ID=8
+WHERE CAN.ID_CANDIDATO = $P{idCandidato}]]>
+	</queryString>
+	<field name="TITULO_CV" class="java.lang.String"/>
+	<field name="RESUMEN_PROFESIONAL" class="java.lang.String"/>
+	<field name="FACEBOOK" class="java.lang.String"/>
+	<field name="TWITTER" class="java.lang.String"/>
+	<field name="LINKEDIN" class="java.lang.String"/>
+	<field name="OBJETIVOS" class="java.lang.String"/>
+	<field name="NOMBRE" class="java.lang.String"/>
+	<field name="DOMICILIO" class="java.lang.String"/>
+	<field name="CORREO" class="java.lang.String"/>
+	<field name="CONTACTO_TELEFONO" class="java.lang.Integer"/>
+	<field name="FOTOGRAFIA" class="java.awt.Image"/>
+	<field name="SALARIO_PRETENDIDO" class="java.lang.Number"/>
+	<field name="icono_fb" class="java.awt.Image"/>
+	<field name="icono_tw" class="java.awt.Image"/>
+	<field name="icono_lin" class="java.awt.Image"/>
+	<field name="icono_localiza" class="java.awt.Image"/>
+	<field name="icono_correo" class="java.awt.Image"/>
+	<field name="icono_tel" class="java.awt.Image"/>
+	<field name="icono_exp" class="java.awt.Image"/>
+	<field name="icono_idiomas" class="java.awt.Image"/>
+	<field name="icono_certif" class="java.awt.Image"/>
+	<field name="icono_for" class="java.awt.Image"/>
+	<field name="icono_cono" class="java.awt.Image"/>
+	<title>
+		<band height="121" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="120" height="120" uuid="c39a8c49-7275-4b91-8a7a-c8a4d40eb2ba"/>
+				<imageExpression><![CDATA[$F{FOTOGRAFIA}]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="130" y="8" width="442" height="26" isRemoveLineWhenBlank="true" forecolor="#356C3D" uuid="49769275-baef-4620-821c-9793df7d975d"/>
+				<textElement>
+					<font size="20" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TITULO_CV}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="40" width="284" height="17" forecolor="#7D7D7D" uuid="c76e746b-0a1e-4cec-83d1-fd29432dcad3"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NOMBRE}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="138" y="67" width="8" height="14" uuid="12dc159a-54b0-4db6-a153-e19a2f3405e7">
+					<printWhenExpression><![CDATA[$F{FACEBOOK}.length() > 0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_fb}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="150" y="67" width="100" height="14" uuid="db17c0da-0e97-4f10-b5cf-a208a9a9a797">
+					<printWhenExpression><![CDATA[$F{FACEBOOK}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{FACEBOOK}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="130" y="88" width="16" height="13" uuid="dd513d05-bac5-4cf7-8d0e-f556cfdcb258">
+					<printWhenExpression><![CDATA[$F{TWITTER}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_tw}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="130" y="105" width="16" height="15" uuid="9083ff3a-d7b2-4236-b42a-76bf86688f5e">
+					<printWhenExpression><![CDATA[$F{LINKEDIN}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_lin}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="150" y="87" width="100" height="14" uuid="15fd6275-24f7-4ab9-b208-b579f7453602">
+					<printWhenExpression><![CDATA[$F{TWITTER}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{TWITTER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="106" width="100" height="14" uuid="a707c7a4-3d4d-49f6-9440-d6e0906caf5c">
+					<printWhenExpression><![CDATA[$F{LINKEDIN}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{LINKEDIN}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="556" y="40" width="16" height="21" uuid="530024dd-da45-4b33-994e-68e52d96dc36">
+					<printWhenExpression><![CDATA[$F{DOMICILIO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_localiza}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="556" y="61" width="16" height="16" uuid="99e026bf-00c7-4773-bacd-45342b702cfd">
+					<printWhenExpression><![CDATA[$F{CORREO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_correo}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="556" y="80" width="16" height="16" uuid="fa2a7ae3-2ddd-49a6-8bef-8bf150b4b532">
+					<printWhenExpression><![CDATA[$F{CONTACTO_TELEFONO}.intValue()==2]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{icono_tel}]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="321" y="47" width="230" height="14" forecolor="#356C3D" uuid="544be994-f381-4d2a-a01c-f07a9a1af0f7">
+					<printWhenExpression><![CDATA[$F{DOMICILIO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DOMICILIO}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="321" y="63" width="230" height="14" forecolor="#356C3D" uuid="26815f50-d608-4b70-bacd-9b6f92693b81">
+					<printWhenExpression><![CDATA[$F{CORREO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CORREO}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="321" y="80" width="230" height="40" isRemoveLineWhenBlank="true" backcolor="#FFFFFF" uuid="17b44cdf-aba8-4c98-8065-5be7baf0d249">
+					<printWhenExpression><![CDATA[$F{CONTACTO_TELEFONO}.intValue()==2]]></printWhenExpression>
+				</reportElement>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_exp}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport1.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</title>
+	<detail>
+		<band height="301">
+			<line>
+				<reportElement x="0" y="0" width="570" height="1" forecolor="#C0C0C0" uuid="4cea1fb7-e71a-4720-a676-54909a8eba82"/>
+			</line>
+			<frame>
+				<reportElement mode="Opaque" x="302" y="10" width="270" height="30" backcolor="#808080" uuid="ad06fcd4-8e61-4799-9605-9bcb155c716a"/>
+				<staticText>
+					<reportElement x="1" y="6" width="123" height="20" forecolor="#FFFFFF" backcolor="#808080" uuid="c6933e61-6635-41f2-a08c-a339fcfb7cfa"/>
+					<textElement>
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[SUELDO PRETENDIDO: $]]></text>
+				</staticText>
+				<textField pattern="#,##0.00">
+					<reportElement x="124" y="6" width="60" height="20" forecolor="#FFFFFF" uuid="6903ef34-0e24-4f68-a593-3be0a4b3efc0"/>
+					<textElement>
+						<font size="10" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SALARIO_PRETENDIDO}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="183" y="6" width="87" height="20" forecolor="#FFFFFF" backcolor="#808080" uuid="ee6670c3-0689-42d7-a81b-597a5955673b"/>
+					<textElement>
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[(NETO MENSUAL)]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement x="302" y="44" width="268" height="16" forecolor="#7D7D7D" uuid="d1686403-0448-43de-96d0-996b0fd52354">
+					<printWhenExpression><![CDATA[$F{OBJETIVOS}.length() > 0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[OBJETIVO PROFESIONAL]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="303" y="60" width="267" height="38" uuid="fef51206-c3e8-4277-8ab7-8851ad33d1f8"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OBJETIVOS}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="302" y="109" width="268" height="16" forecolor="#7D7D7D" uuid="0f61220b-f1f2-4406-b1c8-ef4221397916">
+					<printWhenExpression><![CDATA[$F{RESUMEN_PROFESIONAL}.length() >0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RESUMEN PROFESIONAL]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="302" y="125" width="267" height="37" uuid="9bbe999e-bf09-49ff-9c4d-fb3158ee39e5"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{RESUMEN_PROFESIONAL}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement x="0" y="0" width="265" height="298" isRemoveLineWhenBlank="true" uuid="000c3863-534c-4a8b-9bdd-350b5045a102"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_exp}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport2.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="303" y="168" width="266" height="130" isRemoveLineWhenBlank="true" uuid="d7fc13c1-2b58-4215-b615-c3bae9025c0b"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_idiomas}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport3.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="104">
+			<subreport>
+				<reportElement x="0" y="0" width="265" height="102" isRemoveLineWhenBlank="true" uuid="a01a83a1-a1ba-4330-a8e5-dff1fa706ee7"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_for}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport4.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="303" y="0" width="266" height="102" isRemoveLineWhenBlank="true" uuid="d5ef816c-ae22-4a10-bfb0-211a93cec419"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_certif}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport5.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="107">
+			<subreport>
+				<reportElement x="303" y="0" width="266" height="100" isRemoveLineWhenBlank="true" uuid="fae7d3b0-c6e1-476e-a8a4-cf02dd2f61cd"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="icono">
+					<subreportParameterExpression><![CDATA[$F{icono_cono}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport6A.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="114">
+			<subreport>
+				<reportElement x="303" y="0" width="266" height="100" isRemoveLineWhenBlank="true" uuid="074fcaef-8bd7-4885-8fb7-f085930c863e"/>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport7.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

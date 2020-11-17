@@ -1,0 +1,109 @@
+.offer,
+.entrevista,
+.seleccionados,
+.misOfertas,
+#tblCandidatos,
+#tblPostulados
+ {
+    border: 1px solid #DDDDDD;
+    border-collapse: separate;
+	border-radius: 8px 8px 0 0;
+    margin: 30px auto;
+	width: 90%;
+	color: #666;}
+
+.temas { background: url("images/bg-thead.png") repeat-x;}
+	
+table .temas th {
+    border-right: 1px solid #BABABA;
+	text-align: center;
+	padding: 8px 10px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+    vertical-align: middle;}
+	
+table .temas th:last-child { border: none;}	
+	
+table .temas a.ascendente {
+    background: url("images/ascendente.gif");
+    margin-top: -7px;
+	width: 10px;}
+	
+table .temas a.descendente {
+    background: url("images/descendente.gif");
+	margin-top: 2px;
+	width: 10px;}
+	
+table .temas a {
+    float: right;
+    height: 7px;}
+	
+table td {
+	/*padding: 29px 10px 10px 9px;*/
+	font: normal 12px/16px Arial, Helvetica, sans-serif;}
+	
+table p { margin: 5px 0;}
+	
+table a { color: #4f6710;}
+
+table a:visited { color: #999;}
+
+table a:hover { text-decoration: none;}
+
+tr.odd { background: #F7F7F7;}
+
+
+/*PAGINADOR*/
+.paginator {
+	width: 600px;
+	color: #666;
+	margin: 30px auto 0;
+	text-align: center;
+	font-size: 12px;}
+	
+#contenido .paginator a {
+	color: #4f6710;
+	text-decoration: none;}
+	
+.paginator li { display: inline-block;}
+
+.pagina,
+.current {
+  	color: #4f6710;
+    display: block;
+    height: 22px;
+    margin: 0 2px;
+    padding: 2px 0 0;
+    width: 26px;
+}
+.current { background-color: #474747 !important; color: #ffffff;}
+
+.mostradas { margin-bottom: 15px;}
+
+.pagina:hover { background: url("images/bg_pag_hov.gif") no-repeat;}
+
+.pagina { font-size: 1em !important;}/*conflicto con estilos_canalB*/
+
+/*BOTÓN*/
+.boton {
+    background: #4f6710;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 30px 10px 0;
+    padding: 5px 10px;
+    text-decoration: none;
+	border: 1px solid #4F6710;
+}
+/*Espacio empresa Entrevista*/
+.entrevista { clear: both;}
+
+.entrevista .temas td { padding: 0 10px;}
+
+.entrevista font { font-size: 1em;}
+/*Estilos específicos*/
+#detalleOferta .offer {
+	border-radius: 0;
+	padding: 15px;}
+	
+table.seleccionados .temas  th { padding: 5px;}
+	

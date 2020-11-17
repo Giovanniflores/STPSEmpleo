@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="empresaEspacioForm" type="mx.gob.stps.portal.movil.web.empresa.form.EmpresaEspacioForm"/>
+		<form-bean name="buscarCandidatosEmpresaForm" type="mx.gob.stps.portal.movil.web.empresa.form.BuscarCandidatosEmpresaForm"></form-bean>
+		<form-bean name="ofertasEmpresaForm" type="mx.gob.stps.portal.movil.web.empresa.form.OfertasEmpresaForm"/>
+		<form-bean name="ofertaForm" type="mx.gob.stps.portal.movil.web.oferta.form.OfferQuestionForm"/>
+		<form-bean name="candidatoForm" type="mx.gob.stps.portal.movil.web.candidato.form.CandidatoForm"/>
+		<form-bean name="entrevistaProgramadaForm" type="mx.gob.stps.portal.movil.web.entrevista.form.EntrevistaForm"/>
+	</form-beans>
+	
+	<global-exceptions>
+		<!--
+		<exception key="error.tree.regen" type="java.lang.Exception" path="/template.do"
+		           handler="mx.gob.stps.portal.admin.web.seguridad.action.PortalExceptionHandler" />
+		-->
+	</global-exceptions>
+
+	<global-forwards>
+		<forward name="HOME" path="/home.m" />
+		<!--
+		<forward name="ERROR_PAGE" path="/errorpage.m"/>
+		-->
+	</global-forwards>
+
+	<action-mappings>
+
+		<action path="/version" forward="/jsp/seguridad/version.jsp" />
+
+		<action path="/home" type="mx.gob.stps.portal.movil.web.seguridad.action.HomeAction">
+			<forward name="JSP" path="/jsp/seguridad/home.jsp"/>
+			<forward name="FORDWARD_ESPACIO_EMPRESA"   path="/empresaEspacio.m?method=init"/>
+			<forward name="FORDWARD_ESPACIO_CANDIDATO" path="/candidatoEspacio.m?method=init"/>
+		</action>
+
+		<action path="/login" type="mx.gob.stps.portal.movil.web.seguridad.action.LoginAction">
+			<forward name="FORDWARD_ESPACIO_EMPRESA"   path="/empresaEspacio.m?method=init" redirect="true"/>
+			<forward name="FORDWARD_ESPACIO_CANDIDATO" path="/candidatoEspacio.m?method=init" redirect="true"/>
+		</action>
+
+		<action path="/logout" type="mx.gob.stps.portal.movil.web.seguridad.action.LogoutAction" />
+
+		<!-- OFERTAS -->
+		<action path="/ocupate" type="mx.gob.stps.portal.movil.web.oferta.action.OcupateAction" parameter="method" scope="request">
+			<forward name="JSP" path="/jsp/oferta/ofertas.jsp"/>
+			<!--forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/listaofetas.jsp" /-->
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/ofertas.jsp" />
+		</action>
+
+		<action name="ofertaForm" path="/detalleoferta" type="mx.gob.stps.portal.movil.web.oferta.action.DetalleOfertaAction"
+		        parameter="method" scope="session" validate="false">
+			<forward name="JSP" path="/jsp/oferta/detalleoferta.jsp"/>
+
+			<forward name="JSP_PREGUNTAS_OFERTA" path="/jsp/oferta/preguntasOferta.jsp"/>
+			<forward name="JSP_RESPONDER_PREGUNTA" path="/jsp/oferta/responderPreguntaOferta.jsp"/>
+		</action>
+
+		<!-- ESPACIO DE CANDIDATO -->
+		<action path="/candidatoEspacio" name="candidatoForm" parameter="method" scope="session"
+		        type="mx.gob.stps.portal.movil.web.candidato.action.CandidatoEspacioAction">
+			<forward name="JSP" path="/jsp/candidato/espacioCandidato.jsp"/>
+			<forward name="FORWARD_DATOS_BASICOS" path="/jsp/candidato/datosCandidato.jsp"/>
+		</action>
+
+		<action name="ofertaForm" path="/postular" type="mx.gob.stps.portal.movil.web.candidato.action.PostulacionAction" scope="session" validate="false">
+			<forward name="JSP" path="/jsp/oferta/postular.jsp"/>
+			<forward name="FORWARD_HOME" path="/home.m"/>
+		</action>
+
+		<!--
+		<action path="/errorpage" type="mx.gob.stps.portal.admin.web.seguridad.action.PageViewAction" input="/jsp/seguridad/portalerrorpage.jsp" validate="false"/>
+
+		<action path="/consultaperfil" validate="false" parameter="method" scope="request" name="perfilForm"
+		        type="mx.gob.stps.portal.admin.web.administracion.action.PerfilAdministracionAction"
+		        input="/jsp/perfil/consultaperfil.jsp">
+
+		        <forward name="FORWARD_ALTA_PERFIL"     path="/perfil.do?method=init"/>
+		</action>
+		-->
+		<!-- ESPACIO DE EMPRESA -->
+		<action path="/empresaEspacio" parameter="method" name="empresaEspacioForm"
+				type="mx.gob.stps.portal.movil.web.empresa.action.EmpresaEspacioAction"
+		        input="/jsp/empresa/espacioEmpresa.jsp">
+		        <forward name="JSP_DATOS_EMPRESA" path="/jsp/empresa/datosEmpresa.jsp"/>
+		</action>
+		
+		<action path="/buscarCandidatosEmpresa" parameter="method"
+				name="buscarCandidatosEmpresaForm"
+				type="mx.gob.stps.portal.movil.web.empresa.action.BuscarCandidatosEmpresaAction"
+		        input="/jsp/empresa/buscarCandidatosEmpresa.jsp"
+		        scope="session">
+		        
+		        <forward name="JSP_LISTA_CANDIDATOS" path="/jsp/empresa/candidatosEmpresa.jsp"/>
+		        <forward name="ACTION_REGISTROS_TABLA" path="/jsp/empresa/listaCandidatos.jsp" /> 
+		        <forward name="JSP_DETALLE_CANDIDATO" path="/jsp/empresa/detalleCandidato.jsp"/>
+		</action>
+		
+		<action path="/ofertasEmpresa" parameter="method"
+				name="ofertasEmpresaForm"
+				type="mx.gob.stps.portal.movil.web.empresa.action.OfertasEmpresaAction"
+				input="/jsp/empresa/ofertasEmpresa.jsp"
+				scope="request">
+				
+				<forward name="ACTION_OFERTAS_TABLA" path="/jsp/empresa/listaOfertas.jsp"/>
+		</action>
+		
+		
+		<!--	DESPLEGAR IMAGEN  -->
+		<action path="/imageAction" parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.movil.web.infra.action.ImageAction" />
+		
+		<!-- ENTREVISTA PROGRAMADA -->
+		<action path="/entrevistaProgramada" parameter="method" scope="session" name="entrevistaProgramadaForm"
+				type="mx.gob.stps.portal.movil.web.entrevista.action.EntrevistaAction">
+				
+				<forward name="JSP_ENTREVISTA_EMPRESA" path="/jsp/entrevista/entrevistaEmpresa.jsp"/>
+				<forward name="JSP_ENTREVISTA_MODIFICA_ESTATUS" path="/jsp/entrevista/entrevistaModificaEstatus.jsp"/>
+				<forward name="JSP_ENTREVISTA_REPROGRAMAR" path="/jsp/entrevista/entrevistaReprogramar.jsp"/>
+				<forward name="JSP_ENTREVISTA_PROGRAMAR" path="/jsp/entrevista/entrevistaProgramar.jsp"/>
+				<forward name="FORDWARD_ESPACIO_CANDIDATO" path="/candidatoEspacio.m?method=init"/>
+				<forward name="FORDWARD_CONFIRMACION" path="/jsp/entrevista/entrevistaConfirm.jsp"/>
+		</action>
+
+	</action-mappings>
+
+	<message-resources parameter="messages-movil">
+		<set-property key="mode" value="resource" />
+	</message-resources>
+
+</struts-config>

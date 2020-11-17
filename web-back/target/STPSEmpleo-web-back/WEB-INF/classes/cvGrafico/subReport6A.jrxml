@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport6A" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="3affd9ed-410c-4ba7-bb98-f20542428f5b">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="icono" class="java.awt.Image"/>
+	<queryString>
+		<![CDATA[SELECT A2.IMAGEN AS monito
+, A3.IMAGEN AS arribaIzq
+, BC.TOTAL_AUX
+FROM IMAGENES_CV A2,
+(SELECT COUNT(CONOCIMIENTO_HABILIDAD) AS TOTAL_AUX
+ FROM CANDIDATO_CONOCIM_HABILIDAD CCH WHERE CCH.ID_CANDIDATO = $P{idCandidato}
+) BC
+INNER JOIN IMAGENES_CV A3 ON A3.ID=2
+WHERE A2.ID=20]]>
+	</queryString>
+	<field name="MONITO" class="java.awt.Image"/>
+	<field name="ARRIBAIZQ" class="java.awt.Image"/>
+	<field name="TOTAL_AUX" class="java.lang.Integer"/>
+	<detail>
+		<band height="176">
+			<line>
+				<reportElement x="1" y="64" width="280" height="1" forecolor="#7D7D7D" uuid="ef32c280-a630-43fb-8c44-af4e55e0c656">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="45" width="195" height="16" forecolor="#7D7D7D" uuid="f06931e9-5de5-428d-ae87-d9a9ff3946a6">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HABILIDADES TÉCNICAS]]></text>
+			</staticText>
+			<image>
+				<reportElement isPrintRepeatedValues="false" x="11" y="71" width="54" height="96" uuid="f7aa315a-3557-41ef-85dd-0aa61f10cc87">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{MONITO}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement isPrintRepeatedValues="false" x="65" y="71" width="102" height="16" isPrintInFirstWholeBand="true" uuid="cd0c25af-c261-4d92-b9fb-00a2618d95b7">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{ARRIBAIZQ}]]></imageExpression>
+			</image>
+			<subreport>
+				<reportElement x="64" y="86" width="200" height="81" uuid="d5441a96-bf11-4e64-8fa9-70a58a9cb4f2">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<subreportParameter name="idCandidato">
+					<subreportParameterExpression><![CDATA[$P{idCandidato}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="SUBREPORT_DIR">
+					<subreportParameterExpression><![CDATA[$P{SUBREPORT_DIR}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "subReport6.jasper"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement x="40" y="13" width="195" height="16" forecolor="#7D7D7D" uuid="fdf113ec-98bd-44dd-8ff5-188aee0b9330">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONOCIMIENTOS]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="32" width="280" height="1" forecolor="#7D7D7D" uuid="d208baca-6932-4ba3-83b0-2c542b8ae79b">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+			</line>
+			<image>
+				<reportElement x="0" y="0" width="20" height="29" uuid="0d320d12-da03-4208-98c6-33972ae35b12">
+					<printWhenExpression><![CDATA[$F{TOTAL_AUX}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<noData>
+		<band height="18"/>
+	</noData>
+</jasperReport>

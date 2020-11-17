@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cuerpo_int #contenido_principal.sinCol #contenido.frames #contenido_principal { background: none;}
+
+#cuerpo_int #contenido_principal.sinCol #contenido.frames #contenido_principal #contenido { padding: 0;}
+
+.logo_empresa { position: relative;}
+
+#btnWebsite {
+    bottom: -40px;
+    left: 13px;
+    position: absolute;}
+	
+#cuerpo_int #contenido_principal.sinCol #contenido.frames #contenido_principal #contenido h2
+/*, h4 afecta a la barra lateral en becas, Cursos de formación para el trabajo de la SEP*/ { 
+	color:#666; 
+	font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;
+	margin: 40px 20px 0; /*ocupate*/
+	float: left; /*más ofertas de empleo*/
+	font-size: 1.52em; }
+
+#cuerpo_int #contenido_principal.sinCol #contenido.frames #contenido_principal #contenido h3 { 
+	background:url("images/activa_perfil.jpg") repeat-x; 
+	border-top:1px solid #C2C2C2;
+	font-family: "Droid Sans";
+	padding: 20px;
+	margin-right: 10px;
+	color: #666; }
+
+#ShowMoreCompanyOffersForm .logo_empresa + div { margin-top: 60px;}
+
+#ShowMoreCompanyOffersForm p { padding: 20px; }
+
+#ShowMoreCompanyOffersForm div.entero { overflow: hidden;}
+
+
+#cuerpo_int div#contenido_principal.sinCol #contenido.frames #contenido_principal #contenido #ShowMoreCompanyOffersForm div div.entero #tabla table.offer {
+    float: none;
+    margin: 0 auto;}
+
+#cuerpo_int div#contenido_principal.sinCol #contenido.frames #contenido_principal #contenido #ShowMoreCompanyOffersForm div div.entero + p { 
+	text-align: center;
+	font-size: 1em;}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Estilos para Publicador
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+#cuerpo_int #contenido_principal.sinCol #contenido.frames #wrapper #cuerpo_int #contenido_principal #contenido #detalleOferta table.offer tbody tr td h2 { margin: 20px 0;}

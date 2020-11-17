@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport2" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b74dd4de-fe4f-4d39-ad56-515950ee0b77">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="70"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="icono" class="java.awt.Image"/>
+	<queryString>
+		<![CDATA[SELECT TO_CHAR(LABORES_FINAL,'MON YYYY') AS INICIAL
+, TO_CHAR(LABORES_INICIAL,'MON YYYY') AS FINAL
+, PUESTO
+, EMPRESA
+, F_DESC_CATALOGO(17, ID_SECTOR) AS SECTOR
+, FUNCION
+, LOGRO
+, F_DESC_CATALOGO(22, ID_JERARQUIA) AS JERARQUIA
+FROM HISTORIA_LABORAL hl
+WHERE hl.id_candidato = $P{idCandidato}
+ORDER BY LABORES_INICIAL DESC]]>
+	</queryString>
+	<field name="INICIAL" class="java.lang.String"/>
+	<field name="FINAL" class="java.lang.String"/>
+	<field name="PUESTO" class="java.lang.String"/>
+	<field name="EMPRESA" class="java.lang.String"/>
+	<field name="SECTOR" class="java.lang.String"/>
+	<field name="FUNCION" class="java.lang.String"/>
+	<field name="LOGRO" class="java.lang.String"/>
+	<field name="JERARQUIA" class="java.lang.String"/>
+	<title>
+		<band height="47" splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} > 0 ]]></printWhenExpression>
+			<staticText>
+				<reportElement x="40" y="19" width="190" height="16" forecolor="#7D7D7D" uuid="4c8ab056-4e4f-440d-a610-5f344ad1e633"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EXPERIENCIA LABORAL]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="41" width="280" height="1" forecolor="#7D7D7D" uuid="c506e4dc-f9c2-42b1-8d7c-45b4ca4b78f3"/>
+			</line>
+			<line>
+				<reportElement x="285" y="0" width="1" height="47" forecolor="#C0C0C0" uuid="e4b3dccb-e7f8-4269-b41e-5e2d88dacd75"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="0" y="0" width="20" height="44" uuid="12664a04-8930-4614-b28d-98ade611fd1b"/>
+				<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="172" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="26" width="25" height="29" uuid="c906be2d-9fcf-4f98-94ee-77c4197bd7a2"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{INICIAL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="73" width="25" height="29" uuid="af53cc70-5950-46c5-900b-83e44f039b2b"/>
+				<textElement textAlignment="Right">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FINAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="8" y="54" width="12" height="20" uuid="469b822b-29dd-4ed7-aa33-6852805c2baf"/>
+				<textElement textAlignment="Center">
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="0" width="236" height="15" isRemoveLineWhenBlank="true" uuid="2630731a-b971-4ff3-90ca-b98fa1198e5a"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PUESTO}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="28" y="0" width="1" height="170" forecolor="#C0C0C0" uuid="d3cb6f4a-6470-44a3-9fba-0165fbad1401"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="24" y="56" width="10" height="10" forecolor="#C0C0C0" uuid="369048d5-f59e-49ee-9d56-83170c188e84"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="48" y="15" width="236" height="15" isRemoveLineWhenBlank="true" uuid="74f2ba8d-8e23-4617-8fc3-ff3ae6dc2a8f">
+					<printWhenExpression><![CDATA[$F{EMPRESA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Empresa:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="30" width="236" height="15" isRemoveLineWhenBlank="true" uuid="a01dff25-574a-475d-ba17-d274aaeb7b7d">
+					<printWhenExpression><![CDATA[$F{EMPRESA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{EMPRESA}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="48" y="45" width="236" height="15" isRemoveLineWhenBlank="true" uuid="7dd49497-7edf-4c04-8528-33b4cf945873">
+					<printWhenExpression><![CDATA[$F{SECTOR}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sector:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="60" width="236" height="15" isRemoveLineWhenBlank="true" uuid="616cd8b7-7ca5-4df4-9cc6-4ec29f6160d9">
+					<printWhenExpression><![CDATA[$F{SECTOR}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{SECTOR}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="48" y="75" width="236" height="15" isRemoveLineWhenBlank="true" uuid="7ff33d1f-1755-4f76-b55c-f5deb60d8b1b">
+					<printWhenExpression><![CDATA[$F{FUNCION}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Funciones:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="90" width="236" height="15" isRemoveLineWhenBlank="true" uuid="f292c3bd-8f47-42d3-870f-84ddc452b659">
+					<printWhenExpression><![CDATA[$F{FUNCION}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FUNCION}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="48" y="105" width="236" height="15" isRemoveLineWhenBlank="true" uuid="261b7eda-95f8-40cd-8b6a-da82ea57635e">
+					<printWhenExpression><![CDATA[$F{LOGRO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Logro principal:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="120" width="236" height="15" isRemoveLineWhenBlank="true" uuid="61dd0110-3ddd-4493-97b6-59619d29dd1c">
+					<printWhenExpression><![CDATA[$F{LOGRO}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{LOGRO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="48" y="135" width="236" height="15" isRemoveLineWhenBlank="true" uuid="3b71ca45-7a9d-48a4-8a5f-fee6e8a2bca3">
+					<printWhenExpression><![CDATA[$F{JERARQUIA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nivel de reporte:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="48" y="150" width="236" height="15" isRemoveLineWhenBlank="true" uuid="de5e5ab1-0ae8-4d5e-b75f-907694e5ea08">
+					<printWhenExpression><![CDATA[$F{JERARQUIA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{JERARQUIA}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="285" y="0" width="1" height="170" forecolor="#C0C0C0" uuid="58f2f209-3e24-4d3d-884b-4144215ae605"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<noData>
+		<band height="151">
+			<printWhenExpression><![CDATA[$V{REPORT_COUNT} == 0]]></printWhenExpression>
+			<frame>
+				<reportElement x="23" y="12" width="245" height="125" uuid="f73a31d0-9401-4637-9882-40482c1de418"/>
+				<rectangle radius="0">
+					<reportElement x="5" y="5" width="233" height="110" uuid="eb333863-0884-4f73-ad0e-35e5b0a01850"/>
+					<graphicElement>
+						<pen lineWidth="2.0" lineStyle="Dotted"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="22" y="67" width="202" height="35" forecolor="#7D7D7D" uuid="0a446f39-347d-4390-872a-775c3b5953f7"/>
+					<textElement textAlignment="Center">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[EL CANDIDATO NO CUENTA CON
+EXPERIENCIA LABORAL]]></text>
+				</staticText>
+				<image>
+					<reportElement x="114" y="16" width="20" height="44" uuid="d3ad0526-5a5d-4fbf-9cab-6bfc30baa22d"/>
+					<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+				</image>
+			</frame>
+			<line>
+				<reportElement x="285" y="0" width="1" height="150" forecolor="#C0C0C0" uuid="33033a71-e889-43fa-bb51-5222ade472ed"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+		</band>
+	</noData>
+</jasperReport>

@@ -1,0 +1,2718 @@
+@charset "utf-8"; 
+
+@media screen {
+	html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p,
+		blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+		em, img, ins, kbd, q, s, samp, small, strike, tt, var, b, i, center,
+		dl, dt, dd, ul, li, fieldset, form, label, legend, caption, tbody,
+		tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+		figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+		section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline
+	}
+	article, aside, details, figcaption, figure, footer, header, hgroup,
+		menu, nav, section {
+		display: block
+	}
+	body {
+		line-height: 1
+	}
+	ol, ul {
+		list-style: none
+	}
+	blockquote, q {
+		quotes: none
+	}
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0
+	}
+	.clearfix {
+		clear: both
+	}
+	.fl {
+		float: left
+	}
+	.grid1_3 {
+		width: 292px;
+		margin-right: 20px
+	}
+	.buscar_trabajo .grid1_3, .habilidades_01 .grid1_3 {
+		width: 288px
+	}
+	.grid_50 {
+		width: 50%
+	}
+	.margin_top_10 {
+		margin-top: 10px !important
+	}
+	.margin_top_20 {
+		margin-top: 20px !important
+	}
+	.margin_top_30 {
+		margin-top: 30px !important
+	}
+	.margin_top_40 {
+		margin-top: 40px !important
+	}
+	.margin_top_50 {
+		margin-top: 50px !important
+	}
+	.margin-r_10 {
+		margin-right: 10px
+	}
+	.margin-r_20 {
+		margin-right: 20px
+	}
+	.margin_no_r, #widget_anioSelect {
+		margin-right: 0 !important
+	}
+	.margin_no_t {
+		margin-top: 0 !important
+	}
+	.margin_no_fset {
+		margin-top: 27px !important
+	}
+	.ta_center {
+		text-align: center
+	}
+	.ta_right {
+		text-align: right
+	}
+	.situacion_laboral li label, .fw_no_bold {
+		font-weight: 400 !important
+	}
+	.fz_12 {
+		font-size: 12px
+	}
+	.formApp a {
+		color: #39620a
+	}
+	.formApp p {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		line-height: 120%;
+		margin-top: 0;
+		margin-bottom: 0
+	}
+	textarea {
+		font-family: Tahoma, Geneva, sans-serif;
+		padding: 10px;
+		font-size: 12px
+	}
+	body {
+		font-family: Tahoma, Geneva, sans-serif;
+		 font-size: .8em /* !important */
+	}
+	.flow_1 {
+		background-image: url(images/sprite_3.png);
+		background-repeat: repeat-x;
+		background-color: #5f7a18;
+		padding: 23px 14px 0;
+		font-size: 19px;
+		font-weight: 700;
+		height: 32px;
+		color: #fff
+	}
+	.instruc_01 {
+		height: 41px;
+		font-weight: 700;
+		padding: 34px 2px 0 !important;
+		font-size: 16px
+	}
+	.instruc_01 h2 {
+		margin-top: -13px
+	}
+	.instruc_01 p {
+		font-size: 75%;
+		font-weight: 400
+	}
+	.formApp .reg_s_desemp {
+		font-size: 12px;
+		padding: 2px 10px 30px
+	}
+	.screen_bienvenido, .reg_s_desemp {
+		background-color: #fff;
+		background-image: url(images/sprite_3.png);
+		background-position: 0 -368px;
+		background-repeat: repeat-x;
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ededed;
+		border-right: 1px solid #ededed;
+		font-size: 16px;
+		padding: 34px 14px 0
+	}
+	.form_wrap {
+		background-image: url(images/bg_instruc_01.png);
+		background-repeat: repeat-x;
+		background-color: #FFF;
+		padding: 0 10px 10px;
+		border-right: 1px solid #ededed;
+		border-left: 1px solid #ededed;
+		border-bottom: 1px solid #ccc
+	}
+	.form_wrap.terminos_ppc {
+		padding-top: 10px
+	}
+	.form_wrap.round_corn {
+		padding-bottom: 0;
+		margin-bottom: 20px;
+		-webkit-border-bottom-right-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+		-moz-border-radius-bottomright: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-bottom: 2px solid #ccc
+	}
+	.form_edge {
+		border: 1px solid #a3c0bb;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+		-webkit-box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.2)
+	}
+	.screen_bienvenido {
+		-webkit-border-bottom-right-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		-moz-border-radius-bottomright: 8px;
+		-moz-border-radius-bottomleft: 8px;
+		border-bottom-right-radius: 8px;
+		border-bottom-left-radius: 8px;
+		padding-bottom: 40px
+	}
+	.beneficios {
+		background-color: #e8f6f4;
+		margin-left: -10px;
+		width: 959px;
+		-webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3)
+	}
+	.beneficios ul li {
+		background-color: #fafdfd;
+		border-bottom: 2px solid #b6c2bf;
+		border-left: 1px solid #d7e5e2;
+		border-right: 1px solid #d7e5e2;
+		display: block;
+		float: left;
+		font-size: 12px;
+		height: 195px;
+		list-style-type: none;
+		margin: 0 9px 18px;
+		text-align: center;
+		width: 219px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		padding: 0
+	}
+	.beneficios ul li .img_hold {
+		background-image: url(images/sprite_2.png);
+		background-repeat: no-repeat;
+		height: 89px;
+		border-bottom: 2px solid #d4e0de;
+		-webkit-border-top-left-radius: 10px;
+		-webkit-border-top-right-radius: 10px;
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-topright: 10px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px
+	}
+	.beneficios .li_sne .img_hold {
+		background-position: -2px 0
+	}
+	.beneficios .li_movil .img_hold {
+		background-position: -217px 0
+	}
+	.beneficios .li_dom .img_hold {
+		background-position: -437px 0
+	}
+	.beneficios .li_espacio .img_hold {
+		background-position: -658px 0
+	}
+	.beneficios .li_buscar .img_hold {
+		background-position: -2px -89px
+	}
+	.beneficios .li_conocer .img_hold {
+		background-position: -221px -89px
+	}
+	.beneficios .li_videocur .img_hold {
+		background-position: -439px -89px
+	}
+	.beneficios .li_app .img_hold {
+		background-position: -658px -89px
+	}
+	.beneficios .li_ferias .img_hold {
+		background-position: -876px 0
+	}
+	.beneficios .li_abrEsp .img_hold {
+		background-position: -1096px 0
+	}
+	.beneficios .li_compat .img_hold {
+		background-position: -877px -89px
+	}
+	.beneficios .li_entrev .img_hold {
+		background-position: -1096px -89px
+	}
+	.beneficios .li_elect .img_hold {
+		background-position: -1315px -89px
+	}
+	.beneficios .li_canada .img_hold {
+		background-position: -1315px 0
+	}
+	.beneficios .li_text {
+		font-size: 12px;
+		line-height: 18px;
+		padding: 30px 5px 0;
+		word-spacing: -.1em
+	}
+	.beneficios .aviso_1 {
+		text-align: center;
+		font-size: 12px;
+		padding-bottom: 30px
+	}
+	.stepApp h2 {
+		border-bottom: 1px solid #a3c0bb;
+		height: 68px;
+		padding: 0 !important
+	}
+	.tab_block .stepApp h2 {
+		border: none
+	}
+	.stepApp_nr {
+		display: inline-block;
+		background-color: #5f7a18;
+		width: 30px;
+		height: 27px;
+		color: #fff;
+		text-align: center;
+		font-size: 23px;
+		font-weight: 700;
+		padding-top: 3px;
+		float: left;
+		-webkit-box-shadow: inset 0 1px 5px 3px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: inset 0 1px 5px 3px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0 1px 5px 3px rgba(0, 0, 0, 0.3);
+		background-image: -webkit-gradient(linear, center top, center bottom, from(#75961e),
+			to(#4a5f13));
+		background-image: -webkit-linear-gradient(top, #75961e, #4a5f13);
+		background-image: -moz-linear-gradient(top, #75961e, #4a5f13);
+		background-image: -o-linear-gradient(top, #75961e, #4a5f13);
+		background-image: -ms-linear-gradient(top, #75961e, #4a5f13);
+		background-image: linear-gradient(to bottom, #75961e, #4a5f13)
+	}
+	.formApp .stepApp p {
+		font-weight: 700;
+		padding: 16px 8px
+	}
+	.formApp .beneficios p {
+		padding-left: 10px
+	}
+	.stepApp p span {
+		color: red
+	}
+	.formApp legend {
+		background-color: #d4ddca;
+		background-image: url(images/ind_legend.png);
+		background-position: 44px bottom;
+		background-repeat: no-repeat;
+		display: block;
+		font-size: 14px;
+		font-weight: 700;
+		height: 31px;
+		margin-left: -10px;
+		padding: 8px 0 0 10px;
+		width: 927px
+	}
+	.form_nom {
+		height: 88px;
+		background-image: url(images/ind_heading.png);
+		background-position: 44px 81px;
+		background-repeat: no-repeat
+	}
+	.form_nom h3, .user_dt h3 {
+		background-image: url(images/user_dt_bg.png) !important;
+		background-position: center top !important;
+		background-repeat: no-repeat;
+		font-weight: 700;
+		padding: 45px 0 6px 10px !important
+	}
+	.user_name {
+		color: #436163;
+		display: block;
+		font-size: 23px;
+		font-weight: 400;
+		padding-top: 22px;
+		text-align: center
+	}
+	.user_dt p {
+		font-size: 14px;
+		padding-bottom: 25px;
+		padding-top: 8px;
+		text-align: center
+	}
+	.formApp fieldset {
+		padding: 2px 0 30px 10px;
+		-webkit-box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.1)
+	}
+	.user_dt .datos_01 {
+		background-image: url(images/bg_datos_01.png);
+		background-position: 0 top;
+		background-repeat: no-repeat;
+		background-color: #f5f5f5;
+		padding-top: 22px
+	}
+	.field_curp .datos_01, .field_curp .datos_02 {
+		background: #fff;
+		bottom: -29px;
+		margin-left: -10px;
+		padding: 20px 0 30px;
+		position: relative
+	}
+	.field_curp .datos_02 {
+		bottom: 0 !important
+	}
+	.field_curp .datos_01 p, .field_curp .datos_02 p {
+		text-align: center
+	}
+	.formApp fieldset, .terminos_1, .condiciones_1 {
+		background-color: #f5f5f5;
+		position: relative
+	}
+	.condiciones_1 {
+		padding: 20px 10px
+	}
+	.formApp .condiciones_1.tip_b {
+		margin-top: 15px
+	}
+	.formApp .condiciones_1 .tip_1 {
+		background-image: url(images/ind_legend.png);
+		background-repeat: no-repeat;
+		display: block;
+		height: 8px;
+		position: absolute;
+		top: -7px;
+		width: 16px;
+		left: 44px
+	}
+	.formApp fieldset p {
+		line-height: 23px;
+		font-size: 12px
+	}
+	.formApp legend.inv {
+		height: 0;
+		margin: 0;
+		padding: 0
+	}
+	.formApp legend.inv, .formApp .inv, .inv {
+		text-indent: -9999px;
+		width: 0;
+		height: 0
+	}
+	.labeled span, label span {
+		color: red
+	}
+	.control_holder_1 {
+		margin: 0 0 30px
+	}
+	#registroDatosContacto .domicio_oferta li input[type="checkbox"],
+		#registroRequisitos .disponibilidad li input[type="radio"] {
+		margin-right: 3px
+	}
+	.situacion_1 .buscar_trabajo ul li label, .habilidades_01 ul li label,
+		fieldset label, .labeled, .dijitDialog .dijitDialogPaneContent label {
+		font-weight: 700;
+		display: block;
+		line-height: 30px
+	}
+	.labeled {
+		line-height: 30px !important;
+		margin-top: 20px
+	}
+	.field_pregunta a {
+		color: #5f7a18;
+		margin-top: 20px
+	}
+	.form_nav {
+		text-align: center;
+		padding: 26px 0
+	}
+	.form_nav input {
+		display: inline
+	}
+	.screen_bienvenido .form_nav {
+		padding-top: 5px;
+		padding-bottom: 15px
+	}
+	.opciones #widget_agregaPerfil {
+		margin-top: 0
+	}
+	.beneficios .form_nav, .access_1 {
+		background-image: url(images/pleca_1.png);
+		background-position: center 55%;
+		background-repeat: no-repeat;
+		padding: 100px 0 0
+	}
+	.form_nav button, .form_nav a, .form_nav input {
+		background-color: #636363;
+		background-image: url(images/sprite_3.png);
+		background-position: 0 -330px;
+		background-repeat: repeat-x;
+		border: 1px solid #888787;
+		color: #fff;
+		cursor: pointer;
+		font-weight: 700;
+		margin: 0 10px;
+		padding: 8px 0;
+		width: auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75)
+	}
+	.form_nav a {
+		text-decoration: none;
+		display: inline-block;
+		padding: 8px 20px
+	}
+	#correoElectronico {
+		box-shadow: none !important;
+		background: none !important
+	}
+	.screen_bienvenido .form_nav input {
+		width: 200px
+	}
+	.ubicacion_1 {
+		position: relative
+	}
+	.y {
+		left: 300px;
+		position: absolute;
+		top: 30px
+	}
+	.empresa_ofrece li label, .y label {
+		font-weight: 400 !important
+	}
+	.habilidad_1 ul li, .situacion_1 ul li {
+		float: left;
+		width: 300px
+	}
+	#nueva-busqueda.nueva-busqueda, .miEspacio .googie_check_spelling_link,
+		#registroEmpresaForm .googie_check_spelling_link,
+		#registroCandidatoForm .googie_check_spelling_link, #experienciaForm .googie_check_spelling_link,
+		.ultimo_trabajo .googie_check_spelling_link, .conocimientos .googie_check_spelling_link,
+		.videoCurriculum .googie_check_spelling_link, .experiencia_1 .googie_check_spelling_link,
+		.experiencia_1 input[type="button"], .trabajo_1 input[type="button"],
+		input[type="button"], input[type="submit"], .form_nav button, .button
+		{
+		background-image: url(images/bg_bt_1.png);
+		background-color: #666;
+		background-position: 0 center;
+		background-repeat: repeat-x;
+		border: 1px solid #888787;
+		color: #fff !important;
+		cursor: pointer;
+		font-weight: 700;
+		line-height: 12px;
+		padding: 7px 20px !important
+	}
+	fieldset input[type="button"] {
+		padding: 6px 15px 7px !important;
+		font-size: 90%
+	}
+	.habilidad_1 legend {
+		background-color: #f5f5f5;
+		height: 20px
+	}
+	.condiciones_1 label {
+		display: inline
+	}
+	.otra_opcion {
+		background: #e8e8e8;
+		margin-top: 20px;
+		margin-left: -10px;
+		padding: 10px
+	}
+	.bienvenido_1 {
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 24px
+	}
+	.screen_bienvenido .access_1 {
+		background-position: center 30%;
+		font-size: 12px;
+		line-height: 21px;
+		padding-top: 70px;
+		text-align: center
+	}
+	.screen_bienvenido .user_psswd {
+		background-color: #fdfefe;
+		border: 1px solid #e6e6e6;
+		font-size: 12px;
+		height: 140px;
+		margin: 20px auto auto;
+		text-align: center;
+		width: 340px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: inset 0 1px 20px 20px rgba(0, 0, 0, 0.08);
+		-moz-box-shadow: inset 0 1px 20px 20px rgba(0, 0, 0, 0.08);
+		box-shadow: inset 0 1px 20px 20px rgba(0, 0, 0, 0.08)
+	}
+	.screen_bienvenido .fecha_alta {
+		text-align: center;
+		font-size: 12px;
+		margin-top: 25px;
+		margin-bottom: 25px
+	}
+	.screen_bienvenido .cntrl_alta {
+		width: 438px;
+		margin: auto
+	}
+	.screen_bienvenido .cntrl_alta input {
+		background-color: #fff;
+		border: none;
+		height: 56px;
+		margin-right: 18px;
+		width: 200px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		text-indent: -9000px;
+		cursor: pointer
+	}
+	.screen_bienvenido .cntrl_alta input.ico_imprimir {
+		background-image: url(images/sprite_1.png);
+		background-repeat: no-repeat;
+		background-position: -9px -290px
+	}
+	.screen_bienvenido .cntrl_alta input.ico_enviar {
+		background-image: url(images/sprite_1.png);
+		background-repeat: no-repeat;
+		background-position: -9px -208px
+	}
+	.screen_bienvenido .cntrl_alta input.ico_enviar.off {
+		background-image: url(images/sprite_1.png);
+		background-repeat: no-repeat;
+		background-position: -9px -353px
+	}
+	.screen_bienvenido .cntrl_alta a span {
+		display: block;
+		height: 40px;
+		left: 10px;
+		position: absolute;
+		top: 7px;
+		width: 40px
+	}
+	.screen_bienvenido .cntrl_alta a .ico_imprimir {
+		background-image: url(images/ico_imprimir_1.png);
+		background-repeat: no-repeat
+	}
+	.screen_bienvenido .cntrl_alta a .ico_enviar {
+		background-image: url(images/ico_mail_1.png);
+		background-repeat: no-repeat
+	}
+	.msg_listo {
+		font-size: 12px;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px
+	}
+	.end_links {
+		background-image: url(images/pleca_2.png);
+		background-position: center -20px;
+		background-repeat: no-repeat;
+		height: 39px;
+		padding-top: 48px;
+		text-align: center
+	}
+	.end_links a {
+		background-image: url(images/bulletApp_2.png);
+		background-position: 0 center;
+		background-repeat: no-repeat;
+		color: #4f6710;
+		font-size: 15px;
+		margin-right: 13px;
+		padding-left: 19px
+	}
+	.cond_1 {
+		font-size: 13px;
+		margin-top: 30px
+	}
+	.s_desemp_1 p {
+		font-size: 13px;
+		line-height: 25px;
+		margin-bottom: 20px
+	}
+	.terminos_1 {
+		padding: 15px
+	}
+	.requisitos_PPC-SD, .acerca_AEspacios {
+		background-color: #f9fafc;
+		border: 1px solid #5f7a18;
+		margin: 17px auto 0;
+		padding: 23px 25px 35px;
+		width: 610px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px
+	}
+	.requisitos_PPC-SD ul ul, .requisitos_PPC-SD ol ul {
+		margin-top: 25px
+	}
+	.requisitos_PPC-SD li {
+		background-image: url(images/bulletApp_1.png);
+		background-position: 0 12px;
+		background-repeat: no-repeat;
+		display: block;
+		line-height: 120%;
+		padding-bottom: 20px;
+		padding-left: 13px;
+		padding-top: 8px
+	}
+	.requisitos_PPC-SD li li {
+		background-image: url(images/bulletApp_3.png)
+	}
+	#bAgregarTelefono.agragar_bloque {
+		margin-top: -44px;
+		padding-right: 138px;
+		text-align: right
+	}
+	a.ascendente, a.descendente {
+		float: right;
+		height: 7px;
+		margin: 0 0 5px 5px;
+		padding: 0 !important;
+		width: 10px
+	}
+	#resultados-en {
+		text-align: center
+	}
+	a.ascendente {
+		background: url(images/ascendente.png) no-repeat !important
+	}
+	a.descendente {
+		background: url(images/descendente.png) no-repeat !important;
+		clear: both
+	}
+	.order-fix {
+		float: left;
+		height: 20px;
+		width: 12px;
+		padding-left: 10px
+	}
+	.generalesOferta .certificacion {
+		background-image: url(images/div_offer.png);
+		background-color: #fff;
+		background-position: 0 110px;
+		background-repeat: repeat-x;
+		border: 1px solid #d9dada;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		text-align: center;
+		width: 381px;
+		height: 302px
+	}
+	.generalesOferta {
+		margin: auto;
+		padding-bottom: 15px
+	}
+	.generalesOferta .certificacion a#portalEmpleo, .generalesOferta .certificacion a#abriendoEspacios
+		{
+		display: table-cell;
+		height: 138px;
+		vertical-align: middle;
+		width: 378px
+	}
+	.generalesOferta .certificacion p strong {
+		display: block;
+		font-size: 18px;
+		padding-bottom: 15px
+	}
+	.generalesOferta .certificacion p {
+		padding: 17px 0
+	}
+	.generalesOferta .certificacion input[type="button"] {
+		background-image: url(images/bg_bt_offer.png);
+		border-color: #4f9ebd #4f9ebd #34697d;
+		border-image: none;
+		border-style: solid;
+		border-width: 1px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.4);
+		font-family: "Myriad Pro", Calibri, Arial, sans-serif;
+		font-size: 19px;
+		font-weight: 400;
+		height: 40px
+	}
+	.dijit {
+		height: 29px !important
+	}
+	#ProgramaForm .dijit {
+		height: auto !important
+	}
+	#widget_dijit_form_FilteringSelect_4,
+		#widget_dijit_form_FilteringSelect_3,
+		#widget_dijit_form_FilteringSelect_1,
+		#widget_dijit_form_FilteringSelect_2,
+		#widget_dijit_form_FilteringSelect_0, #widget_idCarreraEspecialidadAdd,
+		#widget_entidad.dijit, .grid1_3 .dijit, #widget_usuario.dijit,
+		#widget_contrasena.dijit, #widget_confirmacion.dijit,
+		#widget_correoElectronico.dijit, #widget_conocimientoCompOtros.dijit,
+		#widget_ocupacionDeseada.dijit, #widget_experienciaTotalSelect.dijit,
+		#widget_motivoSelect.dijit, #widget_enterasteSelect.dijit,
+		#widget_curp.dijit, #widget_paginaWeb.dijit, #widget_idExperienceJob.dijit,
+		#correoNuevo input[type="text"], #widget_tituloOferta {
+		width: 292px
+	}
+	.motiv_c label {
+		font-weight: 700;
+		display: block;
+		margin-left: 10px;
+		margin-bottom: 10px
+	}
+	.porcentaje_c #motivo.dijitTextBox, .porcentaje_c #divOpcionesEstatusOferta .dijit
+		{
+		margin-left: 10px;
+		width: 256px
+	}
+	.porcentaje_c .videoCV_c h3 {
+		background-image: none;
+		color: #000;
+		font-weight: 700;
+		height: auto;
+		margin-top: 10px
+	}
+	.pdf_dwn {
+		background-color: #dfe2e2;
+		border-bottom: 3px solid #cfd1d1;
+		border-top: 3px solid #cfd1d1;
+		display: table-cell;
+		height: 80px;
+		margin-right: 20px;
+		text-align: center;
+		vertical-align: middle;
+		width: 610px
+	}
+	.pdf_dwn a.consultar_mas_vacantes {
+		background-color: #23627a;
+		background-image: url(images/bt_pdf_dwn.png);
+		color: #fff;
+		display: inline-block;
+		font-weight: 700;
+		padding: 11px;
+		text-decoration: none;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		border: 1px solid #5090a8;
+		-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75)
+	}
+	.porcentaje_c .videoCV_c iframe {
+		margin-left: 13px
+	}
+	#studieTypeAdd2, #statusacademic.dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.dijitSelect.dijitValidationTextBox,
+		#studietypeadd.dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.dijitSelect.dijitValidationTextBox,
+		#widget_idExperienciaSelectAdd1, #studieTypeAdd1.dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.dijitSelect.dijitValidationTextBox,
+		#bloque1.otros_estudios .s_academica .dijit {
+		width: 292px !important
+	}
+	.academic_edit #widget_fechaTerminacionDia, .academic_edit #widget_fechaTerminacionMes,
+		.academic_edit #widget_fechaTerminacionAnual, .academic_edit #widget_fechaIngresoAnual,
+		.academic_edit #widget_fechaIngresoDiaMes, .academic_edit #widget_fechaIngresoDia,
+		#widget_inicioBusquedaDia.dijitComboBox, #widget_inicioBusquedaMes.dijitComboBox,
+		#widget_inicioBusquedaAnual.dijitComboBox, #fuisteContratadoFechaSi #widget_diaContrato.dijitComboBox,
+		#fuisteContratadoFechaSi #widget_mesContrato.dijitComboBox,
+		#fuisteContratadoFechaSi #widget_anioContrato.dijitComboBox,
+		#widget_diaContacto.dijitComboBox, #widget_mesContacto.dijitComboBox,
+		#widget_anioContacto.dijitComboBox, #widget_diaEntrevista.dijitComboBox,
+		#widget_mesEntrevista.dijitComboBox, #widget_anioEntrevista.dijitComboBox,
+		.dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.dijitSelect.dijitValidationTextBox,
+		#bloque1.otros_estudios .dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.sugerido.dijitSelect.dijitValidationTextBox
+		{
+		margin-right: 10px;
+		width: 73px
+	}
+	.dijit.dijitCheckBox, .grid1_3 .dijit.dijitRadio, .ultimo_trabajo .grid1_3.omitir .dijit
+		{
+		width: 15px
+	}
+	.formApp.miEspacio #widget_claveAdd3.dijit, .formApp #widget_clave.dijit,
+		.formApp #widget_claveTelefonoAdd_1, #claveTelefonoAdd_1,
+		#claveTelefonoAdd_2, .formApp #widget_claveTelefonoAdd_2, .formApp #widget_claveAdd.dijit,
+		.formApp #widget_claveAdd1, #phoneadds #claveAdd1, #phoneadds #widget_claveAdd2.dijit,
+		#widget_clave.dijit {
+		width: 80px !important
+	}
+	#telefonoAdd_1, #extensionTelefonoAdd_1, #telefonoAdd_2,
+		#extensionTelefonoAdd_2, #widget_eExtension.dijit,
+		#widget_telefonoAdd_1.dijit, #widget_extensionTelefonoAdd_1.dijit,
+		#widget_telefonoAdd_2.dijit, #widget_extensionTelefonoAdd_2.dijit,
+		#widget_extensionAddCel.dijit, #widget_eExtension2.dijit,
+		#widget_ttelefono.dijit, #widget_numeroExterior.dijit,
+		#widget_numeroInterior.dijit, #widget_telefono.dijit,
+		#widget_extension.dijit, #widget_codigoPostal.dijit,
+		#widget_telefonoAdd.dijit, #widget_extensionAdd.dijit,
+		#widget_telefonoAdd1.dijit, #widget_extensionAdd1.dijit, #phoneadds #telefonoAdd1,
+		#phoneadds #extensionAdd1, #widget_telefonoAdd2.dijit,
+		#widget_telefonoAdd3.dijit, #widget_extensionAdd2.dijit,
+		#widget_extensionAdd3.dijit {
+		width: 137px !important;
+		margin-right: 20px
+	}
+	#widget_iCurp.dijit {
+		background: transparent
+	}
+	.formApp .dijitValidationTextBoxError input.dijitValidationInner,
+		.formApp .dijitSelect input, .formApp .dijitTextBox input.dijitArrowButtonInner,
+		.dijitDialogPaneContent .dijitArrowButtonInner,
+		.dijitDialogPaneContent .dijitReset.dijitInputField.dijitArrowButtonInner
+		{
+		width: 25px !important
+	}
+	.dijitArrowButtonContainer, .dijitArrowButtonInner {
+		height: 27px !important
+	}
+	.claro .dijitSelect .dijitArrowButtonInner, .claro .dijitComboBox .dijitArrowButtonInner,
+		.claro .dijitComboBoxDisabled .dijitArrowButtonInner, .claro .dijitSelect .dijitArrowButtonInner:hover,
+		.claro .dijitComboBox .dijitArrowButtonInner:hover {
+		background-image: url(images/form_arrow.png);
+		background-position: center center !important;
+		background-repeat: no-repeat;
+		background-color: #fff
+	}
+	#correoNuevo input[type="text"], .claro .dijitSelect, .claro .dijitSelect .dijitButtonContents,
+		.claro .dijitTextBox, .claro .dijitTextBox .dijitButtonNode {
+		border-color: #dddede;
+		background-color: #fff
+	}
+	#correoNuevo input[type="text"]:hover, .claro .dijitSelect:hover, .claro .dijitSelect .dijitButtonContents:hover,
+		.claro .dijitTextBox:hover, .claro .dijitTextBox .dijitButtonNode:hover
+		{
+		border-color: #b5bcc7
+	}
+	#telefonoAdd_1, #extensionTelefonoAdd_1, #telefonoAdd_2,
+		#extensionTelefonoAdd_2, #claveTelefonoAdd_1, #claveTelefonoAdd_2,
+		#correoNuevo input[type="text"], #phoneadds #accesoAdd1, #phoneadds #claveAdd1,
+		#phoneadds #telefonoAdd1, #phoneadds #extensionAdd1 {
+		border: 1px solid #dddede;
+		font-size: 12px
+	}
+	.dijitTextBoxDisabled .dijitInputContainer {
+		background-color: #fff !important
+	}
+	#segPostForm p label, #registroDatosContacto .domicio_oferta li label,
+		#registroInformacionUbicacion .datosGenerales li label, .empresas #registroRequisitos .requsitios li label,
+		#registroRequisitos .habilidades label, .rolar label, .diasLaborales li label,
+		.habilidades ul li label, .sexo label, .sexo_01 label, .CURP_01 label,
+		.conocimientos li label, .tipo_tel label, .contact_pref label,
+		.offer_pref label, .oportunidades label, .dom_shift label, .trabajo_01 label,
+		.buscar_trabajo label, .si_01 label, .no_01 label, .habilidades_01 label,
+		.omitir label, .tipo_persona label, .password_recovery .tipo_us label,
+		#registroRequisitos .disponibilidad li label, #registroRequisitos .empresa_ofrece li label
+		{
+		font-weight: 400;
+		line-height: 12px;
+		display: inline-block
+	}
+	.disponib_c label {
+		margin-left: 25px
+	}
+	.ultimo_trabajo .omitir label {
+		margin-top: 8px
+	}
+	.habilidades ul li {
+		float: left;
+		width: 300px
+	}
+	.habilidades.bloque ul li input[type="checkbox"] {
+		float: left
+	}
+	#registroInformacionUbicacion .datosGenerales li input[type="checkbox"],
+		.diasLaborales li input[type="checkbox"], input[type="radio"]#idGeneroMasculino,
+		input[type="radio"]#idGeneroFemenino, .sexo_01 input, .CURP_01 input,
+		.dom_shift input, .conocimientos li input, .oportunidades input,
+		.tipo_tel input, .trabajo_01 input, .confiden_01 input, .omitir input,
+		.contact_pref input[type="checkbox"], .offer_pref input[type="checkbox"]
+		{
+		float: left
+	}
+	#registroPostulacionForm .postulacione_e .tipo_tel input {
+		margin: 0 5px
+	}
+	.datosGenerales .rolar input[type="radio"], .diasLaborales li input[type="checkbox"]
+		{
+		margin-right: 3px
+	}
+	#registroDatosContacto .domicio_oferta ul li, #registroRequisitos .requsitios li,
+		#registroInformacionUbicacion .diasLaborales li, #registroRequisitos .disponibilidad li,
+		.conocimientos li, #registroRequisitos .empresa_ofrece li, .tipo_us {
+		min-height: 24px
+	}
+	#conocimientoCompOtros, #funcionesDesempenadas, .campoTexto textarea,
+		#descripcionCon, .campoTexto #experiencia, #funcion, #descripcionCon,
+		#descripcionExperiencia, #videoDescription {
+		width: 895px;
+		border: 1px solid #9caca9
+	}
+	.miEspacio .campoTexto textarea, #descripcionCon, .campoTexto #experiencia,
+		#funcion, #descripcionCon {
+		width: 910px !important;
+		height: 90px;
+		overflow: hidden
+	}
+	.experiencia_1 .experiencia_01 table {
+		width: 905px
+	}
+	.experiencia_01 {
+		position: relative
+	}
+	#videoDescription {
+		margin-bottom: 40px
+	}
+	.googie_check_spelling_link, #conocimientosadd .googie_check_spelling_link,
+		#experienciaForm .googie_check_spelling_link, .ultimo_trabajo .googie_check_spelling_link,
+		.conocimientos .googie_check_spelling_link, .experiencia_1 .googie_check_spelling_link,
+		.videoCurriculum .googie_check_spelling_link {
+		bottom: -45px;
+		position: absolute;
+		right: 22px;
+		width: 106px
+	}
+	.miEspacio .googie_check_spelling_link, #conocimientosadd .googie_check_spelling_link,
+		.conocimientos .googie_check_spelling_link, #experienciaForm .googie_check_spelling_link,
+		.ultimo_trabajo .googie_check_spelling_link {
+		bottom: -152px;
+		right: 0
+	}
+	.miEspacio .campoTexto table {
+		width: 930px !important
+	}
+	.campoTexto td, .ultimo_trabajo .funciones_01 td, #videocurriculumForm .videoCurriculum td
+		{
+		position: relative
+	}
+	.videoCurriculum .googie_check_spelling_link {
+		bottom: -193px;
+		padding: 3px 20px;
+		right: 0;
+		width: auto
+	}
+	#widget_laboresFinalAnual.dijit, #widget_laboresFinalMes.dijit,
+		#widget_laboresFinalDia.dijit, #widget_laboresInicialAnual.dijit,
+		#widget_laboresInicialMes.dijit, #widget_laboresInicialDia.dijit,
+		#widget_anioLaboresFinalSelect.dijit, #widget_mesLaboresFinalSelect.dijit,
+		#widget_diaLaboresFinalSelect.dijit, #widget_anioLaboresInicialSelect.dijit,
+		#widget_mesLaboresInicialSelect.dijit, #widget_diaLaboresInicialSelect.dijit,
+		#widget_anioEntrevistaSelect.dijit, #widget_mesEntrevistaSelect.dijit,
+		#widget_diaEntrevistaSelect.dijit, #widget_anioContactoSelect.dijit,
+		#widget_mesContactoSelect.dijit, #widget_diaContactoSelect.dijit,
+		#widget_diaActaSelect.dijit, #widget_mesActaSelect.dijit,
+		#widget_anioActaSelect.dijit, #widget_diaSelect.dijit,
+		#widget_mesSelect.dijit, #widget_anioSelect.dijit {
+		margin-right: 20px;
+		width: 82px
+	}
+	#widget_laboresFinalAnual.dijit, #widget_laboresFinalMes.dijit,
+		#widget_laboresFinalDia.dijit, #widget_laboresInicialAnual.dijit,
+		#widget_laboresInicialMes.dijit, #widget_laboresInicialDia.dijit,
+		#widget_anioLaboresFinalSelect.dijit, #widget_mesLaboresFinalSelect.dijit,
+		#widget_diaLaboresFinalSelect.dijit, #widget_anioLaboresInicialSelect.dijit,
+		#widget_mesLaboresInicialSelect.dijit, #widget_diaLaboresInicialSelect.dijit,
+		.ctrl_06 #widget_diaSelect.dijit, .ctrl_06 #widget_mesSelect.dijit,
+		.ctrl_06 #widget_anioSelect.dijit, .fechas_p .dijit {
+		margin-right: 10px !important
+	}
+	#widget_diaActaSelect.dijit, #widget_mesActaSelect.dijit,
+		#widget_anioActaSelect.dijit {
+		margin-right: 13px !important
+	}
+	#diaSelect.dijitInputInner, #mesSelect.dijitInputInner, #anioSelect.dijitInputInner
+		{
+		padding-top: 8px !important;
+		padding-left: 5px !important
+	}
+	.condiciones_01, .terminos_1 {
+		background-color: #fff;
+		border: 1px solid #dedede;
+		height: 225px;
+		overflow: auto;
+		padding: 20px 10px;
+		width: 890px
+	}
+	.terminos_1 {
+		height: 340px;
+		margin: auto;
+		line-height: 150%
+	}
+	.terminos_1 p {
+		padding: 15px 0
+	}
+	.terminos_1 em {
+		font-style: italic
+	}
+	.condiciones_01 ol li.seccionInicio {
+		border-top: 1px dotted #ccc;
+		margin-top: 10px
+	}
+	.condiciones_01 ol li.seccionInicio .subtitulo {
+		font-size: 120%;
+		text-transform: uppercase;
+		font-weight: 700
+	}
+	.condiciones_01 ol li {
+		list-style-position: inside;
+		list-style-type: decimal;
+		padding: 15px 0
+	}
+	.condiciones_01 ol li ul li {
+		list-style-type: square;
+		padding: 5px 0 5px 20px
+	}
+	.rssS ol li {
+		list-style-type: lower-alpha
+	}
+	.rssS ol li ul li, .rssS ul.bis li {
+		list-style-type: none;
+		background-image: url(images/bulletApp_1.png);
+		background-position: 0 6px;
+		background-repeat: no-repeat
+	}
+	.rssS ul.bis li a {
+		border: none;
+		text-decoration: underline
+	}
+	.condiciones_01 .portal {
+		font-weight: 700
+	}
+	.condiciones_01 .STPS {
+		font-weight: 700
+	}
+	.condiciones_01 .subtitulo {
+		font-weight: 700
+	}
+	.conf_controls {
+		margin-left: 12px;
+		width: 100px
+	}
+	.conf_controls .si_01, .conf_controls .si_02 {
+		float: left;
+		width: 50px
+	}
+	.formApp .condiciones_01 h3 {
+		background-image: none;
+		font-size: 130%;
+		padding: 10px 0 0
+	}
+	.formApp h3, .formApp h2.terminos, .formApp .user_dt h3 {
+		background-image: url(images/ind_heading.png);
+		background-position: 44px bottom;
+		background-repeat: no-repeat;
+		font-size: 18px;
+		padding-top: 57px;
+		padding-left: 12px;
+		padding-bottom: 18px;
+		font-weight: 700;
+		clear: both
+	}
+	#divCandidatos h3.mis_ofertas {
+		background-image: none
+	}
+	.acerca_AEspacios h3 {
+		background-image: none;
+		padding-left: 0;
+		border-bottom: 1px solid #666
+	}
+	.logo_AEspacios {
+		background-image: url(images/logo_AEspacios.png);
+		background-repeat: no-repeat;
+		height: 112px;
+		margin: auto;
+		width: 113px
+	}
+	#conocimientosadd.conocimientos h3, #studiesadd.otros_estudios h3 {
+		background-image: none !important;
+		padding-left: 0;
+		padding-top: 0
+	}
+	#competenciasConocer h3 {
+		background-image: none;
+		padding: 40px 0 20px
+	}
+	.formApp h2.terminos, .formApp .user_dt h3 {
+		background-image: url(images/ind_legend.png);
+		background-position: 44px bottom;
+		background-repeat: no-repeat
+	}
+	.terminos_1 h4 {
+		font-weight: 700
+	}
+	.formApp .dom_shift {
+		margin-top: 85px
+	}
+	.campoTexto img, .ultimo_trabajo .funciones_01 .campoTexto img,
+		.campoTexto.margin_top_30 table span img, .experiencia_01 table td span img,
+		.videoCurriculum td span img {
+		display: none
+	}
+	.otros_c {
+		display: inline
+	}
+	.certificacion.bloque {
+		background: #fff;
+		border: 1px solid #e4e4e4;
+		padding: 0 0 20px 30px
+	}
+	.campoTexto {
+		padding-bottom: 50px
+	}
+	.margin_40 {
+		height: 40px
+	}
+	.situacion_laboral .dijitRadio {
+		float: left;
+		margin-right: 10px;
+		width: 16px
+	}
+	#agregaConocimiento p.eliminar_bloque, #bAgregarConocimiento.agregar_bloque,
+		#conocimientoAdicional p.agregar_bloque.bis {
+		left: 636px;
+		position: absolute;
+		text-align: right;
+		margin-top: -40px
+	}
+	.requsitios p.agregar_bloque.bis {
+		left: 324px
+	}
+	.requsitios .eliminar_bloque.bis {
+		left: 324px;
+		margin-top: -40px;
+		position: absolute
+	}
+	.disabled {
+		opacity: .3;
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30)
+	}
+	.dijitReset.dijitStretch.dijitButtonContents {
+		width: 100%
+	}
+	fieldset.estudios div#otros_estudios bloque div#bloque1.otros_estudios.bloque div.margin_top_30 div.grid1_3.fl table#dayIniAdd1.dijit.dijitReset.dijitInline.dijitLeft.dijitDownArrowButton.sugerido.dijitSelect.dijitValidationTextBox
+		/* M E N S A J E S D E E R R O R */ 
+.posicion {
+		display: inline-block;
+		position: relative;
+		width: 532px
+	}
+	.mensaje_error {
+		background: url(images/warning.png) no-repeat scroll 10px 10px #f9fbf7;
+		border: 1px solid #b9b9b9;
+		border-radius: 15px;
+		box-shadow: 0 0 19px rgba(1, 48, 66, 0.75);
+		font-size: 14px;
+		letter-spacing: .05em;
+		padding: 16px 16px 30px 70px !important;
+		position: absolute;
+		text-align: left;
+		top: -30px;
+		width: 466px;
+		z-index: 1000
+	}
+	.boton_naranja {
+		background-color: #4f6710;
+		border: 1px solid #4f6710;
+		border-radius: 5px;
+		color: #fff;
+		cursor: pointer;
+		position: relative
+	}
+	.miEspacio {
+		width: 962px
+	}
+	.miEspacio h2 {
+		font-size: 24px;
+		font-weight: 700;
+		color: #000;
+		padding-top: 28px;
+		padding-left: 13px
+	}
+	.miEspacio .user_profile {
+		width: 462px;
+		margin: 12px auto 0
+	}
+	.user_options {
+		background-color: #edeef0;
+		margin-top: 42px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		border: 1px solid #e0e2e1;
+		padding: 10px;
+		width: 940px
+	}
+	.user_pic {
+		display: inline-block;
+		position: relative;
+		float: left;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px
+	}
+	.user_pic img {
+		max-height: 140px;
+		max-width: 140px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px
+	}
+	.shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		-webkit-box-shadow: inset 0 1px 2px 2px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: inset 0 1px 2px 2px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 0 1px 2px 2px rgba(0, 0, 0, 0.2);
+		top: 0;
+		left: 0;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px
+	}
+	.user_profile ul {
+		float: left;
+		width: 300px;
+		margin-top: 20px;
+		margin-left: 21px
+	}
+	.user_profile .user_name_01 {
+		font-size: 19px;
+		padding-top: 11px;
+		padding-bottom: 6px;
+		border-top: 2px solid #c1c2c2;
+		border-bottom: 2px solid #c1c2c2
+	}
+	.user_profile ul li a {
+		background-image: url(images/bulletApp_4.png);
+		background-position: 0 13px;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid #c1c2c2;
+		display: block;
+		padding-bottom: 10px;
+		padding-left: 12px;
+		padding-top: 10px;
+		color: #6e8d3a;
+		font-weight: 700;
+		text-decoration: none
+	}
+	.user_profile ul li:last-child a {
+		border-bottom: none
+	}
+	.user_profile ul li a:hover {
+		text-decoration: underline
+	}
+	.miEspacio .optionsBlock {
+		float: left;
+		margin-right: 17px;
+		width: 302px
+	}
+	.miEspacio .optionsBlock.rightLast {
+		margin-right: 0
+	}
+	.miEspacio .optionsBlock h3 {
+		background-image: url(images/sprite_1.png);
+		background-repeat: no-repeat;
+		color: #537004;
+		font-weight: 700;
+		font-size: 16px;
+		padding-top: 16px;
+		padding-bottom: 10px;
+		padding-left: 48px;
+		border-bottom: 2px solid #c8caca
+	}
+	.formApp li li {
+		background-image: url(images/bulletApp_3.png)
+	}
+	.optionsBlock ul li {
+		line-height: 20px
+	}
+	.optionsBlock ul li a {
+		background-image: url(images/bulletApp_1.png);
+		background-position: 2px 19px;
+		background-repeat: no-repeat;
+		border-bottom: 1px solid #ddd;
+		color: #000;
+		display: block;
+		padding-bottom: 15px;
+		padding-left: 20px;
+		padding-top: 30px;
+		text-decoration: none;
+		padding-top: 12px
+	}
+	.optionsBlock ul li a:hover {
+		text-decoration: underline
+	}
+	.optionsBlock ul li:last-child a {
+		border: none
+	}
+	.c_curriculum h3 {
+		background-position: -252px -57px
+	}
+	.c_ofertas h3, .c_servicios h3 {
+		border-top: 2px solid #c8caca;
+		padding-top: 30px !important;
+		background-position: -251px -294px
+	}
+	.c_servicios h3 {
+		background-position: -251px -125px !important
+	}
+	.e_postulantes h3 {
+		background-position: -251px -307px
+	}
+	.miEspacio .optionsBlock .c_misOfertas h3 {
+		background-position: -251px -216px
+	}
+	.c_programas h3, .e_herramientas h3 {
+		background-position: -251px -136px
+	}
+	.e_ofertas h3 {
+		background-position: -252px -386px
+	}
+	.subir a {
+		background-image: url(images/sprite_1.png);
+		background-position: right -1px;
+		background-repeat: no-repeat;
+		display: inline-block;
+		height: 27px;
+		text-indent: -9999px;
+		width: 92px;
+		margin-right: 2px
+	}
+	.subir {
+		padding-bottom: 12px;
+		padding-top: 14px
+	}
+	.formApp.miEspacio legend {
+		width: 952px;
+		background-image: none;
+		padding: 11px 0 0 10px;
+		height: 28px
+	}
+	.instrucciones_mapa li {
+		list-style-type: decimal
+	}
+	#idConocesCurp.tipo_persona, #divEmpresaPrivada>div, .sexo>div {
+		line-height: 200%
+	}
+	#idConocesCurp input.fl {
+		float: none !important
+	}
+	#divDatosContacto .tipo_tel label {
+		margin-right: 7px
+	}
+	#appHolder2 .tipo_tel label.fl {
+		text-indent: 5px
+	}
+	.miEspacio th, .temas th, #myopportunities th, .mientrevista .entrevista .temas td,
+		.temas td {
+		background-color: #5d5d5d;
+		color: #fff;
+		font-weight: 700;
+		padding: 15px 11px
+	}
+	#mis-ofertas #ofertas-head th, #mis-ofertas .opciones table td {
+		padding: 15px 5px
+	}
+	#mis-ofertas .opciones table td {
+		border-bottom: none
+	}
+	#mis-ofertas .datos td {
+		padding: 10px 0 5px 15px;
+		text-align: left
+	}
+	#myopportunities .seleccionados th .ccpt, #mis-ofertas #ofertas-head th .ccpt
+		{
+		padding-right: 3px;
+		min-height: 21px
+	}
+	.level {
+		height: 17px;
+		padding-left: 10px;
+		width: 12px
+	}
+	.odd td {
+		background: #eff2f2
+	}
+	.detalle_oferta td, .miEspacio td, .mientrevista .entrevista tr td,
+		#tabla.seleccionados td, #myopportunities td {
+		vertical-align: middle;
+		border-bottom: 1px solid #CCC;
+		line-height: 15px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+	#tabla.seleccionados td {
+		min-height: 40px;
+		padding: 20px 10px 10px
+	}
+	.profesion strong a {
+		font-weight: 400;
+		color: #000
+	}
+	.detalles td {
+		padding-top: 8px;
+		padding-left: 10px;
+		padding-bottom: 15px;
+		border-bottom: 2px solid #a6a6a6 !important
+	}
+	#mis-ofertas .opciones td ul {
+		margin: auto;
+		text-align: center;
+		width: 850px
+	}
+	#AdmonCandidatosForm ul {
+		background-color: #fff;
+		border-bottom: 3px solid #ccc;
+		height: 31px;
+		padding: 10px 0 0 40px
+	}
+	#AdmonCandidatosForm ul li, #mis-ofertas .opciones td ul li {
+		float: left;
+		padding-right: 25px;
+		list-style-image: url(images/bulletApp_4.png)
+	}
+	#AdmonCandidatosForm ul li a {
+		color: #39620a
+	}
+	#AdmonCandidatosForm .paginator ul {
+		background-color: transparent;
+		border: none
+	}
+	#AdmonCandidatosForm .paginator li {
+		float: none;
+		padding-right: 0;
+		list-style-image: none
+	}
+	table caption {
+		font-size: 18px;
+		font-weight: 700;
+		padding: 10px
+	}
+	.tab_block {
+		position: relative;
+		margin-top: 27px
+	}
+	.tab_block #returnME, .regresarAMiEspacio {
+		background-color: #464646;
+		background-image: url(images/ind_back.png);
+		background-position: 9px 11px;
+		background-repeat: no-repeat;
+		border-radius: 5px;
+		font-weight: 700;
+		margin-right: 12px;
+		padding: 8px 12px 8px 21px;
+		position: absolute;
+		right: 0;
+		top: -37px
+	}
+	.regresarAMiEspacio {
+		top: 34px
+	}
+	.regresarAMiEspacio a {
+		color: #fff;
+		text-decoration: none
+	}
+	.tab_block #returnME a {
+		color: #FFF;
+		text-decoration: none
+	}
+	.Tab_espacio h3 {
+		background-color: #d9dada;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-moz-border-radius-topleft: 3px;
+		-moz-border-radius-topright: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		display: table-cell;
+		font-size: 19px;
+		font-weight: 400;
+		height: 40px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-top: 5px;
+		vertical-align: middle;
+		width: 300px
+	}
+	.Tab_espacio .subTab {
+		background-image: url(images/bg_subTab.png);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-color: #edefef
+	}
+	.Tab_espacio .subTab li {
+		background-image: url(images/subTabDivide.png);
+		background-position: right 19px;
+		background-repeat: no-repeat;
+		float: left
+	}
+	.Tab_espacio .subTab li:last-child {
+		background-image: none
+	}
+	#idMunicipio_label #tMunicipio, #idEntidad_label #tEntidad, .subTab .curSubTab span
+		{
+		font-weight: 700;
+		color: #000 !important
+	}
+	.subTab a, .subTab .curSubTab span {
+		background-image: url(images/bulletApp_4.png);
+		background-position: 7px 24px;
+		background-repeat: no-repeat;
+		color: #39620a;
+		display: inline-block;
+		max-width: 145px;
+		padding: 18px 9px 15px 15px
+	}
+	.width_f>a {
+		max-width: 290px
+	}
+	.miEspacio table a {
+		color: #39620a
+	}
+	.miEspacio .sublevelTitle {
+		font-size: 15px;
+		font-weight: 700;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 10px
+	}
+	.tab_block p {
+		padding-bottom: 14px;
+		padding-left: 10px
+	}
+	.alt_c {
+		margin-bottom: 60px
+	}
+	.alt_c h3 {
+		font-weight: 700;
+		margin: 60px auto 20px;
+		text-align: center;
+		width: 617px
+	}
+	.alt_c a {
+		color: #39620a
+	}
+	.alt_c ul {
+		margin-top: 10px
+	}
+	.alt_c p {
+		line-height: 19px
+	}
+	.alt_c li {
+		background-image: url(images/bulletApp_4.png);
+		background-repeat: no-repeat;
+		background-position: 0 5px;
+		margin-left: 50px;
+		margin-top: 10px;
+		padding-left: 10px
+	}
+	#AdmonCandidatosForm table {
+		margin-top: 20px
+	}
+	#AdmonCandidatosForm th {
+		text-align: left
+	}
+	#reporte #mis-ofertas .opciones td {
+		background-color: #fff;
+		border-bottom-width: 3px
+	}
+	.paginator {
+		font-size: 12px;
+		margin: 15px auto;
+		text-align: center;
+		width: 600px
+	}
+	.paginator p {
+		padding-top: 15px;
+		padding-bottom: 15px
+	}
+	.paginator li {
+		background-color: transparent !important;
+		border: medium none !important;
+		display: inline-block;
+		padding: 0 !important
+	}
+	.paginator .current {
+		background-color: #474747;
+		color: #FFF
+	}
+	.pagina, .current {
+		background-color: #d4d6d6;
+		color: #000;
+		text-decoration: none;
+		display: block;
+		padding-top: 3px;
+		height: 20px;
+		margin: 0 2px;
+		width: 26px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px
+	}
+	#contenido .paginator a {
+		color: #4f6710;
+		text-decoration: none
+	}
+	.paginator .ir {
+		background-color: #474747;
+		color: #fff;
+		cursor: pointer;
+		height: 27px;
+		margin-left: 10px;
+		padding-left: 6px;
+		padding-right: 6px;
+		padding-top: 4px
+	}
+	.paginator a.next.sig {
+		color: #39620a
+	}
+	#numPagina {
+		background-color: #FFF;
+		border: 1px solid #acb4b4;
+		width: 40px;
+		height: 25px;
+		margin-left: 10px
+	}
+	.claro .dijitDialog {
+		border: none;
+		width: 400px !important;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		overflow: visible
+	}
+	.claro .dijitDialog .dijitDialogTitleBar {
+		background-image: url(images/bg_dialog.png);
+		background-repeat: no-repeat;
+		-webkit-border-top-left-radius: 10px;
+		-webkit-border-top-right-radius: 10px;
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-topright: 10px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border: none;
+		height: 31px
+	}
+	.claro .dijitDialog .dijitDialogTitleBar .dijitDialogTitle {
+		color: #fff;
+		display: block;
+		font-size: 19px;
+		font-weight: 400
+	}
+	.claro .dijitDialog .dijitDialogPaneContent {
+		background-image: url(images/bg_dialogContent.png);
+		background-position: 0 bottom;
+		background-repeat: no-repeat;
+		background-color: #fff;
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border: none;
+		min-height: 114px !important;
+		padding-bottom: 56px;
+		position: relative
+	}
+	.msg_contain {
+		display: table-cell;
+		height: 114px;
+		width: 383px;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		vertical-align: middle
+	}
+	.msg_contain.twolines {
+		padding-bottom: 40px
+	}
+	.claro .dijitDialogCloseIcon, .claro .dijitDialogCloseIcon:hover {
+		background-image: url(images/close_icon.png);
+		background-position: 0 0;
+		height: 26px;
+		top: 7px;
+		width: 29px
+	}
+	.claro #dijit_DialogUnderlay_0.dijitDialogUnderlayWrapper .dijitDialogUnderlay
+		{
+		background-color: #000
+	}
+	.claro .dijitDialog .dijitDialogPaneContent p {
+		display: table-cell;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+		vertical-align: middle;
+		height: 114px;
+		width: 383px
+	}
+	.suelto .dijitDialogPaneContent p {
+		display: block !important
+	}
+	#mensajeEmergente .form_nav, .dijitDialogPaneContent .form_nav {
+		bottom: 0;
+		padding-bottom: 15px;
+		padding-top: 0;
+		position: absolute !important;
+		width: 100%;
+		display: block;
+		height: auto !important
+	}
+	.dijitDialogPaneContent .form_nav.segundo {
+		position: inherit
+	}
+	.suelto .form_nav {
+		position: inherit !important
+	}
+	#busquedas li {
+		float: left;
+		margin-left: 26px;
+		margin-top: 30px;
+		width: 272px
+	}
+	.otras_bolsas .gris, .cuenta_edit .gris, #mis_herramientas.gris, .gris {
+		background-color: #fff;
+		border: 1px solid #c8caca;
+		margin: 0 10px;
+		padding: 10px 10px 40px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px
+	}
+	#otras-bolsas .gris {
+		background-color: #fff;
+		border: 1px solid #c8caca;
+		margin: 10px 10px 20px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px
+	}
+	#otras-bolsas .gris img {
+		display: block;
+		float: left
+	}
+	#otras-bolsas .gris .dijitRadio {
+		float: left
+	}
+	#otras-bolsas .gris li label {
+		clear: both;
+		display: block;
+		padding: 10px 0 0 22px
+	}
+	#otras-bolsas .bolsasCampos p {
+		margin: 10px 0 0
+	}
+	#otras-bolsas .bolsasCampos p label {
+		display: inline-block;
+		padding-right: 10px;
+		text-align: right;
+		width: 130px
+	}
+	#mis_herramientas.gris h3 {
+		background-image: url(images/div_pregunta.png);
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		padding-top: 20px;
+		text-align: center
+	}
+	#mis_herramientas.gris ul {
+		margin: auto;
+		width: 470px;
+		padding-left: 100px
+	}
+	#mis_herramientas.gris ul li {
+		background-image: url(images/bulletApp_1.png);
+		background-position: 0 15px;
+		background-repeat: no-repeat;
+		padding-bottom: 5px;
+		padding-left: 17px;
+		padding-top: 10px;
+		float: left;
+		margin-right: 100px
+	}
+	#mis_herramientas.gris ul li a {
+		color: #666
+	}
+	.otras_bolsas #busquedas li label {
+		padding-left: 27px
+	}
+	.cv_style ul li {
+		float: left;
+		width: 231px
+	}
+	.cv_style ul {
+		margin: 40px auto;
+		width: 700px
+	}
+	.detalle_oferta {
+		margin-top: 36px
+	}
+	.det_index {
+		background-image: url(images/div_det_index.png);
+		background-repeat: no-repeat;
+		background-position: right 0;
+		width: 650px;
+		float: left
+	}
+	.porcentaje_c {
+		float: left;
+		width: 300px
+	}
+	.offer_section h3, .detalle_oferta .det_index h2, .detalle_oferta h3 {
+		font-size: 16px;
+		font-weight: 700;
+		padding-top: 14px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		margin-right: 20px
+	}
+	.detalle_oferta .det_index h2 {
+		border-bottom: 1px solid #e3e5e5
+	}
+	.det_index .perfil_candidato {
+		padding-top: 20px;
+		padding-left: 10px;
+		margin-right: 20px
+	}
+	.perfil_title h3 {
+		font-size: 20px;
+		color: #5f7c12;
+		padding-bottom: 10px;
+		font-weight: 400;
+		padding-left: 0;
+		padding-top: 0
+	}
+	.detalle_oferta h3 {
+		background-image: none
+	}
+	.det_index a {
+		color: #5f7c12
+	}
+	.perfil_title {
+		padding-bottom: 10px
+	}
+	.perfil_title .puesto {
+		line-height: 23px
+	}
+	.perfil_c {
+		margin-left: 20px;
+		float: right;
+		width: 460px
+	}
+	.perfil_c .perfil_index ul li {
+		border-bottom: 1px solid #e3e5e5;
+		line-height: 23px;
+		padding-bottom: 5px
+	}
+	.perfil_c .perfil_index ul li:last-child {
+		border: none
+	}
+	.perfil_c .perfil_index ul {
+		float: left;
+		width: 220px
+	}
+	.perfil_c.emp .perfil_index ul {
+		width: 100%
+	}
+	.perfil_c .perfil_index .conoce_mas {
+		float: none;
+		width: 400px
+	}
+	.detalle_oferta .odd {
+		background-color: #f2f2f2;
+		border-top: 1px solid #e3e3e3;
+		border-bottom: 1px solid #e3e3e3
+	}
+	.offer_section ul li {
+		background-color: #f2f2f2;
+		border-bottom: 1px solid #e3e3e3
+	}
+	.offer_section ul li li {
+		background-color: transparent
+	}
+	.offer_section ul li:nth-child(2n) {
+		background-color: transparent
+	}
+	.offer_section ul li, .offer_section .odd {
+		padding-top: 20px;
+		padding-bottom: 17px;
+		padding-left: 10px
+	}
+	.offer_section ul ul li {
+		background-image: url(images/bulletApp_1.png);
+		background-position: 0 12px;
+		background-repeat: no-repeat;
+		padding-bottom: 5px;
+		padding-left: 17px;
+		padding-top: 10px
+	}
+	.detalle_oferta .especificos {
+		padding-top: 10px;
+		line-height: 20px;
+		padding-right: 10px
+	}
+	.offer_section {
+		border-top: 3px solid #e3e5e5 !important;
+		margin-right: 20px;
+		margin-top: 35px !important
+	}
+	.porcentaje_c h3 {
+		background-image: url(images/porcentaje_cH3.png);
+		background-position: 0 top;
+		background-repeat: no-repeat;
+		color: #fff;
+		display: table;
+		font-size: 16px;
+		font-weight: 400;
+		height: 37px;
+		padding-right: 5px;
+		width: 275px;
+		margin-left: 9px
+	}
+	.porcentaje_c h3 span {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle
+	}
+	.porcentaje_c1 {
+		background-image: url(images/bg_porcentajeBody.png);
+		padding-left: 9px;
+		padding-bottom: 15px;
+		width: 290px
+	}
+	.porcentaje_c em {
+		display: block;
+		text-align: center;
+		padding-top: 13px;
+		line-height: 16px
+	}
+	.porcentaje_c strong {
+		display: block;
+		font-size: 50px;
+		color: #354708;
+		font-weight: 400;
+		padding-top: 19px;
+		text-align: center
+	}
+	.porcentaje_c .estatus_m ul li strong, .porcentaje_c .estatus strong {
+		font-size: inherit;
+		padding-top: 5px;
+		text-align: center
+	}
+	.porcentaje_c .estatus_m ul.razon_c {
+		width: 90%;
+		margin: 10px auto
+	}
+	.porcentaje_c .estatus_m strong {
+		color: #000;
+		display: inline;
+		font-weight: 700;
+		font-size: inherit
+	}
+	.porcentaje_c .estatus_m ul.razon_c li {
+		border-top: 1px solid #d1d1d1;
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+	.estatus_m ul li.fl label {
+		margin-left: -7px
+	}
+	.porcentaje_c .estatus span {
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+		color: #5f7c12
+	}
+	.porcentaje_c .agregar {
+		background-color: #68871b !important;
+		background-image: none;
+		border-radius: 3px;
+		color: #fff;
+		display: block;
+		font-weight: 700;
+		margin: 20px auto 0;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		text-align: center;
+		text-decoration: none;
+		width: 170px
+	}
+	.porcentaje_c .add_button {
+		margin-top: 22px;
+		padding-bottom: 15px;
+		text-align: center
+	}
+	.porcentaje_c .porcent_prompt {
+		background-image: url(images/bg_porcentajeFt.png);
+		background-position: 0 bottom;
+		height: auto
+	}
+	.porcentaje_c .porcent_prompt, .porcentaje_c .porcent_prompt a {
+		color: #fff;
+		line-height: 16px;
+		padding-bottom: 16px;
+		padding-left: 9px;
+		padding-top: 15px;
+		text-align: center;
+		width: 290px
+	}
+	#botonesCandidatosForm .porcentaje_c .medidor_status {
+		background-image: url(images/bg_porcentaje_cc.png);
+		background-repeat: no-repeat;
+		background-position: -1px bottom;
+		background-color: transparent;
+		padding-left: 15px;
+		padding-bottom: 25px
+	}
+	#botonesCandidatosForm .porcentaje_c .medidor_status .estatus {
+		background-image: url(images/div_status.png);
+		background-position: center 10px;
+		background-repeat: no-repeat;
+		padding-top: 30px
+	}
+	#formQuestion .campo_carta #pregunta, #formAnswer .campo_carta #respuesta
+		{
+		border: 1px solid #dddede;
+		margin-left: 10px;
+		width: 588px
+	}
+	#preguntas_relacionadas .redacta #formQuestion h3,
+		#preguntas_relacionadas.offer_section h3 {
+		background-image: url(images/div_pregunta.png);
+		background-repeat: no-repeat;
+		background-position: center top;
+		padding-top: 32px;
+		border: none
+	}
+	#preguntas_relacionadas h3 {
+		border-bottom: 1px solid #e3e3e3;
+		padding-top: 22px;
+		padding-bottom: 16px;
+		margin: 0
+	}
+	#preguntas_relacionadas .bloq_p_r {
+		padding-bottom: 21px;
+		border-bottom: 1px solid #e3e3e3
+	}
+	#preguntas_relacionadas .pregunta {
+		padding-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		line-height: 18px
+	}
+	#preguntas_relacionadas .pregunta.p_empresa {
+		background-color: #fff;
+		border: 1px solid #939393;
+		margin-right: 10px;
+		margin-top: 20px;
+		padding: 20px 8px;
+		width: 565px
+	}
+	#preguntas_relacionadas .ico_r {
+		background-image: url(images/ico_preg.png);
+		background-repeat: no-repeat;
+		float: left;
+		height: 30px;
+		margin-left: 10px;
+		margin-top: 20px;
+		width: 15px
+	}
+	#preguntas_relacionadas.offer_section.odd p {
+		padding: 10px
+	}
+	#formQuestion .send_q {
+		text-align: center;
+		margin-top: 20px
+	}
+	#preguntas_relacionadas {
+		padding-bottom: 20px
+	}
+	.detalle_oferta .regresar_a_resultado {
+		background-image: url(images/bulletApp_4.png);
+		background-position: 0 center;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		border: none;
+		display: inline-block;
+		margin-top: 20px;
+		padding-left: 10px;
+		-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+		-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+		box-shadow: 0 0 0 rgba(0, 0, 0, 0)
+	}
+	.offer_index .form_nav {
+		border-bottom: 3px solid #e3e5e5;
+		margin-right: 20px
+	}
+	#messageQuestion span {
+		background-color: #666;
+		color: #fff;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		display: block;
+		margin: 10px;
+		padding: 10px
+	}
+	#cuantos-resultados {
+		text-align: center
+	}
+	.porcent_controls {
+		background-image: url(images/bg_porcentaje_cc.png);
+		background-position: -1px bottom;
+		padding-bottom: 15px;
+		padding-left: 9px;
+		width: 290px
+	}
+	#cuerpo_int #ruta_navegacion {
+		display: inline-block;
+		float: left;
+		margin: 14px 21px;
+		max-width: 600px;
+		width: 960px;
+		line-height: 20px
+	}
+	#cuerpo_int #ruta_navegacion a {
+		color: #74902a;
+		text-decoration: underline
+	}
+	#cuerpo_int #contenido_principal {
+		float: left;
+		line-height: 17px;
+		margin: 0 10px 0 3px;
+		width: 639px
+	}
+	#cuerpo_int #columna_articulos {
+		background-image: url(images/bg_nav_derecha_2.png);
+		background-repeat: no-repeat;
+		float: left;
+		padding: 0;
+		width: 308px;
+		font-size: 14px;
+		min-height: 576px
+	}
+	#columna_articulos h2 {
+		-moz-border-bottom-colors: none;
+		-moz-border-left-colors: none;
+		-moz-border-right-colors: none;
+		-moz-border-top-colors: none;
+		background-color: #e6e7e9;
+		border-color: #e0e3e2 #e0e3e2 -moz-use-text-color;
+		border-image: none;
+		border-style: solid solid none;
+		border-width: 1px 1px medium;
+		margin: 0 0 0 14px;
+		padding: 10px 0 10px 10px;
+		font-weight: 700
+	}
+	.topic_intro h2 {
+		font-size: 17px;
+		font-weight: 700;
+		line-height: 19px;
+		padding-top: 20px
+	}
+	#cuerpo_int ul#navegacion_local {
+		margin: 0;
+		padding: 0 0 0 14px
+	}
+	#cuerpo_int #navegacion_local li a {
+		border-top: 1px solid #e0e3e3;
+		color: #000;
+		display: block;
+		padding: 10px 12px;
+		text-decoration: none
+	}
+	.rssS li {
+		font-size: 12px;
+		padding-bottom: 5px;
+		padding-left: 20px
+	}
+	.rssS li a {
+		border-top: 1px solid #e0e3e3;
+		color: #000;
+		display: block;
+		text-decoration: none
+	}
+	.rssS li a:hover {
+		text-decoration: underline
+	}
+	.rssS .textmayusorange {
+		font-size: 150%
+	}
+	#cuerpo_int #navegacion_local li a:hover {
+		background-color: #e7e9e9
+	}
+	li.swb-menumap-cur {
+		background-color: #ccc;
+		display: block;
+		padding: 10px 0 5PX 13px;
+		text-decoration: none
+	}
+	#contenido_principal .vineta_01 {
+		float: left
+	}
+	#contenido_principal .topic_intro {
+		float: left;
+		height: 217px;
+		margin-bottom: 16px;
+		padding-left: 20px;
+		position: relative;
+		width: 304px
+	}
+	#contenido_principal .topic_intro p {
+		font-size: 15px;
+		padding-top: 15px;
+		position: absolute
+	}
+	.texto_principal {
+		padding-top: 40px;
+		padding-bottom: 40px
+	}
+	.texto_principal h3 {
+		font-weight: 700;
+		font-size: 14px
+	}
+	.texto_principal p {
+		margin: 5px 0
+	}
+	#contenido_principal .intro_01 {
+		background-color: #dce0e1;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px
+	}
+	.vineta_01 img {
+		border-right: 1px solid #afb1b0;
+		border-bottom: 1px solid #afb1b0;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px
+	}
+	.login #login {
+		background-image: url(images/bg_login.png);
+		background-repeat: repeat-y;
+		border: 1px solid #a1a1a1;
+		margin: 100px auto;
+		padding: 20px 0 49px;
+		width: 289px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4)
+	}
+	.login #login p {
+		text-align: center;
+		padding: 30px 0 0
+	}
+	.login #login input[type="text"], .login #login input[type="password"] {
+		background-color: #fff;
+		border: 1px solid #a1a1a1;
+		width: 200px;
+		padding: 5px
+	}
+	.login #login input[type="button"] {
+		width: 211px
+	}
+	.login #login a.recuperar, .login #login a:visited.recuperar {
+		background-image: url(images/div_login.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+		display: block;
+		padding-top: 20px;
+		width: 100%;
+		color: #000
+	}
+	.Quebec {
+		background: url(images/ofertas-Quebec.jpg) transparent no-repeat;
+		height: 200px;
+		margin-top: 50px
+	}
+	.Quebec>a {
+		background-color: #548dc7;
+		color: #fff;
+		display: inline-block;
+		font-weight: 700;
+		margin: 127px 100px;
+		padding: 13px 20px;
+		text-decoration: none;
+		width: auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px
+	}
+	.Quebec>a:hover, .estudiarCanada>a:hover {
+		background-color: #326bb1
+	}
+	.estudiarCanada {
+		background: url(images/estudiarCanada.jpg) transparent no-repeat;
+		height: 286px;
+		margin: 15px auto 40px;
+		text-align: center;
+		width: 482px
+	}
+	.estudiarCanada>a {
+		background-color: #548dc7;
+		color: #fff;
+		display: inline-block;
+		font-weight: 700;
+		margin-top: 126px;
+		padding: 13px 20px;
+		text-decoration: none;
+		width: auto;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px
+	}
+	#beneficiaries table#beneficiarios {
+		width: 962px
+	}
+	#beneficiaries table#beneficiarios th.benef_dom {
+		width: 300px
+	}
+	.inf_com label.fl {
+		margin-right: 16px
+	}
+	#perfilForm .datosContacto .offer_pref .margin_top_20 {
+		border-top: 1px solid #c8caca
+	}
+	#ProgramaForm .datos_personales .data_edit .disc li {
+		font-weight: 700;
+		margin: 0 20px 5px 0
+	}
+	#ProgramaForm .datos_personales .data_edit .disc li div {
+		margin-right: 5px
+	}
+	#ProgramaForm .datos_personales .disp label, #ProgramaForm .datos_personales .disp
+		{
+		display: inline-block
+	}
+	#ProgramaForm .datos_personales .inf_com label, #ProgramaForm .datos_personales .inf_com .labeled
+		{
+		line-height: 20px !important;
+		margin-bottom: 10px
+	}
+	.claro .dijitSelect .dijitInputField, .claro .dijitTextBox .dijitInputField
+		{
+		padding: 6px 2px 5px 5px
+	}
+	.datos_personales fieldset.otros_estudios .otros_estudios.bloque {
+		border-bottom: 1px solid #ddd;
+		clear: both;
+		padding-bottom: 20px;
+		padding-top: 20px
+	}
+	#myopportunities .tab_block .requistos ul li {
+		background-image: url(images/bulletApp_1.png);
+		background-position: 0 6px;
+		background-repeat: no-repeat;
+		margin-left: 20px;
+		margin-top: 5px;
+		padding-left: 13px
+	}
+	.miEspacio #myopportunities .tab_block p {
+		line-height: 18px
+	}
+	.miEspacio .sublevelTitle .subsublevel {
+		border-top: 1px solid #333;
+		display: block;
+		letter-spacing: .02em;
+		line-height: 20px;
+		margin-top: 10px;
+		padding-top: 9px
+	}
+	#registroEmpresaForm #divDatosContacto #agregaTelefono .eliminar_bloque
+		{
+		float: left;
+		margin-top: 50px;
+		margin-right: 20px
+	}
+	#registroEmpresaForm #extensionDivAddCelular_2 .dijitDisabled,
+		#registroEmpresaForm #extensionDivAddCelular_1 .dijitDisabled {
+		width: 136px
+	}
+	#reporte.ocupate_ofertas .offer .odd, #reporte.ocupate_ofertas .offer .odd2
+		{
+		border-top: 2px solid #a3a3a3
+	}
+	#reporte.ocupate_ofertas .offer font {
+		background-color: #e9f7c5 !important
+	}
+	#reporte.ocupate_ofertas .offer strong font {
+		background-color: #d5eb9b !important;
+		font-weight: 700
+	}
+	.dimmed td {
+		color: #b2b2b2 !important
+	}
+	.dimmed td a {
+		color: #c3d0b5 !important
+	}
+	.empresas .formApp.miEspacio #appHolder3 #registroRequisitos fieldset.requsitios #agregaConocimiento input#conocAdicional_1,
+		.empresas .formApp.miEspacio #appHolder3 #registroRequisitos fieldset.requsitios #agregaConocimiento input#conocAdicional_2,
+		.empresas .formApp.miEspacio #appHolder3 #registroRequisitos fieldset.requsitios #agregaConocimiento #selectConocimientoExperiencia_1,
+		.empresas .formApp.miEspacio #appHolder3 #registroRequisitos fieldset.requsitios #agregaConocimiento #selectConocimientoExperiencia_2
+		{
+		background: #fff none repeat scroll 0 0;
+		border: 1px solid #dddede;
+		height: 29px;
+		padding: 0 0 0 3px;
+		width: 100%
+	}
+	.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #cLada,
+		.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #ttelefono,
+		.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #eExtension
+		{
+		background: #fff none repeat scroll 0 0;
+		border: 1px solid #dddede;
+		height: 29px;
+		padding: 0 0 0 3px
+	}
+	.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #cLada
+		{
+		padding: 0 !important
+	}
+	.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #ttelefono,
+		.empresas .formApp.miEspacio #appHolder3 #registroDatosContacto fieldset.datos_contacto #agregaTelefono #eExtension
+		{
+		margin-right: 20px
+	}
+	#registroRequisitos #agregaIdioma .grid1_3.fl select {
+		width: 292px;
+		height: 29px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #dddede
+	}
+	#registroEmpresaForm .generalesOferta.bloque h3 {
+		background-image: none;
+		text-align: center
+	}
+	.empresas .formApp.miEspacio #appHolder3.app_holder #registroEmpresaForm .generalesOferta.bloque
+		{
+		width: 787px
+	}
+	#busquedaCandidatosForm .agregarOpciones {
+		margin-bottom: 20px
+	}
+	#busquedaCandidatosForm li label span {
+		color: #000;
+		font-weight: 400;
+		margin: 0 0 0 5px
+	}
+	#busquedaCandidatosForm {
+		width: auto !important
+	}
+	#busquedaCandidatosForm .formApp legend {
+		width: 952px !important
+	}
+	.dijitDialogUnderlayWrapper {
+		z-index: 9999 !important
+	}
+	.claro .dijitDialog, .dijitDialogFixed.dijitDialog {
+		z-index: 10000 !important;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px
+	}
+	.claro .dijitPopup.dijitComboBoxMenuPopup {
+		z-index: 10001 !important;
+		max-width: 926px !important
+	}
+	div#reporte.ocupate_ofertas table.offer tbody tr td div.profesion {
+		padding: 0 !important
+	}
+	.suggestionsBox {
+		background-color: #fff;
+		border: 1px solid #ccc;
+		margin-top: 0 !important
+	}
+	#registraCandidatoEventoForm #entidad {
+		width: 282px
+	}
+	#registraCandidatoEventoForm #entidad option {
+		padding: 5px 0 5px 5px
+	}
+	#job_ul>li {
+		font-weight: 400
+	}
+	#escolaridadForm .escolaridad .dijitReset.dijitInputField.dijitButtonText
+		{
+		width: 46px
+	}
+	#mis-ofertas #ofertas-head .titulo {
+		width: 120px
+	}
+	#divRazonSocial #personaMoral #btnRevisarOrtografia.boton_naranja {
+		float: right;
+		margin: 10px
+	}
+	.bvenida_user p {
+		margin: 1px 0 0
+	}
+	.bvenida_user .iniciaSesion_Int {
+		color: #fff;
+		text-decoration: none;
+		font-weight: 400;
+		background-color: #6e8d3a;
+		padding: 8px 11px;
+		margin: 0 0 0 16px
+	}
+	.bvenida_user .iniciaSesion_Int:hover {
+		text-decoration: underline
+	}
+	.bvenida_user .candidato, .bvenida_user .empresa {
+		color: #4f6710;
+		text-decoration: none;
+		margin: 0 1px
+	}
+	.bvenida_user .empresa:hover, .bvenida_user .candidato:hover {
+		text-decoration: underline
+	}
+	.miEspacio #ruta_navegacion {
+		display: inline-block;
+		float: left;
+		margin: 14px 10px;
+		max-width: 901px;
+		width: 997px
+	}
+	.miEspacio #ruta_navegacion a {
+		color: #74902A
+	}
+	.textBox100, .textbox80 {
+		width: 100% !important
+	}
+	.idiomas legend {
+		width: 930px !important
+	}
+	.btnSession {
+		background-image: url(images/bg_bt_1.png) !important;
+		background-color: #666;
+		background-position: 0 center;
+		background-repeat: repeat-x;
+		border: 1px solid #888787;
+		color: #fff !important;
+		cursor: pointer;
+		font-weight: 700;
+		line-height: 12px;
+		padding: 7px 0 !important;
+		height: 20px !important;
+		margin-left: 35%
+	}
+	.btnSession .dijitButtonNode {
+		padding: 9px 25px !important;
+		margin-top: -8px !important
+	}
+}
+
+@media print {
+	.wrapper {
+		font-family: serif;
+		font-size: 16px
+	}
+	.form_nav, .screen_bienvenido .cntrl_alta, .end_links, .sec_menu,
+		.address_1 .social_1, .pleca_sup1, .nav_complement_1, .ft_bnnr,
+		.address_1 .McAfee {
+		display: none
+	}
+	.screen_bienvenido .user_psswd {
+		box-shadow: none
+	}
+	.flow_1 {
+		font-size: 21px;
+		font-weight: 700;
+		height: 32px;
+		padding: 23px 14px 0;
+		border-bottom: 1px solid #666;
+		margin-top: 50px
+	}
+	.bienvenido_1 {
+		padding-top: 200px !important;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 24px;
+		text-align: center
+	}
+	.screen_bienvenido .access_1 {
+		font-size: 12px;
+		line-height: 21px;
+		padding-top: 70px;
+		text-align: center
+	}
+	.screen_bienvenido .user_psswd {
+		background-color: #fdfefe;
+		border: 1px solid #666;
+		font-size: 16px;
+		height: auto;
+		margin: 20px auto auto;
+		text-align: center;
+		width: 340px;
+		padding: 10px 30px 30px
+	}
+	.screen_bienvenido .user_psswd .labeled {
+		margin-top: 30px
+	}
+	.screen_bienvenido .fecha_alta {
+		font-size: 12px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		text-align: center
+	}
+	.screen_bienvenido .fecha_alta p {
+		padding-top: 30px
+	}
+	.msg_listo {
+		font-size: 12px;
+		padding-bottom: 25px;
+		padding-top: 25px;
+		text-align: center
+	}
+	.address_txt {
+		width: 960px !important;
+		position: absolute;
+		bottom: 0;
+		padding: 0 !important;
+		border-bottom: 1px solid #000
+	}
+	acronym {
+		text-decoration: none !important
+	}
+}

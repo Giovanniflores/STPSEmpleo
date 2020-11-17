@@ -1,0 +1,231 @@
+@CHARSET "UTF-8";
+
+.foto_cv {
+	background-size: 165px 165px !important;
+	margin: 5px;
+}
+
+.titulo_cv {
+	font-size: 30px;
+	font-family: sans-serif,Arial, Helvetica;
+	font-weight: bold;
+	color: rgba(53, 108, 61, 1);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.nombre_cv {
+	font-size: 19px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: rgba(125, 125, 125, 125);
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.texto_cv {
+	font-size: 11px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: black;
+    padding-left: 10px;    
+}
+
+.textoBold_cv {
+	font-size: 11px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: black;
+    padding-left: 10px;    
+    font-weight: bold;
+    vertical-align: middle !important;
+}
+
+.textoColor_cv {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: rgba(53, 108, 61, 1);
+	text-align: right; 
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+.textoColorLeft_cv {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: rgba(53, 108, 61, 1);
+	text-align: left; 
+    font-weight: bold;
+    line-height: 20px;
+    
+}
+
+.subtituloGris {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: rgba(125, 125, 125, 125);
+	text-align: left; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.subtituloGrisCentro {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: rgba(125, 125, 125, 125);
+	text-align: center; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.hr_cv {
+  height: 1px;
+  background-color: rgba(125, 125, 125, 125);
+}
+
+.texto10_cv {
+	font-size: 10px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: black;    
+}
+
+.lineaVertical{
+	border-right: 2px dotted 
+	rgba(125, 125, 125, 125) !important;
+}
+
+.bordePunteado{
+	border-right: 2px dotted 
+	rgba(125, 125, 125, 125) !important;
+	border-left: 2px dotted 
+	rgba(125, 125, 125, 125) !important;
+	border-bottom: 2px dotted 
+	rgba(125, 125, 125, 125) !important;
+	border-top: 2px dotted 
+	rgba(125, 125, 125, 125) !important;
+}
+
+.texto14Top_cv {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: black;
+	text-align: right;
+}
+
+.texto14_cv {
+	font-size: 14px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: black;
+}
+
+.imgIconito {
+    width:20px;
+    height:20px;
+    vertical-align: middle;
+}
+
+.imgExp {
+    max-width:20px;
+    max-height:44px;
+    vertical-align: middle;
+}
+
+.imgFormacion {
+    max-width:29px;
+    max-height:20px;
+    vertical-align: middle;
+}
+
+.tabla_cv, #tablaCV1, #subTabla1 {
+	border: 0px;
+	border-bottom: 0px !important;
+	border-top:  0px !important;
+	border-left:  0px !important;
+	border-right:  0px !important;
+	line-height: 0px !important;
+	vertical-align: top !important;
+    padding-left: 0px;
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    padding-right: 0px;
+}
+
+.tabla_pdf, #tablapdf, #subTablapdf {
+	border: 0px;
+	border-bottom: 0px !important;
+	border-top:  0px !important;
+	border-left:  0px !important;
+	border-right:  0px !important;
+	line-height: 0px !important;
+	vertical-align: top !important;
+    padding-left: 0px;
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+    padding-right: 0px;
+    width: 600px;
+}
+
+.alineaIdioma {
+	vertical-align: bottom !important;
+	align: center;
+}
+
+.alineaTxtIdioma {
+	text-align: left;
+	vertical-align: middle !important;
+	height: 85px;
+}
+
+#monito {
+	vertical-align: bottom !important;
+}
+
+#tdArriba, #tdMedio1, #ImgMedio1, #tdMedio2 {
+	align: right !important;
+	max-width: 149px; 
+	max-height: 35px; 
+	padding-bottom:0px !important;
+	padding-left:  0px !important;
+	padding-right: 0px !important;
+	padding-top:   0px !important;
+	border-bottom: 0px !important;
+	border-top:  0px !important;
+	border-left:  0px !important;
+	border-right:  0px !important;
+	line-height:  0px !important;
+}
+
+#tdLimpio1, #trLimpio1 {
+	padding-bottom:0px !important;
+	padding-left:  0px !important;
+	padding-right: 0px !important;
+	padding-top:   0px !important;
+	border-bottom: 0px !important;
+	border-top:  0px !important;
+	border-left:  0px !important;
+	border-right:  0px !important;
+	line-height:  0px !important;
+	
+}
+
+#sueldoTD {
+	background-color: DarkGray;
+	-webkit-background: rgba(61, 61, 61, 61);
+	height: 25px;
+	vertical-align: middle !important;
+	font-size: 16px;
+	font-family: sans-serif,Arial, Helvetica;
+	color: white;
+}
+#cuadroTD {
+	background-color: rgb(239, 245, 245);
+	scrollbar-shadow-color: none;
+	text-align: start !important;
+	scrollbar-shadow-color: none;
+	-webkit-scrollbar: none;
+	resize: none;
+	overflow: auto;
+	text-align: center;
+	vertical-align: middle;
+}

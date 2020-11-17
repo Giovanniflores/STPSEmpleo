@@ -1,0 +1,158 @@
+@charset "utf-8";
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+b, i, center,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	color: #517000;
+}
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+.wrapper {
+	margin: auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix {
+	clear: both;
+}
+h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+h1 span {
+	font-weight: bold;
+	display: block;
+}
+.logos {
+	padding-bottom: 30px;
+}
+.fecha {
+	background-color: #75a200;
+	color: #ffffff;
+	font-size: 14px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left:19px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.redaccion {
+	background-color: #ffffff;
+	border: 1px solid #75a200;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding: 40px 20px 0;
+	font-size: 14px;
+	position: relative
+}
+.redaccion.dat {
+	margin-top: -13px;
+	margin-bottom: 10px;
+}
+.redaccion.curr {
+	padding-bottom: 76px;
+}
+.empresa {
+	font-size: 16px;
+	padding-top: 28px;
+	line-height: 24px;
+}
+.cont_cart {
+	padding-top: 40px;
+	line-height: 20px;
+}
+.cont_cart p {
+	padding-bottom: 15px;
+}
+.firmaCand {
+	margin-top: 20px;
+	text-align: center;
+}
+.firma {
+	width: 326px;
+	margin: auto;
+	height: 65px;
+	border-bottom: 1px solid #000000;
+}
+.firmaCand .candNom {
+	padding-top: 5px;
+	line-height: 24px;
+	padding-bottom: 100px;
+}
+.calce {
+	position: absolute;
+	bottom: 23px;
+	font-size: 12px;
+	line-height: 14px;
+}
+.redaccion.curr h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #666666;
+	padding-bottom: 15px;
+	margin-bottom: 46px;
+	border-bottom: 1px solid #000000;
+}
+.redaccion.curr ul li {
+	line-height: 24px;
+}
+.redaccion.curr h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	padding-top: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}

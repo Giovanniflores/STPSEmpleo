@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport2" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b74dd4de-fe4f-4d39-ad56-515950ee0b77">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="icono" class="java.awt.Image"/>
+	<queryString>
+		<![CDATA[SELECT F_DESC_CATALOGO(11, CI.ID_IDIOMA) as IDIOMA
+,NVL(ID_DOMINIO_HABLA,0) AS  HABLAR
+,NVL(ID_DOMINIO_ESCRITO,0) AS  ESCRIBIR
+,NVL(ID_DOMINIO_LECTURA,0) AS  LEER
+,NVL(ID_DOMINIO_COMPRENSION,0) AS  COMPRENDER
+,CASE WHEN ID_DOMINIO_HABLA = 1 THEN A2.IMAGEN
+      WHEN ID_DOMINIO_HABLA = 2 THEN A3.IMAGEN
+      WHEN ID_DOMINIO_HABLA = 3 THEN A4.IMAGEN
+  ELSE A1.IMAGEN
+END AS BARRITA1
+,CASE WHEN ID_DOMINIO_ESCRITO = 1 THEN A2.IMAGEN
+      WHEN ID_DOMINIO_ESCRITO = 2 THEN A3.IMAGEN
+      WHEN ID_DOMINIO_ESCRITO = 3 THEN A4.IMAGEN
+  ELSE A1.IMAGEN
+END AS BARRITA2
+,CASE WHEN ID_DOMINIO_LECTURA = 1 THEN A2.IMAGEN
+      WHEN ID_DOMINIO_LECTURA = 2 THEN A3.IMAGEN
+      WHEN ID_DOMINIO_LECTURA = 3 THEN A4.IMAGEN
+  ELSE A1.IMAGEN
+END AS BARRITA3
+,CASE WHEN ID_DOMINIO_COMPRENSION = 1 THEN A2.IMAGEN
+      WHEN ID_DOMINIO_COMPRENSION = 2 THEN A3.IMAGEN
+      WHEN ID_DOMINIO_COMPRENSION = 3 THEN A4.IMAGEN
+  ELSE A1.IMAGEN
+END AS BARRITA4
+FROM CANDIDATO_IDIOMA CI
+INNER JOIN IMAGENES_CV A1 ON A1.ID=3
+INNER JOIN IMAGENES_CV A2 ON A2.ID=4
+INNER JOIN IMAGENES_CV A3 ON A3.ID=5
+INNER JOIN IMAGENES_CV A4 ON A4.ID=6
+WHERE CI.ID_CANDIDATO = $P{idCandidato}
+AND CI.ID_IDIOMA > 1
+ORDER BY CI.ID_IDIOMA]]>
+	</queryString>
+	<field name="IDIOMA" class="java.lang.String"/>
+	<field name="HABLAR" class="java.lang.Integer"/>
+	<field name="ESCRIBIR" class="java.lang.Integer"/>
+	<field name="LEER" class="java.lang.Integer"/>
+	<field name="COMPRENDER" class="java.lang.Integer"/>
+	<field name="BARRITA1" class="java.awt.Image"/>
+	<field name="BARRITA2" class="java.awt.Image"/>
+	<field name="BARRITA3" class="java.awt.Image"/>
+	<field name="BARRITA4" class="java.awt.Image"/>
+	<title>
+		<band height="47">
+			<staticText>
+				<reportElement x="40" y="19" width="195" height="16" forecolor="#7D7D7D" uuid="4c8ab056-4e4f-440d-a610-5f344ad1e633"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOMINIO DE IDIOMAS]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="41" width="280" height="1" forecolor="#7D7D7D" uuid="c506e4dc-f9c2-42b1-8d7c-45b4ca4b78f3"/>
+			</line>
+			<image>
+				<reportElement x="0" y="15" width="20" height="20" uuid="bcc260fa-e703-4c71-9ea4-9ec715ee645a"/>
+				<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="82" splitType="Stretch">
+			<textField>
+				<reportElement x="4" y="6" width="100" height="15" uuid="9314a3e6-822a-4841-881e-81eb3f8061c6"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{IDIOMA}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="55" y="61" width="45" height="15" uuid="20aae8c1-40da-4e0c-b804-6b90c77f88b3"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[hablar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="156" y="61" width="45" height="15" uuid="0e4474f2-fc17-4623-a949-35ffcb7e5d99"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[leer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="105" y="61" width="45" height="15" uuid="bd452429-5044-424a-b7b4-aa902cb6c8b8"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[escribir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="61" width="55" height="15" uuid="9494066b-ae9b-4aff-8820-3b301318a984"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[comprender]]></text>
+			</staticText>
+			<image vAlign="Bottom">
+				<reportElement x="59" y="26" width="39" height="30" uuid="7f5e03d0-de0b-4018-8503-8798ccd0814b"/>
+				<imageExpression><![CDATA[$F{BARRITA1}]]></imageExpression>
+			</image>
+			<image vAlign="Bottom">
+				<reportElement x="108" y="26" width="39" height="30" uuid="27552d74-35fe-47bb-8e2e-f400dd529b5e"/>
+				<imageExpression><![CDATA[$F{BARRITA2}]]></imageExpression>
+			</image>
+			<image vAlign="Bottom">
+				<reportElement x="159" y="26" width="39" height="30" uuid="a86b074f-4c56-45b2-b41a-c847be628094"/>
+				<imageExpression><![CDATA[$F{BARRITA3}]]></imageExpression>
+			</image>
+			<image vAlign="Bottom">
+				<reportElement x="210" y="26" width="39" height="30" uuid="1f63047a-63ab-4c4b-a7df-1d567a3508d0"/>
+				<imageExpression><![CDATA[$F{BARRITA4}]]></imageExpression>
+			</image>
+			<line>
+				<reportElement x="55" y="60" width="45" height="1" forecolor="#C0C0C0" uuid="bf57fc5a-aea3-4663-808e-917521a0280e"/>
+			</line>
+			<line>
+				<reportElement x="105" y="60" width="45" height="1" forecolor="#C0C0C0" uuid="6490bf94-8619-4cf3-8876-fc44b6243c04"/>
+			</line>
+			<line>
+				<reportElement x="156" y="60" width="45" height="1" forecolor="#C0C0C0" uuid="805b320e-9e04-4739-8e3e-c7f05e52e782"/>
+			</line>
+			<line>
+				<reportElement x="208" y="60" width="45" height="1" forecolor="#C0C0C0" uuid="0de13c8d-fc5f-4513-a154-d6b7732bfb39"/>
+			</line>
+		</band>
+	</detail>
+	<noData>
+		<band height="25"/>
+	</noData>
+</jasperReport>

@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* SpryTabbedPanels.css - version 0.6 - Spry Pre-Release 1.6.1 */
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+.TabbedPanels {
+	overflow: hidden;
+	background:#EEE;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+	border-radius: 0 0 9px 9px;
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+ul.TabbedPanelsTabGroup {	
+	background:url(fnd_tabs.jpg) no-repeat;
+	height:30px;
+	display:block;
+	}
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 1.1em sans-serif;
+	background:url(fnd_tabs.jpg) -10px 0;
+	list-style: none;
+	border-right:1px solid #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+.TabbedPanelsTab:first-child{ background:url(fnd_tabs.jpg) left; padding-right:15px;}
+.TabbedPanelsTab:last-child{border-right:none; padding-left:20px; background:url(fnd_tabs.jpg) right;}
+
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+
+.TabbedPanelsTabSelected {
+	background-color: black;
+	height:25px;
+}
+
+.TabbedPanelsTab a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.TabbedPanelsTabSelected {
+	background:url(tab_hover.png) repeat-x top center; border:none;
+	color:#fff;
+}
+
+.TabbedPanelsTabSelected.TabbedPanelsTab:first-child  { background:url(tab_left_hover.png) no-repeat; color:#fff;}
+.TabbedPanelsTabSelected.TabbedPanelsTab:last-child{background:url(tab_right_hover.png) no-repeat right; color:#fff;}
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	border:none;
+	font-size: 1.2em;
+}
+
+.TabbedPanelsContent {
+	overflow: hidden;
+	padding: 4px;
+	background:url(tab_subseccion.png) repeat-x bottom #EEE;
+	border-radius: 0 0 9px 9px;
+}
+
+.TabbedPanelsContentVisible {
+	height: 161px;
+}
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+}
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+}
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+	}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear:both !important;
+}
+.TabbedPanelsTab {
+	 overflow: visible !important;
+	 display: block !important;
+	 clear:both !important;
+}
+#wrapper #cuerpo #contenido_principal #perfiles #TabbedPanels1 .TabbedPanelsContentGroup .TabbedPanelsContent .links_perfil {
+	display:block !important;
+	background-color: #FF0 !important;
+	height: 200px !important;
+	width: 100% !important;
+	bottom: auto;}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport2" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b74dd4de-fe4f-4d39-ad56-515950ee0b77">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="177"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT COUNT(*) OVER () AS TOTAL
+, CONOCIMIENTO_HABILIDAD
+, ROWNUM AS NUM
+, A.IMAGEN AS MEDIO
+, A1.IMAGEN AS ABAJODER
+FROM CANDIDATO_CONOCIM_HABILIDAD
+INNER JOIN IMAGENES_CV A ON A.ID=19
+INNER JOIN IMAGENES_CV A1 ON A1.ID=1
+WHERE ID_CANDIDATO =  $P{idCandidato}]]>
+	</queryString>
+	<field name="TOTAL" class="java.lang.Integer"/>
+	<field name="CONOCIMIENTO_HABILIDAD" class="java.lang.String"/>
+	<field name="NUM" class="java.lang.Integer"/>
+	<field name="MEDIO" class="java.awt.Image"/>
+	<field name="ABAJODER" class="java.awt.Image"/>
+	<variable name="total" class="java.lang.Integer" incrementType="Report" calculation="Count"/>
+	<variable name="img1" class="java.awt.Image">
+		<initialValueExpression><![CDATA[$F{MEDIO}]]></initialValueExpression>
+	</variable>
+	<variable name="variable1" class="java.awt.Image">
+		<variableExpression><![CDATA[( $F{TOTAL} > $F{NUM} ? $F{MEDIO} : $F{ABAJODER})]]></variableExpression>
+		<initialValueExpression><![CDATA[$F{MEDIO}]]></initialValueExpression>
+	</variable>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="104" height="24" uuid="2df02e63-daff-4af8-b129-29327ec7064a">
+					<printWhenExpression><![CDATA[$V{variable1}.equals( $F{ABAJODER})]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{ABAJODER}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="0" y="-1" width="104" height="24" uuid="57fb3089-cf27-44fa-8e43-67ee5a62d427">
+					<printWhenExpression><![CDATA[$V{variable1}.equals( $F{MEDIO} )]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$F{MEDIO}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="104" y="7" width="236" height="15" uuid="b105fa5d-95b2-4d98-9d06-00910fc72b14"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CONOCIMIENTO_HABILIDAD}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

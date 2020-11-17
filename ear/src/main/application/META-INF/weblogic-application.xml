@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-application xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.4/weblogic-application.xsd">
+    <!--weblogic-version:12.1.1-->
+    <wls:application-param>
+        <wls:param-name>webapp.encoding.default</wls:param-name>
+        <wls:param-value>UTF-8</wls:param-value>
+    </wls:application-param>
+    <!-- Elimina traza de Xerces -->
+     <xml>
+        <parser-factory>
+            <saxparser-factory>org.apache.xerces.jaxp.SAXParserFactoryImpl</saxparser-factory>
+            <document-builder-factory>weblogic.xml.jaxp.WebLogicDocumentBuilderFactory</document-builder-factory>
+            <transformer-factory>org.apache.xalan.processor.TransformerFactoryImpl</transformer-factory>
+        </parser-factory>
+    </xml>
+    
+    
+</wls:weblogic-application>

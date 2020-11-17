@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport2" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b74dd4de-fe4f-4d39-ad56-515950ee0b77">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="icono" class="java.awt.Image"/>
+	<queryString>
+		<![CDATA[SELECT F_DESC_CATALOGO(ID_CATALOGO,ID_CATALOGO_OPCION) AS CERTIFICACION
+FROM CAN_CREDENCIAL_CERTIFICACION
+WHERE ID_CANDIDATO = $P{idCandidato}]]>
+	</queryString>
+	<field name="CERTIFICACION" class="java.lang.String"/>
+	<title>
+		<band height="47">
+			<staticText>
+				<reportElement x="40" y="22" width="195" height="16" forecolor="#7D7D7D" uuid="4c8ab056-4e4f-440d-a610-5f344ad1e633"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CERTIFICACIONES]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="41" width="280" height="1" forecolor="#7D7D7D" uuid="c506e4dc-f9c2-42b1-8d7c-45b4ca4b78f3"/>
+			</line>
+			<image>
+				<reportElement x="0" y="6" width="20" height="32" uuid="bb9e241d-1dcf-4065-b332-1b033bb92ceb"/>
+				<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<ellipse>
+				<reportElement x="17" y="6" width="5" height="5" uuid="57e4d7c6-a352-4b74-870c-6a42c45416cb"/>
+			</ellipse>
+			<textField>
+				<reportElement x="29" y="2" width="235" height="15" uuid="f68798db-4544-4995-b43e-824e405020fd"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CERTIFICACION}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,39 @@
+
+
+/* ERROR 404 */
+html { background:url("fnd_html2.jpg") repeat-x scroll center bottom transparent; !important }
+
+.titulo404 {
+	color:#454545;
+	height:100px;
+	padding-left:60px;
+	padding-top:30px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(warning.png.png);
+	background-repeat: no-repeat;
+	background-position: 0px 30px;
+}
+#contenido_principal #errorPage h2 {
+	line-height: 1.2em;
+}
+#errorPage h3 {
+	margin-top:30px;
+}
+.subTituloSeccion { color:#FF6600; font-size:1.1em; }
+#wrapper #errorPage ol { margin-left:50px; margin-top:10px;}
+#wrapper #errorPage ol li { color:#606060; font-size:15px; list-style-type:decimal}
+#errorPage label { display:none;}
+#formaq .texto { border:1px solid #666666; color:#666666; height:22px; margin:30px 0 0; width:300px;}
+#errorPage form { margin-left:150px;}
+#errorPage{ margin:0 0 0 100px; }
+p.desc404 {
+	color:#454545;
+	font-family:'Droid Sans';
+	font-size:14px;
+	font-weight:bold;
+	width:600px;
+	padding-left: 60px;
+}
+#cuerpo_int #contenido_principal { background:url("sombra_contenido.png") repeat-x scroll 0 0 #FFFFFF; float:left; margin-left:3px; width:956px; !important }
+form input.usuario { border:1px solid #666666; color:#666666; height:22px; margin:30px 0 0; width:130px; }

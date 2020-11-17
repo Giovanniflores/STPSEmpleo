@@ -1,0 +1,324 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-3.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<title>Carta Presentaci&oacute;n</title>
+	
+	<style type="text/css" media="all">
+
+	@charset "utf-8";
+	html, body, div, span, applet, object,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, tt, var,
+	b, i, center,
+	dl, dt, dd, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	a {
+		color: #517000;
+	}
+	body {
+	    font-family: Verdana, Geneva, sans-serif;
+	}
+	.wrapper {
+		margin: auto;
+	}
+	.fl {
+		float: left;
+	}
+	.fr {
+		float: right;
+	}
+	.clearfix {
+		clear: both;
+	}
+	h1 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	h1 span {
+		font-weight: bold;
+		display: block;
+	}
+	.logos {
+		padding-bottom: 30px;
+	}
+	.fecha {
+		background-color: #75a200;
+		color: #ffffff;
+		font-size: 14px;
+		padding-top: 21px;
+		padding-bottom: 21px;
+		padding-left:19px;
+		-webkit-border-top-left-radius: 8px;
+		-webkit-border-top-right-radius: 8px;
+		-moz-border-radius-topleft: 8px;
+		-moz-border-radius-topright: 8px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+	.redaccion {
+		background-color: #ffffff;
+		border: 1px solid #75a200;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		padding: 40px 20px 0;
+		font-size: 14px;
+		position: relative
+	}
+	.redaccion.dat {
+		margin-top: -13px;
+		margin-bottom: 10px;
+	}
+	.redaccion.curr {
+		padding-bottom: 76px;
+	}
+	.empresa {
+		font-size: 16px;
+		padding-top: 28px;
+		line-height: 24px;
+	}
+	.cont_cart {
+		padding-top: 40px;
+		line-height: 20px;
+	}
+	.cont_cart p {
+		padding-bottom: 15px;
+	}
+	.firmaCand {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.firma {
+		width: 326px;
+		margin: auto;
+		height: 65px;
+		border-bottom: 1px solid #000000;
+	}
+	.firmaCand .candNom {
+		padding-top: 5px;
+		line-height: 24px;
+		padding-bottom: 100px;
+	}
+	.calce {
+		position: absolute;
+		bottom: 23px;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.redaccion.curr h2 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+		color: #666666;
+		padding-bottom: 15px;
+		margin-bottom: 46px;
+		border-bottom: 1px solid #000000;
+	}
+	.redaccion.curr ul li {
+		line-height: 24px;
+	}
+	.redaccion.curr h3 {
+		font-family: Tahoma, Geneva, sans-serif;
+		padding-top: 30px;
+		font-size: 18px;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
+
+	</style>
+	
+</head>
+
+<body style="">
+<div class="wrapper">
+	<div class="logos">
+		<div class="logoEmpleo fl">
+			<img src="https://www.empleo.gob.mx/cv_templates/cartaPresentacion/images/docs_03.png" />
+		</div>
+        <div class="fr">
+            <div class="logoSTPS fl">
+                <img src="https://www.empleo.gob.mx/cv_templates/cartaPresentacion/images/docs_05.png" />
+            </div>
+            <div class="logoSNE fl">
+                <img src="https://www.empleo.gob.mx/cv_templates/cartaPresentacion/images/docs_06.png" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+	</div>
+	<h1><span>SERVICIO NACIONAL DE EMPLEO</span>
+		CARTA DE PRESENTACI&Oacute;“N DE CANDIDATOS</h1>
+	<div class="fecha">
+		<p th:text="${fecha}"></p>
+	</div>
+	<div class="redaccion dat">
+		<div class="empresa">
+			<p th:text="${nombre_Contacto}"></p>
+			<p th:text="${nombre_Empresa}"></p>
+			<strong>Presente</strong>
+		</div>
+		<div class="cont_cart">
+			<p>Por este medio, me dirijo a usted de la manera m&aacute;s atenta, para manifestarle mi gran inter&eacute;s por ocupar el puesto de <span th:text="${titulo_Oferta}"></span>, con folio de solicitud No. <span th:text="${id_Oferta}"></span>, publicado el <span th:text="${fecha_Inicio}"></span> en el Portal del Servicio Nacional de Empleo <a href="https://empleo.gob.mx/">www.empleo.gob.mx</a>.
+			</p>
+			<p>He tenido la oportunidad de revisar a detalle los requisitos que solicitan para ocupar la oferta de empleo, y considero que tengo los conocimientos, la formaci&oacute;n y experiencia laboral necesarios para el puesto, para lo cual adjunto mi Perfil Laboral (CV).
+			</p>
+			<p>Por lo anterior, me agradar&iacute;a que me concediera una entrevista de trabajo a su mejor conveniencia y poderle ampliar personalmente la informaci&oacute;n que le remito.
+			</p>
+			<p>Gracias por considerar mi postulaci&oacute;n y quedo atento a su comunicaci&oacute;n para participar en el  proceso de selecci&oacute;n, as&iacute; como cualquier informaci&oacute;n que considere necesaria.
+			</p>
+			<p>Reciba un cordial saludo.</p>
+		</div>
+		<div class="firmaCand">
+			<strong>Atentamente</strong>
+			<div class="firma">
+			</div>
+			<div class="candNom">
+				<p th:text="${profile_fullName}"></p>
+				<p th:if="${not #strings.isEmpty(contact_email)}" th:text="${contact_email}"></p>
+    			<p th:if="${not #strings.isEmpty(contact_phone1)}" th:text="${contact_phone1}"></p>
+       			<p th:if="${not #strings.isEmpty(contact_phone2)}" th:text="${contact_phone2}"></p>				
+       			<p th:if="${not #strings.isEmpty(contact_phone3)}" th:text="${contact_phone3}"></p>				 						
+			</div>
+		</div>
+		<div class="calce">
+			Todos nuestros servicios son gratuitos!<br/>
+			"Este programa es p&uacute;blico, ajeno a cualquier partido pol&iacute;tico. Queda prohibido el uso para fines distintos a los establecidos en el programa"
+		</div>
+	</div>
+	<div class="redaccion curr">
+		<h2>PERFIL LABORAL</h2>
+		<ul>
+			<li><strong>Nombre del candidato: </strong><p th:text="${profile_fullName}"></p></li>
+			<li><strong>T&iacute;tulo de la oferta de empleo: </strong><p th:text="${titulo_Oferta}"></p></li>
+			<li><strong>Puesto requerido: </strong><p th:text="${puesto_requerido}"></p></li>
+		</ul>
+		<h3>DATOS PERSONALES</h3>
+		<ul>
+			<li th:if="${not #strings.isEmpty(contact_email)}">
+				<strong>Correo electr&oacute;nico: </strong><p th:text="${contact_email}"></p>
+	        </li>
+			<li th:if="${not #strings.isEmpty(contact_phone1)}">
+				<strong>Tel&eacute;fono: </strong><p th:text="${contact_phone1}"></p>
+	        </li>
+			<li><strong>Direcci&oacute;n: </strong><p th:text="${direccion}"></p></li>
+			<li><strong>C&oacute;digo Postal: </strong><p th:text="${cp}"></p></li>
+			<li><strong>Entidad: </strong><p th:text="${entidad}"></p></li>
+			<li><strong>Municipio o delegaci&oacute;n: </strong><p th:text="${delegacion}"></p></li>
+		</ul>
+		<h3>FORMACI&Oacute;N PROFESIONAL</h3>
+		<ul>
+			<li><strong>Grado de estudios: </strong><p th:text="${education_grade}"></p></li>
+			<li><strong>Carrera o especialidad: </strong><p th:text="${education_career}"></p></li>
+			<li><strong>Situaci&oacute;n acad&eacute;mica: </strong><p th:text="${education_status}"></p></li>
+			<li th:if="${not #strings.isEmpty(knowledge_lang)}">
+				<strong>Idioma(s):</strong>
+			</li>
+		</ul>
+			<p><span th:if="${not #strings.isEmpty(knowledge_lang1)}" th:text="${knowledge_lang1}"></span>
+			<span th:if="${not #strings.isEmpty(knowledge_langLevel1)}" th:text="${knowledge_langLevel1}"></span>
+			<span th:if="${not #strings.isEmpty(knowledge_langCert1)}">. Certificaci&oacute;n: </span>
+			<span th:if="${not #strings.isEmpty(knowledge_langCert1)}" th:text="${knowledge_langCert1}"></span></p>
+						
+			<p><span th:if="${not #strings.isEmpty(knowledge_lang2)}" th:text="${knowledge_lang2}"></span>
+			<span th:if="${not #strings.isEmpty(knowledge_langLevel2)}" th:text="${knowledge_langLevel2}"></span>
+	      	<span th:if="${not #strings.isEmpty(knowledge_langCert2)}">. Certificaci&oacute;n: </span>
+			<span th:if="${not #strings.isEmpty(knowledge_langCert2)}" th:text="${knowledge_langCert2}"></span></p>
+			
+			<p><span th:if="${not #strings.isEmpty(knowledge_lang3)}" th:text="${knowledge_lang3}"></span>
+			<span th:if="${not #strings.isEmpty(knowledge_langLevel3)}" th:text="${knowledge_langLevel3}"></span>
+	      	<span th:if="${not #strings.isEmpty(knowledge_langCert3)}">. Certificaci&oacute;n: </span>
+			<span th:if="${not #strings.isEmpty(knowledge_langCert3)}" th:text="${knowledge_langCert3}"></span></p>
+			
+		<h3>CONOCIMIENTOS</h3>
+		<ul>
+			<li th:if="${not #strings.isEmpty(knowledge_computerBasics)}">
+				<strong>Conocimientos en computaci&oacute;n b&aacute;sica: </strong><p th:text="${knowledge_computerBasics}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(knowledge_computerOthers)}">
+				<strong>Otros: </strong><p th:text="${knowledge_computerOthers}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(knowledge_understanding1)}">
+				<strong>Conocimientos: </strong><p th:text="${knowledge_understanding1}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(knowledge_understandingDesc1)}">
+				<strong>Descripci&oacute;n: </strong><p th:text="${knowledge_understandingDesc1}"></p>
+			</li>	
+			<li th:if="${not #strings.isEmpty(knowledge_understandingExp1)}">
+				<strong>Experiencia: </strong><p th:text="${knowledge_understandingExp1}"></p>
+			</li>	
+			
+			<li th:if="${not #strings.isEmpty(knowledge_understanding2)}">
+				<strong>Conocimientos: </strong><p th:text="${knowledge_understanding2}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(knowledge_understandingDesc2)}">
+				<strong>Descripci&oacute;n: </strong><p th:text="${knowledge_understandingDesc2}"></p>
+			</li>	
+			<li th:if="${not #strings.isEmpty(knowledge_understandingExp2)}">
+				<strong>Experiencia: </strong><p th:text="${knowledge_understandingExp2}"></p>
+			</li>	
+			
+			<li th:if="${not #strings.isEmpty(knowledge_understanding3)}">
+				<strong>Conocimientos: </strong><p th:text="${knowledge_understanding3}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(knowledge_understandingDesc3)}">
+				<strong>Descripci&oacute;n: </strong><p th:text="${knowledge_understandingDesc3}"></p>
+			</li>	
+			<li th:if="${not #strings.isEmpty(knowledge_understandingExp3)}">
+				<strong>Experiencia: </strong><p th:text="${knowledge_understandingExp3}"></p>
+			</li>	
+			<li th:if="${not #strings.isEmpty(knowledge_skillsAndAttitudes)}">			
+				<strong>Habilidades y actitudes: </strong><p th:text="${knowledge_skillsAndAttitudes}"></p>
+			</li>
+		</ul>
+		<h3>EXPERIENCIA LABORAL</h3>
+		<ul>
+			<li th:if="${not #strings.isEmpty(requestedJob_jobPostExp)}">					
+				<strong>A&ntilde;os de experiencia en el puesto requerido:</strong><p th:text="${requestedJob_jobPostExp}"></p>
+			</li>
+			<li th:if="${not #strings.isEmpty(requestedJob_jobExpDesc)}">								
+				<strong>Experiencia: </strong><p class="line" th:text="${requestedJob_jobExpDesc}"></p>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

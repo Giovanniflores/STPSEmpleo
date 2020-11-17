@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="comprobanteRegistroCandidato" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="14ee6b94-a146-400e-ab88-7e66e04c496f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="395"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#FFA07A">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#FFD1BF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#D3D3D3">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#FFBFBF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<topPen lineWidth="1.0" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<topPen lineWidth="1.0" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<topPen lineWidth="1.0" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<topPen lineWidth="0.5" lineColor="#CCCCCC"/>
+			<bottomPen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#CCCCCC"/>
+		</box>
+	</style>
+	<subDataset name="ofertas" uuid="653ea095-9c60-4755-a03b-f66dc9ba08d2">
+		<field name="tituloOferta" class="java.lang.String"/>
+		<field name="salarioStr" class="java.lang.String"/>
+		<field name="nombreEmpresa" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="Table Dataset 1" uuid="5bc6971b-78d7-401c-8ed9-46fbfac2795c"/>
+	<subDataset name="Table Dataset 2" uuid="a4c08653-dbd0-4cdd-9c44-db2c2eda20e4"/>
+	<subDataset name="Table Dataset 3" uuid="3324ab34-3518-4b38-811a-4a7f4883ec57"/>
+	<parameter name="logo" class="java.io.InputStream"/>
+	<parameter name="logoFooter" class="java.io.InputStream"/>
+	<parameter name="ofertasC" class="java.lang.Object"/>
+	<field name="nombreEvento" class="java.lang.String"/>
+	<field name="fechaEvento" class="java.lang.String"/>
+	<field name="lugarEvento" class="java.lang.String"/>
+	<field name="horarioAtnEvento" class="java.lang.String"/>
+	<field name="folioRegCandi" class="java.lang.Long"/>
+	<field name="nombreCandidato" class="java.lang.String"/>
+	<field name="usuarioCandidato" class="java.lang.String"/>
+	<field name="ofertasCompatibles" class="java.util.List"/>
+	<field name="fechaComprobante" class="java.lang.String"/>
+	<field name="codigoBarras" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="149" splitType="Stretch">
+			<image isUsingCache="false" onErrorType="Blank">
+				<reportElement x="0" y="0" width="555" height="147" uuid="8cd02847-7302-4b44-ba49-906979a395a5"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="219">
+			<textField>
+				<reportElement x="279" y="110" width="202" height="20" forecolor="#666666" uuid="246c317c-954c-4a69-b395-5a73c17f46fa"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{horarioAtnEvento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="110" width="126" height="20" forecolor="#666666" uuid="e8258abc-c657-4d5a-b204-74b34dc4b882"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Horario de Atención:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="210" y="27" width="170" height="23" forecolor="#327979" uuid="f034937c-004b-4aab-98e0-1922d38d9f70"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Datos del Evento]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="90" width="271" height="20" forecolor="#666666" uuid="16d076ec-9104-4702-be95-1b03aca4231b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{lugarEvento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="90" width="56" height="20" forecolor="#666666" uuid="69ebb6d2-0550-4243-b52f-a76695347422"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lugar:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="210" y="70" width="257" height="20" forecolor="#666666" uuid="b6fa87a6-3d8c-4674-9cef-67dd3c213bcf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fechaEvento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="50" width="55" height="20" forecolor="#666666" uuid="b82d7fd9-e74c-4906-b9d3-8b27bed36167"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Evento:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="209" y="50" width="258" height="20" forecolor="#666666" uuid="87b648d3-4727-4b6e-8f29-52464aeadc73"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreEvento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="70" width="55" height="20" forecolor="#666666" uuid="72f20eec-8c8c-431a-ac11-2c4694b4b42d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="131" width="192" height="24" forecolor="#327979" uuid="3b0dfd19-b62a-4136-9929-7ad20f7b188d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Datos del Solicitante]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="153" y="155" width="116" height="20" forecolor="#666666" uuid="9b3fdaac-c0ee-45fb-8b3e-d20af57b7ce4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Folio de Registro:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="270" y="155" width="183" height="20" forecolor="#666666" uuid="753cae9c-7e41-4564-ab62-fd3aa5acd1bb"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{folioRegCandi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="175" width="58" height="20" forecolor="#666666" uuid="f63d9264-5218-422d-b3d9-298105a14da7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="212" y="175" width="255" height="20" forecolor="#666666" uuid="87a05021-583c-4bea-b092-7cb9ad9baa89"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombreCandidato}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="153" y="195" width="59" height="20" forecolor="#666666" uuid="60af364e-27ed-4b68-ac58-db8a1279a126"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Usuario:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="213" y="195" width="213" height="20" forecolor="#666666" uuid="e90884da-d003-433e-905a-a8c854c670a2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{usuarioCandidato}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="0" width="331" height="27" forecolor="#5F7913" uuid="b523374e-990c-436d-8168-57c9bf3ab45b"/>
+				<textElement>
+					<font fontName="SansSerif" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Comprobante de participación]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="230" splitType="Stretch">
+			<staticText>
+				<reportElement x="165" y="73" width="266" height="20" forecolor="#327979" uuid="46f44d83-59a5-449e-ac16-4073af20291d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ofertas Compatibles a tu Perfil]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="94" width="535" height="20" forecolor="#666666" uuid="af64b4d2-521c-4c91-8ab8-4843ba423352"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Te mostramos algunas ofertas  de empleo compatibles a tu perfil que se promocionarán en el evento al]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="208" y="114" width="133" height="20" forecolor="#666666" uuid="5f8cac0c-a1f7-414f-b5e4-8efc355d58f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[que te has registrado.]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="220" y="8" width="200" height="50" uuid="8d60335d-173e-4702-9419-0a220b58d2d0"/>
+				<jr:Codabar xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" textPosition="bottom">
+					<jr:codeExpression><![CDATA[$F{codigoBarras}]]></jr:codeExpression>
+				</jr:Codabar>
+			</componentElement>
+			<componentElement>
+				<reportElement key="table 7" x="21" y="134" width="512" height="66" isPrintWhenDetailOverflows="false" uuid="333affde-09ad-4b02-b53b-bb86f9506980"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ofertas" uuid="3e4d7840-fab8-499f-a010-c3e020347266">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{ofertasCompatibles})]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="172" uuid="df83f98f-52a2-4c71-999e-ea80c2a28608">
+						<jr:columnHeader style="table 7_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement style="table_TH" x="0" y="0" width="172" height="30" forecolor="#FFFFFF" backcolor="#7C9C0E" uuid="ded87b55-155d-48e9-b969-64c630d64610"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[TÍTULO DE LA OFERTA]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 7_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement style="table_TD" x="0" y="0" width="172" height="30" forecolor="#666666" uuid="15c56d49-dabd-41df-a623-7477c2bb4f8e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="SansSerif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{tituloOferta}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="241" uuid="028b974a-098c-47e2-9755-687bcf666c1b">
+						<jr:columnHeader style="table 7_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement style="table_TH" x="0" y="0" width="241" height="30" forecolor="#FFFFFF" backcolor="#7C9C0E" uuid="4443027e-2d5e-4324-89b1-5f1fa2a5c64f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[EMPRESA]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 7_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="241" height="30" forecolor="#666666" uuid="8829f995-3b36-4c32-9d8f-3f635bfc3ea8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="SansSerif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{nombreEmpresa}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="98" uuid="0b731525-1596-4aa2-b492-1387378ee2c4">
+						<jr:columnHeader style="table 7_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement style="table_TH" x="0" y="0" width="98" height="30" forecolor="#FFFFFF" backcolor="#7C9C0E" uuid="d6b322d6-c1e1-4548-aa0e-ee1cb67ff151"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<text><![CDATA[SALARIO MENSUAL]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="table 7_TD" height="30" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="98" height="30" forecolor="#666666" uuid="31624e77-155c-4dac-aec5-8d0e4df56442"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="SansSerif"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{salarioStr}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="168" splitType="Stretch">
+			<image isUsingCache="false" onErrorType="Blank">
+				<reportElement x="0" y="41" width="555" height="126" uuid="bdf5de8e-6875-4fda-9ed5-885056872a78"/>
+				<imageExpression><![CDATA[$P{logoFooter}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="295" y="21" width="241" height="20" forecolor="#666666" uuid="bc04e035-c859-41ad-b3e8-6b8f8c6ba6bf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fechaComprobante}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="52" y="21" width="239" height="20" forecolor="#666666" uuid="d8f9e76c-eb74-4544-97fc-93d42ffa98e5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fecha de Generación del Comprobante:]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

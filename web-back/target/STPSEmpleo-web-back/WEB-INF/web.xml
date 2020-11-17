@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<!--<display-name>STPSEmpleoWebBack</display-name> -->
+	<display-name>PE2-QA-0813-010</display-name>
+	<welcome-file-list>
+		<welcome-file>/index.html</welcome-file>
+	</welcome-file-list>
+
+	<!-- JAVA MELODY -->
+	<listener>
+		<listener-class>net.bull.javamelody.SessionListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>mx.gob.stps.portal.web.security.listener.SessionListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>mx.gob.stps.portal.web.security.listener.ApplicationListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<init-param>
+			<param-name>detail</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>/confirmapsw</url-pattern>
+	</servlet-mapping>
+	
+	<mime-mapping>
+        <extension>svg</extension>
+        <mime-type>image/svg+xml</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+        <extension>svgz</extension>
+        <mime-type>image/svg+xml</mime-type>
+    </mime-mapping>
+
+	<servlet>
+		<servlet-name>LoginConfirmServlet</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.security.action.LoginConfirmServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginConfirmServlet</servlet-name>
+		<url-pattern>/login/confirmacion</url-pattern>
+	</servlet-mapping>
+
+	<!-- COMENTADO PARA PRUEBA LOCAL <servlet> <servlet-name>IndexerServlet</servlet-name> 
+		<servlet-class>mx.gob.stps.portal.web.security.listener.IndexerServlet</servlet-class> 
+		</servlet> <servlet-mapping> <servlet-name>IndexerServlet</servlet-name> 
+		<url-pattern>/indexer</url-pattern> </servlet-mapping> -->
+
+	<servlet>
+		<servlet-name>Captcha</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.security.filter.Captcha</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Captcha</servlet-name>
+		<url-pattern>/captcha</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OfertasRSSConsultar</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.ofertasRSS.servlet.OfertasRSSConsultar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OfertasRSSConsultar</servlet-name>
+		<url-pattern>/rss/*</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>OfertasEmpleoTotal</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.ofertasRSS.servlet.OfertasEmpleoTotalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OfertasEmpleoTotal</servlet-name>
+		<url-pattern>/ofertas/total</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ImageBanner</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.crm.servlet.BannerImage</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ImageBanner</servlet-name>
+		<url-pattern>/ImageBanner</url-pattern>
+	</servlet-mapping>
+	<!-- JAVA MELODY -->
+	<filter>
+		<filter-name>monitoring</filter-name>
+		<filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>monitoring</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>UserSessionFilter</filter-name>
+		<filter-class>mx.gob.stps.portal.web.security.filter.UserSessionFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UserSessionFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<!-- <filter> <filter-name>SecurityFilter</filter-name> <filter-class>mx.gob.stps.portal.web.security.filter.SecurityFilter</filter-class> 
+		</filter> <filter-mapping> <filter-name>SecurityFilter</filter-name> <url-pattern>*.do</url-pattern> 
+		</filter-mapping> -->
+	<filter>
+		<filter-name>ChronometerFilter</filter-name>
+		<filter-class>mx.gob.stps.portal.web.security.filter.ChronometerFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ChronometerFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<!-- -->
+	<filter>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+		<init-param>
+			<param-name>confPath</param-name>
+			<param-value>/WEB-INF/urlrewrite.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>statusPath</param-name>
+			<param-value>/rewriteStatus</param-value>
+		</init-param>
+		<init-param>
+			<param-name>statusEnabled</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>modRewriteConf</param-name>
+			<param-value>false</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlRewriteFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>UrlFriendlyFilterMapping</filter-name>
+		<filter-class>
+			mx.gob.stps.portal.web.security.filter.UrlFriendlyFilter
+		</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>UrlFriendlyFilterMapping</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>CorsFilter</filter-name>
+		<filter-class>mx.gob.stps.portal.web.filters.CORSFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>CorsFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<session-config>
+		<session-timeout>15</session-timeout>
+	</session-config>
+
+
+
+	<error-page>
+		<error-code>403</error-code>
+		<location>/jsp/seguridad/error403.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/jsp/seguridad/error404.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>500</error-code>
+		<location>/jsp/seguridad/error500.jsp</location>
+	</error-page>
+	<servlet>
+		<description></description>
+		<display-name>IniciarProcesoSFP</display-name>
+		<servlet-name>IniciarProcesoSFP</servlet-name>
+		<servlet-class>mx.gob.stps.portal.web.oferta.servlet.IniciarProcesoSFP</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IniciarProcesoSFP</servlet-name>
+		<url-pattern>/IniciarProcesoSFP</url-pattern>
+	</servlet-mapping>
+</web-app>

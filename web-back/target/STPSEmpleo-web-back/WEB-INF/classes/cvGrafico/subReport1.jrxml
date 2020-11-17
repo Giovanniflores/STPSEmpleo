@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport1" pageWidth="230" pageHeight="1008" columnWidth="230" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="50f873d3-c392-4522-af27-d261f4dd93c1">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<queryString>
+		<![CDATA[SELECT
+  (CASE WHEN PL.CONTACTO_TELEFONO = 2 THEN
+  ('(' || TL.ACCESO || TL.CLAVE || ') ' || TL.TELEFONO)
+  ELSE '' END) || (CASE WHEN LENGTH(TL.EXTENSION)>0
+  AND (PL.CONTACTO_TELEFONO = 2)
+  THEN ' ext. ' || TL.EXTENSION
+  ELSE '' END) AS TELEFONO
+FROM TELEFONO TL
+LEFT JOIN PERFIL_LABORAL PL ON PL.ID_CANDIDATO = TL.ID_PROPIETARIO
+WHERE TL.ID_PROPIETARIO = $P{idCandidato}]]>
+	</queryString>
+	<field name="TELEFONO" class="java.lang.String"/>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="230" height="14" isRemoveLineWhenBlank="true" forecolor="#356C3D" uuid="a5db6e9d-0342-4ada-9aa2-eca497646e71"/>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TELEFONO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

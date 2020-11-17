@@ -1,0 +1,257 @@
+body {
+    background-color: #ffffff;
+}
+
+h2 {
+    margin: 0.5em 0;
+}
+
+#manitouSimplicite {
+    font-family: Trebuchet MS;
+    font-size: 11pt;
+}
+
+#manitouFormulaire {
+    width: 95%;
+}
+
+#manitouAlertes {
+    display: none;
+    padding: 25px 25px 25px 60px;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 10;
+    position: fixed;
+    box-sizing: border-box;
+    width: 600px;
+    top: 25%;
+    left: 50%;
+    margin-left: -300px;
+    border: 1px solid #5C5C5C;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.manitouAlerteSucces {
+    background-color: #CFFFD3;
+    color: #006400;
+}
+
+.manitouAlerteErreur {
+    background-color: #FFDACF;
+    color: #641300;
+}
+
+#manitouAlertes .fa {
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: 19px;
+}
+
+.manitouOverlay::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.manitouObligatoire {
+    color:red;
+    font-size: 14px;
+}
+
+.manitouTable {
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+}
+
+.manitouTable td {
+    padding: 5px;
+    width: 50%;
+    vertical-align: top;
+    border:1px solid transparent;
+}
+
+.manitouHighlight {
+    border: 1px solid #CA0000!important;
+    border-radius: 5px;
+    background-color: #FFDDDD;
+}
+
+.manitouErreur {
+    font-size: 14px;
+    padding: 2px 0px;
+    color: #CA0000;
+    font-style: italic;
+}
+
+.manitouTable label {
+    font-weight: bold;
+    margin: 4px;
+}
+
+.manitouTable input, 
+.manitouTable select {
+    margin: 6px 4px;
+    padding: 2px 4px;
+}
+
+.manitouBouton {
+    border: 1px solid;
+    background-color: #2FB536;
+    border-color: #197C1E;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 2px;
+    outline: 0;
+    transition: background-color 0.3s linear;
+}
+
+.manitouBouton:hover {
+    background-color: #0B9112;
+}
+
+.manitouInactif, 
+.manitouInactif:hover {
+    cursor: auto;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.manitouCentre {
+    padding-top: 15px!important;
+    text-align: center;
+}
+
+.manitouFichier {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    transition: background-color 0.3s linear;
+}
+
+.manitouFichier:hover {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+
+.manitouFichier input {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 0px!important;
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+#manitouNomFichier {
+    vertical-align: middle;
+    padding-left: 6px;
+    font-style: italic;
+}
+
+input, select {
+    display: block;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+}
+
+.manitouCheckbox {
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.manitouCheckbox input {
+    margin-right: -3px;
+}
+
+.manitouCheckbox label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#manitouPreferences, 
+#manitouLieuxPreferes {
+    border: 1px solid gray;
+    margin-top: 8px;
+    border-collapse: collapse;
+}
+
+#manitouPreferences th, 
+#manitouLieuxPreferes th
+ {
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    background-color: #CAFFD1;
+    color: #036703;
+    font-size: 15px;
+}
+
+#manitouPreferences td, 
+#manitouLieuxPreferes td {
+    width: auto;
+    vertical-align: middle;
+    border-bottom: 1px solid gray;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#manitouAjoutPreference, 
+#manitouAjoutLieuPrefere {
+    color: #2FB536;
+    cursor: pointer;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.manitouSuppression {
+    vertical-align: middle!important;
+    font-size: 20px;
+    cursor: pointer;
+    color: #CA0000;
+    background-color: #FFDDDD;
+    padding: 12px!important;
+    transition: background-color 0.3s linear;
+}
+
+.manitouSuppression:hover {
+    background-color: #FFC3C3;
+}
+
+#indicateurScroll {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #89B3FF;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}

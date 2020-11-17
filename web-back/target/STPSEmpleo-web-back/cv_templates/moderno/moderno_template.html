@@ -1,0 +1,482 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-3.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>Curriculum Vitae</title>
+    
+    <style type="text/css" media="all">
+
+	/*Envolvente*/
+	div#wrapper{ width: 700px; font-family:Verdana, Arial, Helvetica, sans-serif;border:1px solid #f2f2f2; background: url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_bg.jpg) repeat-y top left #F5F9FA; position: relative;}
+	
+	/* Cabecera */
+	/*div#header{ background:url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_logo.jpg) no-repeat scroll 0 0 #F5F9FA; border:medium none; height:276px; position:absolute; width:27px; right: 10px;}*/
+	
+	div#data { width: 469px; margin-left:94px; padding-bottom:5px;}
+	div#data h2, div#data p { margin-top: 25px}
+	div#data h2{ color:#5E7030; font-weight: bold; font-size: 17px; margin-bottom:7px; font-style:italic}
+	div#data p{ font-size: 11px; color:#5e7030; margin: 3px; font-weight: normal;padding-left:0;}
+	div#data p span{ color:#6c6c6c; font-weight: bold;}
+	div#data p span.value{ color:#5E7030; font-weight: normal;}
+	div#data p.photo{ width: 99px; height: 99px; padding-right:25px; margin-left:25px;float: left; text-align: center; width: 99px; margin-top:5px; padding-bottom: 40px;}
+	div#data p.photo img{ background:#ccc; padding: 1px; border: #FFF 5px solid;}
+	
+	/* Contenido */
+	div.content { width: 550px;margin-left:94px;}
+	div.content h1{ color:#436060; font-weight: bold; font-size:15px; font-style:italic; padding: 10px 30px; margin-top:0;}
+	div.content h2, p{ padding-left: 30px;padding-right: 30px; margin-bottom:0;}
+	div.content h2{ color:#436060; font-size: 15px; font-weight: bold; background:url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_bullet.jpg) no-repeat 10px; margin-bottom:7px; margin-left:25px; padding-left:25px;}
+	div.content p{ font-size: 12px; color:#222222; margin: 3px;}
+	div.content p.paragraph{ text-align:justify; margin-bottom: 15px;}
+	div.content p span{ color:#6c6c6c; font-weight: bold}
+	div.content p span.value{ color:#222222; font-weight: 500;}
+	div.content p.extraInfo{ color:#5e7030; font-size:11px; /*padding-left:93px;*/}
+	div.content p.space{ margin-top: 15px;}
+	div.content p a{ color:#5e7030}
+	div.content p a:hover{ text-decoration: none;}
+	div.content p.bullet { background:url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_bullet.jpg) no-repeat; margin-top:10px; height: 17px; padding-left: 25px; margin-left:30px; margin-bottom: 15px;}
+	div.content h1.line { background: url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_border_bottom.jpg) repeat-x top;/* padding-bottom: 20px;*/ padding-top: 30px;margin-top: 30px}
+	
+	/* Footer */
+	div#footer {background: url(https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_footer.jpg) no-repeat bottom left; height:40px; margin-top:40px; padding-top:5px;}
+
+    </style>
+    
+</head>
+
+<body>
+<div id="wrapper">
+
+    <div >
+    	<img src="https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_logo.jpg" style=" height:276px; position:absolute; width:27px; right: 10px;" />
+   	</div>
+    
+    <div id="data">
+        <p class="photo">
+            <img src="" th:src="${'data:image/jpg;base64,'+image}" th:width="'25mm'" th:height="'30mm'"/>
+        </p>
+
+        <h2 th:text="${profile_fullName}"></h2>
+        <p>
+            <span>G&eacute;nero: </span>
+            <span class="value" th:text="${profile_gender}"></span>
+        </p>
+        <p>
+            <span>CURP: </span>
+            <span class="value" th:text="${profile_curp}"></span>
+        </p>
+        <p>
+            <span>Edad: </span>
+            <span class="value" th:text="${profile_age}"></span>
+        </p>
+        <p>
+            <span>Entidad de nacimiento: </span>
+            <span class="value" th:text="${profile_birthplace}"></span>
+        </p>
+    </div>
+
+    <!--TODO: Here goes a separator-->
+
+    <div class="content">
+        <h1 class="line">Datos actuales </h1>
+
+        <p>
+            <span>Direcci&oacute;n:</span><br/>
+            <span class="value" th:text="${contact_fullAddress}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </span>
+        </p>
+    </div>
+
+    <div class="content">
+        <h1>Datos para contactar </h1>
+
+        <p th:if="${not #strings.isEmpty(contact_email)}">
+            <span class="value" th:text="${contact_email}">e-mail: robinhood@mail.com</span>
+        </p>
+
+        <p th:if="${not #strings.isEmpty(contact_phone1)}">
+            <span class="value" th:text="${contact_phone1}">Celular: (044)(55)11111111</span>
+        </p>
+
+        <p th:if="${not #strings.isEmpty(contact_phone2)}">
+            <span class="value" th:text="${contact_phone2}">Celular: (044)(55)11111111</span>
+        </p>
+
+        <p th:if="${not #strings.isEmpty(contact_phone3)}">
+            <span class="value" th:text="${contact_phone3}">Tel: 33333333</span>
+        </p>
+    </div>
+
+    <div class="content">
+        <h1>Grado acad&eacute;mico </h1>
+        <p>
+            <span>Grado de estudios: </span>
+            <span class="value" th:text="${education_grade}"></span>
+        </p>
+        <p>
+            <span>Carrera o especialidad: </span>
+            <span class="value" th:text="${education_career}"></span>
+        </p>
+        <p>
+            <span>Situaci&oacute;n acad&eacute;mica: </span>
+            <span class="value" th:text="${education_status}"></span>
+        </p>
+         
+    </div>
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study1)}">
+    	<h1>Otros Estudios </h1>
+        <p th:if="${not #strings.isEmpty(institution_study1)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study1}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study1)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study1}"></span>
+        </p>
+    </div>
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study2)}">
+        <p th:if="${not #strings.isEmpty(institution_study2)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study2}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study2)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study2}"></span>
+        </p>
+    </div>
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study3)}">
+        <p th:if="${not #strings.isEmpty(institution_study3)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study3}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study3)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study3}"></span>
+        </p>
+    </div>   
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study4)}">
+        <p th:if="${not #strings.isEmpty(institution_study4)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study4}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study4)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study4}"></span>
+        </p>
+    </div>  
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study5)}">
+        <p th:if="${not #strings.isEmpty(institution_study5)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study5}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study5)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study5}"></span>
+        </p>
+    </div>     
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study6)}">
+        <p th:if="${not #strings.isEmpty(institution_study6)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study6}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study6)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study6}"></span>
+        </p>
+    </div>      
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study7)}">
+        <p th:if="${not #strings.isEmpty(institution_study7)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study7}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study7)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study7}"></span>
+        </p>
+    </div>   
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study8)}">
+        <p th:if="${not #strings.isEmpty(institution_study8)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study8}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study8)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study8}"></span>
+        </p>
+    </div>   
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study9)}">
+        <p th:if="${not #strings.isEmpty(institution_study9)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study9}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study9)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study9}"></span>
+        </p>
+    </div>   
+    
+    <div class="content" th:if="${not #strings.isEmpty(education_study10)}">
+        <p th:if="${not #strings.isEmpty(institution_study10)}">
+            <span>Instituci&oacute;n: </span>
+            <span class="value" th:text="${institution_study10}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(education_study10)}">
+            <span>Nombre del Estudio: </span>
+            <span class="value" th:text="${education_study10}"></span>
+        </p>
+    </div>                        
+    
+
+    <!--TODO: Here goes a separator-->
+
+    <div class="content" th:if="${not #strings.isEmpty(knowledge)}">
+        <h1 th:if="${not #strings.isEmpty(knowledge_lang)}"></h1>
+
+        <p th:if="${not #strings.isEmpty(knowledge_lang1)}">
+            <span>Idioma: </span>
+            <span class="value"  th:text="${knowledge_lang1}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_langCert1)}">
+            <span>Certificaci&oacute;n:</span>
+            <span class="value" th:text="${knowledge_langCert1}"></span>
+        </p>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_langLevel1)}">
+            <span>Dominio: </span>
+            <span class="value" th:text="${knowledge_langLevel1}"></span>
+        </p>
+
+        <br th:if="${not #strings.isEmpty(knowledge_lang2)}"/>
+
+        <p th:if="${not #strings.isEmpty(knowledge_lang2)}">
+            <span>Idioma: </span>
+            <span class="value" th:text="${knowledge_lang2}"></span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_langCert2)}">
+            <span>Certificaci&oacute;n: </span>
+            <span class="value" th:text="${knowledge_langCert2}"></span>
+        </p>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_langLevel2)}">
+            <span>Dominio: </span>
+            <span class="value" th:text="${knowledge_langLevel2}"></span>
+        </p>
+
+        <br th:if="${not #strings.isEmpty(knowledge_lang3)}"/>
+
+        <p th:if="${not #strings.isEmpty(knowledge_lang3)}">
+            <span>Idioma:</span>
+            <span class="value" th:text="${knowledge_lang3}">Lat�n</span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_langCert3)}">
+            <span>Certificaci&oacute;n: </span>
+            <span class="value" th:text="${knowledge_langCert3}">Ninguno</span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_langLevel3)}">
+            <span>Dominio:</span>
+            <span class="value" th:text="${knowledge_langLevel3}">Nada</span>
+        </p>
+
+        <h1 th:if="${not #strings.isEmpty(knowledge_computerBasics)}">Computaci&oacute;n b&aacute;sica </h1>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_computerBasics)}">
+            <span>Conocimientos: </span><br/>
+            <span class="value" th:text="${knowledge_computerBasics}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+        </p>
+
+        <h1 th:if="${not #strings.isEmpty(knowledge_computerOthers)}">Otros &nbsp;conocimientos en computaci&oacute;n</h1>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_computerOthers)}">
+            <span>Otros conocimientos:</span>
+            <span class="value" th:text="${knowledge_computerOthers}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+        </p>
+
+        <h1 th:if="${not #strings.isEmpty(knowledge_understanding)}">Conocimientos</h1>
+        <p th:if="${not #strings.isEmpty(knowledge_understanding1)}">
+            <span>Otros conocimientos: </span>
+            <span class="value" th:text="${knowledge_understanding1}">
+                Bandalismo
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_understandingExp1)}">
+            <span>Experiencia: </span>
+            <span class="value" th:text="${knowledge_understandingExp1}">
+                Mucha
+            </span>
+        </p>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_understandingDesc1)}">
+            <span>Descripci&oacute;n: </span><br/>
+            <span class="value" th:text="${knowledge_understandingDesc1}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+        </p>
+
+        <br th:if="${not #strings.isEmpty(knowledge_understanding2)}"/>
+
+        <p th:if="${not #strings.isEmpty(knowledge_understanding2)}">
+            <span>Otros conocimientos: </span>
+            <span class="value" th:text="${knowledge_understanding2}">
+                Saqueador
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_understandingExp2)}">
+            <span>Experiencia: </span>
+            <span class="value" th:text="${knowledge_understandingExp2}">
+                Amplia
+            </span>
+        </p>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_understandingDesc2)}">
+            <span>Descripci&oacute;n: </span><br/>
+            <span class="value" th:text="${knowledge_understandingDesc2}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+        </p>
+
+        <br th:if="${not #strings.isEmpty(knowledge_understanding3)}"/>
+
+        <p th:if="${not #strings.isEmpty(knowledge_understanding3)}">
+            <span>Otros conocimientos: </span>
+            <span class="value" th:text="${knowledge_understanding3}">
+                Estratega
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(knowledge_understandingExp3)}">
+            <span>Experiencia: </span>
+            <span class="value" th:text="${knowledge_understandingExp3}">
+                M�s o menos
+            </span>
+        </p>
+        <p class="line" th:if="${not #strings.isEmpty(knowledge_understandingExp3)}">
+            <span>Descripci&oacute;n: </span><br/>
+            <span class="value" th:text="${knowledge_understandingExp3}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+        </p>
+
+        <br th:if="${not #strings.isEmpty(knowledge_skillsAndAttitudes)}"/>
+<!-- knowledge_skillsAndAttitudes -->
+        <p th:if="${not #strings.isEmpty(knowledge_skillsAndAttitudes)}">
+            <span>Habilidades y actitudes: </span><br/>
+            <span class="value" th:text="${knowledge_skillsAndAttitudes}">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo
+            </span>
+        </p>
+    </div>
+    
+    
+    <!--TODO: Here goes a separator-->
+
+    <div class="content">
+        <h1 th:if="${requestedJob}">Puesto solicitado</h1>
+        <p th:if="${not #strings.isEmpty(requestedJob_reqPost)}">
+            <span>Puesto solicitado: </span>
+            <span class="value" th:text="${requestedJob_reqPost}">
+                Rey
+            </span>
+        </p>
+        
+        <p th:if="${not #strings.isEmpty(requestedJob_jobPostExp)}">
+            <span>A&ntilde;os de experiencia en el puesto: </span>
+            <span class="value" th:text="${requestedJob_jobPostExp}">
+                5 a�os
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(requestedJob_jobExpDesc)}">
+            <span>Describe tu experiencia: </span><br/>
+            <span class="value" th:text="${requestedJob_jobExpDesc}">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </span>
+        </p>
+
+        <h1 th:if="${expectedJob}">Expectativas laborales</h1>
+        <p th:if="${not #strings.isEmpty(expectedJob_wishSalary)}">
+            <span>Salario pretendido: </span>
+            <span class="value" th:text="${expectedJob_wishSalary}">
+                $999,999,999,999,999,999.999
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(expectedJob_wishJob)}">
+            <span>Tipo de empleo deseado: </span>
+            <span class="value" th:text="${expectedJob_wishJob}">
+                Temporal
+            </span>
+            <span>Tipo de contrato deseado: </span>
+            <span class="value" th:text="${expectedJob_availability}">
+       		</span>
+        </p>
+        
+        <p th:if="${not #strings.isEmpty(expectedJob_availability)}">
+            <span>Disponibilidad:</span>
+            <span class="value" th:text="${expectedJob_availability}">
+                De viajar
+            </span>
+        </p>
+
+        <h1 th:if="${lastOrCurrentJob}">Trabajo actual o &uacute;ltimo </h1>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_enterprise)}">
+            <span>Empresa: </span>
+            <span class="value" th:text="${lastOrCurrentJob_enterprise}">
+                Freelance
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_post)}">
+            <span>Puesto: </span>
+            <span class="value" th:text="${lastOrCurrentJob_post}">
+                Director de Operaciones
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_hierarchyPost)}">
+            <span>Jerarquia del puesto: </span>
+            <span class="value" th:text="${lastOrCurrentJob_hierarchyPost}">
+                Desconocido
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_personsInCharge)}">
+            <span>Personas a cargo: </span>
+            <span class="value" th:text="${lastOrCurrentJob_personsInCharge}">
+                Confidencial
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_salary)}">
+            <span>&Uacute;ltimos salario mensual: </span>
+            <span class="value" th:text="${lastOrCurrentJob_salary}">
+                Desconocido
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_startDate)}">
+            <span>Fecha inicial: </span>
+            <span class="value" th:text="${lastOrCurrentJob_startDate}">
+                Jul/09/1XXX
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_endDate)}">
+            <span>Fecha Final: </span>
+            <span class="value" th:text="${lastOrCurrentJob_endDate}">
+
+            </span>
+        </p>
+        <p th:if="${not #strings.isEmpty(lastOrCurrentJob_activities)}">
+            <span>Funciones que desempe&ntilde;aba: </span><br/>
+            <span class="value" th:text="${lastOrCurrentJob_activities}">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </span>
+        </p>
+    </div>
+
+    <div >
+    	<img src="https://www.empleo.gob.mx/cv_templates/moderno/images/cv2_footer.jpg" style="display:block; width: 186px; height: 30px; margin: 40px auto 10px;" />
+   	</div>
+	
+</div>
+</body>
+</html>

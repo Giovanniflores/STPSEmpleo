@@ -1,0 +1,397 @@
+package mx.gob.stps.portal.web.security.delegate;
+
+import static mx.gob.stps.portal.web.infra.utils.Constantes.JNDI_EJB_SEGUIMIENTO;
+import static mx.gob.stps.portal.web.infra.utils.Constantes.JNDI_EJB_NOTIFICACIONES;
+import static mx.gob.stps.portal.web.infra.utils.Constantes.JNDI_EJB_SEGURIDAD;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+import java.sql.SQLException;
+
+import javax.persistence.PersistenceException;
+
+import mx.gob.stps.portal.core.candidate.vo.CandidatoVo;
+import mx.gob.stps.portal.core.empresa.vo.EmpresaVO;
+import mx.gob.stps.portal.core.infra.exception.BusinessException;
+import mx.gob.stps.portal.core.infra.exception.EncodingException;
+import mx.gob.stps.portal.core.infra.exception.TechnicalException;
+import mx.gob.stps.portal.core.infra.mail.exception.MailException;
+import mx.gob.stps.portal.core.infra.utils.Constantes.EVENTO;
+import mx.gob.stps.portal.core.oferta.busqueda.vo.OfertaPorPerfilVO;
+import mx.gob.stps.portal.core.seguridad.exception.CorreoRepetidoException;
+import mx.gob.stps.portal.core.seguridad.exception.LoginRepetidoException;
+import mx.gob.stps.portal.core.seguridad.service.NotificacionAppServicesRemote;
+import mx.gob.stps.portal.core.seguridad.service.SeguimientoAtencionAppServiceRemote;
+import mx.gob.stps.portal.core.seguridad.service.SeguridadAppServiceRemote;
+import mx.gob.stps.portal.core.seguridad.vo.AccionVO;
+import mx.gob.stps.portal.core.seguridad.vo.ConfirmacionVO;
+import mx.gob.stps.portal.core.seguridad.vo.PerfilVO;
+import mx.gob.stps.portal.core.seguridad.vo.UsuarioVO;
+import mx.gob.stps.portal.persistencia.vo.CatalogoOpcionVO;
+import mx.gob.stps.portal.persistencia.vo.HistoricoBusquedaPPCVO;
+import mx.gob.stps.portal.web.infra.delegate.CatalogoOpcionDelegateImpl;
+import mx.gob.stps.portal.web.infra.exception.ServiceLocatorException;
+import mx.gob.stps.portal.web.infra.service.ServiceLocator;
+
+/**
+ * Implementacion de componente que delega los servicios
+ * 
+ * @author oscar.manzo
+ *
+ */
+public class SecutityDelegateImpl implements SecutityDelegate {
+
+	private static SecutityDelegate instance = new SecutityDelegateImpl();
+	
+	public static SecutityDelegate getInstance(){
+		return instance;
+	}
+	
+	/* (non-Javadoc)
+	 * @see mx.gob.stps.portal.web.security.delegate.SecutityDelegate#registraUsuario(mx.gob.stps.portal.core.seguridad.vo.UsuarioVO)
+	 */
+	public long registraUsuario(UsuarioVO vo) throws LoginRepetidoException, CorreoRepetidoException, ServiceLocatorException {
+		return getSeguridadAppService().registraUsuario(vo);
+	}
+
+	/* (non-Javadoc)
+	 * @see mx.gob.stps.portal.web.security.delegate.SecutityDelegate#consultaUsuario(long)
+	 */
+	public UsuarioVO consultaUsuario(long idUsuario) throws ServiceLocatorException {
+		return getSeguridadAppService().consultaUsuario(idUsuario);
+	}
+
+	public UsuarioVO consultaCandidatoPorID(String idCandidato2) throws ServiceLocatorException{
+		return getSeguridadAppService().consultaCandidatoPorID(idCandidato2);
+	}
+	/* (non-Javadoc)
+	 * @see mx.gob.stps.portal.web.security.delegate.SecutityDelegate#consultaUsuario(java.lang.String)
+	 */
+	/*public UsuarioVO consultaUsuario(String correoElectronico) throws ServiceLocatorException {
+		return getSeguridadAppService().consultaUsuario(correoElectronico);
+	}*/
+
+	public UsuarioVO consultaUsuarioPorLogin(String usuario) throws ServiceLocatorException {
+		return getSeguridadAppService().consultaUsuarioPorLogin(usuario);
+	}
+	
+	public long consultaPropietario(long idUsuario) throws ServiceLocatorException, SQLException {
+		return getSeguridadAppService().consultaPropietario(idUsuario);
+	}
+	
+	/* (non-Javadoc)
+	 * @see mx.gob.stps.portal.web.security.delegate.SecutityDelegate#consultaCatalogo(long)
+	 */
+	public List<CatalogoOpcionVO> consultaCatalogo(long idCatalogo) throws ServiceLocatorException {
+		List<CatalogoOpcionVO> opciones = null;
+		opciones = CatalogoOpcionDelegateImpl.getInstance().consultarCatalogo(idCatalogo);
+		return opciones;
+	}
+	
+	@Override
+	public boolean esCorreoUnico(String correoElectronico) throws ServiceLocatorException, SQLException {
+		return getSeguridadAppService().esCorreoUnico(correoElectronico);
+	}
+	
+	public String consultaParametroPlantilla(){
+		String valor = null;
+		
+		try{
+			valor = getSeguridadAppService().consultaParametroPlantilla();
+		}catch(ServiceLocatorException e){
+			e.printStackTrace();
+		}
+		
+		return valor;
+	}
+	
+	public String recuperaContrasenaCandidato(String usuario, String curp, String correoActual, String correoNuevo) throws LoginRepetidoException, BusinessException, TechnicalException, ServiceLocatorException, MailException{
+		return getSeguridadAppService().recuperaContrasenaCandidato(usuario, curp, correoActual, correoNuevo);
+	}
+
+	public String recuperaContrasenaEmpresa(String usuario, String idPortalEmpleo, String correoActual, String correoNuevo) throws LoginRepetidoException, BusinessException, TechnicalException, ServiceLocatorException, SQLException, MailException{
+		return getSeguridadAppService().recuperaContrasenaEmpresa(usuario, idPortalEmpleo, correoActual, correoNuevo);
+	}
+
+	public String confirmaContrasenaCandidato(long idCandidato, String correo, String contrasena)
+			throws BusinessException, TechnicalException, ServiceLocatorException, PersistenceException,
+			EncodingException {
+		return getSeguridadAppService().confirmaContrasenaCandidato(idCandidato, correo, contrasena);
+	}
+
+	public String cambioContrasenaCandidato(long idCandidato, String contrasena) throws PersistenceException,
+			BusinessException, TechnicalException, EncodingException, ServiceLocatorException {
+		return getSeguridadAppService().cambioContrasenaCandidato(idCandidato, contrasena);
+	}
+
+	// GUARDA CAMBIO CONTRASEÑA OAM
+	public String cambioContrasena(long idCandidato, String contrasena, EVENTO evento, int IdTipoPropietario)
+			throws PersistenceException, BusinessException, TechnicalException, EncodingException,
+			ServiceLocatorException {
+		return getSeguridadAppService().cambioContrasena(idCandidato, contrasena, evento, IdTipoPropietario);
+	}
+	
+	// GUARDA CAMBIO CONTRASEÑA OAM
+		public String cambioContrasenaE(long idEmpresa, String contrasena, EVENTO evento, int IdTipoPropietario)
+				throws PersistenceException, BusinessException, TechnicalException, EncodingException,
+				ServiceLocatorException {
+			return getSeguridadAppService().cambioContrasenaE(idEmpresa, contrasena, evento, IdTipoPropietario);
+		}
+
+	// SOLICITUD DE USUARIO Y CAMBIO CONTRASEÑA OAM
+	public String bitacoraRecuperaContrasena(long idUsuario, EVENTO evento, long idCandidato, int IdTipoPropietario)
+			throws BusinessException, TechnicalException, PersistenceException, EncodingException,
+			ServiceLocatorException {
+		return getSeguridadAppService().bitacoraRecuperaContrasena(idUsuario, evento, idCandidato, IdTipoPropietario);
+	}
+	
+	public UsuarioVO consultaUsuarioPorCorreo(String correoElectronico) throws ServiceLocatorException {
+		return getSeguridadAppService().consultaUsuarioporCorreo(correoElectronico);
+	}
+
+	public String confirmaContrasenaEmpresa(long idEmpresa, String correo, String contrasena) throws BusinessException,
+			TechnicalException, ServiceLocatorException, PersistenceException, EncodingException {
+		return getSeguridadAppService().confirmaContrasenaEmpresa(idEmpresa, correo, contrasena);
+	}
+
+	public EmpresaVO consultaEmpresa(long idEmpresa) throws PersistenceException, ServiceLocatorException {
+		return getSeguridadAppService().consultaEmpresa(idEmpresa);
+	}
+
+	public CandidatoVo consultaCandidato(long idCandidato) throws PersistenceException, ServiceLocatorException {
+		return getSeguridadAppService().consultaCandidato(idCandidato);
+	}
+
+	public void actualizaSesionActiva(long idUsuario, int sesionActiva)
+			throws PersistenceException, ServiceLocatorException {
+		getSeguridadAppService().actualizaSesionActiva(idUsuario, sesionActiva);
+	}
+
+	public List<AccionVO> consultaAccionesRequierenAutenticacion() throws SQLException, ServiceLocatorException {
+		return getSeguridadAppService().consultaAccionesRequierenAutenticacion();
+	}
+
+	public List<AccionVO> consultaAccionesPorPerfil(long idPerfil) throws SQLException, ServiceLocatorException {
+		return getSeguridadAppService().consultaAccionesPorPerfil(idPerfil);
+	}
+
+	public List<AccionVO> consultaAccionesAsignadasPorPerfil(long idPerfil)
+			throws SQLException, ServiceLocatorException {
+		return getSeguridadAppService().consultaAccionesAsignadasPorPerfil(idPerfil);
+	}
+
+	public List<PerfilVO> consultaPerfiles() throws SQLException, ServiceLocatorException {
+		return getSeguridadAppService().consultaPerfiles();
+	}
+
+	public void asignaAcciones(long idPerfil, long[] idsAcciones) throws SQLException, ServiceLocatorException {
+		getSeguridadAppService().asignaAcciones(idPerfil, idsAcciones);
+	}
+
+	public void estableceAccionesReqUsuarioAutenticado(long[] idsAcciones)
+			throws SQLException, ServiceLocatorException {
+		getSeguridadAppService().estableceAccionesReqUsuarioAutenticado(idsAcciones);
+	}
+
+	public void inactivaSesionesActivas() throws ServiceLocatorException {
+		getSeguridadAppService().inactivaSesionesActivas();
+	}
+
+	/**
+	 * Obtiene la referencia remota de los servicios de seguridad
+	 * 
+	 * @return
+	 * @throws ServiceLocatorException
+	 */
+	private SeguridadAppServiceRemote getSeguridadAppService() throws ServiceLocatorException {
+		SeguridadAppServiceRemote ejb = (SeguridadAppServiceRemote) ServiceLocator.getSessionRemote(JNDI_EJB_SEGURIDAD);
+		return ejb;
+	}
+
+	@Override
+	public String generaCodigo(long idCIL) throws ServiceLocatorException {
+		return getSeguridadAppService().generaCodigo(idCIL);
+	}
+
+	@Override
+	public long isValidCode(String code) throws ServiceLocatorException {
+		if (code != null && !code.trim().isEmpty())
+			return getSeguridadAppService().isValidCode(code);
+		else
+			return -1;
+	}
+
+	private NotificacionAppServicesRemote getNotificacionAppServices() throws ServiceLocatorException {
+		NotificacionAppServicesRemote ejb = (NotificacionAppServicesRemote) ServiceLocator
+				.getSessionRemote(JNDI_EJB_NOTIFICACIONES);
+		return ejb;
+	}
+
+	public void notificaRegistroEmpresa(String usuario) throws PersistenceException, BusinessException,
+			TechnicalException, MailException, EncodingException, ServiceLocatorException {
+		getNotificacionAppServices().notificaRegistroEmpresa(usuario);
+	}
+
+	public void notificaRegistroEmpresa(List<String> usuarios) throws PersistenceException, BusinessException,
+			TechnicalException, MailException, EncodingException, ServiceLocatorException {
+		getNotificacionAppServices().notificaRegistroEmpresa(usuarios);
+	}
+
+	public void notificaRegistroCandidato(String usuario)
+			throws MailException, EncodingException, ServiceLocatorException {
+		getNotificacionAppServices().notificaRegistroCandidato(usuario);
+	}
+
+	public void notificaRegistroCandidato(List<String> usuarios) throws MailException, EncodingException, ServiceLocatorException {
+		getNotificacionAppServices().notificaRegistroCandidato(usuarios);
+	}
+	
+	public void notificaRecomendacion(String remitente, String destinatario, String correoRemitente, String correoDestinatario, String asunto) throws MailException, ServiceLocatorException {
+		getNotificacionAppServices().notificaRecomendacion(remitente, destinatario, correoRemitente, correoDestinatario, asunto);
+	}
+
+	public void notificaRecuperaContrasenaEmpresa(String usuario) throws LoginRepetidoException, BusinessException, TechnicalException, MailException, ServiceLocatorException{
+		getNotificacionAppServices().notificaRecuperaContrasenaEmpresa(usuario);
+	}
+
+	public void notificaRecuperaContrasenaEmpresa(List<String> usuarios) throws LoginRepetidoException, BusinessException, TechnicalException, MailException, ServiceLocatorException{
+		getNotificacionAppServices().notificaRecuperaContrasenaEmpresa(usuarios);
+	}
+
+	public void notificaRecuperaContrasenaCandidato(String usuario) throws LoginRepetidoException, BusinessException, TechnicalException, MailException, PersistenceException, ServiceLocatorException{
+		getNotificacionAppServices().notificaRecuperaContrasenaCandidato(usuario);
+	}
+
+	public void notificaRecuperaContrasenaCandidato(List<String> usuarios) throws LoginRepetidoException, BusinessException, TechnicalException, MailException, PersistenceException, ServiceLocatorException{
+		getNotificacionAppServices().notificaRecuperaContrasenaCandidato(usuarios);
+	}
+
+	public ConfirmacionVO confirmacionDirectaEmpresa(String usuario, Date fecha) throws BusinessException, TechnicalException, ServiceLocatorException{
+		return getSeguridadAppService().confirmacionDirectaEmpresa(usuario, fecha);
+	}
+	
+	public ConfirmacionVO confirmacionDirectaEmpresa(String username, String razonSocial) throws BusinessException, TechnicalException, ServiceLocatorException {
+		return getSeguridadAppService().confirmacionDirectaEmpresa(username, razonSocial);
+	}
+	
+
+	public ConfirmacionVO confirmacionDirectaCandidato(String usuario, String CURP) throws BusinessException, TechnicalException, ServiceLocatorException{
+		return getSeguridadAppService().confirmacionDirectaCandidato(usuario, CURP);
+	}
+	
+	public ConfirmacionVO confirmacionReactivacionCandidato(String username, String CURP) throws BusinessException, TechnicalException, ServiceLocatorException{
+		return getSeguridadAppService().confirmacionReactivacionCandidato(username, CURP);
+	}
+
+	private SeguimientoAtencionAppServiceRemote getSeguimientoAtencionAppService() throws ServiceLocatorException {
+		SeguimientoAtencionAppServiceRemote ejb = (SeguimientoAtencionAppServiceRemote)ServiceLocator.getSessionRemote(JNDI_EJB_SEGUIMIENTO);
+		return ejb;
+	}
+	
+	public void iniciaSesion(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().iniciaSesion(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+	
+	public void finalizaSesion(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().finalizaSesion(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+	
+	public void registraUltimoAccesoCandidato(long idCandidato){
+		try {
+			getSeguridadAppService().registraUltimoAccesoCandidato(idCandidato);
+		} catch (ServiceLocatorException e) {e.printStackTrace();}		
+	}
+
+	public void actualizaDatosPersonales(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().actualizaDatosPersonales(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+
+	public void registroCuentaPersonal(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().registroCuentaPersonal(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+		
+	public void busquedaEspecifica(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().busquedaEspecifica(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+	
+	public void busquedaOcupate(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().busquedaOcupate(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+	
+	public int busquedaPorPerfil(long idUsuario, long idPerfil){
+		int id = 0;
+		try {
+			id= getSeguimientoAtencionAppService().busquedaPorPerfil(idUsuario, idPerfil);
+			return id;
+		} catch (Exception e) {e.printStackTrace();}
+		return id;
+	}
+	
+	public void busquedaPorPerfilPPC(long idCandidato, long idMovimiento, List<OfertaPorPerfilVO> ofertas, boolean postulado){
+		try {
+			getSeguimientoAtencionAppService().busquedaPorPerfilPPC(idCandidato, idMovimiento, ofertas, postulado);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+	
+	public void consultaHistoricoBusquedaPPC(long idMovimiento){
+			try {
+				getSeguimientoAtencionAppService().consultaHistoricoBusquedaPPC(idMovimiento);
+			} catch (Exception e) {e.printStackTrace();}		
+	}
+
+	
+	public void busquedaOtrasBolsasTrabajo(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().busquedaOtrasBolsasTrabajo(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}
+	}
+
+	public void consultaCurriculo(long idUsuario, long idPerfil){
+		try {
+			getSeguimientoAtencionAppService().consultaCurriculo(idUsuario, idPerfil);
+		} catch (Exception e) {e.printStackTrace();}		
+	}
+
+	@Override
+	public long getIdCandidato(long idUsuario) throws PersistenceException, ServiceLocatorException {
+		return getSeguridadAppService().getIdCandidato(idUsuario);
+	}
+
+	@Override
+	public byte[] consultaImagen(int idUsuario, int idPerfil, int idPropietario){
+		byte[] img = null;
+			System.out.println("*desde consultaImagen: idUsuario "+idUsuario+",idPropietario "+idPropietario+", idPerfil "+idPerfil);
+			try {
+				img = getSeguridadAppService().consultaImagen(idUsuario, idPerfil, idPropietario);
+			} catch (ServiceLocatorException e) {
+				e.printStackTrace();
+			}
+		
+		return img;
+	}
+
+	@Override
+	public void eliminaImagen(int idUsuario) {
+		try {
+			getSeguridadAppService().eliminaImagen(idUsuario);
+		} catch (ServiceLocatorException e) {
+
+			e.printStackTrace();
+		}
+	}
+
+
+}

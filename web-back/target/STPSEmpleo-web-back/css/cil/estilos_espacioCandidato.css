@@ -1,0 +1,1497 @@
+@charset "utf-8";
+body {	font-size: 62.5%;/*to reset em*/}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	vertical-align: baseline;	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, 
+#wrapper #cuerpo_int #contenido_principal ul li {
+	list-style: none;/*conflicto con canalB*/
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a { color: #4f6710;}
+
+/*ESTRUCTURA*/
+.app_wrapper {
+	width: 956px;	
+	background: #fff;
+}
+.ficha_candidato {
+	height: 160px;
+	background: #FF6;
+}
+.app {
+	/*width: 681px;*/
+	background: url("images/bg_app.jpg") repeat-x scroll 0 0 #fff;
+	float: left;
+	margin: 0 0 0 13px;
+}
+.app .app{
+	margin: 0;
+	background: none;
+	float: none;
+}
+.aside {
+	background: url("images/bg_aside.gif") repeat-y right 0;
+	width: 245px;
+	float: right;
+	padding: 20px 5px 40px;
+	/*hack para la altura de la columna*/
+	padding-bottom: 100000px;
+	margin-bottom: -100000px;
+	height: 500px;
+}
+.dijitReset li {	
+	font-size: 1.2em; /*necesario en otras bolsas options*/
+}
+.app_holder {
+	background: url("images/bg_aside.gif") repeat-y right 0;
+	overflow: hidden;/*hack para la altura de aside*/
+}
+.sinCol .app_holder,
+#appHolderMisOfertas.app_holder {
+	background: none;
+}
+
+#contenido_principal.sinCol { font-family: Arial, Helvetica, sans-serif;}
+
+
+/*GENERALES*/
+h2 {
+	/*font-size: 2em !important;*//*conflicto con canalB*/
+/*	color: #4f6710;
+	margin: 20px 0 15px;
+	font-weight: bold;*/
+}
+h3 span {
+    background: #FFF;
+    padding: 0 10px 0 0;
+    position: relative;
+    top: -10px;
+	font-size: 1.5em;
+	color: #333;
+}
+.fl {
+	float: left;
+}
+.margen_bottom {
+	margin-bottom: 0 !important;
+}
+.margen_top {
+	margin-top: 0 !important;
+}
+.margen_none {
+	margin: 0 !important;
+}
+.c_naranja, .c_rojo {
+	color: #4f6710;
+	/*font-size: 1.2em;*/
+}
+.c_azul {
+	color: #4f6710;
+}
+.user_alert {
+	color: #4f6710;
+	margin: 0 0 20px;
+	/*font-size: 1.2em !important;*/
+}
+.boton{
+    background: #4f6710;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 30px 10px 0;
+    text-decoration: none;
+	border: 1px solid #4F6710;
+}
+.boton_azul {
+	background: url("images/bg_bt_azul.jpg") #4f6710 repeat-x;
+	border: 1px solid #1197c8;
+	color: #fff;
+	font-size: 2.4em;
+	padding: 4px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px 0;
+	position: relative;
+}
+.boton_azul:hover {
+	background: url("images/bg_bt_azul_ov.jpg") #4f6710 repeat-x;	
+}
+.boton_naranja {
+	background: url("images/bg_bt_naranja.jpg") repeat-x #4f6710;
+	color: #fff;
+	border: 1px solid #4f6710;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+}
+.boton_naranja:hover {
+	background: url("images/bg_bt_naranja_ov.jpg") #779D14 repeat-x;
+}
+.important {
+	font-weight: bold;
+	font-size: 130% !important;
+}
+.entero {
+    float: left;
+    margin: 5px 0 0 1px;
+    width: 93%;
+}
+.tres_cuartos {
+	width: 75%;
+}
+.un_medio {
+	width: 50%;
+}
+.un_cuarto {
+	width: 25%
+}
+.un_tercio {
+	width: 30%;
+}
+.un_quinto {
+	width: 20%;
+	position: relative;
+}
+.bloque h3 {
+    border-top: 1px solid #D9D9D9;
+    margin: 40px 0 0;
+	font-weight: bold;
+	font-size: 1em !important;}
+.eliminar, 
+.agregar, 
+.enviar {
+	background-repeat: no-repeat;
+    border: none;
+    color: #4f6710;
+    font-size: 1em;
+    padding: 0 5px 0 24px;
+	cursor: pointer;
+	margin: 0 0 10px;
+	height: 22px;
+	width: 75px;
+}
+.eliminar:hover, 
+.agregar:hover {
+	text-decoration: underline;
+}
+.eliminar {
+	background-image: url("images/bt_eliminar.png");
+	color: #FFF;
+}
+.agregar {
+	background-image: url("images/bt_agregar.png");
+	float: right;
+}
+.enviar {
+	background-image: url("images/bt_enviar.png");
+}
+.agragar_bloque {
+    padding: 0 110px;
+    text-align: right;
+}
+.bloque p, 
+.conocimientos li, 
+p {
+	margin: 10px 0 0;
+   /* /*font-size: 1.2em;*/*/
+}
+.bloque p, 
+experiencia_laboral p {
+	line-height: 220%;
+}
+p.add_ph { font-size: 1em;
+	/*overflow: hidden;*/
+}
+.user_alert, 
+.c_naranja {
+	line-height: 120% !important;
+}
+.holder_foto p {
+	margin: 2px 0 0 !important;
+}
+/*.user_alert {
+	font-size: 0.8em;
+}*/
+.ico_calendar {
+    position: relative;
+    top: 5px;
+}
+.bt_ortografia {
+	text-align: right;
+	display: block;
+}
+.bt_ortografia input[type="button"] {
+	background: url("images/bt_ortografia.gif") no-repeat right 0;
+    border: medium none;
+    padding: 0 20px 0 0;
+	cursor: pointer;
+}
+
+
+#returnME a.expand {
+	/*font-size: 1.2em;*/
+	color: #4f6710;
+}
+/*checkboxes opcionales*/
+input.sugerido[type=checkbox] {
+	position: absolute;
+	left: -999em;
+}
+input.sugerido[type=checkbox] + label {
+	padding-left: 20px;
+	background: url(checkbox-sugerido.png) top left no-repeat;
+}
+input.sugerido[type=checkbox]:checked + label {
+	background-image: url(checkbox-sugerido-check.png);
+}
+.suggestionsBox {
+	z-index: 100 !important;
+    background-color: #FFFFFF !important;
+    border: 1px solid #769DC0 !important;
+    color: #000 !important;
+    left: 180px !important;
+    margin: -20px 0 0 !important;
+    position: absolute !important;
+    width: 320px !important;
+	border-radius: 0 !important;
+	height: 200px !important;
+	overflow: auto !important;
+}
+.division {
+	border-bottom: 1px solid #BCBCBC;
+    clear: both;
+    margin: 0 0 20px;
+    padding: 20px 0 0;
+}
+
+
+/*//////////////////////////////////////////////
+/////////////////  Mi espacio  ////////////////
+/////////////////////////////////////////////*/
+/*contenido sin columna lateral*/
+#videocurriculumForm {
+    width: 932px;
+}
+.busquedaPorPerfil {
+  padding: 20px;
+  width: 890px;
+}
+/*contenido con columna lateral*/
+#miEspacioUsuario,
+.datos_personales,
+.escolaridad,
+.experiencia_laboral,
+.situacion_laboral,
+#videocurriculumForm,
+.candidatoOf,
+.mientrevista,
+#testimonioForm,
+#expectativaForm { width: 681px}
+
+/*con pading*/
+#appHolder.app_holder .app form #wrapper { width: 641px;}
+
+
+#cuerpo_int #contenido.frames .miEspacioSubtitulo {
+	color: #4f6710;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 15px 10px 0;
+}
+#aviso_carta {
+    background: url("images/fnd_aviso_carta.jpg") no-repeat;
+    margin: 18px 0 0 3px;
+    min-height: 430px;
+    padding: 13px 0 30px;
+}
+#cuerpo_int #contenido.frames #aviso_carta h3 {
+    color: #4f6710;
+    font-size: 1.4em;
+	font-weight: normal;
+    margin: 0 0 0 20px;
+}
+#aviso_carta #modificar_perfil {
+    margin: 0 0 0 15px;
+}
+#wrapper #cuerpo_int #contenido_principal #aviso_carta #modificar_perfil a {
+    text-decoration: none;
+	color: #222;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+}
+#aviso_carta #image_wrapper {
+    float: left;
+    height: 100px;
+    margin: 14px 0 20px;
+    text-align: center;
+    width: 100px;
+}
+#aviso_carta #modificar_perfil img {
+    background: #FFF;
+    border: 1px solid #CCC;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 3px;
+}
+#aviso_carta #modificar_perfil #image_wrapper a {
+    color: #4f6710 !important;
+    font-weight: normal !important;
+	font-size: 0.9em !important;
+	text-decoration: underline !important;
+}
+.avisosGroup {
+	float: left;
+    margin: 0 0 0 13px;
+    /*padding: 10px 0 0;*/
+    width: 170px;
+}
+#cuerpo_int #contenido_principal #modificar_perfil .avisosGroup li.aviso {
+	background: url("images/bordr_avisoItem.gif") repeat-x;
+    border: none;
+    list-style: url("images/bullet_naranja1.gif") inside;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+	border-radius: 0;
+	margin-bottom: 0;	
+}
+/*DATOS USUARIO CABECERA*/
+#datos_usuario {
+	position: relative;
+	margin: 0 0 0 13px;
+}
+.holder_foto {
+    float: left;
+    height: 100px;
+    margin: 40px 28px 0 17px;
+    text-align: center;
+    width: 100px;
+}
+.holder_foto img {
+    background: #FFF;
+    border: 1px solid #CCC;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 3px;	
+}
+.holder_foto a {
+	color: #4f6710;
+	text-decoration: none;
+}
+.holder_foto a:hover {
+	text-decoration: underline;
+}
+.datos_usuario {
+	width: 400px;
+	float: left;
+	margin: 40px 0 80px;
+}
+.datos_usuario ul li {
+    color: #222;
+    /*font-size: 1.2em;*/
+    line-height: 150%;
+	font-weight: bold;
+	margin: 0 !important;
+}
+.nombre {
+	color: #222 !important;
+	margin: 0 0 10px !important;
+	/*	font-size: 2.2em;*/
+}
+.perfil_call {
+	background: url("bg_perfil_call.png") ;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    float: right;
+    height: 95px;
+    margin: 49px 13px 70px;
+    overflow: hidden;
+    padding: 10px 20px;
+    width: 264px;
+}
+.perfil_call p {
+	margin-top: 15px;
+}
+.perfil_call p:first-child {
+	width: 163px;
+
+	float: left;
+	border-right: 1px solid #c6c6c6;
+	padding: 0 5px 10px 0;
+	line-height: 150%;
+}
+.perfil_call p a {
+	color: #4f6710;
+	font-weight: bold;
+	text-decoration: none;
+}
+.holder_cerrar {
+    position: absolute;
+    right: 16px;
+}
+#cerrar_sesion {
+	display: none !important;
+	/*background: url("images/bt_cerrarSesion.gif") no-repeat;
+	color: #FFF;
+    display: block;
+    font-size: 12px;
+    height: 19px;
+    padding: 5px 0 0 25px;
+    text-decoration: none;
+    width: 82px;
+	margin: 10px 0 0;*/
+}
+#cerrar_sesion:hover {
+	text-decoration: underline;
+}
+.nav_espacioCandidatos {
+	position: absolute;
+	bottom: 0;
+}
+#cuerpo_int #contenido_principal .nav_espacioCandidatos li {
+	background: url("images/bg_tabs.jpg") repeat-x #c4c4c4;
+	display: block;
+	border: 1px solid #d9d8d8;
+	float: left;
+	/*font-size: 1.2em;*/
+	margin: 0 5px 0 0;
+}
+#cuerpo_int #contenido_principal .nav_espacioCandidatos li:hover {
+	background: #bbb;
+}
+#cuerpo_int #contenido.frames .nav_espacioCandidatos li a {
+	color: #333;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 11px 28px;
+    text-decoration: none;
+}
+#cuerpo_int #contenido.frames .nav_espacioCandidatos .tab_miPerfil a {
+	background: url("images/tab_miPerfil.png") no-repeat scroll 10px 10px transparent;
+    padding: 11px 20px 11px 35px;
+}
+#cuerpo_int #contenido.frames .nav_espacioCandidatos .tab_miPerfil.tab_current a {
+	background: url("images/tab_miPerfil_curr.png") no-repeat scroll 10px 10px;
+    padding: 11px 20px 14px 35px;
+}
+#cuerpo_int #contenido_principal li.tab_miEspacio {
+	border-top-left-radius: 10px;
+	margin: 0 5px 3px 0;	
+}
+.tab_misOfertas {
+	border-top-right-radius: 10px;
+	margin: 0 0 3px 5px;
+}
+.tab_current {
+	background: url("images/bg_tab_current.jpg") #4f6710 repeat-x !important;
+	border: 1px solid #4f6710 !important;}
+.tab_current a {
+	color: #fff !important;
+}
+/*/////////////Mis herramientas para encontrar empleo//////////////////*/
+#mis_herramientas {
+	display: block;
+    float: left;
+    margin: 34px 0 0 20px;
+    width: 340px;
+}
+#cuerpo_int #contenido .subtituloHerramientas {
+	font: bold 16px 'Droid Sans',Geneva,Arial,Helvetica,sans-serif;
+	color: #333;
+	margin-top: 20px; 
+}
+#cuerpo_int #contenido.frames #mis_herramientas h3,
+#cuerpo_int #contenido.frames .mientrevista #mis_herramientas + div h3 {
+    color: #333;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: -5px 0 10px;
+}
+.mientrevista #mis_herramientas + div h3 {
+    margin: 10px 20px;
+}
+#mis_herramientas a {
+    color: #333 !important;
+    display: block;
+    float: left;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none !important;
+    height: 57px;
+    padding: 15px 5px 0 57px;
+    width: 103px;
+	line-height: 1em !important;
+}
+#mis_herramientas #entrevista {
+    background: url("images/bts_carta.jpg");
+}
+#mis_herramientas #testimonio {
+    background: url("images/bts_compartir.jpg");
+}
+#mis_herramientas #otrasBolsas {
+    background: url("images/bts_bolsas.jpg");
+	margin: 0 0 0 10px;
+}
+#mis_herramientas #ofadmin {
+    background: url("images/bts_ofadmin.jpg");
+}
+#mis_herramientas #buscadorMiPerfil {
+    background: url("images/bts_buscarXPerfil.jpg");
+}
+#mis_herramientas #buscadorEspecifico {
+    background: url("images/bts_buscEsp.jpg");
+	margin: 0 0 0 10px;
+}
+#mis_herramientas #buscadorPorPalabra {
+    background: url("images/bts_buscarXPalabra.jpg");
+}
+#mis_herramientas #testimonio {
+    background: url("images/bts_compartir.jpg");
+	margin: 0 0 0 10px;
+}
+
+/*Mis herramientas.- HOVER 1012-2012*/
+#mis_herramientas a:hover { color: #fff !important;}
+#mis_herramientas #entrevista:hover {
+    background: url("images/bts_carta_ov.jpg");
+	color: #ffffff;
+}
+#mis_herramientas #testimonio:hover {
+    background: url("images/bts_compartir_ov.jpg");
+	color: #ffffff;
+}
+#mis_herramientas #otrasBolsas:hover {
+    background: url("images/bts_bolsas_ov.jpg");
+	margin: 0 0 0 10px;
+	color: #ffffff;
+}
+#mis_herramientas #ofadmin:hover {
+    background: url("images/bts_ofadmin_ov.jpg");
+	color: #ffffff;
+}
+#mis_herramientas #buscadorMiPerfil:hover {
+    background: url("images/bts_buscarXPerfil_ov.jpg");
+	color: #ffffff;
+}
+#mis_herramientas #buscadorEspecifico:hover {
+    background: url("images/bts_buscEsp_ov.jpg");
+	margin: 0 0 0 10px;
+	color: #ffffff;
+}
+#mis_herramientas #buscadorPorPalabra:hover {
+    background: url("images/bts_buscarXPalabra_ov.jpg");
+	color: #ffffff;
+}
+#mis_herramientas #testimonio:hover {
+    background: url("images/bts_compartir_ov.jpg");
+	margin: 0 0 0 10px;
+	color: #ffffff;
+}
+/*Busqueda en otras bolsas*/
+#bolsasTrabajoForm h2 {
+    color: #757575;
+    font-size: 2.2em;
+    margin: 25px 0 10px 20px;
+}
+.bolsaCampos {
+    display: block;
+    float: left;
+    font-weight: bold;
+	margin: 5px 0 0 40px;
+    padding-top: 30px;
+}
+.bolsaCampos span {
+    display: block;
+	margin: -15px 0 0 -5px;
+	padding: 5px 0 0 10px;
+}
+.bolsaCampos input, .bolsaCampos select {
+    border: 1px solid #CCC;
+    color: #666;
+    /*font-size: 1.2em;*/
+    height: 20px;
+    padding: 0;
+    width: 150px;
+}
+.bolsasBuscadores input {
+    clear: both;
+    float: right;
+    margin-right: 10px;
+}
+.bolsasBuscadores {
+    background: url("images/bolsas_plecatop.jpg") no-repeat #F5F5F5;
+    border-bottom: 3px solid #999;
+    border-top: 10px solid #999;
+    float: right;
+    height: auto;
+	margin: 42px 20px 0 0;
+    width: 363px;
+}
+.bolsasBuscadores label {
+    background: url("images/bolsas_icon.jpg") no-repeat scroll left top transparent;
+    border-bottom: 1px solid #E3E3E3;
+    display: block;
+	margin: 10px 0 0 13px;
+	padding: 0 0 6px 30px;
+}
+.logosBolsas {
+    clear: both;
+    display: inline-block;
+    float: right;
+	margin: 5px 10px 0 0;
+}
+.bolsaCampos p {
+	padding: 10px;
+}
+.bolsasBuscadores span img {
+	display: none;
+}
+/* ESTILO BUSCADOR OFERTAS DE EMPLEO.- NUEVO*/
+h2.buscadorTitOf {
+	text-align: center;
+}
+.candidatoOf #buscador_ofertas{
+    background: url("images/fnd_buscadorCandidatos.jpg") no-repeat;
+    height: 131px;
+    margin: 40px auto 0;
+    padding: 20px 0 0;
+    position: relative;
+    width: 667px;
+}
+.candidatoOf #buscador_ofertas strong{
+	font-size: 1.5em;
+	color: #747474;
+	font-weight: normal;
+	margin-left: 171px
+}
+.candidatoOf #buscador_ofertas p.ejemplo{
+	font-size: 0.85em;
+	color: #747474;
+	float: none;
+	padding: 4px 0 0 11px;
+	margin-left: 160px;
+}
+#ocupateForm {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 330px;
+}
+#ocupateForm input#searchQ[type="text"] {
+  background: url("images/input-campo_buscador.png") repeat scroll 0 0 transparent;
+  border: medium none;
+  color: #747474;
+  float: left;
+  height: 34px;
+  padding: 3px 0 0 10px;
+  width: 311px;
+}
+#ocupateForm #btnBuscar {
+  background: url("images/bt_buscar2012.png") repeat scroll 0 0 transparent;
+  border: medium none;
+  cursor: pointer;
+  float: left;
+  font-size: 0;
+  height: 36px;
+  margin-left: -80px;
+  width: 80px;
+}
+#buscador_ofertas #ocupateForm #btnBuscar:hover{
+	background: url("images/bt_buscar2012_ov.png") no-repeat;
+}
+
+/* COMPARTIR TESTIMONIO.- NUEVO*/
+#testimonioForm #compartirTestimonio{ 
+	margin-top: 45px;
+    text-align: center;
+	height: 500px;
+}
+#testimonioForm #compartirTestimonio h3 span{ 
+	color: #4f6710; 
+	font-size: 2.4em; 
+	background: none;
+}
+#testimonioForm #compartirTestimonio label{
+	color: #747474; 
+	/*font-size: 1.2em;*/ 
+	font-weight: normal; 
+}
+#testimonioForm #compartirTestimonio #testimonio{ 
+	margin-top: 10px; 
+	border: 1px solid #B5BBC7; 
+	width: 358px;
+}
+#testimonioForm #compartirTestimonio .boton{ 
+	background: url("images/btn-test.png");  
+	border: none;  
+	color: #FFF; 
+	height: 23px; 
+	line-height: 23px; 
+	width: 106px;
+}
+#testimonioForm #compartirTestimonio .boton:hover{ 
+	background: url("images/btn-test_ov.png") ;
+}
+#testimonioForm #compartirTestimonio input[type="button"]{ 
+	cursor: pointer; 
+	display: inline; 
+}
+.contenido_miespacio #ofertas_recomendadas table tr td:first-child  {
+	width: 300px;
+}
+/*Mi entrevista*/
+.mientrevista {}
+.mientrevista div#mis_herramientas {
+	margin-bottom: 10px;
+}
+.mientrevista div table.entrevista tbody tr.temas {  
+	border-right: 1px solid #CCC;
+}
+.mientrevista div table.entrevista tbody tr.temas td {
+	/*border-left: 1px solid #CCC;*/
+    padding: 5px;
+    vertical-align: middle;
+}
+.mientrevista div table.entrevista tbody tr td { 
+	padding-top: 10px;
+}
+
+
+/*//////////////////////////////////////////////
+///////////////// DOJO STYLE  //////////////////
+/////////////////////////////////////////////*/
+.claro .dijitTextBox .dijitInputField {
+	padding: 3px 2px 0 !important;
+}
+.claro .dijitTextBox .dijitArrowButtonInner {
+	padding: 1px 2px !important;
+}
+.dijitInputContainer .dijitInputInner { 
+	line-height: 18px !important; 
+	height: 18px !important;
+}
+.dijitInputInner {
+	height: 16px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	line-height: 1em !important;
+}
+.dijit {
+/*	height: 19px !important; */
+}
+.dijitInputInner {
+	height: 19px !important;
+	margin: -3px 0 0 !important;
+}
+.dijitError {
+	overflow: hidden !important;
+}
+
+/*//////////////////////////////////////////////
+/////////////////  Mi perfil  /////////////////
+/////////////////////////////////////////////*/
+/*NAVEGACION MI PERFIL*/
+.nav_miPerfil {
+	background: #4f6710;
+	padding: 8px 6px 6px;
+	border: 1px solid #000;
+	border-top: none;
+	height: 21px;
+}
+.nav_miPerfil li {
+	float: left;
+	/*font-size: 1.2em;*/
+}
+.nav_miPerfil li a {
+	text-decoration: none !important;
+	display: block;
+	padding: 3px 6px;
+	color: #fff !important;
+	/*font-size: 0.83em;*/
+}
+.nav_miPerfil li a:hover {
+	text-decoration: underline;
+}
+.current_page {
+	position: relative;
+	background: url("images/bg_current_arrow.png") no-repeat center bottom !important;
+	margin: 3px 0 0;
+	height: 40px;
+}
+.current_page span {
+	background: #303F0A;
+	padding: 3px 6px;
+	color: #fff;
+}
+#btnDesactivar { 
+    float: right;
+    /*font-size: 1.2em;*/
+    margin: 0 10px;
+    padding: 3px 5px;
+}
+/*////////////Datos personales//////////////*/
+.datos_de_contacto #addPhone .acceso #widget_accesoAdd.dijit,
+.datos_de_contacto #addPhone #widget_claveAdd.dijit,
+.datos_de_contacto #phoneadds #widget_accesoAdd1.dijit,
+.datos_de_contacto #phoneadds #widget_claveAdd1.dijit,
+.datos_de_contacto #phoneadds #widget_accesoAdd2.dijit,
+.datos_de_contacto #phoneadds #widget_claveAdd2.dijit {
+	width: 37px;
+}
+.datos_de_contacto #addPhone #widget_telefonoAdd.dijit,
+.datos_de_contacto #addPhone #widget_extensionAdd.dijit,
+.datos_de_contacto #phoneadds #widget_telefonoAdd1.dijit,
+.datos_de_contacto #phoneadds #widget_extensionAdd1.dijit,
+.datos_de_contacto #phoneadds #widget_telefonoAdd2.dijit,
+.datos_de_contacto #phoneadds #widget_extensionAdd2.dijit {
+	width: 95px;
+}
+#perfilForm .aside {
+	display: none;
+}
+
+#phoneadds {
+    margin-top: 15px;
+}
+#phoneadds #addPhone {
+    margin-left: -13px;
+    padding: 10px;
+    width: 682px;
+}
+#perfilForm .datos_personales .datos_de_contacto #phoneadds .un_quinto input.eliminar,
+#perfilForm .datos_personales .datos_de_contacto #phoneadds #addPhone #btnAgregarTelefono.enviar {
+	float: right;
+    margin-top: 30px;
+	font-size: 1em;
+}
+#perfilForm .app_holder2 .app .datos_personales .datos_de_contacto #phoneadds p.un_quinto + p.un_quinto + p.un_quinto + p.un_quinto + p.un_quinto + br + p.add_ph { 
+	top: 30px;
+}
+#widget_numeroExterior.dijitTextBox, #widget_numeroInterior.dijitTextBox {
+	width: 5em !important;
+}
+.domicilio_actual h3 + p + p + p {
+	font-weight: bold;
+}
+.domicilio_actual p.un_cuarto input[type="text"].dijitReset {
+	font-weight: normal !important;
+}
+#widget_calle.dijitTextBox, 
+#widget_entreCalle.dijitTextBox, 
+#widget_yCalle.dijitTextBox {
+	width: 267px;
+}
+.estado_civil.bloque {
+    clear: both;
+    overflow: hidden;
+}
+
+/*////////////////////Escolaridad y otros conocimientos//////////////////////*/
+.escolaridad .agregar {
+    margin-top: -24px;
+}
+#escolaridadForm #widget_idCarreraEspecialidadSelect.dijit {
+	width: 180px !important;
+}
+html.dj_gecko body.claro div#widget_idCarreraEspecialidadSelect_dropdown.dijitPopup {
+    height: 300px;
+    width: 480px;
+	box-shadow: none;
+}
+.instruccion_ocupacion { 
+	color: #4f6710;
+}
+/*idiomas*/
+.idiomas .un_cuarto,
+#idiomaAdicional .un_cuarto,
+#idiomaExtra .un_cuarto {
+	width: auto;
+	margin-right: 10px;
+}
+#idiomaAdicional,
+#idiomaExtra {
+    margin-left: -12px;
+    padding: 10px;
+    width: 100%;
+}
+#idiomaAdicional .un_cuarto.fl:last-child,
+#idiomaExtra p:last-of-type {
+	float: right;
+    margin-right: 0;
+}
+#idiomaAdicional .un_cuarto.fl:last-child{
+    margin-top: 20px;
+}
+
+#agregaIdioma br + br + #idiomaBoton { margin-top: -31px;}
+#agregaIdioma #idiomaExtra + br + br + #idiomaBoton { margin-top: -15px;}
+
+/*habilidades*/
+#escolaridadForm .escolaridad .habilidades div div#skillsadd.habilidades div#widget_idExperienciaSelectAddSkill.dijit div.dijitReset input.dijitReset { 
+	background-position: -33px 41%;
+}
+#escolaridadForm .escolaridad .habilidades div .habilidades .un_medio input.sugerido,
+#escolaridadForm .escolaridad .habilidades div .habilidades .un_medio input.sugerido {
+	/*font-size: 1.2em;*/
+	padding: 2px;
+}
+#escolaridadForm .escolaridad .habilidades div .habilidades select.sugerido,
+#escolaridadForm .escolaridad .habilidades div .habilidades .un_medio select.sugerido,
+#escolaridadForm .escolaridad .habilidades div div#skillsadd.habilidades div#widget_idExperienciaSelectAddSkill.dijit  {	
+	width: 180px;
+}
+#escolaridadForm .escolaridad .habilidades div .habilidades #widget_idExperienciaSelectAddSkill.dijit div.dijitReset input#idExperienciaSelectAddSkill.dijitReset { 
+	/*font-size: 1.2em;*/
+}
+#escolaridadForm .escolaridad .habilidades div div#skillsadd.habilidades div#widget_idExperienciaSelectAddSkill.dijit { 	
+	margin-top: 4px;
+}
+#escolaridadForm .escolaridad .habilidades div div#skillsadd.habilidades div.campoTexto p.fl { 
+	width: auto;
+}
+#escolaridadForm .escolaridad div.habilidades div div.habilidades div.campoTexto p.fl input.eliminar,
+#escolaridadForm .escolaridad div.habilidades div div#skillsadd.habilidades div.campoTexto p.fl input.enviar {
+	bottom: 50px;
+    position: absolute;
+    right: 0;
+}
+#escolaridadForm .escolaridad div div.habilidades div.campoTexto p.tres_cuartos + p input { 
+	float: right;
+}
+#escolaridadForm div.campoTexto,
+#skillsadd.habilidades .campoTexto p.tres_cuartos table,
+#conocimientosadd.conocimientos .campoTexto p.tres_cuartos table { 
+	position: relative;
+}
+/*#conocimientosadd.conocimientos .campoTexto p.tres_cuartos table tbody tr td > span,*/
+#skillsadd.habilidades .campoTexto p.tres_cuartos table tr td span {   
+	left: 250px;
+    position: absolute;
+    top: -30px;
+    width: 200px;
+}
+#skillsadd.habilidades .campoTexto .tres_cuartos table tr td span span { 
+	left: 0; 
+	position: static;
+}
+#skillsadd.habilidades .campoTexto span.c_rojo {
+	display: block;
+	margin-bottom: 30px;
+}
+
+#skillsadd {
+	margin: 50px 0 0 -13px;
+	position: relative;
+	padding: 10px;
+	width: 100%;
+}
+#conocimientosadd {
+	position: relative;
+	padding: 10px;
+}
+#skillsadd h3, 
+#conocimientosadd h3 {
+	margin: 0;
+	position: absolute;
+	top: -20px;
+	width: 100%;
+}
+/*#skillsadd div.campoTexto p.fl input,*/ 
+#conocimientosadd div.campoTexto p.fl input.enviar{
+	position: absolute;
+	right: -24px;
+	bottom: 6px;
+	margin: 0;
+}
+.conocimientos.fl label {
+    /*font-size: 1.2em;*/
+}
+/*Conocimientos Bloque*/
+.conocimientos.bloque {
+	margin-top: 20px;
+    padding: 10px;
+	background: #f5f5f5;
+}
+#conocimientosadd {
+	background: #E0ECF8;
+}
+.campoTexto {
+	width: 97%;
+}
+.campoTexto table {
+	background: #e2e2e2;
+}
+.campoTexto table tbody tr td { padding: 0;}
+.ico {
+    background: url(images/ico.png) left no-repeat;
+	font-size: 1.1em;
+    padding-left: 10px;
+    position: relative;
+    right: -10px;
+    top: 22px;
+	clear: both;
+	max-width: 420px;
+}
+/*Revisar ortografía*/
+.campoTexto table tbody tr td > span:first-child,
+table tbody tr td > span:first-child {
+	background: url(images/ortografia.png);
+    float: right;
+    height: 24px;
+    margin: 5px;
+    width: 126px;
+	padding-right: 5px;
+}
+span.googie_check_spelling_link {
+	color: #fff;
+	padding-right: 25px;
+	background: url(images/spellc.png) no-repeat right;
+	line-height: 24px;
+}
+.campoTexto span + img { display: none;}
+
+.googie_resume_editing span { 
+	color: #fff;
+    line-height: 24px;
+    margin-right: 9px;}
+
+.googie_list_close { 
+	color: #fff !important;
+	text-align: center;
+	line-height: 24px;}
+	
+/*--------------------------------*/
+#idConocimientosBloque p.add_ph{
+	position: relative;
+}
+#btnAgregarConocimiento{
+    position: absolute;
+    right: 6px;
+    top: -60px;
+}
+.conocimientos .campoTexto .eliminar {
+	bottom: -4px;
+    position: absolute;
+    right: -24px;
+}
+#idConocimientosBloque .conocimientos .un_medio input.sugerido {
+	width: 296px;
+}
+.color_bloque .campoTexto table tbody tr td > span:first-child {
+	margin-left: 315px;
+}
+.conocimientos .un_medio {
+	width: auto;
+	margin-right: 10px;}
+/*Habilidades y Actitudes*/
+.habilidades.bloque {
+    overflow: hidden;
+}
+.habilidades.bloque h3 {
+    margin-bottom: 20px;
+}
+.habilidades .un_tercio.fl {
+    /*font-size: 1.2em;*/
+    line-height: 1.8;
+	margin-right: 15px;
+}
+.tres_cuartos .googie_check_spelling_link {
+	color: #fff;}
+
+/*Otros estudios */
+#escolaridadForm .escolaridad div + h2 + p + div + div,	
+#escolaridadForm .escolaridad div div#studiesadd,
+#escolaridadForm .escolaridad div div.otros_estudios{
+    margin: 60px -8px 20px -13px;
+    padding: 0 0 20px 10px;
+    position: relative;
+}
+#escolaridadForm .escolaridad div + h2 + p + div + div {
+	margin: 0;
+    padding: 0;
+}
+#escolaridadForm .escolaridad div div#bloque1.otros_estudios h3,
+#escolaridadForm .escolaridad div div#studiesadd h3 {
+	border-top: 1px solid #D9D9D9;
+    font-weight: bold;
+    position: absolute;
+    top: -70px;
+    width: 99%;
+}
+#escolaridadForm .escolaridad div div.otros_estudios p.un_medio input.sugerido {
+	/*font-size: 1.2em;*/
+    padding: 3px;
+}
+#escolaridadForm .escolaridad div div#studiesadd.otros_estudios p.un_cuarto input.agregar {
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+#escolaridadForm .escolaridad div div#studiesadd.otros_estudios p.un_medio input.enviar {
+	position: absolute;
+	right: 10px;
+	margin-top: 30px;
+}
+#escolaridadForm .escolaridad div div p.entero input.eliminar { 
+	margin-right: 10px;
+}
+/*///Experiencia y expectativas laborales///*/
+#widget_idExperienceJob.dijit .dijitReset #idExperienceJob.dijitReset{ 
+	/*font-size: 1.2em;*/
+}
+#expectativaForm .user_alert,
+#experienciaForm .user_alert {
+	background: none !important;
+	padding: 0 !important;
+}
+.color_ej,
+.sugerido, 
+.sugerido .dijitInputContainer,
+#experienciaForm #widget_salarioMensual .dijitInputContainer,
+#experienciaForm #widget_personasCargoSelect .dijitInputContainer,
+#experienciaForm #widget_idJerarquiaSelect .dijitInputContainer,
+#experienciaForm #widget_puesto .dijitInputContainer,
+#experienciaForm #widget_empresa .dijitInputContainer {
+	background: #F9FBF7;
+	border: #779D14 1px solid;
+}
+#experienciaForm #experiencia.sugerido {
+	background: #fff !important;
+	border: 1px solid #b5bcc7;
+}
+#experienciaForm .ultimo_trabajo .dijitCheckBox {
+	background-image: url("images/checkboxRadioButtonSugerido.jpg");
+    background-repeat: no-repeat; /*no hacer shorthand*/
+}
+#experienciaForm p,
+#expectativaForm p {
+	margin: 20px 0 0 !important;
+	line-height: 140%
+}
+#experienciaForm .campoTexto p.tres_cuartos {
+	margin: 0 !important;
+	width: 611px !important;
+}
+#experienciaForm #widget_puesto.dijit,
+#experienciaForm #widget_empresa.dijit {
+	width: 280px !important;
+}
+#experienciaForm #widget_ocupacion.dijit {
+	margin: -40px 0 0 330px;
+	border: none;
+    font-weight: bold;
+    width: 350px !important;
+}
+.datos_de_cuenta p label,
+.estado_civil p label,
+.discapacidad p label {
+	width: 190px;
+	display: block;
+	float: left;
+}
+.campoTexto label {
+	display: block;	
+}
+.certificacion {
+	text-align: center;
+}
+.certificacion h3 {
+	text-align: left !important;
+}
+.datos_personales input.boton_naranja,
+.escolaridad input.boton_naranja,
+.experiencia_laboral input.boton_naranja,
+.situacion_laboral input.boton_naranja {
+	font-size: 2em;
+	padding: 5px 10px;
+	margin: 40px 10px 100px;
+}
+/*////////////SituaciÓn laboral/////////////*/
+
+#expectativaForm .situacion_laboral .un_tercio {
+	/*font-size: 1.2em;*/
+    margin: 15px 15px 0 0;
+}
+#expectativaForm .situacion_laboral .un_tercio.fl > input {
+    margin-top: 8px;
+}
+/*//////////////////////////////////////////////
+///////// Mis ofertas laborales  ///////////////
+/////////////////////////////////////////////*/
+#appHolderMisOfertas.app_holder .app {
+	width: 910px;
+	padding: 10px;
+}
+#myoffers h3,
+#myopportunities h3 {
+    font-weight: bold;
+    height: 40px;
+    margin-top: 20px;	
+}
+#divOffers a, #divOffersFindMe a {
+	color: #4f6710;
+}
+.publicados table,
+#myopportunities .publicados table {
+    color: #666;
+    /*font-size: 1.1em;*/
+    margin: 10px;
+    width: 93%;
+	border-collapse: inherit;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid #ccc;
+}
+.temas { background: url("images/bg-thead.png") repeat-x;}
+	
+table .temas th,
+table .temas td  {
+    border-right: 1px solid #BABABA;
+	text-align: center;
+	padding: 7px 10px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+    vertical-align: middle;}
+	
+table .temas th:last-child,
+table .temas td:last-child { border: none;}	
+	
+table .temas a.ascendente {
+    background: url("images/ascendente.gif");
+    margin-top: -7px;
+	width: 10px;}
+	
+table .temas a.descendente {
+    background: url("images/descendente.gif");
+	margin-top: 2px;
+	width: 10px;}
+	
+table .temas a {
+    float: right;
+    height: 7px;}
+	
+.publicados .seleccionados tbody tr td { 
+	padding: 0 5px;
+}
+.publicados .seleccionados tbody .odd, 
+.publicados .seleccionados tbody .odd + .detalles { 
+	background: #EBEBEB;
+}
+.publicados .seleccionados tbody .detalles td .expand { 
+	text-decoration: none;
+}
+.publicados .seleccionados tbody t.detalles td a + div { 
+	margin-top: 10px;
+}
+.publicados .seleccionados tbody .detalles td,
+.publicados .seleccionados tbody .odd + .detalles td { 
+	padding: 0 5px 10px;
+}
+.publicados table input {
+    margin: 10px;
+}
+.profesion {
+    padding-top: 10px;
+}
+.profesion strong a {
+	display: block;
+    /*font-size: 1.2em;*/
+    margin-bottom: 2px;
+}
+#mis_ofertas .profesion a:visited { /*Marcar de un color diferente los enlaces visitados en  Mis ofertas*/
+	color: #9A9A9A;
+}
+.seleccion {
+    float: left;
+    padding: 10px;
+}
+#myoffers .boton,
+#myopportunities .boton,
+#buscarCesar.boton  {
+    background: url("images/bt_miEspacio.gif") no-repeat scroll 0 0 transparent !important;
+    border: medium none;
+    color: #FFF;
+    height: 24px;
+    margin: 22px 0 0;
+    text-align: center;
+    width: 110px;
+}
+#myopportunities .boton { margin-bottom: 5px;}
+#buscarCesar.boton {
+	padding: 2px 10px;
+	margin: 27px auto;
+	float: none;
+}
+/*PAGINADOR*/
+/*PAGINADOR*/
+.paginator {
+	width: 600px;
+	color: #666;
+	margin: 30px auto 0;
+	text-align: center;
+	font-size: 12px;}
+	
+.paginator a {
+	color: #4f6710;
+	text-decoration: none;}
+	
+.paginator li { display: inline-block;}
+
+.pagina,
+.current {
+    background: url("images/bg_pag.gif") no-repeat;
+    display: block;
+    height: 22px;
+    margin: 0 2px;
+    padding: 2px 0 0;
+    width: 26px;
+}
+.current { background: url("images/bg_pag_cur.gif") no-repeat;}
+
+.mostradas { margin-bottom: 15px;}
+
+.pagina:hover { background: url("images/bg_pag_hov.gif") no-repeat;}
+
+.pagina { font-size: 1em !important;}/*conflicto con estilos_canalB*/
+
+/**/
+
+/*//////////////////////////////////////////////
+///////////////// Columna //  ////////////////
+/////////////////////////////////////////////*/
+
+.aside .link_conocer {
+    background: url("images/bg_linkConocer_ME.png");
+    color: #666;
+    display: block;
+    font-size: 1em;
+    height: 75px;
+    margin: 0 0 12px 20px;
+    padding: 11px 126px 0 0;
+    text-align: right;
+    text-decoration: none !important;
+    width: 94px;
+}
+.link_conocer span {
+	font-size: 1em !important;
+	letter-spacing: 0 !important;
+}
+#cuerpo_int #contenido.frames .foro,
+#cuerpo_int #contenido.frames .tips {
+	background: url("images/tips_img2.png");
+	line-height: 15px;
+	margin: 15px 0 0 10px;
+	width: 186px;
+	height: 40px;
+	padding: 10px 0 0 50px;
+}
+.foro a,
+.tips a {
+	color: #454545 !important;
+	font-size: 1.1em !important;
+	font-weight: bold;
+	text-decoration: none !important;
+}
+.foro span,
+.tips span {
+	color: #4f6710;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+#cuerpo_int #contenido.frames .foro {
+	background: url("images/foro_img2.png");
+}
+.aside h4 {
+	/*border: none;*/
+	color: #4A4A4A !important;
+/*	font-weight: bold;*/
+	font-size: 1.15em !important;
+	margin: 20px 0 5px 20px;
+}
+.relacionados a {
+	background: url("images/bullet_naranja1.gif") no-repeat 20px 12px;
+	color: #454545 !important;
+	display: block;
+	font-size: 0.95em !important;
+	padding: 3px 0 0 29px;
+	text-decoration: none !important;
+}
+#cuerpo_int #contenido .aside li, 
+.relacionados li {
+  margin: 0;
+}
+/*/////////////////////////////////////////////
+////////// Alertas////////////////////////////
+///////////////////////////////////////////*/
+.claro .dijitDialogTitleBar { background: #779D14 !important;}
+#dijit_Dialog_0.dijitDialogFixed { top: 0 !important;}
+.dijitDialogPaneContent p {
+    margin: 0 auto;
+    width: 246px;
+}
+.dijitDialogPaneContent p .boton_naranja {
+	background: url("images/bg_bt_naranja.jpg") repeat-x #4f6710;
+	color: #fff;
+	border: 1px solid #4f6710;
+	border-radius: 5px;
+	cursor: pointer;
+    font-size: 1.4em;
+    padding: 5px 10px;
+	margin-right: 10px;
+}
+.dijitDialogPaneContent p .boton_naranja:hover{background: url("images/bg_bt_naranja_ov.jpg") #779D14 repeat-x;}
+
+.dijitDialogPaneContent h3 {
+    /*font-size: 1.2em;*/
+    margin: 25px auto;
+	text-align: center;
+}
+#dijit_Dialog_0_title {
+    font-size: 1.4em;
+    font-weight: normal;
+}
+/* cv*/
+#shwCvStyle {
+	margin: 30px 370px 0 0; }
+	
+/*otras bolsas*/
+.gris li { margin-left: 0 !important}
+.app #otras-bolsas { width: 892px;}

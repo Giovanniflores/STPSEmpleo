@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="parametrosForm"
+			type="mx.gob.stps.portal.web.autorization.form.ParametrizarForm" />
+		<!-- TODO: ESTAS FORMAS SON CANDIDATAS A ELIMINARSE <form-bean name="candidatosRegistroForm" 
+			type="mx.gob.stps.portal.web.candidate.form.CandidatosRegistroForm"/> <form-bean 
+			name="regContForm" type="mx.gob.stps.portal.web.company.form.RegContForm"/> -->
+		<form-bean name="usuarioForm"
+			type="mx.gob.stps.portal.web.security.form.UsuarioForm" />
+		<form-bean name="perfilForm"
+			type="mx.gob.stps.portal.web.candidate.form.PerfilForm" />
+		<form-bean name="escolaridadForm"
+			type="mx.gob.stps.portal.web.candidate.form.EscolaridadForm" />
+		<form-bean name="gradoAcademicoForm"
+			type="mx.gob.stps.portal.web.candidate.form.GradoAcademicoForm" />
+		<form-bean name="idiomaForm"
+			type="mx.gob.stps.portal.web.candidate.form.IdiomaForm" />
+		<form-bean name="conocimHabilidadForm"
+			type="mx.gob.stps.portal.web.candidate.form.ConocimHabilidadForm" />
+		<form-bean name="compuAvanzadaForm"
+			type="mx.gob.stps.portal.web.candidate.form.ComputacionAvanzadaForm" />
+		<form-bean name="experienciaForm"
+			type="mx.gob.stps.portal.web.candidate.form.ExperienciaForm" />
+		<form-bean name="histLaboralForm"
+			type="mx.gob.stps.portal.web.candidate.form.HistoriaLaboralForm" />
+		<form-bean name="expectativaForm"
+			type="mx.gob.stps.portal.web.candidate.form.ExpectativaForm" />
+		<form-bean name="expecLaboralForm"
+			type="mx.gob.stps.portal.web.candidate.form.ExpecLaboralForm" />
+		<form-bean name="expecLugarForm"
+			type="mx.gob.stps.portal.web.candidate.form.ExpecLugarForm" />
+		<form-bean name="domicilioForm"
+			type="mx.gob.stps.portal.web.address.form.DomicilioForm" />
+		<form-bean name="testimonioForm"
+			type="mx.gob.stps.portal.web.testimony.form.TestimonioForm" />
+		<form-bean name="curriculumCargaForm"
+			type="mx.gob.stps.portal.web.candidate.form.CurriculumCargaForm" />
+		<form-bean name="fotoCargaForm"
+			type="mx.gob.stps.portal.web.candidate.form.CargaFotoForm" />
+		<!-- TODO: ESTAS FORMAS SON CANDIDATAS A ELIMINARSE <form-bean name="ComRegCompanyForm" 
+			type="mx.gob.stps.portal.web.company.form.ComRegCompanyForm"/> <form-bean 
+			name="ComUpdCompanyForm" type="mx.gob.stps.portal.web.company.form.ComUpdCompanyForm"/> 
+			<form-bean name="ComRegPartnerCompanyForm" type="mx.gob.stps.portal.web.company.form.ComRegPartnerCompanyForm"/> 
+			<form-bean name="ComRegPartnerCompanyFormv2" type="mx.gob.stps.portal.web.company.form.ComRegPartnerCompanyFormv2"/> 
+			<form-bean name="ComRegContactForm" type="mx.gob.stps.portal.web.company.form.ComRegContactForm"/> 
+			<form-bean name="ComRegContactFormv2" type="mx.gob.stps.portal.web.company.form.ComRegContactFormv2"/> 
+			<form-bean name="ComUpdPreCompanyForm" type="mx.gob.stps.portal.web.company.form.ComUpdPreCompanyForm"/> -->
+		<form-bean name="EmpresaDetalleForm"
+			type="mx.gob.stps.portal.web.company.form.EmpresaDetalleForm" />
+		<form-bean name="uploadCompanyLogoForm"
+			type="mx.gob.stps.portal.web.company.form.UploadLogoForm" />
+		<form-bean name="confirmacionRegistroForm"
+			type="mx.gob.stps.portal.web.confirmacion.form.ConfirmacionRegistroForm" />
+		<form-bean name="entrevistaForm"
+			type="mx.gob.stps.portal.web.entrevista.form.EntrevistaForm" />
+		<form-bean name="bolsasTrabajoForm"
+			type="mx.gob.stps.portal.web.jobvacancies.form.BolsasTrabajoForm" />
+		<form-bean name="autorizationForm"
+			type="mx.gob.stps.portal.web.autorization.form.AutorizationForm" />
+		<form-bean name="PhoneForm"
+			type="mx.gob.stps.portal.web.phone.form.PhoneForm" />
+		<form-bean name="OfertasPorPerfilForm"
+			type="mx.gob.stps.portal.web.oferta.search.form.OfertasPorPerfilForm" />
+		<form-bean name="OfertasPorParametrosForm"
+			type="mx.gob.stps.portal.web.oferta.search.form.OfertasPorParametrosForm" />
+		<form-bean name="CandidatosPorParametrosForm"
+			type="mx.gob.stps.portal.web.oferta.search.form.CandidatosPorParametrosForm" />
+		<form-bean name="AdmonCandidatosForm"
+			type="mx.gob.stps.portal.web.candidate.form.AdmonCandidatosForm" />
+		<form-bean name="MotivoForm"
+			type="mx.gob.stps.portal.web.candidate.form.MotivoForm" />
+		<form-bean name="OfertasRecientesForm"
+			type="mx.gob.stps.portal.web.oferta.search.form.OfertasRecientesForm" />
+		<form-bean name="CalculadoraForm"
+			type="mx.gob.stps.portal.web.candidate.form.CalculadoraForm" />
+		<form-bean name="OfferQuestionForm"
+			type="mx.gob.stps.portal.web.offer.form.OfferQuestionForm" />
+		<form-bean name="FilterCompanyForm"
+			type="mx.gob.stps.portal.web.company.form.FilterCompanyForm" />
+		<form-bean name="FiltraCandidatoForm"
+			type="mx.gob.stps.portal.web.candidate.form.FiltraCandidatoForm" />
+		<form-bean name="spacecompanyform"
+			type="mx.gob.stps.portal.web.oferta.form.SpaceCompanyForm" />
+		<form-bean name="OfertasPorCanalForm"
+			type="mx.gob.stps.portal.web.offer.form.OffersPerCanalForm" />
+		<form-bean name="EligeEstiloCurriculumForm"
+			type="mx.gob.stps.portal.web.candidate.form.EligeEstiloCurriculumForm" />
+		<form-bean name="ShowCompanyForm"
+			type="mx.gob.stps.portal.web.company.form.ShowCompanyForm" />
+		<form-bean name="ShowMoreCompanyOffersForm"
+			type="mx.gob.stps.portal.web.company.form.ShowMoreCompanyOffersForm" />
+		<form-bean name="cursoFormacionForm"
+			type="mx.gob.stps.portal.web.curso.form.CursoFormacionForm" />
+		<form-bean name="TraceUserForm"
+			type="mx.gob.stps.portal.web.cil.form.TraceUserForm" />
+		<form-bean name="AdminPublisherActivityForm"
+			type="mx.gob.stps.portal.web.admin.publisher.AdminPublisherActivityForm" />
+		<form-bean name="EventUserForm"
+			type="mx.gob.stps.portal.web.cil.form.EventUserForm" />
+		<form-bean name="ReporteOfertasEmpresaForm"
+			type="mx.gob.stps.portal.web.oferta.form.ReporteOfertasEmpresaForm" />
+
+		<form-bean name="ofertasSFPForm"
+			type="mx.gob.stps.portal.web.ofertasSFP.form.OfertasSFPForm" />
+		<!--OFERTAS TODO: ESTAS FORMAS SON CANDIDATAS A ELIMINARSE <form-bean name="registroRequisitosFormBean" 
+			type="mx.gob.stps.portal.web.oferta.form.RegistroRequisitosForm" /> <form-bean 
+			name="registroUbicacionFormBean" type="mx.gob.stps.portal.web.oferta.form.RegistroUbicacionForm" 
+			/> <form-bean name="registroContactoFormBean" type="mx.gob.stps.portal.web.oferta.form.RegistroContactoForm" 
+			/> <form-bean name="requisitosFormBean" type="mx.gob.stps.portal.web.oferta.form.RequisitosForm" 
+			/> <form-bean name="carrerasFormBean" type="mx.gob.stps.portal.web.oferta.form.CarrerasSimilaresForm" 
+			/> <form-bean name="sectoresFormBean" type="mx.gob.stps.portal.web.oferta.form.SectoresForm" 
+			/> <form-bean name="entidadesFormBean" type="mx.gob.stps.portal.web.oferta.form.EntidadesForm" 
+			/> -->
+		<form-bean name="navegacionFormBean"
+			type="mx.gob.stps.portal.web.oferta.form.NavegacionForm" />
+		<form-bean name="recuperaOfertasFormBean"
+			type="mx.gob.stps.portal.web.oferta.form.RecuperaOfertasForm" />
+
+		<form-bean name="SearchCandidatesForm"
+			type="mx.gob.stps.portal.web.company.form.SearchCandidatesForm" />
+		<form-bean name="MyOffersForm"
+			type="mx.gob.stps.portal.web.offer.form.MyOffersForm" />
+		<form-bean name="miEspacioEmpForm"
+			type="mx.gob.stps.portal.web.company.form.MiEspacioEmpForm" />
+		<form-bean name="recuperarPswForm"
+			type="mx.gob.stps.portal.web.security.form.RecuperarPswForm" />
+		<form-bean name="activacionForm"
+			type="mx.gob.stps.portal.web.security.form.ActivacionForm" />
+		<!-- FIN OFERTAS -->
+		<form-bean name="ofertasRSSForm"
+			type="mx.gob.stps.portal.web.ofertasRSS.form.OfertasRSSForm" />
+
+		<form-bean name="notificacionesForm"
+			type="mx.gob.stps.portal.web.security.form.NotificacionesForm" />
+		<form-bean name="CurrentOfferReportForm"
+			type="mx.gob.stps.portal.web.admin.form.CurrentOfferReportForm" />
+
+		<form-bean name="registroCandidatoForm"
+			type="mx.gob.stps.portal.web.candidate.form.RegistroCandidatoForm" />
+		<form-bean name="registroEmpresaForm"
+			type="mx.gob.stps.portal.web.company.form.RegistroEmpresaForm" />
+		<form-bean name="edicionEmpresaForm"
+			type="mx.gob.stps.portal.web.company.form.EdicionEmpresaForm" />
+		<form-bean name="ofertaEmpleoForm"
+			type="mx.gob.stps.portal.web.oferta.form.OfertaEmpleoForm" />
+		<form-bean name="busquedaCandidatosForm"
+			type="mx.gob.stps.portal.web.company.form.BusquedaCandidatosForm" />
+		<form-bean name="BusquedaEspecificaOfertasForm"
+			type="mx.gob.stps.portal.web.candidate.form.BusquedaEspecificaOfertasForm" />
+
+		<form-bean name="compararBusquedasForm"
+			type="mx.gob.stps.portal.web.offer.form.CompararBusquedasForm" />
+		<form-bean name="ofertasRivieraMayaForm"
+			type="mx.gob.stps.portal.web.oferta.form.OfertasRivieraMayaForm" />
+		<form-bean name="dondePublicarForm"
+			type="mx.gob.stps.portal.web.company.form.DondePublicarForm" />
+		<form-bean name="registroPostulacionExternaForm"
+			type="mx.gob.stps.portal.web.offer.form.RegistroPostulacionExternaForm" />
+		<form-bean name="seguimientoPostulacionExternaForm"
+			type="mx.gob.stps.portal.web.offer.form.SeguimientoPostulacionExternaForm" />
+
+		<form-bean name="acercaAbriendoEspaciosForm"
+			type="mx.gob.stps.portal.web.company.form.AcercaAbriendoEspaciosForm" />
+		<form-bean name="RecomendarForm"
+			type="mx.gob.stps.portal.web.security.form.RecomendarForm" />
+
+		<form-bean name="actualizaCurpForm"
+			type="mx.gob.stps.portal.web.company.form.ActualizaCurpForm" />
+
+		<form-bean name="admNoPostulacionesCandidatoForm"
+			type="mx.gob.stps.portal.web.candidate.form.AdministracionNoPostulacionesForm" />
+		<form-bean name="registroCandidatoPPCSDForm"
+			type="mx.gob.stps.portal.web.candidate.form.RegistroCandidatoPPCSDForm" />
+		<form-bean name="ProgramaForm"
+			type="mx.gob.stps.portal.web.candidate.form.ProgramaForm" />
+		<form-bean name="registraCandidatoEventoForm"
+			type="mx.gob.stps.portal.web.candidate.form.RegistraCandidatoEventoForm" />
+		<form-bean name="SeguimientoPostulacionForm"
+			type="mx.gob.stps.portal.web.candidate.form.SeguimientoPostulacionForm" />
+		<!-- CRM START -->
+		<form-bean name="crmCreateArticuloForm"
+			type="mx.gob.stps.portal.web.crm.form.CreateArticuloForm" />
+		<form-bean name="crmUsuarioForm" type="mx.gob.stps.portal.web.crm.form.UserForm" />
+		<form-bean name="crmLoginForm" type="mx.gob.stps.portal.web.crm.form.LoginForm" />
+		<form-bean name="crmArticulosForm"
+			type="mx.gob.stps.portal.web.crm.form.ArticulosForm" />
+		<form-bean name="crmBuscadorArticulosForm"
+			type="mx.gob.stps.portal.web.crm.form.BuscadorForm" />
+		<form-bean name="crmEtiquetasForm"
+			type="mx.gob.stps.portal.web.crm.form.EtiquetaForm" />
+		<form-bean name="crmBorrarForm"
+			type="mx.gob.stps.portal.web.crm.form.BorrarArticuloForm" />
+		<form-bean name="inicioForm" type="mx.gob.stps.portal.web.crm.form.InicioForm" />
+		<form-bean name="crmBannerForm" type="mx.gob.stps.portal.web.crm.form.BannerForm" />
+		<form-bean name="crmBannersForm"
+			type="mx.gob.stps.portal.web.crm.form.BannersForm" />
+		<form-bean name="crmCreateBannerForm"
+			type="mx.gob.stps.portal.web.crm.form.CrearBannerForm" />
+		<!-- CRM FIN -->
+		<!-- SOCIAL START -->
+		<form-bean name="socLoginForm"
+			type="mx.gob.stps.portal.web.social.form.SocialForm" />
+		<form-bean name="authForm"
+			type="mx.gob.stps.portal.web.social.form.AuthForm" />
+		<!-- SOCIAL FIN -->
+		<!-- CONALEP -->
+		<form-bean name="conalepCandidatoForm"
+			type="mx.gob.stps.portal.web.conalep.form.ConalepCandidatoForm" />
+
+		<!-- Agregado por OAM -->
+		<form-bean name="contrasenaForm"
+			type="mx.gob.stps.portal.web.security.form.RecuperaContrasenaForm" />
+		<form-bean name="nuevaContrasenaForm"
+			type="mx.gob.stps.portal.web.security.form.NuevaContrasenaForm" />
+	</form-beans>
+
+	<global-exceptions>
+		<exception key="error.tree.regen" type="java.lang.Exception"
+			path="/template.do" handler="mx.gob.stps.portal.web.infra.action.PortalExceptionHandler" />
+	</global-exceptions>
+
+	<global-forwards>
+		<forward name="INICIO" path="/inicio.do" />
+		<forward name="ERROR_PAGE" path="/jsp/seguridad/error404.jsp" />
+		<forward name="REDIRECT_SWB" path="/jsp/seguridad/redirectswb.jsp" />
+		<forward name="templateHome" path="/jsp/layout/layoutHome.jsp" />
+		<forward name="templateWork" path="/jsp/layout/layoutWork.jsp" />
+		<forward name="templateCandidato" path="/jsp/layout/layoutCandidato.jsp" />
+		<forward name="templateDomicilio" path="/jsp/layout/layoutDomicilio.jsp" />
+		<forward name="templateAdmin" path="/jsp/layout/layoutAdmin.jsp" />
+		<forward name="templateRegCont" path="/jsp/layout/layoutRegCont.jsp" />
+		<forward name="templateForm" path="/jsp/layout/layoutForm.jsp" />
+		<forward name="templateCurso" path="/jsp/layout/layoutCurso.jsp" />
+		<forward name="templateFormEmpty" path="/jsp/layout/layoutFormEmpty.jsp" />
+		<forward name="templateEspacioEmpresas" path="/jsp/layout/layoutEspacioEmpresas.jsp" />
+		<forward name="templateEspacioEmpresasResp" path="/jsp/layout/layoutEspacioEmpresasResp.jsp" />
+		<forward name="templateEspacioCandidato" path="/jsp/layout/layoutEspacioCandidato.jsp" />
+		<forward name="templateOffer" path="/jsp/layout/layoutOffer.jsp" />
+		<forward name="templateOfferTemp" path="/jsp/layout/layoutTempOfertas.jsp" />
+		<forward name="templateEspacioAdmin" path="/jsp/layout/layoutEspacioAdmin.jsp" />
+		<forward name="templateRegistroCandidato" path="/jsp/layout/layoutRegistroCandidato.jsp" />
+		<forward name="templateRegistroEmpresa" path="/jsp/layout/layoutRegistroEmpresa.jsp" />
+		<forward name="templateEspacioEmpresasTemp" path="/jsp/layout/layoutEmpresasTemp.jsp" />
+		<forward name="templateOfferDetail" path="/jsp/layout/layoutOfferDetail.jsp" />
+		<forward name="templateBusquedas" path="/jsp/layout/layoutBusquedas.jsp" />
+		<forward name="templateBusquedasEmpresa" path="/jsp/layout/layoutBusquedasEmpresa.jsp" />
+		<forward name="templateBolsasTrabajo" path="/jsp/layout/layoutBolsasTrabajo.jsp" />
+		<forward name="templateRegistroCandidatoEvento" path="/jsp/layout/layoutRegistroCandidatoEvento.jsp"></forward>
+		<!-- Plantillas disenio responsivo -->
+		<forward name="templateResponsive" path="/jsp/layout/layoutCandidatoResponsive.jsp" />
+		<forward name="templateFormEmptyResp" path="/jsp/layout/layoutFormEmptyResp.jsp" />
+	</global-forwards>
+
+	<action-mappings>
+
+		<action path="/redirectswb" forward="/jsp/seguridad/redirectswb.jsp" />
+		<action path="/gracias" forward="/jsp/seguridad/graciasregistro.jsp" />
+		<action path="/mensaje" forward="/jsp/seguridad/mensaje_error.jsp" />
+
+		<!-- Inicio espacio de la compaÃ±Ã­a -->
+		<action name="spacecompanyform" path="/spaceCompany"
+			type="mx.gob.stps.portal.web.oferta.action.SpaceCompanyAction"
+			parameter="method" validate="false" scope="session">
+			<forward name="JSP" path="/jsp/oferta/ofertasCreadas.jsp" />
+		</action>
+
+		<action name="AdmonCandidatosForm" path="/detalleOfertaCreada"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.oferta.action.DetalleOfertaCreadaAction"
+			parameter="method">
+			<forward name="JSP" path="/jsp/oferta/detalleOfertaCreada.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_CANDIDATOS" path="/jsp/portal/monitoring/activecandidates.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_POSTULADOS"
+				path="/jsp/portal/monitoring/postulatecandidates.jsp" />
+		</action>
+		<!-- Fin espacio de la compaÃ±Ã­a -->
+
+		<!-- INGRESO AL SISTEMA -->
+		<action name="inicioForm" path="/inicio"
+			type="mx.gob.stps.portal.web.security.action.InicioAction" validate="false">
+			<forward name="JSP" path="/jsp/seguridad/inicio.jsp" />
+			<forward name="ACTION_OFERTAS" path="/ofertasRecientes.do?method=init" />
+		</action>
+		
+		<!-- "${contex}ofertasRecientes.do?method=ofertasDestacadas" -->
+		<action path="/registroseventos"
+			type="mx.gob.stps.portal.web.security.action.RegistrosEventosAction"
+			validate="false" parameter="method">
+			<forward name="JSP"
+				path="/jsp/empleo/herramientasDelSitio/previousEvents.jsp" />
+			<forward name="NEXT" path="/jsp/empleo/herramientasDelSitio/eventos.jsp" />
+			<forward name="REGISTROS_EVENTOS" path="/jsp/seguridad/registroEventos.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/empleo/herramientasDelSitio/eventList.jsp" />
+		</action>
+
+
+		<action path="/inicioresp"
+			type="mx.gob.stps.portal.web.security.action.InicioRespAction"
+			validate="false">
+			<forward name="JSP" path="/jsp/seguridad/inicioresp.jsp" />
+			<forward name="ACTION_OFERTAS" path="/ofertasRecientes.do?method=init" />
+		</action>
+		<action path="/login"
+			type="mx.gob.stps.portal.web.security.action.LoginAction" parameter="method">
+
+			<forward name="ACTION_PUBLICADOR" path="/autorization.do?method=init" />
+
+			<forward name="ACTION_CANDIDATO" path="/miEspacioCandidato.do" />
+			<forward name="ACTION_EMPRESA" path="/miEspacioEmpresas.do" />
+			<forward name="ACTION_EMPRESA_RESP" path="/miEspacioEmpresas.do?method=responsivo" />
+			<forward name="ACTION_CANDIDATO_PERFIL" path="/perfil.do?method=init" />
+			<forward name="ACTION_EMPRESA_PERFIL" path="/edicionEmpresa.do?method=init" />
+
+			<forward name="ACTION_CANDIDATO_OFERTAS" path="/misofertas.do?method=misPostulaciones" />
+			<forward name="ACTION_EMPRESA_OFERTAS" path="/OfertaNavegacion.do?method=init" />
+
+			<forward name="ACTION_ADMIN" path="/filtercompany.do?method=init" />
+			<forward name="JSP_CANCEL" path="/logincil.do?method=init" />
+
+			<forward name="ACTION_PARAMETROS" path="/parametrizarbloque.do?method=init" />
+
+			<!-- INICIO PRUEBA LOGIN -->
+			<forward name="ACTION_OFERTA_PREVIA" path="/detalleoferta.do?method=init" />
+			<!-- TERMINA PRUEBA LOGIN -->
+
+			<forward name="ACTION_MONITOR" path="/repofertasvig.do?method=init"
+				redirect="true" />
+			<forward name="REACTIVAR_USUARIO" path="/activacion.do?method=init"
+				redirect="true" />
+
+			<!-- <forward name="ACTION_RECUPERA_CONTRASENA" path="/activacion.do?method=init" 
+				redirect="true" /> -->
+
+			<!-- -->
+			<forward name="ACTION_RECUPERA_CONTRASENA" path="/recuperaContrasena.do?method=init"
+				redirect="true" />
+		</action>
+
+		<action path="/loginhome" parameter="method"
+			type="mx.gob.stps.portal.web.security.action.LoginHomeAction" input="/jsp/seguridad/loginhome.jsp">
+
+			<forward name="JSP_LOGIN_CANDIDATO" path="/jsp/seguridad/logincandidato.jsp" />
+			<forward name="JSP_LOGIN_EMPRESA" path="/jsp/seguridad/loginempresa.jsp" />
+			<forward name="ACTION_PUBLICADOR" path="/autorization.do?method=init" />
+
+			<forward name="ACTION_CANDIDATO" path="/miEspacioCandidato.do" />
+			<forward name="ACTION_EMPRESA" path="/miEspacioEmpresas.do" />
+
+			<forward name="ACTION_ADMIN" path="/filtercompany.do?method=init" />
+
+			<forward name="ACTION_PARAMETROS" path="/parametrizarbloque.do?method=init" />
+
+			<forward name="ACTION_MONITOR" path="/repofertasvig.do?method=init" />
+
+		</action>
+
+		<action path="/logout"
+			type="mx.gob.stps.portal.web.security.action.LogoutAction" />
+
+		<!-- ACTION DE CU CAPTURAR PERFIL - SECCION: Mis Datos - InformaciÃ³n de 
+			mi perfil -->
+		<action name="perfilForm" path="/perfil" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.PerfilAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/perfil.jsp" />
+			<forward name="ACTION_ADMIN_CANDIDATO" path="/filtraCandidato.do?method=init" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/misDatos/phonetable.jsp" />
+		</action>
+		<!-- ACTION DE CU CAPTURAR PERFIL - SECCION: Mis Datos - Escolaridad y 
+			otros estudios -->
+		<action name="escolaridadForm" path="/escolaridad" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.EscolaridadAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/escolaridad.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/misDatos/otherstudies.jsp" />
+			<forward name="JSP_IDIOMA" path="/jsp/candidatos/misDatos/languages.jsp" />
+			<forward name="CONOCIMIENTOS" path="/jsp/candidatos/misDatos/conocsHabs.jsp" />
+		</action>
+		<action name="gradoAcademicoForm" path="/grados" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.GradoAcademicoAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/grados.jsp" />
+		</action>
+		<action name="idiomaForm" path="/idiomas" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.IdiomaAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/idiomas.jsp" />
+			<forward name="JSP_IDIOMA" path="/jsp/candidatos/misDatos/idiomas.jsp" />
+		</action>
+		<action name="conocimHabilidadForm" path="/conocsHabs" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.ConocimHabilidadAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/conocsHabs.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/misDatos/skillstable.jsp" />
+		</action>
+		<action name="compuAvanzadaForm" path="/compuAvanzadas" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.ComputacionAvanzadaAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/compuAvanzada.jsp" />
+		</action>
+		<!-- ACTION DE CU CAPTURAR PERFIL - SECCION: Mis Datos - Experiencia Laboral -->
+		<action name="experienciaForm" path="/experiencia" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.ExperienciaAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/experiencia.jsp" />
+		</action>
+		<action name="histLaboralForm" path="/histLaborales" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.HistoriaLaboralAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/histLaboral.jsp" />
+		</action>
+		<!-- ACTION DE CU CAPTURAR PERFIL - SECCION: Mis Datos - Expectativas Laborales -->
+		<action name="perfilForm" path="/expectativa" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.ExpectativaAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/expectativas.jsp" />
+			<forward name="FORWARD_MIS_OFERTAS" path="/misofertas.do?method=init" /> <!--TODO: Change path -->
+		</action>
+		<action name="expecLaboralForm" path="/expecLaboral" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.ExpecLaboralAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/expecLaboral.jsp" />
+		</action>
+		<action name="expecLugarForm" path="/expecLugar" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.candidate.action.ExpecLugarAction">
+			<forward name="JSP" path="/jsp/candidatos/misDatos/expecLugar.jsp" />
+		</action>
+		<!-- INGRESO AL ESPACIO PARA DOMICILIO -->
+		<action name="domicilioForm" path="/domicilio" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.address.action.DomicilioAction">
+			<forward name="JSP" path="/jsp/domicilio/domicilio.jsp" />
+		</action>
+		<!-- INGRESO AL ESPACIO PARA REGISTRO DE CONTACTOS TODO: ESTE SEGMENTO 
+			ES CANDIDATO A ELIMINARSE <action name="regContForm" path="/regCont" scope="session" 
+			parameter="method" type="mx.gob.stps.portal.web.company.action.ContactoAction"> 
+			<forward name="JSP" path="/jsp/company/registroCont.jsp" /> </action> -->
+		<!-- INGRESO AL ESPACIO PARA ADMINISTRACION DE CANDIDATOS -->
+		<action name="AdmonCandidatosForm" path="/admonCandidatos"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.AdmonCandidatosAction">
+			<forward name="JSP" path="/jsp/candidatos/admonCadidatos.jsp" />
+			<forward name="NEXT" path="/jsp/candidatos/postulates.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_CANDIDATOS" path="/jsp/candidatos/misCandidatos.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_POSTULADOS" path="/jsp/candidatos/misPostulados.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_NOMINALES" path="/jsp/candidatos/misNominales.jsp" />
+		</action>
+
+
+		<action name="parametrosForm" path="/parametrizar" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.autorization.action.ParametrizarAsignacionAction">
+			<forward name="JSP" path="/jsp/autorization/parametrizar.jsp" />
+		</action>
+
+		<action name="parametrosForm" path="/parametrizarbloque"
+			parameter="method" scope="request" validate="false"
+			type="mx.gob.stps.portal.web.autorization.action.ParametrizarBloqueAction">
+			<forward name="JSP" path="/jsp/autorization/parametrizarbloque.jsp" />
+			<forward name="JSP_CANCEL" path="/inicio.do" />
+		</action>
+
+		<!-- REGISTRAR EMPRESA TODO: Este segmento es candidato a eliminarse <action 
+			name="ComRegCompanyForm" path="/comregcompany" parameter="method" scope="session" 
+			validate="false" type="mx.gob.stps.portal.web.company.action.ComRegCompanyAction"> 
+			<forward name="JSP" path="/jsp/company/comregcompany.jsp" /> <forward name="JSP_SUCCESS" 
+			path="/jsp/company/comregcompanysuccess.jsp"/> <forward name="JSP_CANCEL" 
+			path="/inicio.do" /> </action> -->
+
+		<!-- FILTRAR EMPRESAS -->
+		<action name="FilterCompanyForm" path="/filtercompany"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.FilterCompanyAction">
+			<forward name="JSP" path="/jsp/company/filtercompany.jsp" />
+			<forward name="JSP_SUCCESS" path="/edicionEmpresa.do?method=init" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/resultadosEmpresas.jsp" />
+			<forward name="ACTION_DESACTIVACION_MOTIVO" path="/jsp/company/motivodesactivacion.jsp" />
+		</action>
+
+		<!-- BUSQUEDA ESPECIFICA CANDIDATOS -->
+		<action name="busquedaCandidatosForm" path="/busquedaEspecificaCandidatos"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.BusquedaEspCandidatosAction">
+			<!--forward name="JSP" path="/jsp/company/busquedaEspecificaCandidato.jsp" /-->
+			<forward name="JSP" path="/jsp/company/busquedaEspecificaCandidatoArea.jsp" />
+			<forward name="JSP_RESULTADOS" path="/jsp/company/listaCandidatos.jsp"></forward>
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/resultadoBusquedaCandidatos.jsp" />
+		</action>
+
+		<!-- BUESQUEDA ESPECIFICA OFERTAS -->
+		<action path="/busquedaEspecificaOfertas" name="BusquedaEspecificaOfertasForm"
+			type="mx.gob.stps.portal.web.candidate.action.BusquedaEspecificaOfertasAction"
+			parameter="method" validate="false" scope="session"
+			input="/jsp/candidatos/busquedaEspecificaOfertas.jsp">
+			<forward name="SEARCH" path="/jsp/candidatos/busquedaEspecificaOfertas.jsp" />
+			<forward name="SEARCH_RESULT"
+				path="/jsp/candidatos/resultadoBusquedaEspecificaOfertas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/candidatos/registrosBusquedaEspecificaOfertas.jsp" />
+		</action>
+
+		<action name="ShowCompanyForm" path="/showCompany" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.ShowCompanyAction">
+			<forward name="JSP" path="/jsp/company/showCompany.jsp" />
+		</action>
+
+		<action name="ShowMoreCompanyOffersForm" path="/showMoreCompanyOffers"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.ShowMoreCompanyOffersAction">
+			<forward name="JSP" path="/jsp/company/showMoreCompanyOffers.jsp" />
+			<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <forward name="JSP_SUCCESS" 
+				path="/comupdcompany.do?method=init" /> -->
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/resultadosOfertasEmpresa.jsp" />
+		</action>
+
+
+		<!-- MODIFICAR DATOS GENERALES DE EMPRESA TODO: ESTE SEGMENTO ES CANDIDATO 
+			A ELIMINARSE <action name="ComUpdCompanyForm" path="/comupdcompany" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.company.action.ComUpdCompanyAction"> 
+			<forward name="JSP" path="/jsp/company/comupdcompany.jsp" /> <forward name="JSP_SUCCESS" 
+			path="/jsp/company/comupdcompanysuccess.jsp"/> <forward name="JSP_SUCCESS_BASIC_DATA" 
+			path="/jsp/company/comupdcompanysuccess.jsp"/> <forward name="JSP_CANCEL" 
+			path="/comupdcompany.do?method=init"/> <forward name="JSP_AUTORIZATION" path="/autorization.do?method=actualizaRegistrosPorValidar"/> 
+			<forward name="ACTION_ADMIN" path="/filtercompany.do?method=init"/> </action> -->
+
+		<!-- Como ven a la empresa -->
+		<action name="ShowCompanyForm" path="/showCompany" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.ShowCompanyAction">
+			<forward name="JSP" path="/jsp/company/showCompany.jsp" />
+		</action>
+
+		<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <action name="ComUpdPreCompanyForm" 
+			path="/comupdprecompany" parameter="method" scope="session" validate="false" 
+			type="mx.gob.stps.portal.web.company.action.ComUpdPreCompanyAction"> <forward 
+			name="JSP" path="/jsp/company/comupdprecompany.jsp" /> <forward name="JSP_SUCCESS" 
+			path="/jsp/company/comupdprecompanysuccess.jsp"/> <forward name="JSP_SUCCESS_BASIC_DATA" 
+			path="/jsp/company/comupdprecompanysuccess.jsp"/> <forward name="JSP_CANCEL" 
+			path="/inicio.do"/> <forward name="ACTION_AUTORIZATION_INIT" path="/autorization.do?method=init"/> 
+			<forward name="ACTION_AUTORIZATION_ACTUALIZA" path="/autorization.do?method=actualizaRegistrosPorValidar"/> 
+			</action> -->
+
+		<!-- Empresa Detalle Prueba -->
+		<action name="EmpresaDetalleForm" path="/empresadetalle"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.EmpresaDetalleAction">
+			<forward name="JSP" path="/jsp/company/empresadetalle.jsp" />
+			<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <forward name="JSP_SUCCESS" 
+				path="/jsp/company/comupdcompanysuccess.jsp"/> -->
+		</action>
+
+		<!-- CARGA LOGOTIPO DE LA EMPRESA -->
+		<action path="/uploadcompanylogo" name="uploadCompanyLogoForm"
+			type="mx.gob.stps.portal.web.company.action.UploadLogoAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/uploadLogo.jsp"></forward>
+			<forward name="JSP_CANCEL" path="/inicio.do"></forward>
+			<forward name="JSP_SUCCESS" path="/jsp/company/uploadLogoConfirm.jsp"></forward>
+		</action>
+
+		<!-- MOSTRAR INFORMACION DE CANDIDATO (SELECCIONADO/POSTULADO) -->
+		<action path="/viewCandidateDetail"
+			type="mx.gob.stps.portal.web.offer.action.CandidateDetailAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP"
+				path="/jsp/portal/monitoring/showCandidateDetail.jsp"></forward>
+		</action>
+
+		<!-- REGISTRAR TERCERA EMPRESA TODO: ESTE SEGMENTO ES CANDIDATO PARA ELIMINACION 
+			<action name="ComRegPartnerCompanyForm" path="/comregpartnercompany" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.company.action.ComRegPartnerCompanyAction"> 
+			<forward name="JSP" path="/jsp/company/comregpartnercompany.jsp" /> <forward 
+			name="JSP_SUCCESS" path="/jsp/company/comregpartnercompanysuccess.jsp"/> 
+			<forward name="JSP_CANCEL" path="/comupdcompany.do?method=init"/> </action> -->
+		<!-- TESTING TERCERA EMPRESA TODO: ESTE SEGMENTO ES CANDIDATO PARA ELIMINACION 
+			<action name="ComRegPartnerCompanyFormv2" path="/comregpartnercompanyv2" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.company.action.ComRegPartnerCompanyActionv2"> 
+			<forward name="JSP" path="/jsp/company/comregpartnercompanyv2.jsp" /> <forward 
+			name="JSP_SUCCESS" path="/jsp/company/comregpartnercompanysuccess.jsp"/> 
+			<forward name="JSP_CANCEL" path="/comupdcompany.do?method=init"/> </action> -->
+		<!-- TERMINA TESTING TERCERA EMPRESA -->
+
+		<!-- REGISTRAR CONTACTOS TODO: ESTE SEGMENTO ES CANDIDATO PARA ELIMINACION 
+			<action name="ComRegContactForm" path="/comregcontact" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.company.action.ComRegContactAction"> 
+			<forward name="JSP" path="/jsp/company/comregcontact.jsp" /> <forward name="JSP_SUCCESS" 
+			path="/jsp/company/comregcontactsuccess.jsp"/> <forward name="JSP_CANCEL" 
+			path="/comupdcompany.do?method=init"/> </action> -->
+		<!-- TESTING CONTACTOS TODO: ESTE SEGMENTO ES CANDIDATO PARA ELIMINACION 
+			<action name="ComRegContactFormv2" path="/comregcontactv2" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.company.action.ComRegContactActionv2"> 
+			<forward name="JSP" path="/jsp/company/comregcontactv2.jsp" /> <forward name="JSP_SUCCESS" 
+			path="/jsp/company/comregcontactsuccess.jsp"/> <forward name="JSP_CANCEL" 
+			path="/comupdcompany.do?method=init"/> </action> -->
+		<!-- TERMINA TESTING CONTACTOS -->
+
+		<!-- REGISTRAR TELÃ‰FONOS ADICIONALES -->
+		<action name="PhoneForm" path="/phone" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.phone.action.PhoneAction">
+			<forward name="JSP_PHONE" path="/jsp/phone/phone.jsp" />
+		</action>
+		<!-- REGISTRAR MOTIVO DE NO ACEPTACION -->
+		<action name="MotivoForm" path="/motivo" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.MotivoAction">
+		</action>
+		<!-- ENCABEZADO DEL TEMPLATE DE CANDIDATOS <action path="/tituloTemplateCandidato" 
+			type="mx.gob.stps.portal.web.candidate.action.TituloTemplateCandidatoAction"/> -->
+
+		<!-- Inicio Candidatos Action -->
+
+		<action name="entrevistaForm" path="/entrevistaProgramada"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.entrevista.action.EntrevistaAction">
+			<forward name="JSP" path="/jsp/entrevistas/entrevistaProgramadas.jsp" />
+			<forward name="LINEA" path="/jsp/entrevistas/entrevistaEnLinea.jsp" />
+			<forward name="ENTREVISTA_CANDIDATO"
+				path="/jsp/entrevistas/miEspacioCandidatoEntrevistas.jsp" />
+			<forward name="ENTREVISTA_EMPRESA"
+				path="/jsp/entrevistas/miEspacioEmpresasEntrevista.jsp" />
+		</action>
+
+		<action path="/registroCandidatos" forward="/registro.do?method=init" />
+		<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <action name="candidatosRegistroForm" 
+			path="/registroCandidatos" parameter="method" scope="session" validate="false" 
+			type="mx.gob.stps.portal.web.candidate.action.CandidatosRegistroAction"> 
+			<forward name="JSP" path="/jsp/candidatos/candidatosRegisto.jsp" /> </action> -->
+		<action name="confirmacionRegistroForm" path="/confirmacionRegistro"
+			scope="session"
+			type="mx.gob.stps.portal.web.confirmacion.action.ConfirmacionRegistroAction">
+			<forward name="JSP" path="/jsp/confirmacion/confirmacionRegistro.jsp" />
+			<forward name="LOGIN" path="/login.do?method=login" />
+			<forward name="ACTION_GRACIAS" path="/gracias.do" />
+		</action>
+
+		<!-- FILTRAR CANDIDATOS -->
+		<action name="FiltraCandidatoForm" path="/filtraCandidato"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.FiltraCandidatoAction">
+			<forward name="JSP" path="/jsp/candidatos/filtraCandidato.jsp" />
+			<forward name="JSP_SUCCESS" path="/perfil.do?method=init" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/resultadosCandidatos.jsp" />
+		</action>
+		<!-- Fin Candidatos Action -->
+
+		<!-- INGRESO AL ESPACIO PARA TESTIMONIO -->
+		<action name="testimonioForm" path="/testimonio" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.testimony.action.TestimonioAction">
+			<forward name="JSP" path="/jsp/testimony/testimonio.jsp" />
+		</action>
+		<action name="testimonioForm" path="/testimonioIndex" scope="request"
+			validate="false"
+			type="mx.gob.stps.portal.web.testimony.action.TestimonioIndexAction">
+			<forward name="JSP" path="/jsp/testimony/testimonioIndex.jsp" />
+		</action>
+		<!--Fin Candidatos Action -->
+		<action name="usuarioForm" path="/usuarioadmin" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.security.action.UsuarioAction">
+			<forward name="JSP" path="/jsp/seguridad/usuarioadmin.jsp" />
+		</action>
+		<!--Seleccion de Estilo de CV -->
+		<action name="EligeEstiloCurriculumForm" path="/eligeEstiloCurriculum"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.EligeEstiloCurriculumAction">
+			<!--<forward name="JSP" path="/jsp/candidatos/eligeEstiloCurriculum.jsp" 
+				/> -->
+			<forward name="JSP" path="/jsp/candidatos/eligeEstiloCurriculum.jsp" />
+		</action>
+
+		<!--Carga de Video Curriculum del Candidato -->
+		<action path="/cargaCurriculum" name="curriculumCargaForm"
+			type="mx.gob.stps.portal.web.candidate.action.CurriculumCargaAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/candidatos/cargaCurriculum.jsp"></forward>
+			<forward name="JSP_CANCEL" path="INICIO"></forward>
+			<forward name="JSP_SUCCESS" path="/jsp/candidatos/cargaCurriculumConfirm.jsp"></forward>
+		</action>
+		<!--Carga de Fotografia del Candidato -->
+		<action path="/cargaFoto" name="fotoCargaForm"
+			type="mx.gob.stps.portal.web.candidate.action.CargaFotoAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/candidatos/cargaFoto.jsp"></forward>
+			<forward name="JSP_CANCEL" path="/jsp/candidatos/misDatos/perfil.jsp"></forward>
+			<forward name="JSP_SUCCESS" path="/jsp/candidatos/cargaFotoConfirm.jsp"></forward>
+		</action>
+
+		<action name="OfertasPorPerfilForm" path="/ofertasPerfiles"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasPorPerfilAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasPorPerfiles.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/registrosOfertaPerfil.jsp" />
+		</action>
+
+		<action name="OfertasPorPerfilForm" path="/ofertasPerfilesTop"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasPorPerfilAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasPorPerfilesTop.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/registrosOfertaPerfilTop.jsp" />
+		</action>
+
+		<action name="OfertasPorParametrosForm" path="/ofertasPorParametros"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasPorParametrosAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasPorParametros.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_OFERTAS"
+				path="/jsp/portal/monitoring/registrosBusquedaPorParametros.jsp" />
+		</action>
+
+		<action name="CandidatosPorParametrosForm" path="/candidatosPorParametros"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.CandidatosPorParametrosAction">
+			<forward name="JSP" path="/jsp/oferta/candidatosPorParametros.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_CANDIDATOS"
+				path="/jsp/portal/monitoring/registrosCandidatosPorParametros.jsp" />
+		</action>
+		<!-- Ofertas Recientes -->
+		<action name="OfertasRecientesForm" path="/ofertasRecientes"
+			scope="request" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasRecientesAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasRecientes.jsp" />
+			<forward name="JSP_TODAS" path="/jsp/oferta/ofertasRecientesTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/registrosOfertasRecientesTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_OFERTAS" path="/jsp/oferta/allExternalMovLab.jsp" />
+			<forward name="ACTION_OFERTAS_REINTENTAR" path="/jsp/oferta/ofertasRecientesReintentar.jsp" />
+		</action>
+		<!-- Ofertas Movilidad Laboral -->
+		<action name="OfertasRecientesForm" path="/ofertasMovilidadLaboral" scope="request" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasMovilidadLaboralAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasRecientes.jsp" />
+			<forward name="JSP_TODAS" path="/jsp/oferta/externalMovLab.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/allExternalMovLab.jsp" />
+			<forward name="ACTION_OFERTAS_REINTENTAR" path="/jsp/oferta/ofertasRecientesReintentar.jsp" />
+		</action>
+		<!-- Ofertas Extranjeras -->
+		<action name="OfertasRecientesForm" path="/ofertasExtranjeras" scope="request" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasMovilidadLaboralAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasRecientes.jsp" />
+			<forward name="JSP_EXTERNAL" path="/jsp/oferta/extranjera/externalMovLab.jsp" />
+			<forward name="JSP_DETAIL" path="/jsp/oferta/extranjera/offerdetail.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/extranjera/allExternalMovLab.jsp" />
+			<forward name="ACTION_OFERTAS_REINTENTAR" path="/jsp/oferta/ofertasRecientesReintentar.jsp" />
+		</action>
+		<!-- Ofertas Riviera Maya -->
+		<action path="/ofertasRivieraMaya" scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.action.OfertaRivieraMayaAction">
+			<forward name="JSP_RESULT" path="/jsp/oferta/ofertasRecientesRivieraTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/bolsaTrabajoListadoRiviera.jsp" />
+		</action>
+		
+				<!-- Ofertas SECTUR -->
+		<action path="/ofertasSectur" scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.action.OfertaRivieraMayaAction">
+			<forward name="JSP_RESULT" path="/jsp/oferta/ofertasRecientesRivieraTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/bolsaTrabajoListadoRiviera.jsp" />
+		</action>
+
+		<!-- Ofertas Recientes Home -->
+		<action name="OfertasRecientesForm" path="/portalEmpleo" scope="request"
+			parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasRecientesAction">
+			<forward name="JSP" path="/jsp/layout/templateHome.jsp" />
+			<forward name="JSP_TODAS" path="/jsp/oferta/ofertasRecientesTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/oferta/registrosOfertasRecientesTodas.jsp" />
+			<forward name="ACTION_OFERTAS_REINTENTAR" path="/jsp/oferta/ofertasRecientesReintentar.jsp" />
+		</action>
+
+		<!-- Ofertas Recientes TMP -->
+		<action name="OfertasRecientesForm" path="/portalEmpleoTmp"
+			scope="request" parameter="method"
+			type="mx.gob.stps.portal.web.oferta.search.action.OfertasRecientesAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasRecientesTMP.jsp" />
+			<forward name="JSP_TODAS" path="/jsp/oferta/ofertasRecientesTodas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/oferta/registrosOfertasRecientesTodas.jsp" />
+			<forward name="ACTION_OFERTAS_REINTENTAR" path="/jsp/oferta/ofertasRecientesReintentar.jsp" />
+		</action>
+
+		<!-- SPELLCHECK -->
+		<action path="/SpellCheck" scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.infra.action.SpellCheckAction">
+		</action>
+
+		<action name="spellForm" path="/SpellTest" scope="session"
+			parameter="method" type="mx.gob.stps.portal.web.test.action.spellAction">
+			<forward name="JSP" path="/jsp/test/spell.jsp" />
+		</action>
+
+		<!-- AUTORIZAR CONTENIDO -->
+		<action name="autorizationForm" path="/autorization" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.autorization.action.AutorizationAction"
+			input="/jsp/autorization/autorization.jsp">
+
+			<forward name="JSP" path="/jsp/autorization/OfertaNavegacion.jsp" />
+
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/autorization/registros.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_VALIDAR" path="/jsp/autorization/registros.jsp" />
+
+			<forward name="ACTION_DETALLE_EMPRESA" path="/jsp/autorization/empresadetalle.jsp" />
+			<forward name="ACTION_DETALLE_EMPRESA_FRAUDULENTA" path="/jsp/autorization/empresafraudetalle.jsp" />
+			<forward name="ACTION_DETALLE_OFERTA" path="/jsp/autorization/ofertadetalle.jsp" />
+			<forward name="ACTION_DETALLE_TESTIMONIO" path="/jsp/autorization/testimoniodetalle.jsp" />
+			<forward name="ACTION_DETALLE_VIDEOC" path="/jsp/autorization/videocdetalle.jsp" />
+			<forward name="ACTION_DETALLE_MOTIVO" path="/jsp/autorization/movitorechazo.jsp" />
+
+			<!--  RBM1  TK997  TK998 24 abr- 2018  se redirecciona a RU -->
+			<!-- <forward name="ACTION_EDICION_OFERTA" path="/ofertaEmpleo.do?method=edicionInit" />-->
+			<forward name="ACTION_EDICION_OFERTA_RU" path="/registro-unico.do?method=redirectEditaOfertaRU" />
+			<forward name="ACTION_BUSQUEDA_ADMIN" path="/filteroffer.do?method=init" />
+			<forward name="ACTION_BUSQUEDA_ADMIN_PENDIENTE_PUBLICAR"
+				path="/filteroffer.do?method=initPendientesPublicar" />
+
+		</action>
+
+		<action path="/formulario" input="/jsp/seguridad/formulario.jsp"
+			type="mx.gob.stps.portal.web.security.action.FormularioAction" />
+
+		<!-- DESPLEGAR IMAGEN -->
+		<action path="/imageAction" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.infra.action.ImageAction" />
+
+
+		<!-- /AUTORIZAR CONTENIDO -->
+
+		<!-- Espacio para Bolsas de trabajo -->
+		<action name="bolsasTrabajoForm" path="/bolsasTrabajo"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.jobvacancies.action.BolsasTrabajoAction">
+			<forward name="JSP" path="/jsp/jobVacancies/bolsasTrabajoExternas.jsp" />
+			<forward name="JSP_RESULT" path="/jsp/jobVacancies/bolsasTrabajoResultados.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/jobVacancies/bolsaTrabajoListado.jsp" />
+			<forward name="DETALLE" path="/jsp/ofertasSFP/detalleOfertaSFP.jsp" />
+		</action>
+
+		<action name="ofertasSFPForm" path="/ofertasSFP" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.ofertasSFP.action.OfertasSFPAction"
+			input="/jsp/ofertasSFP/ofertasSFP.jsp">
+			<forward name="JSP" path="/jsp/ofertasSFP/ofertasSFP.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_OFERTAS_SFP" path="/jsp/ofertasSFP/resultado.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/ofertasSFP/resultado.jsp" />
+			<forward name="DETALLE" path="/jsp/ofertasSFP/detalleOfertaSFP.jsp" />
+		</action>
+
+		<action name="CalculadoraForm" path="/calculadora" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.CalculadoraAction"
+			input="/jsp/candidatos/calculadora.jsp" />
+
+		<!-- DETALLE OFERTA -->
+
+		<action name="OfferQuestionForm" path="/detalleoferta"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.offer.action.OfferDetailsAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/offerdetails.jsp" />
+			<forward name="NEXT" path="/jsp/portal/monitoring/offerquestion.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/portal/monitoring/answerquestion.jsp" />
+			<!-- INICIA PRUEBA DE LOGIN -->
+			<forward name="LOGIN" path="/login.do?method=login" />
+			<forward name="ACTION_OFERTA_PREVIA" path="/detalleoferta.do?method=init" />
+			<forward name="DESPUES_POSTULACION"
+				path="/detalleoferta.do?method=avisoCandidatoPostuladoAction" />
+			<forward name="CANDIDATO_POSTULADO"
+				path="/jsp/portal/monitoring/avisoCandidatoPostulado.jsp" />
+			<!-- TERMINA PRUEBA DE LOGIN -->
+			<forward name="OFERTA_POSTULADO" path="/jsp/portal/monitoring/offer-postulated.jsp" />
+			<forward name="REACTIVAR_USUARIO" path="/activacion.do?method=init" />
+		</action>
+
+		<action name="OfferQuestionForm" path="/offerdetail" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.offer.action.PortalOfferDetailsAction">
+			<forward name="JSP" path="/jsp/portal/layout/headerOffer.jsp" />
+			<forward name="NEXT" path="/jsp/portal/monitoring/offerquestion.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/portal/monitoring/answerquestion.jsp" />
+			<!-- INICIA PRUEBA DE LOGIN -->
+			<forward name="LOGIN" path="/login.do?method=login" />
+			<forward name="ACTION_OFERTA_PREVIA" path="/detalleoferta.do?method=init" />
+			<forward name="DESPUES_POSTULACION"
+				path="/detalleoferta.do?method=avisoCandidatoPostuladoAction" />
+			<forward name="CANDIDATO_POSTULADO"
+				path="/jsp/portal/monitoring/avisoCandidatoPostulado.jsp" />
+			<!-- TERMINA PRUEBA DE LOGIN -->
+			<forward name="OFERTA_POSTULADO" path="/jsp/portal/monitoring/offer-postulated.jsp" />
+		</action>
+
+		<!-- OFERTAS -->
+		<action name="navegacionFormBean" path="/OfertaNavegacion"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.oferta.action.OfertaNavegacionAction">
+			<forward name="JSP" path="/jsp/oferta/navegacion/ofertaListado.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/oferta/navegacion/registrosOfertaListado.jsp" />
+			<forward name="NEXT" path="/OfertaNavegacion.do?method=init" />
+			<forward name="NEXT_CONTACTO" path="/comregcontact.do?method=init" />
+		</action>
+
+
+		<action name="recuperaOfertasFormBean" path="/RecuperaOfertas"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.oferta.action.RecuperaOfertasAction">
+			<forward name="JSP" path="/jsp/oferta/navegacion/recuperarOfertas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/oferta/navegacion/registrosRecuperarOfertas.jsp" />
+			<forward name="NEXT" path="/RecuperaOfertas.do?method=init" />
+		</action>
+
+		<!-- CONSULTA DE OFERTAS POR CANAL -->
+		<action name="OfertasPorCanalForm" path="/canalOfertas" scope="session"
+			parameter="method"
+			type="mx.gob.stps.portal.web.offer.action.SearchCanalOffersAction">
+			<forward name="JSP" path="/jsp/oferta/ofertasPorCanal.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/registrosOfertaCanal.jsp" />
+		</action>
+
+		<!-- CONSULTA DE RESUMEN MIS OFERTAS RECIENTES -->
+		<action path="/ofertasRecientesResumen" scope="request"
+			parameter="method" type="mx.gob.stps.portal.web.offer.action.MyRecentOffersAction">
+			<forward name="JSP" path="/jsp/oferta/misOfertasRecientes.jsp" />
+		</action>
+
+		<!-- CONSULTA DE RESUMEN POSTULACIONES RECIENTES -->
+		<action path="/postulacionesRecientesResumen" scope="request"
+			parameter="method"
+			type="mx.gob.stps.portal.web.offer.action.RecentPostulationsAction">
+			<forward name="JSP" path="/jsp/oferta/postulacionesRecientes.jsp" />
+		</action>
+
+		<!-- ADMINISTRACION DE NO POSTULACIONES DE OFERTAS DEL CANDIDATO -->
+		<action name="admNoPostulacionesCandidatoForm" path="/adminNoPostulacionesCandidato"
+			scope="request" parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.AdministracionNoPostulacionesAction">
+			<forward name="JSP"
+				path="/jsp/candidatos/administacionNoPostulaciones.jsp" />
+			<forward name="MI_ESPACIO_CANDIDATO" path="/miEspacioCandidato.do" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/candidatos/listadoOfertasNoPostuladas.jsp" />
+		</action>
+
+		<!-- INICIA TEST PARA DETECTAR DIFERENCIAS ENTRE BUSQ ESPECIFICA Y OCUPATE -->
+		<action name="compararBusquedasForm" path="/compararBusquedas"
+			parameter="method" scope="request" input="/jsp/test/compararBusquedas.jsp"
+			type="mx.gob.stps.portal.web.offer.action.CompararBusquedasAction">
+			<forward name="JSP" path="/jsp/test/compararBusquedas.jsp" />
+		</action>
+		<!-- TERMINA TEST PARA DETECTAR DIFERENCIAS ENTRE BUSQ ESPECIFICA Y OCUPATE -->
+
+
+		<!-- REGISTRO DE OFERTAS TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE 
+			<action name="registroUbicacionFormBean" path="/ofertaRegistro" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP" path="/jsp/oferta/ofertaRegistroUbicacion.jsp" /> <forward 
+			name="NEXT" path="/ofertaRegistroRequisitos.do?method=guardaRequisitosInit" 
+			/> <forward name="REGRESO" path="/OfertaNavegacion.do?method=init" /> </action> 
+			<action name="registroRequisitosFormBean" path="/ofertaRegistroRequisitos" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP" path="/jsp/oferta/ofertaRegistroRequisitos.jsp" /> <forward 
+			name="NEXT" path="/ofertaRegistroContacto.do?method=guardaContactoInit" /> 
+			</action> <action name="registroContactoFormBean" path="/ofertaRegistroContacto" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP" path="/jsp/oferta/ofertaRegistroContacto.jsp" /> <forward 
+			name="NEXT" path="/OfertaNavegacion.do?method=init" /> </action> <action 
+			name="requisitosFormBean" path="/ofertaRegistroExperiencia" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP_CONOCIMIENTO" path="/jsp/oferta/ofertaConocimiento.jsp" 
+			/> <forward name="JSP_HABILIDAD" path="/jsp/oferta/ofertaHabilidad.jsp" /> 
+			<forward name="JSP_COMPETENCIA" path="/jsp/oferta/ofertaCompetencia.jsp" 
+			/> <forward name="JSP_IDIOMA" path="/jsp/oferta/ofertaIdioma.jsp" /> <forward 
+			name="NEXT_CONOCIMIENTO" path="/ofertaRegistroExperiencia.do?method=conocimientoInit" 
+			/> <forward name="NEXT_HABILIDAD" path="/ofertaRegistroExperiencia.do?method=habilidadInit" 
+			/> <forward name="NEXT_COMPETENCIA" path="/ofertaRegistroExperiencia.do?method=competenciaInit" 
+			/> <forward name="NEXT_IDIOMA" path="/ofertaRegistroExperiencia.do?method=idiomaInit" 
+			/> </action> <action name="carrerasFormBean" path="/ofertaRegistroCarreras" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP_CARRERA" path="/jsp/oferta/carrerasSimilares.jsp" /> <forward 
+			name="NEXT_CARRERA" path="/ofertaRegistroCarreras.do?method=carrerasSimilaresInit" 
+			/> </action> <action name="sectoresFormBean" path="/ofertaRegistroSectores" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP_SECTOR" path="/jsp/oferta/ofertaSectores.jsp" /> <forward 
+			name="NEXT_SECTOR" path="/ofertaRegistroSectores.do?method=sectoresInit" 
+			/> </action> <action name="entidadesFormBean" path="/ofertaRegistroEntidades" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaRegistroAction"> 
+			<forward name="JSP_ENTIDAD" path="/jsp/oferta/ofertaEntidades.jsp" /> <forward 
+			name="NEXT_ENTIDAD" path="/ofertaRegistroEntidades.do?method=entidadesInit" 
+			/> </action> -->
+
+		<!-- EDICION DE OFERTAS TODO: ESTE SEGMENTE ES CANDIDATO A ELIMINARSE <action 
+			name="registroUbicacionFormBean" path="/ofertaEdicion" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP" path="/jsp/oferta/edicion/ofertaEdicionUbicacion.jsp" 
+			/> <forward name="NEXT" path="/ofertaEdicionRequisitos.do?method=guardaRequisitosInit" 
+			/> <forward name="ACTION_LOGIN_EMPRESA" path="/login.do?method=loginEmpresa"/> 
+			</action> <action name="sectoresFormBean" path="/ofertaEdicionSectores" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP_SECTOR" path="/jsp/oferta/edicion/ofertaSectores.jsp" 
+			/> <forward name="NEXT_SECTOR" path="/ofertaRegistroSectores.do?method=sectoresInit" 
+			/> </action> <action name="entidadesFormBean" path="/ofertaEdicionEntidades" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP_ENTIDAD" path="/jsp/oferta/edicion/ofertaEntidades.jsp" 
+			/> <forward name="NEXT_ENTIDAD" path="/ofertaEdicionEntidades.do?method=entidadesInit" 
+			/> </action> <action name="registroRequisitosFormBean" path="/ofertaEdicionRequisitos" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP" path="/jsp/oferta/edicion/ofertaEdicionRequisitos.jsp" 
+			/> <forward name="NEXT" path="/ofertaEdicionContacto.do?method=guardaContactoInit" 
+			/> </action> <action name="registroContactoFormBean" path="/ofertaEdicionContacto" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP" path="/jsp/oferta/edicion/ofertaEdicionContacto.jsp" 
+			/> <forward name="NEXT" path="/OfertaNavegacion.do?method=init" /> <forward 
+			name="AUTORIZACION" path="/autorization.do?method=init" /> <forward name="JSP_AUTORIZATION_ACTUALIZAR" 
+			path="/autorization.do?method=actualizaRegistrosPorValidar"/> </action> <action 
+			name="requisitosFormBean" path="/ofertaEdicionExperiencia" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP_CONOCIMIENTO" path="/jsp/oferta/edicion/ofertaConocimiento.jsp" 
+			/> <forward name="JSP_HABILIDAD" path="/jsp/oferta/edicion/ofertaHabilidad.jsp" 
+			/> <forward name="JSP_COMPETENCIA" path="/jsp/oferta/edicion/ofertaCompetencia.jsp" 
+			/> <forward name="JSP_IDIOMA" path="/jsp/oferta/edicion/ofertaIdioma.jsp" 
+			/> <forward name="NEXT_CONOCIMIENTO" path="/ofertaEdicionExperiencia.do?method=conocimientoInit" 
+			/> <forward name="NEXT_HABILIDAD" path="/ofertaEdicionExperiencia.do?method=habilidadInit" 
+			/> <forward name="NEXT_COMPETENCIA" path="/ofertaEdicionExperiencia.do?method=competenciaInit" 
+			/> <forward name="NEXT_IDIOMA" path="/ofertaEdicionExperiencia.do?method=idiomaInit" 
+			/> </action> <action name="carrerasFormBean" path="/ofertaEdicionCarreras" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaEdicionAction"> 
+			<forward name="JSP_CARRERA" path="/jsp/oferta/edicion/carrerasSimilares.jsp" 
+			/> <forward name="NEXT_CARRERA" path="/ofertaEdicionCarreras.do?method=carrerasSimilaresInit" 
+			/> </action> -->
+
+
+		<!-- PLANTILLA DE OFERTAS TODO:ESTE SEGMENTO ES CANDIDATO A ELIMINARSE 
+			<action name="registroUbicacionFormBean" path="/ofertaPlantilla" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP" path="/jsp/oferta/plantilla/ofertaPlantillaUbicacion.jsp" 
+			/> <forward name="NEXT" path="/ofertaPlantillaRequisitos.do?method=guardaRequisitosInit" 
+			/> </action> <action name="sectoresFormBean" path="/ofertaPlantillaSectores" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP_SECTOR" path="/jsp/oferta/plantilla/ofertaSectores.jsp" 
+			/> <forward name="NEXT_SECTOR" path="/ofertaPlantillaSectores.do?method=sectoresInit" 
+			/> </action> <action name="entidadesFormBean" path="/ofertaPlantillaEntidades" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP_ENTIDAD" path="/jsp/oferta/plantilla/ofertaEntidades.jsp" 
+			/> <forward name="NEXT_ENTIDAD" path="/ofertaPlantillaEntidades.do?method=entidadesInit" 
+			/> </action> <action name="registroRequisitosFormBean" path="/ofertaPlantillaRequisitos" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP" path="/jsp/oferta/plantilla/ofertaPlantillaRequisitos.jsp" 
+			/> <forward name="NEXT" path="/ofertaPlantillaContacto.do?method=guardaContactoInit" 
+			/> </action> <action name="registroContactoFormBean" path="/ofertaPlantillaContacto" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP" path="/jsp/oferta/plantilla/ofertaPlantillaContacto.jsp" 
+			/> <forward name="NEXT" path="/OfertaNavegacion.do?method=init" /> </action> 
+			<action name="requisitosFormBean" path="/ofertaPlantillaExperiencia" parameter="method" 
+			scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP_CONOCIMIENTO" path="/jsp/oferta/plantilla/ofertaConocimiento.jsp" 
+			/> <forward name="JSP_HABILIDAD" path="/jsp/oferta/plantilla/ofertaHabilidad.jsp" 
+			/> <forward name="JSP_COMPETENCIA" path="/jsp/oferta/plantilla/ofertaCompetencia.jsp" 
+			/> <forward name="JSP_IDIOMA" path="/jsp/oferta/plantilla/ofertaIdioma.jsp" 
+			/> <forward name="NEXT_CONOCIMIENTO" path="/ofertaPlantillaExperiencia.do?method=conocimientoInit" 
+			/> <forward name="NEXT_HABILIDAD" path="/ofertaPlantillaExperiencia.do?method=habilidadInit" 
+			/> <forward name="NEXT_COMPETENCIA" path="/ofertaPlantillaExperiencia.do?method=competenciaInit" 
+			/> <forward name="NEXT_IDIOMA" path="/ofertaPlantillaExperiencia.do?method=idiomaInit" 
+			/> </action> <action name="carrerasFormBean" path="/ofertaPlantillaCarreras" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.oferta.action.OfertaPlantillaAction"> 
+			<forward name="JSP_CARRERA" path="/jsp/oferta/plantilla/carrerasSimilares.jsp" 
+			/> <forward name="NEXT_CARRERA" path="/ofertaPlantillaCarreras.do?method=carrerasSimilaresInit" 
+			/> </action> -->
+
+		<action path="/busqueda_especifica" forward="/busquedaEspecificaOfertas.do?method=buscar" />
+		<action path="/busqueda_palabra" forward="/miespacionav.do?method=toBusquedaPalabraClave" />
+		<action path="/busqueda_ocupate" forward="/miespacionav.do?method=toOcupate" />
+
+		<action path="/miespacionav" parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.MiEspacioCandidatoAction">
+			<forward name="JSP_BUSQUEDA_PALABRA" path="/jsp/candidatos/busqueda_palabra_clave.jsp" />
+		</action>
+
+		<action name="OfertasPorPerfilForm" path="/miEspacioCandidato"
+			type="mx.gob.stps.portal.web.candidate.action.CandidatosAction"
+			input="/jsp/candidatos/miEspacioCandidato.jsp">
+
+			<forward name="ACTION_LOGIN_CANDIDATO" path="/login.do?method=loginCandidato" />
+			<forward name="ACTION_MIS_DATOS" path="/perfil.do?method=init" />
+			<forward name="ACTION_PARAMETROS" path="/parametrizarbloque.do?method=init" />
+		</action>
+
+		<!-- OFERTASRSS <action name="ofertasRSSForm" path="/ofertasRSSConsultar" 
+			parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.ofertasRSS.action.OfertasRSSConsultarAction"> 
+			<forward name="JSP" path="/jsp/ofertasRSS/ofertasRSSConsultar.jsp" /> </action> 
+			FIN OFERTASRSS -->
+
+
+		<!-- Mi espacio empresa CAPACITACION MIXTA -->
+		<action path="/capacitacionMixta" name="ComRegCompanyForm"
+			type="mx.gob.stps.portal.web.company.action.CapacitacionMixtaAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/empresaCapMixta.jsp"></forward>
+			<forward name="JSP_SUCCESS" path="/jsp/company/capacitacionMixtaConfirm.jsp"></forward>
+		</action>
+
+		<!-- <action path="/acercaAbriendoEspacios" forward="/jsp/company/acercaAbriendoEspacios.jsp"/> -->
+		<action path="/acercaAbriendoEspacios" name="acercaAbriendoEspaciosForm"
+			type="mx.gob.stps.portal.web.company.action.AcercaAbriendoEspaciosAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/acercaAbriendoEspacios.jsp"></forward>
+			<!-- RBM1 TK990 TK995 se registra redireccion-->
+			<!-- < forward name="NEXT" path="/ofertaEmpleo.do?method=init" ></forward>-->
+			<forward name="ACTION_ALTA_OFERTA_RU" path="/registro-unico.do?method=redirectRegistraOfertaRUAbriendoEspacios" />
+		</action>
+
+		<action path="/actualizaCurp" name="actualizaCurpForm"
+			type="mx.gob.stps.portal.web.company.action.ActualizaCurpAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/actualizaCurp.jsp" />
+			<forward name="NEXT" path="/miEspacioEmpresas.do?method=init" />
+
+		</action>
+
+
+		<action path="/miEspacioEmpresas" name="miEspacioEmpForm"
+			scope="request" type="mx.gob.stps.portal.web.company.action.MiEspacioEmpresasAction"
+			parameter="method" input="/jsp/company/miEspacioEmpresas.jsp">
+			<forward name="JSP" path="/miEspacioEmpresas.do?method=init" />
+			<!-- RBM1 TK989 TK993 a eliminar  -->
+			<!-- <forward name="ACTION_LOGIN_EMPRESA" path="/login.do?method=loginEmpresa" />-->
+			<forward name="ACTION_HOME" path="/login.do?method=forwardHomeFromRU" />
+			
+			<forward name="ACTION_LOGIN" path="/login.do?method=loginresp" />
+			<!-- RBM1 TK997 TK998 -->
+			<forward name="ACTION_PUBLICADOR" path="/autorization.do?method=initDetalle" />
+		</action>
+		<!-- <action path="/miespacioEmpTop" name="miEspacioEmpForm" scope="request" 
+			type="mx.gob.stps.portal.web.company.action.MiEspacioEmpresasTemplateAction" 
+			input="/jsp/company/miespacioEmpTop.jsp" /> -->
+
+		<action name="SearchCandidatesForm" path="/buscarcandidatos"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.company.action.SearchCandidatesAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/searchcandidates.jsp" />
+			<forward name="NEXT"
+				path="/jsp/portal/monitoring/searchcandidateslist.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/portal/monitoring/candidatelist.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/portal/monitoring/candidatedetail2.jsp" />
+			<forward name="ACTION_EMPRESA" path="/miEspacioEmpresas.do" />
+		</action>
+
+		<action name="MyOffersForm" path="/misofertas" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.offer.action.MyOffersAction">
+			<!--<forward name="JSP" path="/jsp/portal/monitoring/myoffers.jsp" /> -->
+			<!--<forward name="ACTION_REGISTROS_TABLA_OFFERS" path="/jsp/portal/monitoring/offers.jsp" 
+				/> -->
+			<!--<forward name="ACTION_REGISTROS_TABLA_OFFERSFINDME" path="/jsp/portal/monitoring/offersFindMe.jsp" 
+				/> -->
+			<forward name="JSP" path="/jsp/portal/monitoring/misOfertasDeEmpleo.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_MIS_POSTULACIONES"
+				path="/jsp/portal/monitoring/misPostulaciones.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_MIS_OFERTAS_GUARDADAS"
+				path="/jsp/portal/monitoring/misOfertasGuardadas.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_EMPRESAS_QUE_ME_BUSCAN"
+				path="/jsp/portal/monitoring/empresasQueMeBuscan.jsp" />
+			<forward name="ACTION_REGISTRAR_POSTULACION_EXTERNA" path="/registroPostulacionExterna.do" />
+			<forward name="ACTION_SEGUIMIENTO_POSTULACION_EXTERNA" path="/seguimientoPostulacionExterna.do" />
+		</action>
+
+		<action path="/registroPostulacionExterna" name="registroPostulacionExternaForm"
+			type="mx.gob.stps.portal.web.offer.action.RegistroPostulacionExternaAction"
+			parameter="method" scope="session" validate="false">
+			<forward name="JSP"
+				path="/jsp/portal/monitoring/registroPostulacionExterna.jsp"></forward>
+			<forward name="JSP_CANCEL" path="/misofertas"></forward>
+			<forward name="ACTION_CANDIDATO" path="/jsp/candidatos/miEspacioCandidato.jsp" />
+			<forward name="NEXT" path="/seguimientoPostulacionExterna.do?method=init"></forward>
+			<forward name="ACTION_SEGUIMIENTO_POSTULACION"
+				path="/jsp/portal/monitoring/seguimientoPostulacionesExternas.jsp" />
+		</action>
+
+		<action path="/seguimientoPostulacionesExternas" name="seguimientoPostulacionExternaForm"
+			type="mx.gob.stps.portal.web.offer.action.SeguimientoPostulacionExternaAction"
+			parameter="method" scope="session" validate="false">
+			<forward name="JSP"
+				path="/jsp/portal/monitoring/seguimientoPostulacionesExternas.jsp"></forward>
+			<forward name="JSP_CANCEL" path="/misofertas"></forward>
+			<forward name="ACTION_CANDIDATO" path="/miEspacioCandidato.do" />
+		</action>
+
+		<action path="/seguimientoPostulacionExterna" name="registroPostulacionExternaForm"
+			type="mx.gob.stps.portal.web.offer.action.SeguimientoPostulacionesExternasAction"
+			parameter="method" scope="session" validate="false">
+			<forward name="JSP"
+				path="/jsp/portal/monitoring/detallePostulacionExterna.jsp"></forward>
+			<forward name="JSP_CANCEL" path="/misofertas"></forward>
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/portal/monitoring/registrosPostulaciones.jsp" />
+			<forward name="ACTION_SEGUIMIENTO_POSTULACION" path="/jsp/portal/monitoring/postulacionExterna.jsp" />
+
+		</action>
+
+		<action path="/miscandidatos" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.offer.action.MyOffersEmployAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/mycandidates.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/portal/monitoring/candidatedetail.jsp" />
+		</action>
+		
+		<action path="/solicitaCV" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.offer.action.MyOffersEmployAction">
+			<forward name="JSP_SUCCESS" path="/jsp/portal/monitoring/impresionCandidatedetail.jsp" />
+		</action> 
+		
+		<action path="/printPDF" parameter="method" scope="session" validate="false" type="mx.gob.stps.portal.web.pdf.action.PrintPdfCVAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/impresionCandidatedetail.jsp" />
+		</action>
+		
+		<!-- OCUPATE -->
+		<action name="OfertasPorCanalForm" path="/ocupate" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.offer.action.SearchOffersIndex">
+			<forward name="JSP" path="/jsp/portal/monitoring/ocupate.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/portal/monitoring/registrosOcupate.jsp" />
+			<forward name="JSP_SIGUIENTES_OFERTAS" path="/jsp/portal/monitoring/siguientesOfertas.jsp" />
+		</action>
+
+		<!-- BUSQUEDA ESPECIFICA -->
+		<action path="/specificsearch" parameter="method"
+			name="registroCandidatoForm" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.offer.action.SearchSpecificOffers">
+			<forward name="JSP" path="/jsp/portal/monitoring/specific.jsp" />
+			<forward name="JSPWS" path="/jsp/portal/monitoring/wsspecific.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/portal/monitoring/specificrecords.jsp" />
+		</action>
+
+		<!-- RECUPERACION DE CONTRASEÃƒâ€˜A <action path="/recuperarpsw" type="mx.gob.stps.portal.web.security.action.RecuperarPswAction" 
+			name="recuperarPswForm" parameter="method" scope="session" input="/jsp/seguridad/recuperarpsw.jsp" 
+			/> <action path="/recupera_contrasena" forward="/activacion.do?method=init" 
+			/> -->
+		<!-- OAM -->
+		<action path="/recupera_contrasena" forward="/recuperaContrasena.do?method=init" />
+
+		<action path="/activacion"
+			type="mx.gob.stps.portal.web.security.action.ActivacionAction" name="activacionForm"
+			parameter="method" scope="session">
+			<!--<forward name="NEXT" path="/jsp/seguridad/emailtourl.jsp" /> --><!-- TODO ELIMINAR PAGINA SIN USO -->
+			<forward name="JSP" path="/jsp/seguridad/recuperar-contrasena.jsp" />
+			<forward name="NEXT" path="/jsp/seguridad/recupera-contrasena-confim.jsp"
+				redirect="true" />
+			<forward name="JSP_SUCCESS"
+				path="/jsp/seguridad/recupera-contrasena-candidato.jsp" redirect="true" />
+		</action>
+
+		<!-- RECUPERACION DE CONTRASENA OAM -->
+		<action path="/recuperaContrasena"
+			type="mx.gob.stps.portal.web.security.action.RecuperarContrasenaAction"
+			name="contrasenaForm" parameter="method" scope="request">
+			<forward name="JSP" path="/jsp/seguridad/recuperar-contrasena.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/seguridad/recuperar-contrasena-confim.jsp"/>
+			<forward name="NEXT" path="/jsp/seguridad/recuperar-usuario-confim.jsp" redirect="true" />
+			<forward name="NEXT_USER" path="/jsp/seguridad/recover-by-user.jsp" redirect="true" />
+			<forward name="JSP_PERFIL_CURP" path="/jsp/candidatos/registro/perfil-curp.jsp"
+				redirect="true" />
+			<forward name="JSP_PREREGISTRO" path="/jsp/company/registro/preregistro_empresa.jsp"
+				redirect="true" />
+		</action>
+		
+		<!-- RECOVER PASSWORD-->
+		<action path="/recoverPassword"
+			type="mx.gob.stps.portal.web.security.action.RecuperarContrasenaAction"
+			name="contrasenaForm" parameter="method" scope="session">
+			<forward name="JSP" path="/jsp/seguridad/recover/recoverPassword.jsp" />
+			<forward name="JSP_SUCCESS" path="/jsp/seguridad/recuperar-contrasena-confim.jsp"/>
+			<forward name="NEXT" path="/jsp/seguridad/recover/recoverUserConfirm.jsp" redirect="true" />
+			<forward name="NEXT_USER" path="/jsp/seguridad/recover/recoverPhone.jsp" redirect="true" />
+			<forward name="JSP_PERFIL_CURP" path="/jsp/candidatos/registro/perfil-curp.jsp"
+				redirect="true" />
+			<forward name="JSP_PREREGISTRO" path="/jsp/company/registro/preregistro_empresa.jsp"
+				redirect="true" />
+		</action>
+
+		<!-- NUEVA CONTRASENA OAM -->
+		<action path="/nuevaContrasena"
+			type="mx.gob.stps.portal.web.security.action.NuevaContrasenaAction"
+			parameter="method" name="nuevaContrasenaForm" scope="request"
+			validate="false">
+			<forward name="JSP_SUCCESS" path="/jsp/seguridad/nueva-contrasena.jsp" redirect="true" />
+			<forward name="JSP_CANCEL" path="/inicio.do" redirect="true" />
+			<forward name="NEXT" path="/jsp/seguridad/nueva-contrasena-confirm.jsp" redirect="true" />
+			<forward name="JSP" path="/jsp/seguridad/recuperar-contrasena.jsp" />
+			<forward name="ACTION_PUBLICADOR" path="/autorization.do?method=init" />
+			<!-- INICIAR SESION OAM -->
+			<forward name="ACTION_CANDIDATO" path="/miEspacioCandidato.do"
+				redirect="true" />
+			<forward name="ACTION_EMPRESA" path="/miEspacioEmpresas.do"
+				redirect="true" />
+			<forward name="ACTION_EMPRESA_RESP" path="/miEspacioEmpresas.do?method=responsivo"
+				redirect="true" />
+			<forward name="ACTION_CANDIDATO_PERFIL" path="/perfil.do?method=init"
+				redirect="true" />
+			<forward name="ACTION_EMPRESA_PERFIL" path="/edicionEmpresa.do?method=init"
+				redirect="true" />
+
+			<forward name="ACTION_CANDIDATO_OFERTAS" path="/misofertas.do?method=misPostulaciones"
+				redirect="true" />
+			<forward name="ACTION_EMPRESA_OFERTAS" path="/OfertaNavegacion.do?method=init"
+				redirect="true" />
+
+			<forward name="ACTION_ADMIN" path="/filtercompany.do?method=init"
+				redirect="true" />
+			<forward name="JSP_CANCEL" path="/logincil.do?method=init"
+				redirect="true" />
+
+			<forward name="ACTION_PARAMETROS" path="/parametrizarbloque.do?method=init"
+				redirect="true" />
+
+			<!-- INICIO PRUEBA LOGIN -->
+			<forward name="ACTION_OFERTA_PREVIA" path="/detalleoferta.do?method=init"
+				redirect="true" />
+			<!-- TERMINA PRUEBA LOGIN -->
+
+			<forward name="ACTION_MONITOR" path="/repofertasvig.do?method=init"
+				redirect="true" />
+		</action>
+		<!-- NUEVA CONTRASEÃƒâ€˜A OAM -->
+
+		<action name="confirmacionRegistroForm" path="/confirmapsw"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.confirmacion.action.ConfirmacionRecuperaPswAction"
+			input="/jsp/confirmacion/confirmapsw.jsp">
+			<forward name="LOGIN" path="/login.do?method=login" />
+		</action>
+
+		<!-- MOSTRAR INFORMACION DE CANDIDATO (SELECCIONADO/POSTULADO) -->
+		<action path="/viewCandidateInfo"
+			type="mx.gob.stps.portal.web.company.action.ShowCandidateDetailAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/showCandidateDetail.jsp"></forward>
+		</action>
+
+		<!-- INDEXER SERVICE <action path="/indexer" parameter="method" scope="session" 
+			validate="false" type="mx.gob.stps.portal.web.offer.action.STPSIndexerAction"> 
+			<forward name="JSP" path="/jsp/portal/monitoring/indexer.jsp" /> <forward 
+			name="NEXT" path="/jsp/portal/monitoring/indexsearch.jsp" /> </action> -->
+
+		<!-- FIN EVALUACION DE CANDIDATOS -->
+
+		<action path="/sinpermisos"
+			type="mx.gob.stps.portal.web.security.action.SinPermisosAction"
+			input="/jsp/seguridad/sinpermisos.jsp" />
+
+		<action path="/articulos"
+			type="mx.gob.stps.portal.web.accesoOLA.action.ArticulosAction" />
+
+		<action path="/adminpermisos" parameter="method"
+			type="mx.gob.stps.portal.web.security.action.AdminPermisosAction"
+			input="/jsp/seguridad/inicio.jsp">
+			<!--input="/jsp/seguridad/adminpermisos.jsp" -->
+			<forward name="ACCIONES" path="/jsp/seguridad/acciones.jsp" />
+			<forward name="ACTION_PARAMETROS" path="/parametrizarbloque.do?method=init" />
+		</action>
+
+		<action path="/adminusuarios" parameter="method"
+			type="mx.gob.stps.portal.web.security.action.AdminUsuarioAction"
+			input="/jsp/seguridad/adminusuarios.jsp">
+		</action>
+
+		<action path="/transferenciasfp" parameter="method"
+			type="mx.gob.stps.portal.web.security.action.TransferenciaOfertasAction"
+			input="/jsp/seguridad/transferenciasfp.jsp">
+		</action>
+
+		<action path="/version" forward="/jsp/version.jsp" />
+
+		<!-- LOGIN CIL -->
+		<action path="/logincil" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.cil.security.action.LoginCil">
+			<forward name="JSP" path="/jsp/portal/cil/access.jsp" />
+			<forward name="NEXT" path="/jsp/portal/cil/code.jsp" />
+			<forward name="REGRESO" path="/logincil.do?method=init" />
+			<forward name="JSP_SUCCESS" path="/registro_candidato.do" />
+		</action>
+
+		<!-- EVENT USER SERVICES CIL -->
+		<action path="/servicioscil" name="EventUserForm" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.cil.services.action.EventUserAction">
+			<forward name="JSP" path="/jsp/portal/cil/servusercil.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/portal/cil/phonetablecil.jsp" />
+			<forward name="REGRESO" path="/logout.do?method=execute" />
+			<forward name="JSP_SUCCESS" path="/logincil.do?method=init" />
+		</action>
+
+		<action path="/ciltelefonos" forward="/jsp/portal/cil/phonetablecil.jsp" />
+
+		<action name="TraceUserForm" path="/seguimientocil" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.cil.services.action.TraceUserAction">
+			<forward name="JSP" path="/jsp/portal/cil/traceusercil.jsp" />
+		</action>
+
+		<action path="/menumap" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.cil.services.action.MenuMapAction">
+			<forward name="JSP" path="/jsp/portal/cil/menumap.jsp" />
+		</action>
+
+		<!-- SUGGESTION SERVICES -->
+		<action path="/suggestion" parameter="method" scope="session"
+			validate="false" name="activacionForm"
+			type="mx.gob.stps.portal.web.testimony.action.SuggestionAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/suggestions.jsp" />
+		</action>
+
+		<action path="/pollcomment" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.testimony.action.PollCommentAction">
+			<forward name="JSP" path="/jsp/portal/monitoring/pollcomment.jsp" />
+			<forward name="JSP_NEXT" path="/jsp/portal/monitoring/pollcommentend.jsp" />
+		</action>
+
+		<!-- ADMIN SERVICES -->
+		<action path="/filteroffer" parameter="method" scope="session"
+			validate="false" type="mx.gob.stps.portal.web.admin.offer.AdminFilterOfferAction"
+			name="autorizationForm">
+			<forward name="JSP" path="/jsp/admin/offer/filteroffers.jsp" />
+			<forward name="JSP_PENDIENTES_PUBLICAR" path="/jsp/admin/offer/filterofferspublisher.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/admin/offer/rowfilteroffers.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_OFEPUBLISH" path="/jsp/admin/offer/rowfilteroffers.jsp" />
+		</action>
+
+		<action name="parametrosForm" path="/publishertree" parameter="method"
+			scope="session" validate="false"
+			type="mx.gob.stps.portal.web.admin.publisher.AdminPublisherAction">
+			<forward name="JSP" path="/jsp/admin/publisher/filterpublishers.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/admin/publisher/records.jsp" />
+		</action>
+		<action name="AdminPublisherActivityForm" path="/publisheractivity"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.admin.publisher.AdminPublisherActivityAction">
+			<forward name="JSP"
+				path="/jsp/admin/publisher/reports/publisheractivity.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/admin/publisher/reports/rowpublisheractivity.jsp" />
+		</action>
+		<action path="/notificaciones" parameter="method" scope="request"
+			validate="false" name="notificacionesForm"
+			type="mx.gob.stps.portal.web.security.action.NotificacionesAction"
+			input="/jsp/seguridad/notificaciones.jsp">
+		</action>
+
+		<action path="/" parameter="method" scope="request"
+			validate="false" name="notificacionesForm"
+			type="mx.gob.stps.portal.web.security.action.NotificacionesAction"
+			input="/jsp/seguridad/notificaciones.jsp">
+		</action>		
+		
+		<!-- REGISTRO UNICO -->
+		
+		<action path="/registro-unico" scope="request"
+			validate="false" parameter="method" 
+			type="mx.gob.stps.portal.web.reg_unico.ClientServiceRUMB">
+		</action>	
+		
+		<action path="/access-point-empleo" scope="request"
+			validate="false" parameter="method" 
+			type="mx.gob.stps.portal.web.reg_unico.AccessPointRUAction">
+			<forward name="RU_EMP" path="/miEspacioEmpresas.do" />
+			<forward name="RU_CAND" path="/miEspacioCandidato.do" />
+			<forward name="RU_OF_PLANT" path="/OfertaNavegacion.do" />
+		</action>	
+		
+		<!-- REPORTE OFERTAS VIGENTES -->
+		<action path="/repofertasvig" name="CurrentOfferReportForm"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.admin.offer.CurrentOfferReportAction">
+			<forward name="JSP" path="/jsp/admin/offer/currentofferreport.jsp" />
+			<forward name="JSP_ENTIDAD_GENERO" path="/jsp/admin/offer/currentOfferReportGenero.jsp" />
+			<forward name="JSP_ENTIDAD_ESCOLARIDAD"
+				path="/jsp/admin/offer/currentOfferReportEscolaridad.jsp" />
+			<forward name="JSP_ENTIDAD_EXPERIENCIA"
+				path="/jsp/admin/offer/currentOfferReportExperiencia.jsp" />
+			<forward name="JSP_OFERTAS_ACT_ECONOMICA"
+				path="/jsp/admin/offer/currentOfferReportActividadEconomica.jsp" />
+			<forward name="JSP_OFERTAS_AREA_OCUPACION"
+				path="/jsp/admin/offer/currentOfferReportAreaOcupacion.jsp" />
+		</action>
+
+		<!-- REPORTE DE OFERTAS PARA LA EMPRESA -->
+		<action name="ReporteOfertasEmpresaForm" path="/reporteOfertasEmpresa"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.oferta.action.ReporteOfertasEmpresaAction">
+			<forward name="JSP" path="/jsp/oferta/reporte/companyoffersreport.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/oferta/reporte/rowoffers.jsp" />
+		</action>
+
+		<!-- CURSO -->
+
+		<action path="/cursoFormacion" name="cursoFormacionForm"
+			type="mx.gob.stps.portal.web.curso.action.CursoFormacionAction"
+			input="/jsp/curso/cursoFormacion.jsp" parameter="method" scope="request"
+			validate="false">
+		</action>
+
+		<!-- PREFERENCIAS DE COFIGURACION SOBRE ESTANDARES DE CONOCER -->
+		<action path="/conocerconfig"
+			type="mx.gob.stps.portal.web.conocer.action.AvisoConocerAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/candidatos/avisoconocer.jsp" />
+		</action>
+
+		<action path="/recomendar" name="RecomendarForm"
+			type="mx.gob.stps.portal.web.security.action.RecomendarAction"
+			parameter="method" scope="request" validate="false">
+		</action>
+
+		<action path="/registro_candidato_ppc" forward="/registro.do?method=toBeneficios" />
+		<action path="/registro_candidato" forward="/registro.do?method=init" />
+		<action path="/registro_candidato_perfil" forward="/registro.do?method=toPerfil" />
+		<action path="/registro_candidato_quebec" forward="/registro.do?method=toQuebec" />
+
+		<action path="/registro" name="registroCandidatoForm"
+			type="mx.gob.stps.portal.web.candidate.action.RegistroCandidatoAction"
+			scope="session" validate="false" parameter="method">
+
+			<forward name="JSP_PREREGISTRO" path="/jsp/candidatos/registro/preregistro.jsp" />
+			<forward name="JSP_PRE_BIENVENIDA"
+				path="/jsp/candidatos/registro/preregistro-bienvenida.jsp" />
+			<forward name="JSP_PERFIL_CURP" path="/jsp/candidatos/registro/perfil-curp.jsp" />
+			<forward name="JSP_PERFIL_CURP_PPC" path="/jsp/candidatos/registro/perfil-curp-ppc.jsp" />
+			<forward name="JSP_PERFIL_DATOS"
+				path="/jsp/candidatos/registro/perfil-datos-personales.jsp" />
+			<forward name="JSP_PERFIL_TERMINA" path="/jsp/candidatos/registro/perfil-termina.jsp" />
+			<forward name="JSP_CONTENIDO" path="/jsp/candidatos/registroPPCSD_contenido.jsp" />
+			<forward name="JSP_TERMGEN"
+				path="/jsp/candidatos/registroPPCSD_terminosGenerales.jsp" />
+			<forward name="JSP_TERMCOND"
+				path="/jsp/candidatos/registro/registroCandidato_PPCterminosCondiciones.jsp" />
+			<forward name="JSP_REGPPC_TERMCOND"
+				path="/jsp/candidatos/registroPPCSD_terminosCondiciones.jsp" />
+			<forward name="JSP_QUEBEC" path="/jsp/candidatos/quebec/iframekeep.jsp" />
+			<forward name="JSP_CONTENIDOPPC_USERLOGGED"
+				path="/registroCandidatoPPCSD.do?method=showContenido" />
+
+		</action>
+
+		<action path="/registro_empresa" forward="/registroEmpresa.do?method=init" />
+		<action path="/portalRegistroEmpresa" forward="/registroEmpresa.do?method=init" />
+		<!-- Este segmento es candidato a eliminarse <action path="/registro_empresa_perfil" 
+			forward="/registroEmpresa.do?method=init"/> <action path="/registro_empresa_perfil" 
+			forward="/registroEmpresa.do?method=sendFromSwbToRegistro"/> -->
+		<action path="/dondePublicar" name="dondePublicarForm"
+			type="mx.gob.stps.portal.web.company.action.DondePublicarAction"
+			parameter="method" scope="request" validate="false">
+			<forward name="JSP" path="/jsp/company/dondePublicarOferta.jsp"></forward>
+			<!-- RBM1 TK990 TK995 Redirect Hacia RU   -->			
+			<!-- <forward name="NEXT" path="/ofertaEmpleo.do?method=init"></forward> -->
+			<forward name="ACTION_ALTA_OFERTA_RU" path="/registro-unico.do?method=redirectRegistraOfertaRUAbriendoEspacios" />
+		</action>
+
+		<action path="/registroEmpresa" name="registroEmpresaForm"
+			type="mx.gob.stps.portal.web.company.action.RegistroEmpresaAction"
+			scope="session" validate="false" parameter="method">
+
+			<forward name="JSP_BENEFICIOS" path="/jsp/company/registro/beneficios_registro.jsp" />
+			<forward name="JSP_PREREGISTRO" path="/jsp/company/registro/preregistro_empresa.jsp" />
+			<forward name="JSP_REGISTRO" path="/jsp/company/registro/registro_empresa.jsp" />
+			<forward name="JSP_BIENVENIDA_EMPRESA"
+				path="/jsp/company/registro/registro_bienvenida_empresa.jsp" />
+			<forward name="JSP_TERMINA_EMPRESA" path="/ofertaEmpleo.do?method=init" /><!-- RBM1 TODO Esta redireccion deberia eliminarse -->
+			<forward name="JSP_DONDE_PUBLICAR_OFERTA" path="/dondePublicar.do?method=init" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/registro/phonetable.jsp" />
+			<forward name="ACTION_EMPRESA" path="/miEspacioEmpresas.do" />
+		</action>
+
+		<action path="/portalRegistroEmpresa" name="registroEmpresaForm"
+			type="mx.gob.stps.portal.web.company.action.RegistroEmpresaAction"
+			scope="session" validate="false" parameter="method">
+
+			<forward name="JSP_PREREGISTRO" path="/jsp/layout/header.jsp" />
+			<forward name="JSP_REGISTRO" path="/jsp/company/registro/registro_empresa.jsp" />
+			<forward name="JSP_BIENVENIDA_EMPRESA"
+				path="/jsp/company/registro/registro_bienvenida_empresa.jsp" />
+			<forward name="JSP_TERMINA_EMPRESA" path="/ofertaEmpleo.do?method=init" /><!-- RBM1 TODO Esta redireccion deberia eliminarse -->
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/registro/phonetable.jsp" />
+		</action>
+
+		<action path="/edicionEmpresa" name="edicionEmpresaForm"
+			type="mx.gob.stps.portal.web.company.action.EdicionEmpresaAction"
+			scope="session" validate="false" parameter="method">
+
+			<forward name="JSP" path="/jsp/company/misDatos/edicion_empresa.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/company/misDatos/phonetable.jsp" />
+			<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <forward name="JSP_SUCCESS" 
+				path="/jsp/company/comupdcompanysuccess.jsp"/> <forward name="JSP_SUCCESS_BASIC_DATA" 
+				path="/jsp/company/comupdcompanysuccess.jsp"/> -->
+			<forward name="JSP_CANCEL" path="/edicionEmpresa.do?method=init" />
+			<!-- TODO: ESTE SEGMENTO ES CANDIDATO A ELIMINARSE <forward name="JSP_AUTORIZATION" 
+				path="/autorization.do?method=actualizaRegistrosPorValidar"/> -->
+			<forward name="ACTION_ADMIN" path="/filtercompany.do?method=init" />
+		</action>
+
+		<action path="/ofertaEmpleo" name="ofertaEmpleoForm"
+			type="mx.gob.stps.portal.web.oferta.action.OfertaEmpleoAction" scope="session"
+			validate="false" parameter="method">
+
+			<forward name="JSP_INFORMACION_UBICACION" path="/jsp/oferta/informacionUbicacion.jsp" />
+			<forward name="JSP_REQUISITOS" path="/jsp/oferta/requisitos.jsp" />
+			<forward name="JSP_DATOS_CONTACTO" path="/jsp/oferta/datosContacto.jsp" />
+			<forward name="JSP_CARRERAS_ADICIONALES" path="/jsp/oferta/carrerasAdicionales.jsp" />
+			<forward name="JSP_CONOCIMIENTOS_ADICIONALES" path="/jsp/oferta/conocimientosAdicionales.jsp" />
+			<forward name="JSP_HABILIDADES_ADICIONALES" path="/jsp/oferta/habilidadesAdicionales.jsp" />
+			<forward name="JSP_IDIOMAS_ADICIONALES" path="/jsp/oferta/idiomasAdicionales.jsp" />
+			<forward name="JSP_TELEFONOS_ADICIONALES" path="/jsp/oferta/telefonosAdicionales.jsp" />
+			<forward name="JSP_DETALLE_PERFIL_TIPO" path="/jsp/oferta/perfilTipo.jsp" />
+			<forward name="ACTION_DETALLE_OFERTA" path="/jsp/autorization/ofertadetalle.jsp" />
+			<forward name="ACTION_NAVEGACION" path="/OfertaNavegacion.do?method=init" />
+		</action>
+
+		<action path="/registroCandidatoPPCSD" scope="request"
+			validate="false" name="registroCandidatoPPCSDForm"
+			type="mx.gob.stps.portal.web.candidate.action.RegistroCandidatoPPCSDAction"
+			parameter="method">
+
+			<forward name="JSP_CONTENIDO" path="/jsp/candidatos/registroPPCSD_contenido.jsp" />
+			<forward name="JSP_TERMGEN"
+				path="/jsp/candidatos/registroPPCSD_terminosGenerales.jsp" />
+			<forward name="JSP_CURP_CANDREG"
+				path="/jsp/candidatos/registroPPCSD_CurpNss_CandRegistrados.jsp" />
+			<forward name="JSP_TERMCOND"
+				path="/jsp/candidatos/registroPPCSD_terminosCondiciones.jsp" />
+			<forward name="JSP_MIPERFIL" path="/perfil.do?method=init" />
+			<forward name="ACTION_CANDIDATO" path="/miEspacioCandidato.do" />
+		</action>
+
+		<!-- ACTION DE CU REGISTRAR CANDIDATO A EVENTO - -->
+		<action name="registraCandidatoEventoForm" path="/registrarCandidatoEvento"
+			scope="session" parameter="method"
+			type="mx.gob.stps.portal.web.candidate.action.RegistroCandidatoEventoAction"
+			input="/jsp/candidatos/registrarCandidatoEvento.jsp">
+			<forward name="JSP" path="/jsp/candidatos/registrarCandidatoEvento.jsp" />
+			<forward name="SEARCH_RESULT" path="/jsp/candidatos/resultadosEventos.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/registrosEventos.jsp" />
+		</action>
+
+		<action name="registraCandidatoEventoForm" path="/detalleEvento"
+			scope="session" parameter="method" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.DetalleEventoAction"
+			input="/jsp/candidatos/detalleEvento.jsp">
+			<forward name="DETALLE_EVENTO" path="/jsp/candidatos/detalleEvento.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA_EMPRESAS" path="/jsp/candidatos/registrosEmpresasEventos.jsp" />
+			<forward name="ACTION_REGISTROS_TABLA" path="/jsp/candidatos/registrosEmpresasEventos.jsp" />
+		</action>
+
+		<!-- SEGUIMIENTO POSTULACION -->
+		<action name="SeguimientoPostulacionForm" path="/seguimientoPostulacion"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.SeguimientoPostulacionAction">
+			<forward name="JSP" path="/jsp/candidatos/seguimientoPostulacion.jsp" />
+			<forward name="NEXT" path="/jsp/candidatos/resultadoEntrevista.jsp"></forward>
+		</action>
+
+		<!-- INFORMACION PROGRAMA -->
+		<action name="ProgramaForm" path="/informacionPrograma"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.InformacionProgramaAction">
+			<forward name="JSP" path="/jsp/candidatos/informacionPrograma.jsp" />
+		</action>
+
+		<action name="ProgramaForm" path="/perfilComplementario"
+			parameter="method" scope="session" validate="false"
+			type="mx.gob.stps.portal.web.candidate.action.InformacionProgramaAction">
+			<forward name="JSP"
+				path="/jsp/candidatos/misDatos/perfilComplementario.jsp" />
+			<forward name="NEXT" path="/jsp/candidatos/misDatos/movilidadExterna.jsp"></forward>
+			<forward name="ACTION_REGISTROS_TABLA"
+				path="/jsp/candidatos/misDatos/beneficiariestable.jsp" />
+			<forward name="MI" path="/jsp/candidatos/misDatos/movilidadInterna.jsp" />
+			<forward name="BENEFICIARIOS" path="/jsp/candidatos/misDatos/benefmovint.jsp" />
+			<forward name="TELEFONOS" path="/jsp/candidatos/misDatos/phonemovint.jsp" />
+			<forward name="OTROS_ESTUDIOS" path="/jsp/candidatos/misDatos/studiescomp.jsp" />
+			<forward name="CONOCIMIENTOS" path="/jsp/candidatos/misDatos/conocsmovint.jsp" />
+			<forward name="MML_PERFIL" path="/jsp/candidatos/misDatos/fortalecerPerfil.jsp" />
+			<forward name="MML_PERFIL_LANG"
+				path="/jsp/candidatos/misDatos/fortalecerIdiomas.jsp" />
+			<forward name="JSP_LANG" path="/jsp/candidatos/misDatos/domainLanguages.jsp" />
+			<forward name="MML_LAST_WORK" path="/jsp/candidatos/misDatos/lastwork.jsp" />
+			<forward name="MML_PERFIL_WORK"
+				path="/jsp/candidatos/misDatos/fortalecerReferencias.jsp" />
+			<forward name="REFERENCES" path="/jsp/candidatos/misDatos/referencestable.jsp" />
+			<forward name="CONTACTS" path="/jsp/candidatos/misDatos/contactable.jsp" />
+		</action>
+
+
+		<!-- CRM START -->
+		<action name="crmCreateArticuloForm" path="/crmAdmin/crearArticulo"
+			type="mx.gob.stps.portal.web.crm.action.CreateArticuloAction" scope="request"
+			input="/jsp/crmAdmin/articulo.jsp">
+			<forward name="success" path="/jsp/crmAdmin/articulo.jsp" />
+			<forward name="login" path="/crmAdmin/login.do"></forward>
+		</action>
+		<action name="crmEtiquetasForm" path="/crmAdmin/etiquetas"
+			type="mx.gob.stps.portal.web.crm.action.EtiquetaAction" parameter="method"
+			scope="session" validate="false" input="/jsp/crmAdmin/etiqueta.jsp">
+			<forward name="success" path="/jsp/crmAdmin/etiqueta.jsp" />
+			<forward name="login" path="/crmAdmin/login.do"></forward>
+		</action>
+		<action name="crmEtiquetasForm" path="/crmAdmin/borrarEtiqueta"
+			type="mx.gob.stps.portal.web.crm.action.BorrarEtiquetaAction"
+			parameter="method" scope="session" validate="false"
+			input="/jsp/crmAdmin/etiqueta.jsp">
+			<forward name="success" path="/jsp/crmAdmin/etiqueta.jsp" />
+			<forward name="login" path="/crmAdmin/login.do"></forward>
+		</action>
+
+		<action name="crmArticulosForm" path="/crmAdmin/viewArticulos"
+			type="mx.gob.stps.portal.web.crm.action.ViewListaArticuloAction"
+			scope="request" input="/jsp/crmAdmin/articulos.jsp">
+			<forward name="success" path="/jsp/crmAdmin/articulos.jsp" />
+			<forward name="login" path="/crmAdmin/login.do"></forward>
+		</action>
+		<action name="crmUsuarioForm" path="/crmAdmin/createUsuario"
+			type="mx.gob.stps.portal.web.crm.action.CreateUsuarioAction" scope="request"
+			input="/jsp/crmAdmin/usuario.jsp" validate="true">
+			<forward name="success" path="/jsp/crmAdmin/usuario.jsp"></forward>
+			<forward name="login" path="/crmAdmin/login.do"></forward>
+
+		</action>
+		<action name="crmLoginForm" path="/crmAdmin/login"
+			type="mx.gob.stps.portal.web.crm.action.LoginAction" scope="request"
+			input="/jsp/crmAdmin/login.jsp">
+
+			<forward name="success" path="/crmAdmin/viewArticulos.do" />
+			<forward name="login" path="/jsp/crmAdmin/login.jsp"></forward>
+		</action>
+		<action name="crmBuscadorArticulosForm" path="/articuloDeInteress"
+			type="mx.gob.stps.portal.web.crm.action.BuscadorArticuloAction"
+			scope="request" input="/jsp/crmAdmin/responsive/articulos.jsp">
+			<forward name="SUCCESS" path="/jsp/crmAdmin/responsive/articulos.jsp" />
+
+		</action>
+		<action name="crmBorrarForm" path="/crmAdmin/borrarArticulos"
+			type="mx.gob.stps.portal.web.crm.action.BorrarArticuloAction" scope="request"
+			input="/jsp/crmAdmin/articuloBorrado.jsp">
+			<forward name="success" path="/crmAdmin/viewArticulos.do" />
+		</action>
+		<action name="crmCreateArticuloForm" path="/articulo"
+			type="mx.gob.stps.portal.web.crm.action.MostrarArticuloAction" scope="request"
+			input="/jsp/crmAdmin/responsive/descripcionArticulo.jsp">
+			<forward name="SUCCESS"
+				path="/jsp/crmAdmin/responsive/descripcionArticulo.jsp" />
+		</action>
+		<action name="crmCreateBannerForm" path="/crmAdmin/crearBanner"
+			type="mx.gob.stps.portal.web.crm.action.BannerAction" scope="request"
+			input="/jsp/crmAdmin/crearBanner.jsp">
+			<forward name="success" path="/jsp/crmAdmin/crearBanner.jsp" />
+			<forward name="login" path="/crmAdmin/login.do" />
+		</action>
+		<action name="crmBannerForm" path="/crmAdmin/borrarBanner"
+			type="mx.gob.stps.portal.web.crm.action.BorrarBannerAction" scope="request"
+			input="/jsp/crmAdmin/crearBanner.jsp">
+			<forward name="success" path="/jsp/crmAdmin/crearBanner.jsp" />
+			<forward name="login" path="/crmAdmin/login.do" />
+		</action>
+
+		<!-- CRM FIN -->
+		<!-- social start -->
+		<!---->
+
+		<action name="socLoginForm" path="/social/auth"
+			type="mx.gob.stps.portal.web.social.action.SocialAuthenticationAction"
+			scope="request" input="/jsp/social/index.jsp">
+			<forward name="success" path="/jsp/social/statusSuccess.jsp" />
+			<forward name="error" path="/jsp/seguridad/error404.jsp" />
+		</action>
+		<action name="socLoginForm" path="/social/AuthSuccessAction"
+			type="mx.gob.stps.portal.web.social.action.SocialAuthSuccessAction"
+			scope="request" input="/jsp/social/index.jsp">
+			<forward name="success" path="/jsp/social/statusSuccess.jsp" />
+			<forward name="error" path="/jsp/seguridad/error404.jsp" />
+		</action>
+
+		<action path="/socialAuth"
+			type="mx.gob.stps.portal.web.social.action.SocialAuthenticationAction2"
+			name="authForm" scope="session">
+			<forward name="failure" path="/jsp/social/main.jsp" />
+		</action>
+
+		<action path="/socialAuthSuccessAction"
+			type="mx.gob.stps.portal.web.social.action.SocialAuthSuccessAction2"
+			name="authForm" scope="session">
+			<forward name="success" path="/jsp/social/success.jsp" />
+			<forward name="failure" path="/jsp/social/main.jsp" />
+		</action>
+
+		<action path="/socialEmpleo"
+			type="mx.gob.stps.portal.web.social.action.SocialAuthenticationPortalEmpleo"
+			name="registroCandidatoForm" scope="session">
+			<forward name="failure" path="/jsp/social/main.jsp" />
+		</action>
+
+
+		<!--social fin -->
+		<!-- CONALEP CANDIDATO -->
+		<action path="/conalep"
+			type="mx.gob.stps.portal.web.conalep.action.ConalepCandidatoAction"
+			name="conalepCandidatoForm" input="/jsp/conalep/conalepCandidato.jsp"
+			parameter="method">
+			<!--<forward name="catalogos" path="/jsp/conalep/conalepCandidato.jsp" 
+				/> -->
+			<forward name="init" path="/jsp/conalep/conalepCandidato.jsp" />
+			<forward name="save" path="/jsp/conalep/conalepCandidato.jsp" />
+		</action>
+
+	</action-mappings>
+
+	<message-resources parameter="MessageResources">
+		<set-property key="mode" value="resource" />
+	</message-resources>
+
+	<plug-in className="fr.improve.struts.taglib.layout.workflow.LayoutPlugin" />
+
+
+</struts-config>

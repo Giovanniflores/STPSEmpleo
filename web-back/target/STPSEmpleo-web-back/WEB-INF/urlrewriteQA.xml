@@ -1,0 +1,2193 @@
+
+
+	
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+
+	<rule>
+		<from>^/SNE/periodico-ofertas-empleo-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/periodicoDeOfertasDeEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/periodicoDeOfertasDeEmpleo.jsp$</from>
+		<to>/SNE/periodico-ofertas-empleo-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/herramientas/contacto$</from>
+		<to>/jsp/empleo/herramientasDelSitio/contacto.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/contacto.jsp$</from>
+		<to>/herramientas/contacto</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/bolsas-de-empleo-asociadas$</from>
+		<to>/jsp/empleo/candidatos/bolsasEmpleoAsociadas.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/bolsasEmpleoAsociadas.jsp$</from>
+		<to>/candidatos/bolsas-de-empleo-asociadas</to>
+	</outbound-rule>
+	
+	
+<!--	<rule>
+		<from>^/candidatos/becas-manpower-tdc$</from>
+		<to>/jsp/empleo/candidatos/becasManpowerTdc.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/becasManpowerTdc.jsp$</from>
+		<to>/candidatos/becas-manpower-tdc</to>
+	</outbound-rule>  --->
+	
+	<rule match-type="regex">
+		<from>^/cursos-en-linea$</from>
+		<to>/jsp/empleo/candidatos/cursos-en-linea.jsp</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/jsp/empleo/candidatos/cursos-en-linea.jsp</from>
+		<to>/cursos-en-linea</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/herramientas/ferias-de-empleo$</from>
+		<to>/jsp/empleo/herramientasDelSitio/eventos.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/eventos.jsp$</from>
+		<to>/herramientas/ferias-de-empleo</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/registrate$</from>
+		<to>/jsp/empleo/candidatos/registrate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/registrate.jsp$</from>
+		<to>/candidatos/registrate</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/herramientas-del-candidato$</from>
+		<to>/jsp/empleo/candidatos/descubreHerramientas.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/descubreHerramientas.jsp$</from>
+		<to>/candidatos/herramientas-del-candidato</to>
+	</outbound-rule>
+
+	
+	<rule>
+		<from>^/candidatos/servicios-del-candidato$</from>
+		<to>/jsp/empleo/candidatos/conoceServiciosCandidato.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/conoceServiciosCandidato.jsp$</from>
+		<to>/candidatos/servicios-del-candidato</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/introduccion-busqueda-de-empleo$</from>
+		<to>/jsp/empleo/candidatos/introduccionBusquedaEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/introduccionBusquedaEmpleo.jsp$</from>
+		<to>/candidatos/introduccion-busqueda-de-empleo</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/habilidades-para-busqueda-de-empleo$</from>
+		<to>/jsp/empleo/candidatos/habilidadesBusquedaEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/habilidadesBusquedaEmpleo.jsp$</from>
+		<to>/candidatos/habilidades-para-busqueda-de-empleo</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/conoce-tus-habilidades$</from>
+		<to>/jsp/empleo/candidatos/conoce.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/conoce.jsp$</from>
+		<to>/candidatos/conoce-tus-habilidades</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/herramientas-ofrece-sne$</from>
+		<to>/jsp/empleo/candidatos/herramientasOfreceSne.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/herramientasOfreceSne.jsp$</from>
+		<to>/candidatos/herramientas-ofrece-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/conoce-descubre-habilidades-y-capacidades$</from>
+		<to>/jsp/empleo/candidatos/conoceDescubreHabilidadesCapacidades.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/conoceDescubreHabilidadesCapacidades.jsp$</from>
+		<to>/candidatos/conoce-descubre-habilidades-y-capacidades</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/identifica-caracteristicas-del-mercado-de-trabajo$</from>
+		<to>/jsp/empleo/candidatos/identificaCaracteristicasMercadoTrabajo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/identificaCaracteristicasMercadoTrabajo.jsp$</from>
+		<to>/candidatos/identifica-caracteristicas-del-mercado-de-trabajo</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/define-tu-objetivo-laboral$</from>
+		<to>/jsp/empleo/candidatos/defineObjetivoLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/defineObjetivoLaboral.jsp$</from>
+		<to>/candidatos/define-tu-objetivo-laboral</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/herramientas-para-postulantes$</from>
+		<to>/jsp/empleo/candidatos/postula.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/postula.jsp$</from>
+		<to>/candidatos/herramientas-para-postulantes</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/donde-encontrar-ofertas-de-empleo$</from>
+		<to>/jsp/empleo/candidatos/comoDondeEncontrarVacantesOfertasEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/comoDondeEncontrarVacantesOfertasEmpleo.jsp$</from>
+		<to>/candidatos/donde-encontrar-ofertas-de-empleo</to>
+	</outbound-rule>
+	
+
+	<rule>
+		<from>^/candidatos/como-redactar-un-curriculum-vitae$</from>
+		<to>/jsp/empleo/candidatos/comoRedactarCurriculumVitae.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/comoRedactarCurriculumVitae.jsp$</from>
+		<to>/candidatos/como-redactar-un-curriculum-vitae</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/que-es-una-carta-de-recomendacion$</from>
+		<to>/jsp/empleo/candidatos/cartaRecomendacion.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/cartaRecomendacion.jsp$</from>
+		<to>/candidatos/que-es-una-carta-de-recomendacion</to>
+	</outbound-rule>
+
+	
+	<rule>
+		<from>^/candidatos/como-superar-una-entrevista-de-trabajo$</from>
+		<to>/jsp/empleo/candidatos/comoSuperarEntrevistaTrabajo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/comoSuperarEntrevistaTrabajo.jsp$</from>
+		<to>/candidatos/como-superar-una-entrevista-de-trabajo</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/recibe-ofertas-via-sms$</from>
+		<to>/jsp/empleo/candidatos/recibeOfertasViaSms.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/recibeOfertasViaSms.jsp$</from>
+		<to>/candidatos/recibe-ofertas-via-sms</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/capacitacion-y-becas$</from>
+		<to>/jsp/empleo/candidatos/capacitacionBecas.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/capacitacionBecas.jsp$</from>
+		<to>/candidatos/capacitacion-y-becas</to>
+	</outbound-rule>
+
+
+	<rule>
+		<from>^/candidatos/becas-para-capacitacion-sne$</from>
+		<to>/jsp/empleo/candidatos/becasCapacitacionSne.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/becasCapacitacionSne.jsp$</from>
+		<to>/candidatos/becas-para-capacitacion-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/capacitacion-mixta$</from>
+		<to>/jsp/empleo/candidatos/capacitacionMixta.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/capacitacionMixta.jsp$</from>
+		<to>/candidatos/capacitacion-mixta</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/capacitacion-practica-laboral$</from>
+		<to>/jsp/empleo/candidatos/capacitacionPracticaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/capacitacionPracticaLaboral.jsp$</from>
+		<to>/candidatos/capacitacion-practica-laboral</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/capacitacion-autoempleo$</from>
+		<to>/jsp/empleo/candidatos/capacitacionAutoempleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/capacitacionAutoempleo.jsp$</from>
+		<to>/candidatos/capacitacion-autoempleo</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/vales-capacitacion$</from>
+		<to>/jsp/empleo/candidatos/valesCapacitacion.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/valesCapacitacion.jsp$</from>
+		<to>/candidatos/vales-capacitacion</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/capacitacion-distancia-trabajadores$</from>
+		<to>/jsp/empleo/candidatos/capacitacionDistanciaTrabajadores.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/capacitacionDistanciaTrabajadores.jsp$</from>
+		<to>/candidatos/capacitacion-distancia-trabajadores</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/certificacion-competencias-conocer$</from>
+		<to>/jsp/empleo/candidatos/certificacionCompetenciasConocer.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/certificacionCompetenciasConocer.jsp$</from>
+		<to>/candidatos/certificacion-competencias-conocer</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/certificacion-competencias$</from>
+		<to>/jsp/empleo/candidatos/certificacionCompetencias.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/certificacionCompetencias.jsp$</from>
+		<to>/candidatos/certificacion-competencias</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/asesoria-laboral$</from>
+		<to>/jsp/empleo/candidatos/asesoriaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/asesoriaLaboral.jsp$</from>
+		<to>/candidatos/asesoria-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/servicios-asesoria-laboral$</from>
+		<to>/jsp/empleo/candidatos/serviciosAsesoriaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/serviciosAsesoriaLaboral.jsp$</from>
+		<to>/candidatos/servicios-asesoria-laboral</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/oficinas-PROFEDET$</from>
+		<to>/jsp/empleo/candidatos/oficinasPROFEDET.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/oficinasPROFEDET.jsp$</from>
+		<to>/candidatos/oficinas-PROFEDET</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/preguntas-frecuentes$</from>
+		<to>/jsp/empleo/candidatos/preguntasFrecuentes.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/preguntasFrecuentes.jsp$</from>
+		<to>/candidatos/preguntas-frecuentes</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/inicio-de-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/alInicioVidaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/alInicioVidaLaboral.jsp$</from>
+		<to>/candidatos/inicio-de-la-vida-laboral</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/durante-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/duranteVidaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/duranteVidaLaboral.jsp$</from>
+		<to>/candidatos/durante-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/termino-de-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/alTerminoVidaLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/alTerminoVidaLaboral.jsp$</from>
+		<to>/candidatos/termino-de-la-vida-laboral</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/afore-al-inicio-de-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/aforeInicio.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/aforeInicio.jsp$</from>
+		<to>/candidatos/afore-al-inicio-de-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/derechos-al-inicio-de-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/derechosLaboralesInicio.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/derechosLaboralesInicio.jsp$</from>
+		<to>/candidatos/derechos-al-inicio-de-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/imss-infonavit-inicio-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/imssInfonavitInicio.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/imssInfonavitInicio.jsp$</from>
+		<to>/candidatos/imss-infonavit-inicio-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/afore-durante-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/aforeDurante.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/aforeDurante.jsp$</from>
+		<to>/candidatos/afore-durante-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/derechos-durante-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/derechosLaboralesDurante.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/derechosLaboralesDurante.jsp$</from>
+		<to>/candidatos/derechos-durante-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/imss-infonavit-durante-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/imssInfonavitDurante.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/imssInfonavitDurante.jsp$</from>
+		<to>/candidatos/imss-infonavit-durante-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/afore-al-termino-de-la-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/aforeTermino.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/aforeTermino.jsp$</from>
+		<to>/candidatos/afore-al-termino-de-la-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/derechos-al-termino-de-tu-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/derechosLaboralesTermino.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/derechosLaboralesTermino.jsp$</from>
+		<to>/candidatos/derechos-al-termino-de-tu-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/candidatos/imss-infonavit-termino-vida-laboral$</from>
+		<to>/jsp/empleo/candidatos/imssInfonavitTermino.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/imssInfonavitTermino.jsp$</from>
+		<to>/candidatos/imss-infonavit-termino-vida-laboral</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/candidatos/ley-federal-del-trabajo$</from>
+		<to>/jsp/empleo/candidatos/leyFederalTrabajo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/leyFederalTrabajo.jsp$</from>
+		<to>/candidatos/ley-federal-del-trabajo</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/glosario-terminos-laborales$</from>
+		<to>/jsp/empleo/candidatos/glosarioTerminosLaborales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/glosarioTerminosLaborales.jsp$</from>
+		<to>/candidatos/glosario-terminos-laborales</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/descubre-las-herramientas-que-tenemos-para-ti$</from>
+		<to>/jsp/empleo/empresas/descubreHerramientasEmpresas.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/descubreHerramientasEmpresas.jsp$</from>
+		<to>/empresas/descubre-las-herramientas-que-tenemos-para-ti</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/conoce-los-servicios-que-el-portal-tiene-para-ti$</from>
+		<to>/jsp/empleo/empresas/conoceServiciosPortalEmpresas.jsp</to>
+	</rule>
+	
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/conoceServiciosPortalEmpresas.jsp$</from>
+		<to>/empresas/conoce-los-servicios-que-el-portal-tiene-para-ti</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/mejora-desempeno-de-tu-empresa$</from>
+		<to>/jsp/empleo/empresas/mejoraDesempenoEmpresa.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/mejoraDesempenoEmpresa.jsp$</from>
+		<to>/empresas/mejora-desempeno-de-tu-empresa</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/evaluacion-de-candidatos$</from>
+		<to>/jsp/empleo/empresas/evaluacionCandidatos.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/evaluacionCandidatos.jsp$</from>
+		<to>/empresas/evaluacion-de-candidatos</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/empresas/seleccion-de-personal$</from>
+		<to>/jsp/empleo/empresas/seleccionDePersonal.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/seleccionDePersonal.jsp$</from>
+		<to>/empresas/seleccion-de-personal</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/analisis-de-puestos$</from>
+		<to>/jsp/empleo/empresas/analisisPuestos.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/analisisPuestos.jsp$</from>
+		<to>/empresas/analisis-de-puestos</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/preparacion-de-entrevista$</from>
+		<to>/jsp/empleo/empresas/preparacionEntrevista.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/preparacionEntrevista.jsp$</from>
+		<to>/empresas/preparacion-de-entrevista</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas/conoce-tus-empleados$</from>
+		<to>/jsp/empleo/empresas/conoceTusEmpleados.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/conoceTusEmpleados.jsp$</from>
+		<to>/empresas/conoce-tus-empleados</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/empresas/motiva-tu-personal$</from>
+		<to>/jsp/empleo/empresas/motivaATuPersonal.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/motivaATuPersonal.jsp$</from>
+		<to>/empresas/motiva-tu-personal</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/empresas/accidentes-trabajo$</from>
+		<to>/jsp/empleo/empresas/accidentesTrabajo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/accidentesTrabajo.jsp$</from>
+		<to>/empresas/accidentes-trabajo</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/herramientas/aviso-proteccion-datos-personales$</from>
+		<to>/jsp/empleo/herramientasDelSitio/avisoDeProteccionDeDatosPersonales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/avisoDeProteccionDeDatosPersonales.jsp$</from>
+		<to>/herramientas/aviso-proteccion-datos-personales</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/herramientas/como-registrarse$</from>
+		<to>/jsp/empleo/herramientasDelSitio/videoComoRegistrarse.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/videoComoRegistrarse.jsp$</from>
+		<to>/herramientas/como-registrarse</to>
+	</outbound-rule>
+	
+
+	
+	<rule>
+		<from>^/herramientas/mapa-sitio$</from>
+		<to>/jsp/empleo/herramientasDelSitio/mapaDeSitio.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/mapaDeSitio.jsp$</from>
+		<to>/herramientas/mapa-sitio</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/herramientas/necesitas-ayuda$</from>
+		<to>/jsp/seguridad/error404.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/necesitasAyuda.jsp$</from>
+		<to>/herramientas/necesitas-ayuda</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/herramientas/estructura-busqueda$</from>
+		<to>/jsp/empleo/herramientasDelSitio/estructuraBusqueda.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/estructuraBusqueda.jsp$</from>
+		<to>/herramientas/estructura-busqueda</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/herramientas/busqueda-por-lugar$</from>
+		<to>/jsp/empleo/herramientasDelSitio/busquedaLugar.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/busquedaLugar.jsp$</from>
+		<to>/herramientas/busqueda-por-lugar</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/herramientas/frases-textuales$</from>
+		<to>/jsp/empleo/herramientasDelSitio/frasesTextuales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/frasesTextuales.jsp$</from>
+		<to>/herramientas/frases-textuales</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/herramientas/palabras-no-relevantes$</from>
+		<to>/jsp/empleo/herramientasDelSitio/palabrasNoRelevantes.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/palabrasNoRelevantes.jsp$</from>
+		<to>/herramientas/palabras-no-relevantes</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/herramientas/sinonimos-y-terminos-similares$</from>
+		<to>/jsp/empleo/herramientasDelSitio/sinonimosTerminosSimilares.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/sinonimosTerminosSimilares.jsp$</from>
+		<to>/herramientas/sinonimos-y-terminos-similares</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/herramientas/terminos-por-raiz-de-palabra$</from>
+		<to>/jsp/empleo/herramientasDelSitio/terminosPorRaizDePalabra.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/terminosPorRaizDePalabra.jsp$</from>
+		<to>/herramientas/terminos-por-raiz-de-palabra</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/herramientas/terminos-simultaneos$</from>
+		<to>/jsp/empleo/herramientasDelSitio/terminosSimultaneos.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/terminosSimultaneos.jsp$</from>
+		<to>/herramientas/terminos-simultaneos</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/herramientas/uso-frases$</from>
+		<to>/jsp/empleo/herramientasDelSitio/usoFrases.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/usoFrases.jsp$</from>
+		<to>/herramientas/uso-frases</to>
+	</outbound-rule>	
+	
+
+
+	<rule>
+		<from>^/herramientas/uso-numeros-caracteres-especiales$</from>
+		<to>/jsp/empleo/herramientasDelSitio/usoNumerosCaracteresEspeciales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/usoNumerosCaracteresEspeciales.jsp$</from>
+		<to>/herramientas/uso-numeros-caracteres-especiales</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/herramientas/politicas-condiciones-uso$</from>
+		<to>/jsp/empleo/herramientasDelSitio/politicasYCondicionesDeUso.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/politicasYCondicionesDeUso.jsp$</from>
+		<to>/herramientas/politicas-condiciones-uso</to>
+	</outbound-rule>		
+	
+	
+<!--	<rule> -->
+<!--		<from>^/herramientas/articulos-de-interes$</from> -->
+<!--		<to>/jsp/empleo/herramientasDelSitio/articulos.jsp</to> -->
+<!--	</rule> -->
+<!--	<outbound-rule> -->
+<!--		<from>^/jsp/empleo/herramientasDelSitio/articulos.jsp$</from> -->
+<!--		<to>/herramientas/articulos-de-interes</to> -->
+<!--	</outbound-rule>		-->
+	
+	<rule>
+		<from>^/SNE/acerca-del-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/acercaSne.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/acercaSne.jsp$</from>
+		<to>/SNE/acerca-del-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/antecedentes-y-creacion-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/antecedentesCreacion.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/antecedentesCreacion.jsp$</from>
+		<to>/sne/antecedentes-y-creacion-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/marco-juridico-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/marcoJuridico.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/marcoJuridico.jsp$</from>
+		<to>/sne/marco-juridico-sne</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/cobertura$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/cobertura.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/cobertura.jsp$</from>
+		<to>/sne/cobertura</to>
+	</outbound-rule>	
+	
+	
+	
+	<rule>
+		<from>^/sne/directorio-de-oficinas-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/ubicacion.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/ubicacion.jsp$</from>
+		<to>/sne/directorio-de-oficinas-sne</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/programas-servicios-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programasServiciosEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programasServiciosEmpleo.jsp$</from>
+		<to>/sne/programas-servicios-empleo</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>/sne/vinculacion-laboral-sne</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/vinculacionLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/vinculacionLaboral.jsp$</from>
+		<to>/sne/vinculacion-laboral-sne</to>
+	</outbound-rule>	
+
+
+
+	
+	<rule>
+		<from>^/sne/bolsa-de-trabajo-del-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/bolsaTrabajo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/bolsaTrabajo.jsp$</from>
+		<to>/sne/bolsa-de-trabajo-del-sne</to>
+	</outbound-rule>		
+	
+	
+	
+	<rule>
+		<from>^/sne/centros-intermedicacion-laboral-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/centrosIntermedicacionLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/centrosIntermedicacionLaboral.jsp$</from>
+		<to>/sne/centros-intermedicacion-laboral-sne</to>
+	</outbound-rule>		
+	
+	
+	
+	<!-- rule>
+		<from>^/sne/kioscos-de-consulta$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/kioscosConsultaPortalEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/kioscosConsultaPortalEmpleo.jsp$</from>
+		<to>/sne/kioscos-de-consulta</to>
+	</outbound-rule -->		
+	
+	
+	
+	<rule>
+		<from>^/sne/ferias-de-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/feriasEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/feriasEmpleo.jsp$</from>
+		<to>/sne/ferias-de-empleo</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/sne/abriendo-espacios$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/abriendoEspacios.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/abriendoEspacios.jsp$</from>
+		<to>/sne/abriendo-espacios</to>
+	</outbound-rule>	
+
+	
+	
+	<rule>
+		<from>^/sne/portal-del-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/portalEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/portalEmpleo.jsp$</from>
+		<to>/sne/portal-del-empleo</to>
+	</outbound-rule>	
+	
+	
+	
+	<rule>
+		<from>^/sne/servicio-nacional-empleo-por-telefono$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/servicioNacionalEmpleoTelefono.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/servicioNacionalEmpleoTelefono.jsp$</from>
+		<to>/sne/servicio-nacional-empleo-por-telefono</to>
+	</outbound-rule>	
+
+	
+	
+	<rule>
+		<from>^/sne/sistema-estatal-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/sistemaEstatalEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/sistemaEstatalEmpleo.jsp$</from>
+		<to>/sne/sistema-estatal-empleo</to>
+	</outbound-rule>	
+	
+	
+	
+	<rule>
+		<from>^/sne/talleres-en-linea$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/talleresLinea.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/talleresLinea.jsp$</from>
+		<to>/sne/talleres-en-linea</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/sne/talleres-para-buscadores-de-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/talleresBuscadoresEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/talleresBuscadoresEmpleo.jsp$</from>
+		<to>/sne/talleres-para-buscadores-de-empleo</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/sne/introduccion-proceso-busqueda-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/introduccionProcesoBusquedaEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/introduccionProcesoBusquedaEmpleo.jsp$</from>
+		<to>/sne/introduccion-proceso-busqueda-empleo</to>
+	</outbound-rule> 
+	
+	<rule>
+		<from>^/sne/donde-buscar-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/dondeBuscarEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/dondeBuscarEmpleo.jsp$</from>
+		<to>/sne/donde-buscar-empleo</to>
+	</outbound-rule> 
+	
+	<rule>
+		<from>^/sne/talleres-presenciales$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/talleresPresenciales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/talleresPresenciales.jsp$</from>
+		<to>/sne/talleres-presenciales</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/calendario$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/calendario.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/calendario.jsp$</from>
+		<to>/sne/calendario</to>
+	</outbound-rule>
+	
+		<rule>
+		<from>^/sne/sedes$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/sedes.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/sedes.jsp$</from>
+		<to>/sne/sedes</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/observatorio-laboral$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/observatorioLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/observatorioLaboral.jsp$</from>
+		<to>/sne/observatorio-laboral</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/sne/programas-apoyo-empleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programasApoyoEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programasApoyoEmpleo.jsp$</from>
+		<to>/sne/programas-apoyo-empleo</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/fomento-autoempleo$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/fomentoAutoempleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/fomentoAutoempleo.jsp$</from>
+		<to>/sne/fomento-autoempleo</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/becas-capacitacion-trabajo-becate$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/becasCapacitacionTrabajoBecate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/becasCapacitacionTrabajoBecate.jsp$</from>
+		<to>/sne/becas-capacitacion-trabajo-becate</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/capacitacion-mixta-becate$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/capacitacionMixtaBecate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/capacitacionMixtaBecate.jsp$</from>
+		<to>/sne/capacitacion-mixta-becate</to>
+	</outbound-rule>	
+	
+	
+	
+	<rule>
+		<from>^/sne/capacitacion-practica-laboral-becate$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/capacitacionPracticaLaboralBecate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/capacitacionPracticaLaboralBecate.jsp$</from>
+		<to>/sne/capacitacion-practica-laboral-becate</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/capacitacion-autoempleo-becate$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/capacitacionAutoempleoBecate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/capacitacionAutoempleoBecate.jsp$</from>
+		<to>/sne/capacitacion-autoempleo-becate</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/vales-capacitacion-becate$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/valesCapacitacionBecate.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/valesCapacitacionBecate.jsp$</from>
+		<to>/sne/vales-capacitacion-becate</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/movilidad-laboral-externa$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/movilidadLaboralExterna.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/movilidadLaboralExterna.jsp$</from>
+		<to>/sne/movilidad-laboral-externa</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/movilidad-laboral-interna$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/movilidadLaboralInterna.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/movilidadLaboralInterna.jsp$</from>
+		<to>/sne/movilidad-laboral-interna</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/sne/programa-empleo-temporal-pet$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programaEmpleoTemporal.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programaEmpleoTemporal.jsp$</from>
+		<to>/sne/programa-empleo-temporal-pet</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/formas-aumentar-competitividad$</from>
+		<to>/jsp/empleo/candidatos/formasAumentarCompetitividad.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/formasAumentarCompetitividad.jsp$</from>
+		<to>/candidatos/formas-aumentar-competitividad</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/candidatos/cursos-en-linea$</from>
+		<to>/jsp/empleo/candidatos/cursos-en-linea.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/cursos-en-linea.jsp$</from>
+		<to>/candidatos/cursos-en-linea</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/sne/programa-trabajadores-agricolas-temporales-mexico-canada$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programaTrabajadoresAgricolasTemporalesMexicoCanada.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programaTrabajadoresAgricolasTemporalesMexicoCanada.jsp$</from>
+		<to>/sne/programa-trabajadores-agricolas-temporales-mexico-canada</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/sne/mecanismo-de-movilidad-laboral-interna-y-externa$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/mecanismoMovilidadLaboralInternaExterna.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/mecanismoMovilidadLaboralInternaExterna.jsp$</from>
+		<to>/sne/mecanismo-de-movilidad-laboral-interna-y-externa</to>
+	</outbound-rule>	
+	
+	<rule>
+		<from>^/sne/repatriados-trabajando$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/repatriadosTrabajando.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/repatriadosTrabajando.jsp$</from>
+		<to>/sne/repatriados-trabajando</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/sne/publicaciones-empleo-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/publicaciones.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/publicaciones.jsp$</from>
+		<to>/sne/publicaciones-empleo-sne</to>
+	</outbound-rule>
+
+	
+	
+	
+	<rule>
+		<from>^/sne/revista-informativa-sne$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/revistaInformativaDelSNE.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/revistaInformativaDelSNE.jsp$</from>
+		<to>/sne/revista-informativa-sne</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/sne/estadisticas-laborales$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/estadisticasLaborales.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/estadisticasLaborales.jsp$</from>
+		<to>/sne/estadisticas-laborales</to>
+	</outbound-rule>	
+	
+	
+	<rule>
+		<from>^/sne/acciones-vinculacion-laboral$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/accionesVinculacionLaboral.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/accionesVinculacionLaboral.jsp$</from>
+		<to>/sne/acciones-vinculacion-laboral</to>
+	</outbound-rule>	
+	
+	<rule>
+		<from>^/mejora-desempeno-empresa$</from>
+		<to>/jsp/empleo/empresas/mejoraDesempeñoEmpresa.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/mejoraDesempeñoEmpresa.jsp$</from>
+		<to>/mejora-desempeno-empresa</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/sne/programa-apoyo-empleo-pae$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programaApoyoEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programaApoyoEmpleo.jsp$</from>
+		<to>/sne/programa-apoyo-empleo-pae</to>
+	</outbound-rule>	
+	
+	<rule>
+		<from>^/alternativas-busqueda-empleo$</from>
+		<to>/jsp/empleo/candidatos/alternativasBusquedaEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/alternativasBusquedaEmpleo.jsp$</from>
+		<to>/alternativas-busqueda-empleo</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>/sne/programas-empleo-sne</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/programasDeEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/programasDeEmpleo.jsp$</from>
+		<to>/sne/programas-empleo-sne</to>
+	</outbound-rule>
+	
+		
+	<rule>
+		<from>^/candidatos$</from>
+		<to>/jsp/empleo/candidatos/candidatos.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/candidatos/candidatos.jsp$</from>
+		<to>/candidatos</to>
+	</outbound-rule>
+	
+	
+	
+	<rule>
+		<from>^/empresas$</from>
+		<to>/jsp/empleo/empresas/empresas.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/empresas/empresas.jsp$</from>
+		<to>/empresas</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/SNE$</from>
+		<to>/jsp/empleo/servicioNacionalDeEmpleo/servicioNacionalDeEmpleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/servicioNacionalDeEmpleo/servicioNacionalDeEmpleo.jsp$</from>
+		<to>/SNE</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/uso-del-buscador$</from>
+		<to>/jsp/empleo/herramientasDelSitio/usoBuscador.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/usoBuscador.jsp$</from>
+		<to>/uso-del-buscador</to>
+	</outbound-rule>
+	
+	
+	<rule>
+		<from>^/por-que-usar-el-portal-del-empleo$</from>
+		<to>/jsp/empleo/herramientasDelSitio/por-que-usar-el-portal-del-empleo.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>^/jsp/empleo/herramientasDelSitio/por-que-usar-el-portal-del-empleo.jsp$</from>
+		<to>/por-que-usar-el-portal-del-empleo</to>
+	</outbound-rule>
+	
+	<rule enabled="false">
+		<from>^/ofertas-rss-consulta$</from>
+		<to>/jsp/ofertasRSS/ofertasRSSConsultar.jsp</to>
+	</rule>
+	<outbound-rule enabled="false">
+		<from>^/jsp/ofertasRSS/ofertasRSSConsultar.jsp$</from>
+		<to>/ofertas-rss-consulta</to>
+	</outbound-rule>
+	
+	<rule enabled="false">
+		<from>/detalle-oferta-canada-crustaceos-y-moluscos</from>
+		<to>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-LEtang-du-Nord-Quebec-001.jsp</to>
+	</rule>
+	<outbound-rule enabled="false">
+		<from>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-LEtang-du-Nord-Quebec-001.jsp</from>
+		<to>/detalle-oferta-canada-crustaceos-y-moluscos</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>/detalle-oferta-Estados-Unidos-mucama-lavandera</from>
+		<to>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-Montauk-NY-003.jsp</to>
+	</rule>
+	<outbound-rule>
+		<from>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-Montauk-NY-003.jsp</from>
+		<to>/detalle-oferta-Estados-Unidos-mucama-lavandera</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-Balsam-Lake-Wisconsin-001.jsp</from>
+		<to>/jsp/seguridad/error404.jsp</to>
+	</rule>
+	<rule>
+		<from>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-Montauk-NY-001.jsp</from>
+		<to>/jsp/seguridad/error404.jsp</to>
+	</rule>
+	<rule>
+		<from>/jsp/empleo/candidatos/ofertas-EEUU-Canada/oferta-Montauk-NY-002.jsp</from>
+		<to>/jsp/seguridad/error404.jsp</to>
+	</rule>
+
+	
+	<rule match-type="regex">
+		<from>^/$</from>
+		<to>/inicio.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/inicio.do</from>
+		<to type="redirect">https://www.empleo.gob.mx</to>
+	</outbound-rule>
+	
+	<rule>
+		<from>^/error-403$</from>
+		<to>/jsp/seguridad/error403.jsp</to>
+	</rule>
+	<rule>
+		<from>^/error-404$</from>
+		<to>/jsp/seguridad/error404.jsp</to>
+	</rule>
+	<rule>
+		<from>^/error-500$</from>
+		<to>/jsp/seguridad/error500.jsp</to>
+	</rule>
+	
+	<rule match-type="regex">
+		<from>^/trabaja-en-el-extranjero$</from>
+		<to>/ofertasExtranjeras.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasExtranjeras.do?method=init</from>
+		<to>/trabaja-en-el-extranjero</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/ofertas-recientes$</from>
+		<to>/ofertasRecientes.do?method=totalOfertasRecientes</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasRecientes.do?method=totalOfertasRecientes</from>
+		<to>/ofertas-recientes</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/ofertas-en-gendarmeria$</from>
+		<to>/ofertasRecientes.do?method=ofertasGendarmeriaTodas</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasRecientes.do?method=ofertasGendarmeriaTodas</from>
+		<to>/ofertas-en-gendarmeria</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/ofertas-canada-estados-unidos$</from>
+		<to>/ofertasRecientes.do?method=totalOfertasCanada</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasRecientes.do?method=totalOfertasCanada</from>
+		<to>/ofertas-canada-estados-unidos</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/ofertas-de-empleo-en-riviera-maya$</from>
+		<to>/ofertasRivieraMaya.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasRivieraMaya.do?method=init</from>
+		<to>/ofertas-de-empleo-en-riviera-maya</to>
+	</outbound-rule>
+
+	<rule match-type="regex">
+		<from>^/ofertas-destacadas$</from>
+		<to>/ofertasRecientes.do?method=totalOfertasDestacadas</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasRecientes.do?method=totalOfertasDestacadas</from>
+		<to>/ofertas-destacadas</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="wildcard">
+		<from>/*-oferta-de-empleo-de-**</from>
+		<to type="forward">/detalleoferta.do?method=init&amp;id_oferta_empleo=$1</to>
+	</rule>
+	<!--outbound-rule match-type="wildcard"-->
+		<!--from>/ofertasRecientes.do?method=detalleoferta&amp;id_oferta_empleo=**&amp;nombre_trabajo=**</from-->
+		<!--to>/$1-oferta-de-empleo</to-->
+	<!--  /outbound-rule -->
+	<outbound-rule match-type="wildcard">
+		<from>/detalleoferta.do?method=init&amp;id_oferta_empleo=**</from>
+		<to>/$1-oferta-de-empleo</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/*-busqueda-de-ofertas-de-empleo-en-el-extranjero-**</from>
+		<to type="forward">/ofertasExtranjeras.do?method=detail&amp;id=$1</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from>/ofertasExtranjeras.do?method=detail&amp;id=**</from>
+		<to>/$1-busqueda-de-ofertas-de-empleo-en-el-extranjero</to>
+	</outbound-rule>
+	
+	<rule  match-type="regex">
+		<from>^/sne/recuperar-contrasena$</from>
+		<to type="forward">/recupera_contrasena.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/recupera_contrasena.do</from>
+		<to>/sne/recuperar-contrasena</to>
+	</outbound-rule>
+	
+
+	<rule match-type="regex">
+		<from>^/herramientas/busqueda-especifica$</from>
+		<to>/busquedaEspecificaOfertas.do?method=buscar</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/busquedaEspecificaOfertas.do?method=buscar</from>
+		<to>/herramientas/busqueda-especifica</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/herramientas/resultados-de-busqueda-especifica$</from>
+		<to>/busquedaEspecificaOfertas.do?method=encontrar</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/busquedaEspecificaOfertas.do?method=encontrar</from>
+		<to>/herramientas/resultados-de-busqueda-especifica</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/herramientas/**.do</from>
+		<to>/$1.do</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/herramientas/**.js</from>
+		<to>/$1.js</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/herramientas/**.css</from>
+		<to>/$1.css</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.png</from>
+		<to>/$1.png</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/herramientas/**.jpg</from>
+		<to>/$1.jpg</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.gif</from>
+		<to>/$1.gif</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.pdf</from>
+		<to>/$1.pdf</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.doc</from>
+		<to>/$1.doc</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.xls</from>
+		<to>/$1.xls</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/herramientas/**.ico</from>
+		<to>/$1.ico</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.do</from>
+		<to>/$1.do</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.js</from>
+		<to>/$1.js</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.css</from>
+		<to>/$1.css</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.png</from>
+		<to>/$1.png</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.jpg</from>
+		<to>/$1.jpg</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.gif</from>
+		<to>/$1.gif</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.pdf</from>
+		<to>/$1.pdf</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.doc</from>
+		<to>/$1.doc</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.xls</from>
+		<to>/$1.xls</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**.ico</from>
+		<to>/$1.ico</to>
+	</rule>
+	
+	
+	<rule match-type="wildcard">
+		<from>/perfil/**.do</from>
+		<to>/$1.do</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/perfil/**.js</from>
+		<to>/$1.js</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/perfil/**.css</from>
+		<to>/$1.css</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.png</from>
+		<to>/$1.png</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.jpg</from>
+		<to>/$1.jpg</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.gif</from>
+		<to>/$1.gif</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.pdf</from>
+		<to>/$1.pdf</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.doc</from>
+		<to>/$1.doc</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.xls</from>
+		<to>/$1.xls</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/perfil/**.ico</from>
+		<to>/$1.ico</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/sne/**.do</from>
+		<to>/$1.do</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/sne/**.js</from>
+		<to>/$1.js</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/sne/**.css</from>
+		<to>/$1.css</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.png</from>
+		<to>/$1.png</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.jpg</from>
+		<to>/$1.jpg</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.gif</from>
+		<to>/$1.gif</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.pdf</from>
+		<to>/$1.pdf</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.doc</from>
+		<to>/$1.doc</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.xls</from>
+		<to>/$1.xls</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/sne/**.ico</from>
+		<to>/$1.ico</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.do</from>
+		<to>/$1.do</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.js</from>
+		<to>/$1.js</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.css</from>
+		<to>/$1.css</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.png</from>
+		<to>/$1.png</to>
+	</rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.jpg</from>
+		<to>/$1.jpg</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.gif</from>
+		<to>/$1.gif</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.pdf</from>
+		<to>/$1.pdf</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.doc</from>
+		<to>/$1.doc</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.xls</from>
+		<to>/$1.xls</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**.ico</from>
+		<to>/$1.ico</to>
+	</rule>
+
+	<rule match-type="wildcard">
+		<from>/*-busqueda-de-ofertas-de-empleo-**-en-**</from>
+		<to type="forward">/ocupate.do?method=init&amp;searchQ=$2&amp;searchTopic=$2&amp;searchPlace=$1</to>
+	</rule>
+	<rule match-type="wildcard">
+		<from>/*-busqueda-de-ofertas-de-empleo-en-**</from>
+		<to type="forward">/ocupate.do?method=init&amp;searchQ=&amp;searchTopic=&amp;searchPlace=$1</to>
+	</rule>
+	
+	<outbound-rule match-type="wildcard">
+		<from>/ocupate.do?method=init&amp;searchQ=**&amp;searchTopic=**&amp;searchPlace=**</from>
+		<to>/$1-busqueda-de-ofertas-de-empleo-$2-en-$2</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/mi-espacio-empresa</from>
+		<to type="forward">/miEspacioEmpresas.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from>/miEspacioEmpresas.do</from>
+		<to>/espacio-empresa/mi-espacio-empresa</to>
+	</outbound-rule>
+	
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/mi-espacio-candidato$</from>
+		<to type="forward">/miEspacioCandidato.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/miEspacioCandidato.do</from>
+		<to>/espacio-candidato/mi-espacio-candidato</to>
+	</outbound-rule>
+	
+		<rule match-type="regex">
+		<from>^/espacio-empresa/crear-oferta-de-empleo$</from>
+		<to>/dondePublicar.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/dondePublicar.do?method=init</from>
+		<to>/espacio-empresa/crear-oferta-de-empleo</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-empresa/mis-ofertas-de-empleo$</from>
+		<to>/OfertaNavegacion.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/OfertaNavegacion.do?method=init</from>
+		<to>/espacio-empresa/mis-ofertas-de-empleo</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-empresa/recuperar-ofertas-empleo$</from>
+		<to>/RecuperaOfertas.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/RecuperaOfertas.do?method=init</from>
+		<to>/espacio-empresa/recuperar-ofertas-empleo</to>
+	</outbound-rule>
+	
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-empresa/reporte-ofertas-empleo$</from>
+		<to>/reporteOfertasEmpresa.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/reporteOfertasEmpresa.do?method=init</from>
+		<to>/espacio-empresa/reporte-ofertas-empleo</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-empresa/**-mis-postulantes</from>
+		<to>/admonCandidatos.do?method=postulates&amp;idEmpresa=$1</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/admonCandidatos.do?method=postulates&amp;idEmpresa=**</from>
+		<to>/espacio-empresa/$1-mis-postulantes</to>
+	</outbound-rule>
+
+	<rule match-type="regex">
+		<from>^/espacio-empresa/entrevistas-linea$</from>
+		<to>/entrevistaProgramada.do?method=entrevistaProgramadaEnlineaEmpresa</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/entrevistaProgramada.do?method=entrevistaProgramadaEnlineaEmpresa</from>
+		<to>/espacio-empresa/entrevistas-linea</to>
+	</outbound-rule>	
+
+	<rule match-type="regex">
+		<from>^/espacio-empresa/acerca-abriendo-espacios$</from>
+		<to>/acercaAbriendoEspacios.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/acercaAbriendoEspacios.do?method=init</from>
+		<to>/espacio-empresa/acerca-abriendo-espacios</to>
+	</outbound-rule>	
+	
+			
+	<rule match-type="regex">
+		<from>^/espacio-empresa/editar-datos$</from>
+		<to>/edicionEmpresa.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/edicionEmpresa.do?method=init</from>
+		<to>/espacio-empresa/editar-datos</to>
+	</outbound-rule>	
+	
+	<rule match-type="regex">
+		<from>^/espacio-empresa/cambiar-logotipo$</from>
+		<to>/uploadcompanylogo.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/uploadcompanylogo.do?method=init</from>
+		<to>/espacio-empresa/cambiar-logotipo</to>
+	</outbound-rule>
+	
+	
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/elige-estilo-curriculum$</from>
+		<to>/eligeEstiloCurriculum.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/eligeEstiloCurriculum.do?method=init</from>
+		<to>/espacio-candidato/elige-estilo-curriculum</to>
+	</outbound-rule>
+
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/**-ver-curriculum</from>
+		<to>/miscandidatos.do?method=genera&amp;idCandidato=$1</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from>/miscandidatos.do?method=genera&amp;idCandidato=**</from>
+		<to>/espacio-candidato/$1-ver-curriculum</to>
+	</outbound-rule>
+	
+
+	
+	<rule match-type="regex">
+		<from>^/sugerencias$</from>
+		<to>/suggestion.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/suggestion.do?method=init</from>
+		<to>/sugerencias</to>
+	</outbound-rule>
+	
+		<rule match-type="regex">
+		<from>^/registro-candidato$</from>
+		<to>/registro_candidato.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registro_candidato.do</from>
+		<to>/registro-candidato</to>
+	</outbound-rule>
+	
+			
+	<rule match-type="regex">
+		<from>^/registro-empresa$</from>
+		<to>/registro_empresa.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registro_empresa.do</from>
+		<to>/registro-empresa</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/registro-empresas$</from>
+		<to>/registroEmpresa.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registroEmpresa.do?method=init</from>
+		<to>/registro-empresas</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/perfil/datos-personales$</from>
+		<to>/perfil.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/perfil.do?method=init</from>
+		<to>/perfil/datos-personales</to>
+	</outbound-rule>
+	
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/subir-video-curriculum</from>
+		<to>/cargaCurriculum.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/cargaCurriculum.do?method=init</from>
+		<to>/espacio-candidato/subir-video-curriculum</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/mis-postulaciones</from>
+		<to>/misofertas.do?method=misPostulaciones</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/misofertas.do?method=misPostulaciones</from>
+		<to>/espacio-candidato/mis-postulaciones</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/mis-ofertas-guardadas</from>
+		<to>/misofertas.do?method=misOfertasGuardadas</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/misofertas.do?method=misOfertasGuardadas</from>
+		<to>/espacio-candidato/mis-ofertas-guardadas</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/empresas-que-me-buscan</from>
+		<to>/misofertas.do?method=empresasQueMeBuscan</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/misofertas.do?method=empresasQueMeBuscan</from>
+		<to>/espacio-candidato/empresas-que-me-buscan</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/registro-evento-ferias-de-empleo</from>
+		<to>/registrarCandidatoEvento.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registrarCandidatoEvento.do?method=init</from>
+		<to>/espacio-candidato/registro-evento-ferias-de-empleo</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/candidatos-conalep$</from>
+		<to>/conalep.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/conalep.do?method=init</from>
+		<to>/espacio-candidato/candidatos-conalep</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/espacio-candidato/*-ofertas-por-perfil</from>
+		<to>/ofertasPerfiles.do?method=init&amp;tipoConsulta=$1</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasPerfiles.do?method=init&amp;tipoConsulta=*</from>
+		<to>/espacio-candidato/$1-ofertas-por-perfil</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/ofertas-por-parametros$</from>
+		<to>/ofertasPorParametros.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/ofertasPorParametros.do?method=init</from>
+		<to>/espacio-candidato/ofertas-por-parametros</to>
+	</outbound-rule>	
+	
+	
+	<rule match-type="regex">
+		<from>/espacio-candidato/busqueda-en-otras-bolsas-de-trabajo</from>
+		<to>/bolsasTrabajo.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/bolsasTrabajo.do?method=init</from>
+		<to>/espacio-candidato/busqueda-en-otras-bolsas-de-trabajo</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>/busqueda-en-otras-bolsas-de-trabajo</from>
+		<to>/bolsasTrabajo.do?method=init&amp;fromPortal=true</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/bolsasTrabajo.do?method=init&amp;fromPortal=true</from>
+		<to>/busqueda-en-otras-bolsas-de-trabajo</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/consultar-mis-entrevistas-en-linea$</from>
+		<to>/entrevistaProgramada.do?method=entrevistaProgramadaEnlineaCandidato</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/entrevistaProgramada.do?method=entrevistaProgramadaEnlineaCandidato</from>
+		<to>/espacio-candidato/consultar-mis-entrevistas-en-linea</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/solicita-una-cita$</from>
+		<to>/miespacionav.do?method=agendaCita</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/miespacionav.do?method=agendaCita</from>
+		<to>/espacio-candidato/solicita-una-cita</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/espacio-candidato/subir-fotografia$</from>
+		<to>/cargaFoto.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/cargaFoto.do?method=init</from>
+		<to>/espacio-candidato/subir-fotografia</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/perfil/escolaridad-y-otros-conocimientos$</from>
+		<to>/escolaridad.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/escolaridad.do?method=init</from>
+		<to>/perfil/escolaridad-y-otros-conocimientos</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/perfil/experiencia-y-expectativas-laborales$</from>
+		<to>/experiencia.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/experiencia.do?method=init</from>
+		<to>/perfil/experiencia-y-expectativas-laborales</to>
+	</outbound-rule>
+
+	<rule match-type="regex">
+		<from>^/perfil/situacion-laboral$</from>
+		<to>/expectativa.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/expectativa.do?method=init</from>
+		<to>/perfil/situacion-laboral</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="wildcard">
+		<from>/articulo/**/**</from>
+		<to>/articulo.do?id=$1</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from>/articulo.do?id=**</from>
+		<to>/articulo/$1/**</to>
+	</outbound-rule>
+	
+	<rule match-type="wildcard">
+		<from>/articulos-de-interes-para-ti</from>
+		<to>/articuloDeInteress.do</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from>/articuloDeInteress.do</from>
+		<to>/articulos-de-interes-para-ti</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/ver-todos-los-eventos$</from>
+		<to>/registroseventos.do?method=nextEvents</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registroseventos.do?method=nextEvents</from>
+		<to>/ver-todos-los-eventos</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/herramientas/ver-eventos-anteriores$</from>
+		<to>/registroseventos.do?method=previousEvents</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/registroseventos.do?method=previousEvents</from>
+		<to>/herramientas/ver-eventos-anteriores</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/consulta-de-empresa$</from>
+		<to>/filtercompany.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/filtercompany.do?method=init</from>
+		<to>/consulta-de-empresa</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/consulta-de-candidatos$</from>
+		<to>/filtraCandidato.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/filtraCandidato.do?method=init</from>
+		<to>/consulta-de-candidatos</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/administra-permisos$</from>
+		<to>/adminpermisos.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/adminpermisos.do?method=init</from>
+		<to>/administra-permisos</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/consulta-de-ofertas$</from>
+		<to>/filteroffer.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/filteroffer.do?method=init</from>
+		<to>/consulta-de-ofertas</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/administracion-de-parametros$</from>
+		<to>/parametrizarbloque.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/parametrizarbloque.do?method=init</from>
+		<to>/administracion-de-parametros</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/desbloqueo-de-usuarios$</from>
+		<to>/adminusuarios.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/adminusuarios.do?method=init</from>
+		<to>/desbloqueo-de-usuarios</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/transferencia-de-ofertas-externas-sfp$</from>
+		<to>/transferenciasfp.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/transferenciasfp.do?method=init</from>
+		<to>/transferencia-de-ofertas-externas-sfp</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/administrador-publicadores$</from>
+		<to>/publishertree.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/publishertree.do?method=init</from>
+		<to>/administrador-publicadores</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/productividad-de-publicadores$</from>
+		<to>/publisheractivity.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/publisheractivity.do?method=init</from>
+		<to>/productividad-de-publicadores</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/notificaciones$</from>
+		<to>/notificaciones.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/notificaciones.do?method=init</from>
+		<to>/notificaciones</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/publicacion-de-ofertas$</from>
+		<to>/filteroffer.do?method=initPendientesPublicar</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/filteroffer.do?method=initPendientesPublicar</from>
+		<to>/publicacion-de-ofertas</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/plazas-vigentes$</from>
+		<to>/repofertasvig.do?method=init</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/repofertasvig.do?method=init</from>
+		<to>/plazas-vigentes</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/plazas-vigentes-por-actividad-economica$</from>
+		<to>/repofertasvig.do?method=ofertasPorActividadEconomica</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/repofertasvig.do?method=ofertasPorActividadEconomica</from>
+		<to>/plazas-vigentes-por-actividad-economica</to>
+	</outbound-rule>
+	
+	<rule match-type="regex">
+		<from>^/plazas-vigentes-por-area-laboral-y-ocupacion$</from>
+		<to>/repofertasvig.do?method=ofertasPorAreaOcupacion</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/repofertasvig.do?method=ofertasPorAreaOcupacion</from>
+		<to>/plazas-vigentes-por-area-laboral-y-ocupacion</to>
+	</outbound-rule>
+	
+	
+	<rule match-type="regex">
+		<from>^/download/ley-federal-del-trabajo.pdf$</from>
+		<to>/download/candidatos/lft_125.pdf</to>
+	</rule>
+	<outbound-rule match-type="wildcard">
+		<from casesensitive="true">/download/candidatos/lft_125.pdf</from>
+		<to>/download/ley-federal-del-trabajo.pdf</to>
+	</outbound-rule>	   
+
+    
+     <outbound-rule>
+       <name>Strip URL Session ID's</name>
+       <condition name="user-agent">googlebot</condition>
+       <from>^(.*?)(?:\;jsessionid=[^\?#]*)?(\?[^#]*)?(#.*)?$</from>
+       <to>$1$2$3</to>
+   </outbound-rule>
+   
+   <rule enabled="true">
+      	<name>Canonical Hostnames</name>
+ 	  	<condition name="host">^ratonatiuh\.gob\.mx$</condition>
+    	<from>^/(.*)</from>
+    	<to type="permanent-redirect" last="true">https://www.ratonatiuh.gob.mx/$1</to>
+	</rule>
+
+ <rule enabled="true">
+    <name>Canonical Hostnames</name>
+   <condition name="host">^empleo\.gob\.mx$</condition>
+    	<from>^/(.*)</from>
+    	<to type="permanent-redirect" last="true">https://www.empleo.gob.mx/$1</to>
+</rule>
+    
+</urlrewrite>

@@ -1,0 +1,149 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	font-family: "Times New Roman", "palatino Linotype", Georgia;
+	/*background: #efefef;*/
+}
+
+/* principal */
+#wrapper {
+	width: 700px;
+	background: url(https://www.empleo.gob.mx/images/bg.jpg) repeat-y;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+#header {
+	/*background: url("https://www.empleo.gob.mx/images/header.jpg") no-repeat;*/
+	clear: both;
+	float: left;
+	/*height: 91px;*/
+	width: 700px;
+}
+#header h1{
+	background: url(https://www.empleo.gob.mx/images/bgh1.jpg) repeat-x;
+	font-size: 37px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #5a5a5a;
+	text-decoration: none;
+	padding: 10px 0px 0px 30px;
+}
+
+#leftCol{
+	width: 212px;
+	background: url("https://www.empleo.gob.mx/images/shadow.png") no-repeat right top;
+	float: left;
+	margin: 0px;
+	padding: 30px 0px 0px;
+}
+
+#leftCol img{
+	background: #999999;
+	margin: 0px 29px 30px 30px;
+}
+#rightCol{
+	width: 488px;
+	float: left;
+}
+.datosLateral{
+	margin: 0px 0px 30px;
+
+}
+.datosLateral a{
+	color: #436060;
+    font-weight: bolder;
+	text-decoration: none;
+}
+.datosLateral h2{
+	background: url("https://www.empleo.gob.mx/images/lcDeco.jpg") no-repeat right top;
+	height: 38px;
+	width: 182px;
+	/*letter-spacing: 0.5em;*/
+	font: bolder normal 14px "Times New Roman", "palatino Linotype", Georgia;
+	padding-top: 10px;
+	padding-left: 30px;
+	color: #666666;
+}
+.datosLateral p{
+	font: normal 15px "Times New Roman", "palatino Linotype", Georgia;
+	color: #222222;
+	width: auto;
+	border-bottom: 1px dotted #666666;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	margin: 0px 30px;
+	padding-bottom: 10px;
+}
+.datosLateral h3{
+	font: bold 15px "Times New Roman", "palatino Linotype", Georgia;
+	padding-left: 30px;
+	color: #5E7030;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+.datosMain{
+	margin: 0px 0px 30px;
+}
+.datosMain h2{
+	background: url("https://www.empleo.gob.mx/images/rcDeco.jpg") no-repeat right top;
+	height: 41px;
+	width: 458px;
+	letter-spacing: 0.5em;
+	font: bolder normal 14px "Times New Roman", "palatino Linotype", Georgia;
+	padding-top: 13px;
+	padding-left: 30px;
+	color: #666666;
+}
+.datosMain p{
+	font: normal 15px "Times New Roman", "palatino Linotype", Georgia;
+	padding-left: 30px;
+	color: #222222;
+	padding-right: 30px;
+	margin-bottom: 7px;
+
+}
+.datosMain h3{
+	font: bold normal 15px "Times New Roman", "palatino Linotype", Georgia;
+	padding-left: 30px;
+	color: #5E7030;
+	padding-right: 30px;
+	text-align: left;
+	/*margin-bottom: 7px;*/
+
+}
+.datosMain ul{
+	font: bold normal 13px "Times New Roman", "palatino Linotype", Georgia;
+	padding-left: 30px;
+	color: #454545;
+	padding-right: 30px;
+	list-style: url("https://www.empleo.gob.mx/images/bullet.jpg") inside;
+}
+#clear {
+	clear: both;
+	/*background: #efefef url("https://www.empleo.gob.mx/images/marca.jpg") no-repeat center top;*/
+	width: auto;
+	/*height: 90px;*/
+	text-align: center;
+/*	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-left-style: none;*/
+	background: #EFEFEF;
+}
+

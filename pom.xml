@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
+	<name>STPSEmpleo</name>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>mx.gob.stps</groupId>
+	<artifactId>STPSEmpleo</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>ejb</module>
+		<module>web-back</module>
+		<module>web-movil</module>
+		<module>ear</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+		<version.jboss.maven.plugin>7.4.Final</version.jboss.maven.plugin>
+
+		<version.jboss.bom>1.0.7.Final</version.jboss.bom>
+		<version.jboss.as>7.2.0.Final</version.jboss.as>
+		<!-- other plugin versions -->
+		<version.ear.plugin>2.6</version.ear.plugin>
+		<version.ejb.plugin>2.3</version.ejb.plugin>
+		<version.surefire.plugin>2.10</version.surefire.plugin>
+		<version.war.plugin>2.1.1</version.war.plugin>
+
+		<!-- maven-compiler-plugin -->
+		<maven.compiler.target>1.7</maven.compiler.target>
+		<maven.compiler.source>1.7</maven.compiler.source>
+
+		<!-- spring version -->
+		<version.spring.bom>4.1.6.RELEASE</version.spring.bom>
+		<version.spring.security.bom>4.0.0.RELEASE</version.spring.security.bom>
+		
+		<!-- EJB -->
+		<version.ejb>3.2</version.ejb>
+		<!-- Servlets -->
+		<version.servlet.api>3.0.1</version.servlet.api>
+		<!-- LOG4J -->
+		<version.log4j>1.2.16</version.log4j>
+		
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- Define the version of the EJB jar so that we don't need to repeat 
+				ourselves in every module -->
+			<dependency>
+				<groupId>mx.gob.stps</groupId>
+				<artifactId>STPSEmpleo-ejb</artifactId>
+				<version>${project.version}</version>
+				<type>ejb</type>
+			</dependency>
+
+			<!-- Define the version of the WAR so that we don't need to repeat ourselves 
+				in every module -->
+			<dependency>
+				<groupId>mx.gob.stps</groupId>
+				<artifactId>STPSEmpleo-web-back</artifactId>
+				<version>${project.version}</version>
+				<type>war</type>
+				<scope>compile</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>mx.gob.stps</groupId>
+				<artifactId>STPSEmpleo-web-movil</artifactId>
+				<version>${project.version}</version>
+				<type>war</type>
+				<scope>compile</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>mx.gob.stps</groupId>
+				<artifactId>STPSGeneral-PPC</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.jboss.bom</groupId>
+				<artifactId>jboss-javaee-6.0-with-tools</artifactId>
+				<version>${version.jboss.bom}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Spring -->
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-framework-bom</artifactId>
+				<version>${version.spring.bom}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Spring Security -->
+			<dependency>
+				<groupId>org.springframework.security</groupId>
+				<artifactId>spring-security-bom</artifactId>
+				<version>${version.spring.security.bom}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- EJB -->
+			<dependency>
+				<groupId>javax.ejb</groupId>
+				<artifactId>javax.ejb-api</artifactId>
+				<version>${version.ejb}</version>
+				<scope>provided</scope>
+			</dependency>
+			
+			<!-- Servlet Espec-->
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${version.servlet.api}</version>
+				<scope>provided</scope>
+			</dependency>
+			
+			<!-- log4j -->
+	        <dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>${version.log4j}</version>
+			</dependency>
+			
+			<!-- Eclipse Link Persistence -->
+			<dependency>
+				<groupId>org.eclipse.persistence</groupId>
+				<artifactId>org.eclipse.persistence.core</artifactId>
+				<version>2.4.2</version>
+				<scope>provided</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.eclipse.persistence</groupId>
+				<artifactId>javax.persistence</artifactId>
+				<version>2.0.3</version>
+				<scope>provided</scope>
+			</dependency>
+	
+			<dependency>
+				<groupId>org.eclipse.persistence</groupId>
+				<artifactId>org.eclipse.persistence.jpa</artifactId>
+				<version>2.4.2</version>
+				<scope>provided</scope>
+			</dependency>
+			
+			 <!-- JSF 2.0 -->
+	        <dependency>
+	            <groupId>com.sun.faces</groupId>
+	            <artifactId>jsf-api</artifactId>
+	            <version>2.1.0-b03</version>
+	            <scope>provided</scope>
+	        </dependency>
+			
+	        <dependency>
+	            <groupId>com.sun.faces</groupId>
+	            <artifactId>jsf-impl</artifactId>
+	            <version>2.1.0-b03</version>
+	            <scope>provided</scope>
+	        </dependency>
+			
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpcore</artifactId>
+				<version>4.4.6</version>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.jboss.as.plugins</groupId>
+					<artifactId>jboss-as-maven-plugin</artifactId>
+					<version>${version.jboss.maven.plugin}</version>
+					<inherited>true</inherited>
+					<configuration>
+						<skip>true</skip>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<pluginRepositories>
+         <pluginRepository>
+ 			<id>CSCO</id>
+ 			<name>CSCO Maven Repository</name>
+ 			<layout>default</layout>
+ 			<url>http://stkeug33874:8080/repository</url> 
+         </pluginRepository>
+	 </pluginRepositories>
+	
+	<repositories>
+		<repository>
+			<id>CSCO</id>
+			<name>CSCO Maven Repository</name>
+			<url>http://stkeug33874:8080/repository</url>
+		</repository>
+	</repositories>
+</project>

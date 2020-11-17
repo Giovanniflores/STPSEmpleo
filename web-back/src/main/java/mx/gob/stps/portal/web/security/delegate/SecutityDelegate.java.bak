@@ -1,0 +1,219 @@
+package mx.gob.stps.portal.web.security.delegate;
+
+import java.math.BigDecimal;
+import java.sql.SQLException;
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.PersistenceException;
+
+import mx.gob.stps.portal.core.candidate.vo.CandidatoVo;
+import mx.gob.stps.portal.core.empresa.vo.EmpresaVO;
+import mx.gob.stps.portal.core.infra.exception.BusinessException;
+import mx.gob.stps.portal.core.infra.exception.EncodingException;
+import mx.gob.stps.portal.core.infra.exception.TechnicalException;
+import mx.gob.stps.portal.core.infra.mail.exception.MailException;
+import mx.gob.stps.portal.core.infra.utils.Constantes.EVENTO;
+import mx.gob.stps.portal.persistencia.vo.CatalogoOpcionVO;
+import mx.gob.stps.portal.persistencia.vo.HistoricoBusquedaPPCVO;
+import mx.gob.stps.portal.core.oferta.busqueda.vo.OfertaPorPerfilVO;
+import mx.gob.stps.portal.core.seguridad.exception.CorreoRepetidoException;
+import mx.gob.stps.portal.core.seguridad.exception.LoginRepetidoException;
+import mx.gob.stps.portal.core.seguridad.vo.AccionVO;
+import mx.gob.stps.portal.core.seguridad.vo.ConfirmacionVO;
+import mx.gob.stps.portal.core.seguridad.vo.PerfilVO;
+import mx.gob.stps.portal.core.seguridad.vo.UsuarioVO;
+import mx.gob.stps.portal.web.infra.exception.ServiceLocatorException;
+
+/**
+ * Concentra los metodos para la administracion del Usuarios
+ * 
+ * @author oscar.manzo
+ *
+ */
+public interface SecutityDelegate {
+
+	/**
+	 * Registra un usuario del sistema, los usuarios registrados son para la administracion
+	 * por lo tanto se dan de alta como activos a diferencia de las empresas o candidatos 
+	 * @param vo instancia de <mx.gob.stps.portal.core.seguridad.vo.UsuarioVO>
+	 * @return identificador del usuario
+	 * @throws ServiceLocatorException Lanzada en caso de error al obtener la referencia del servicio
+	 * @throws LoginRepetidoException Lanzada en caso de ya existir un usuario con el mismo login
+	 */
+	public long registraUsuario(UsuarioVO vo) throws LoginRepetidoException, CorreoRepetidoException, ServiceLocatorException;
+
+	/**
+	 * Consulta un usuario a partir de su identificador
+	 * @param idUsuario identificador de usuario
+	 * @return instancia de <mx.gob.stps.portal.core.seguridad.vo.UsuarioVO>
+	 * @throws ServiceLocatorException Lanzada en caso de error al obtener la referencia del servicio
+	 */
+	public UsuarioVO consultaUsuario(long idUsuario) throws ServiceLocatorException;
+	
+	/**
+	 * Consulta un usuario a partir de su correo electronico
+	 * @param correoElectronico correo electronico del usuario
+	 * @return instancia de <mx.gob.stps.portal.core.seguridad.vo.UsuarioVO>
+	 * @throws ServiceLocatorException Lanzada en caso de error al obtener la referencia del servicio
+	 */
+	//public UsuarioVO consultaUsuario(String correoElectronico) throws ServiceLocatorException;
+
+	public UsuarioVO consultaUsuarioPorLogin(String usuario) throws ServiceLocatorException;
+	
+	/**
+	 * Consulta catalogos
+	 * @param idCatalogo identificador del catalogo
+	 * @return lista de instancias < mx.gob.stps.portal.persistencia.vo.CatalogoOpcionVO> 
+	 * las cuales son las opciones del catalogo
+	 * @throws ServiceLocatorException Lanzada en caso de error al obtener la referencia del servicio
+	 */
+	public List<CatalogoOpcionVO> consultaCatalogo(long idCatalogo) throws ServiceLocatorException;
+
+	public long consultaPropietario(long idUsuario) throws ServiceLocatorException, SQLException;
+	
+	public boolean esCorreoUnico(String correoElectronico) throws ServiceLocatorException, SQLException;
+
+	public String consultaParametroPlantilla();
+
+	public String recuperaContrasenaCandidato(String usuario, String curp, String correoActual, String correoNuevo)
+			throws LoginRepetidoException, BusinessException, TechnicalException, ServiceLocatorException,
+			MailException;
+
+		// GUARDA CAMBIO CONTRASEÑA OAM
+	public String cambioContrasena(long idCandidato, String contrasena, EVENTO evento, int IdTipoPropietario)
+			throws PersistenceException, BusinessException, TechnicalException, EncodingException,
+			ServiceLocatorException;
+	
+	// GUARDA CAMBIO CONTRASEÑA OAM
+	public String cambioContrasenaE(long idEmpresa, String contrasena, EVENTO evento, int IdTipoPropietario)
+				throws PersistenceException, BusinessException, TechnicalException, EncodingException,
+				ServiceLocatorException;
+
+	// SOLICITUD DE USUARIO Y CAMBIO CONTRASEÑA OAM
+	public String bitacoraRecuperaContrasena(long idUsuario, EVENTO evento, long idRegistro,  int IdTipoPropietario)
+			throws BusinessException, TechnicalException, PersistenceException, EncodingException,
+			ServiceLocatorException;
+	
+	public UsuarioVO consultaUsuarioPorCorreo(String correoElectronico) throws ServiceLocatorException;
+
+	public String recuperaContrasenaEmpresa(String usuario, String idPortalEmpleo, String correoActual, String correoNuevo) throws LoginRepetidoException, BusinessException, TechnicalException, ServiceLocatorException, SQLException, MailException;
+
+	public String confirmaContrasenaCandidato(long idCandidato, String correo, String contrasena) throws BusinessException, TechnicalException, ServiceLocatorException, PersistenceException, EncodingException;
+
+	public String cambioContrasenaCandidato(long idPropietario, String password) throws BusinessException, TechnicalException, ServiceLocatorException, PersistenceException, EncodingException;
+	
+	public String confirmaContrasenaEmpresa(long idEmpresa, String correo, String contrasena) throws BusinessException, TechnicalException, ServiceLocatorException, PersistenceException, EncodingException;
+
+	public EmpresaVO consultaEmpresa(long idEmpresa) throws PersistenceException, ServiceLocatorException;
+
+	public CandidatoVo consultaCandidato(long idCandidato) throws PersistenceException, ServiceLocatorException;
+	
+	public long getIdCandidato(long idUsuario) throws PersistenceException, ServiceLocatorException;
+
+	public void actualizaSesionActiva(long idUsuario, int sesionActiva) throws PersistenceException, ServiceLocatorException;
+
+	public List<AccionVO> consultaAccionesRequierenAutenticacion() throws SQLException, ServiceLocatorException;
+	
+	public List<AccionVO> consultaAccionesPorPerfil(long idPerfil) throws SQLException, ServiceLocatorException;
+
+	public List<AccionVO> consultaAccionesAsignadasPorPerfil(long idPerfil) throws SQLException, ServiceLocatorException;
+	
+	public List<PerfilVO> consultaPerfiles() throws SQLException, ServiceLocatorException;
+	
+	public void asignaAcciones(long idPerfil, long[] idsAcciones) throws SQLException, ServiceLocatorException;
+	
+	public void estableceAccionesReqUsuarioAutenticado(long[] idsAcciones) throws SQLException, ServiceLocatorException;
+
+	public void inactivaSesionesActivas() throws ServiceLocatorException;
+
+	/**
+	 * Genera un código de acceso para validación externa.
+	 * 
+	 * @param identificador
+	 *            del CIL
+	 * @return código válido bajo ciertos parámetros.
+	 */
+	public String generaCodigo(long idCIL) throws ServiceLocatorException;
+
+	/**
+	 * Retorna el identificador del CIL correspondiente o -1 en caso de que el
+	 * código no sea válido o vigente.
+	 * 
+	 * @param code
+	 *            Cadena de acceso que desea verificar
+	 * @return identificador del CIL válido bajo ciertos parámetros.
+	 */
+	public long isValidCode(String code) throws ServiceLocatorException;
+
+	public void notificaRegistroEmpresa(String usuario) throws PersistenceException, BusinessException,
+			TechnicalException, MailException, EncodingException, ServiceLocatorException;
+
+	public void notificaRegistroEmpresa(List<String> usuarios) throws PersistenceException, BusinessException,
+			TechnicalException, MailException, EncodingException, ServiceLocatorException;
+
+	public void notificaRegistroCandidato(String usuario)
+			throws MailException, EncodingException, ServiceLocatorException;
+
+	public void notificaRegistroCandidato(List<String> usuarios)
+			throws MailException, EncodingException, ServiceLocatorException;
+
+	public void notificaRecomendacion(String remitente, String destinatario, String correoRemitente,
+			String correoDestinatario, String asunto) throws MailException, ServiceLocatorException;
+
+	public void notificaRecuperaContrasenaEmpresa(String usuario) throws LoginRepetidoException, BusinessException,
+			TechnicalException, MailException, ServiceLocatorException;
+
+	public void notificaRecuperaContrasenaEmpresa(List<String> usuarios) throws LoginRepetidoException,
+			BusinessException, TechnicalException, MailException, ServiceLocatorException;
+
+	public void notificaRecuperaContrasenaCandidato(String usuario) throws LoginRepetidoException, BusinessException,
+			TechnicalException, MailException, PersistenceException, ServiceLocatorException;
+
+	public void notificaRecuperaContrasenaCandidato(List<String> usuarios) throws LoginRepetidoException,
+			BusinessException, TechnicalException, MailException, PersistenceException, ServiceLocatorException;
+
+	public ConfirmacionVO confirmacionDirectaEmpresa(String usuario, Date fecha)
+			throws BusinessException, TechnicalException, ServiceLocatorException;
+
+	public ConfirmacionVO confirmacionDirectaEmpresa(String username, String razonSocial)
+			throws BusinessException, TechnicalException, ServiceLocatorException;
+
+	public ConfirmacionVO confirmacionDirectaCandidato(String usuario, String CURP)
+			throws BusinessException, TechnicalException, ServiceLocatorException;
+
+	public ConfirmacionVO confirmacionReactivacionCandidato(String username, String CURP)
+			throws BusinessException, TechnicalException, ServiceLocatorException;
+
+	/** Movimientos **/
+	public void iniciaSesion(long idUsuario, long idPerfil);
+
+	public void finalizaSesion(long idUsuario, long idPerfil);
+
+	public void actualizaDatosPersonales(long idUsuario, long idPerfil);
+
+	public void registroCuentaPersonal(long idUsuario, long idPerfil);
+
+	public void busquedaEspecifica(long idUsuario, long idPerfil);
+
+	public void busquedaOcupate(long idUsuario, long idPerfil);
+
+	public int busquedaPorPerfil(long idUsuario, long idPerfil);
+
+	public void busquedaOtrasBolsasTrabajo(long idUsuario, long idPerfil);
+
+	public void consultaCurriculo(long idUsuario, long idPerfil);
+
+	public void registraUltimoAccesoCandidato(long idCandidato);
+
+	public void busquedaPorPerfilPPC(long idCandidato, long idMovimiento, List<OfertaPorPerfilVO> ofertas,
+			boolean postulado);
+
+	public void consultaHistoricoBusquedaPPC(long idMovimiento);
+
+	public byte[] consultaImagen(int idUsuario, int idPerfil, int idPropietario)throws BusinessException, TechnicalException;
+
+	public void eliminaImagen(int idUsuario);
+	
+
+}

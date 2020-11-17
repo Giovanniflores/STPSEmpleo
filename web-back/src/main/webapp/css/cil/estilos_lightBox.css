@@ -1,0 +1,237 @@
+/*#overPanel { background-image:url("images/screened.png"); height:100%; left:0; padding:50px 0 100px; position:fixed; top:0; width:100%; z-index:100; behavior: url(pngfix/iepngfix.htc); }*/
+
+/* borde inferior */
+/* si mide 418px de ancho */
+.bottom_lightBox { background:url("images/bottom_lightBox1.png") no-repeat bottom; height:17px; width:418px; margin:auto; }
+/* si mide 600px de ancho */
+.bottom_lightBox2 { background:url("images/bottom_lightBox2.png") no-repeat bottom; height:17px; width:600px; margin:auto; }
+/* termina borde inferior */
+
+/* cuerpo */
+#cuerpo_pop { background:#FFFFFF; font-size:1em; height:auto; margin:auto; width:600px; height:450px; overflow-x:hidden; overflow-y:auto; }
+/*crear una nueva clase si se requiere otro ancho*/
+#cuerpo_pop .nuevaClase { width:...px; }
+/* termina cuerpo */
+
+/* icono de cerrar y orilla superior */
+#cerrar { display:block; height:30px; overflow:hidden; background:url(images/top_lightBox1.png) no-repeat bottom; margin:auto; }
+/* adjuntar una clase a #cerrar para poner el fondo de la orilla superior */
+#cerrar.seiscientospx { width:600px; background:url(images/top_lightBox2.png) no-repeat bottom; }
+#cerrar a { background:url(images/btn_cerrar_lightBox.png) no-repeat right top; display:block; width:40px; height:40px; text-indent:-9000px; float:right; }
+/* termina icono cerrar y orilla superior */
+
+/* logo portal del empleo */
+.logoLightBox { text-align:right; height:80px; background:#fff; padding:0; margin:20px; }
+
+/* elementos html dentro de #cuerpo_pop */
+#overPanel h3 { color:#e95d1d; font-size:22px; padding:0 0 0 20px; line-height:12px; }
+#overPanel h3 span { display:block; text-align:right; margin:30px 30px 0 0; color:#6f6f6f; text-align:left; font-size:80%; }
+#overPanel #cuerpo_pop p { color:#504f4f; font-size:11px; padding:20px 10px 0 20px; float:none; width:auto; text-align:left; margin:0 15px; padding:0; line-height:15px; }
+#cuerpo_pop input, #cuerpo_pop select { height:25px; border:1px solid #b0bfc6; }
+#overPanel strong { font-size:17px; }
+/* liga con formato de flecha */
+#overPanel .links { color:#666666 !important; float:none; clear:both; }
+#overPanel .links:hover { text-decoration:underline !important; }
+
+/* reglas de proporciones */
+#overPanel #cuerpo_pop .un_tercio { float:left; width:33%; margin:0 0 15px !important; }
+#overPanel .campo_2_3 { width:60%; float:left; margin:0 0 15px !important; }
+#overPanel .campo_1_3 { width:85%; margin:0 0 15px !important; }
+#overPanel #cuerpo_pop .campo_pop p { margin:0 0 15px !important; }
+#overPanel .derecha { margin:0 0 0 60% }
+#overPanel .derecha2 { padding:17px 0 15px 100px; }
+
+/* divisor con fondo degradado */
+#overPanel .campo_pop { background:url("images/activa_perfil.jpg") repeat-x top; border-top:1px solid #C7C7C7; clear:both; }
+
+
+/* ruta de navegación */
+#overPanel .ruta_pop { border-bottom:1px solid #CCCCCC; height:30px; margin:15px 0 10px; }
+#contenido_principal #overPanel .ruta_pop a, #overPanel .ruta_pop a{ border-right:1px solid #000000; color:#000000; display:block; float:left; font-size:11px; height:15px; margin:7px 0 0; padding:0 5px; text-decoration:none; }
+#contenido_principal #overPanel .ruta_pop a:first-child, #overPanel .ruta_pop a:hover { padding:0 0 0 20px; }
+#contenido_principal #overPanel .ruta_pop a:hover ,#overPanel .ruta_pop a:hover { text-decoration:underline; }
+#overPanel .ruta_pop span{ display:block; float:left; font-size:11px; height:15px; margin:7px 0 0; padding:0 5px; text-decoration:none; color:#E95D1D; }
+
+/* dato nombre */
+#cuerpo_pop #dato_nombre { background:url("images/fnd_dato_nombre2.gif") no-repeat scroll -3px 15px transparent; display:block; float:none; height:60px; margin:20px 0 20px 10px; padding:0 0 0 3px; }
+#cuerpo_pop #dato_nombre input { width:160px; border:none; margin:10px 0 0; }
+#cuerpo_pop #dato_nombre label { font-family:'Droid Sans'; color:#ff5c00; font-size:130%; }
+
+/*--------------------------------------------*/
+
+
+/* POPUPS-> BÚSQUEDA CANDIDATOS*/
+
+#cuerpo_pop .busquedaCandidato { background:#FFFFFF; font-size:1em; height:auto; margin:auto; width:600px; /*height:258px;*/ overflow-x:hidden; overflow-y:auto; }
+/*#cuerpo_pop.busquedaCandidato{ height: 258px}*/
+#cuerpo_pop.busquedaCandidato h3{ font-family: Arial, Helvetica, sans-serif; color:#6F6F6F; font-size:14px; font-weight:normal; margin-bottom:15px; margin-top:-25px;}
+#cuerpo_pop.busquedaCandidato h3 span{ color:#FF5C00; font-size:22px; font-weight:bold;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;}
+#overPanel #cuerpo_pop.busquedaCandidato .derecha2{ padding-left:25px; margin-bottom:-10px;}
+#overPanel #cuerpo_pop.busquedaCandidato p{font-size:12px; font-weight:bold; font-family: Verdana, Geneva, sans-serif}
+#cuerpo_pop.busquedaCandidato input[type="text"], #cuerpo_pop.busquedaCandidato input[type="password"]{ margin-top:10px; height:18px; width: 200px}
+#cuerpo_pop.busquedaCandidato p.btnEnvia input[type="button"]{ /*text-align: right;*/ margin-left:126px; height:auto;}
+#cuerpo_pop.busquedaCandidato .logoLightBox{ width: 200px; text-align: left; margin-left:350px;position:relative; top:-150px;}
+/*div#cuerpo_int.detalle_vacante div#contenido_principal.detalle div#contenido div#medidor .user{font-size:14px; margin-bottom:10px;margin-left:0; margin-bottom: 0px}
+div#contenido_principal.detalle div#contenido div#medidor .user a:hover{ text-decoration:underline}*/
+div#overPanel div#cuerpo_pop.busquedaCandidato div.logoLightBox p.user{ font-family: Verdana, Geneva, sans-serif; color:#504F4F; font-size:14px; width:210px; margin-left:3px;}
+div#overPanel div#cuerpo_pop.busquedaCandidato div.logoLightBox .user a{ text-decoration: none; color:#FF6600; display:block;}
+div#overPanel div#cuerpo_pop.busquedaCandidato div.logoLightBox .user a:hover{ text-decoration:underline;}
+#cuerpo_pop.busquedaCandidato .logoLightBox span img{ left:-30px; position:absolute; top:-40px;}
+
+/*AGREGADO 05-01-011*/
+#overPanel div#cuerpo_pop.busquedaCandidato div.introLog p{ font-weight: normal;}
+div#overPanel div#cuerpo_pop.busquedaCandidato div.introLog p span{ font-weight: bold;}
+
+/* POPUPS-> COMPARTIR SOLICITANTE*/
+
+#cerrar.cuatrocientospx { width:418px; background:url(images/top_lightBox2.png) no-repeat bottom; }
+
+#cuerpo_pop.compartirSolicitante { background:#fff; font-size:1em; height:auto; margin:auto; width:418px; /*height:415px;*/ overflow-x:hidden; overflow-y:auto; }
+#overPanel #cuerpo_pop.compartirSolicitante p{color:#504F4F; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:15px; text-align:left;}
+div#cuerpo_pop.compartirSolicitante h3{margin-top:-10px; padding-bottom: 20px}
+div#cuerpo_pop.compartirSolicitante h3 span{  color:#FF5C00; font-size:22px; font-weight:bold;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;}
+div#cuerpo_pop.compartirSolicitante div div.campo_pop{ padding-left: 25px}
+div#cuerpo_pop.compartirSolicitante div div.campo_pop p label{ font-weight:bold; font-family:Arial, Helvetica, sans-serif}
+div#cuerpo_pop.compartirSolicitante div div.campo_pop textarea{ color:#000;font-family:Verdana, Geneva, sans-serif; font-size:13px; margin-top: 10px; border:1px solid #B0BFC6;}
+div#cuerpo_pop.compartirSolicitante div div.campo_pop{ background: none; border: none; margin-bottom:-30px;}
+/*html body div#wrapper div#cuerpo_int.detalle_vacante div#contenido_principal.detalle div#contenido div#medidor div#overPanel div#cuerpo_pop.compartirSolicitante div p{ margin-top: 20px; font-weight: bold}*/
+
+#overPanel div#cuerpo_pop.compartirSolicitante div p.comparte{ margin-top: 20px;text-align:center;}
+#overPanel div#cuerpo_pop.compartirSolicitante div p.comparte .boton{ margin-left:10px;}
+
+#cuerpo_pop.compartirSolicitante input[type="text"]{float: right; margin-right:50px; height: 18px}
+
+
+/* POPUPS-> CANDIDATOS CARTERA*/
+
+#cuerpo_pop.candidatosCartera{/*height:258px;*/}
+#cuerpo_pop.candidatosCartera h3{ color:#E95D1D; margin-top:10px; margin-bottom:20px;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;}
+div#cuerpo_pop.candidatosCartera div div.campo_pop{ border: none; background: none; margin-bottom:60px;}
+#cuerpo_pop.candidatosCartera div.oferta{ font-weight: bold}
+#overPanel #cuerpo_pop.candidatosCartera .derecha2{ padding-left: 150px}
+#overPanel #cuerpo_pop.candidatosCartera .un_tercio{ width: auto; font-family: Verdana, Geneva, sans-serif}
+div#cuerpo_pop.candidatosCartera div.oferta p.btnOferta{ position:relative; right:190px;}
+#overPanel #cuerpo_pop.candidatosCartera p{line-height:35px;}
+div#cuerpo_pop.candidatosCartera div.oferta div.campo_pop p.un_tercio select.campo_1_4{ margin:0 25px 15px; width:85%;}
+
+
+/* POPUPS-> DETALLE CANDIDATO*/
+
+#cuerpo_pop.detalleCandidato{background:#FFFFFF; font-size:1em; height:auto; margin:auto; width:600px; overflow-x:hidden; overflow-y:auto; }
+div#cuerpo_pop.detalleCandidato h3{ padding-bottom: 20px; margin-top:-15px;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif; font-size:22px;}
+#overPanel #cuerpo_pop.detalleCandidato p{     color:#504F4F; font-size:11px; line-height:25px;margin:0 15px; padding:0 0 0 30px; text-align:left;}
+#overPanel div#cuerpo_pop.detalleCandidato div p.dateBoton{ bottom:40px; height:75px; left:140px; position:relative; width:220px;}
+#overPanel div#cuerpo_pop.detalleCandidato div div.campo_pop p.un_tercio span.calendario{ bottom:27px; left:150px; position:relative;}
+#overPanel div#cuerpo_pop.detalleCandidato div.logoLightBox{ height:auto; margin:0px 20px 1px;}
+#overPanel div#cuerpo_pop.detalleCandidato div div.campo_pop p.un_tercio strong{font-family:verdana;}
+#overPanel div#cuerpo_pop.detalleCandidato div p.dateBoton input.boton{margin-left:10px;}
+
+/* POPUPS-> ENTREVISTA PROGRAMAR*/
+
+#cuerpo_pop.entrevistaProgramar{background:#FFFFFF; font-size:1em; height:auto; margin:auto; width:600px; overflow-x:hidden; overflow-y:auto; }
+#cuerpo_pop.entrevistaProgramar h3 { padding-bottom: 20px; margin-top:-15px; font-size:11px; font-weight:normal; color: #6F6F6F;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;}
+#cuerpo_pop.entrevistaProgramar h3 span{color:#E95D1D; font-size:22px; line-height:12px;
+padding:0 0 0 20px; font-weight: bold; padding: 0px;}
+#cuerpo_pop.entrevistaProgramar h3 strong{font-size:13px;}
+
+#overPanel #cuerpo_pop.entrevistaProgramar p{     color:#504F4F; font-size:11px; line-height:25px;margin:0 15px; padding:0 0 0 30px; text-align:left;}
+#overPanel div#cuerpo_pop.entrevistaProgramar div p.dateBoton{ bottom:40px; height:75px; left:140px; position:relative; width:225px;}
+#overPanel div#cuerpo_pop.entrevistaProgramar div div.campo_pop p.un_tercio span.calendario{ bottom:27px; left:150px; position:relative;}
+#overPanel div#cuerpo_pop.entrevistaProgramar div.logoLightBox{ height:auto; margin:0px 20px 1px;}
+#overPanel div#cuerpo_pop.entrevistaProgramar div div.campo_pop p.un_tercio strong.datosFecha{ font-size:12px;font-family:verdana;}
+#overPanel div#cuerpo_pop.entrevistaProgramar div p.dateBoton input.boton{margin-left:10px;}
+
+/* POPUPS-> CALCULADORA DE EGRESOS*/
+
+#cuerpo_pop.calculadoraEgresos{ height: auto}
+#cuerpo_pop.calculadoraEgresos .calcCuerpo{ border: 1px solid #c4c4c4; width: 90%; margin-left:30px; margin-top: 30px;}
+.calcCuerpo h3{ border: 1px solid #c4c4c4;  border-left:none; border-right:none; border-top:none; margin-top: 0px; text-align: center; background:url(images/calculadora_fdo_h3.jpg) repeat-x; height: 28px; color:#FF5C00;
+font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif; font-weight:bold;}
+#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo h3{ font-size:18px; margin-top: 10px; height:25px; margin-bottom: -8px}
+#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo span.deg img{ margin-left:0;
+margin-right:0; margin-top:8px;  width:100%;}
+#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo p{ font-family: Verdana, Geneva, sans-serif; margin: 20px 30px; text-align: justify}
+div#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo form div div p.gastos { margin: 0px}
+
+
+div#calcHogar{ margin: 10px; width: 428px;}
+div#calcHogar input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcHogar .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcHogar p.campo_calc{ margin: 10px}
+#cuerpo_pop input { /*height: 15px;*/ width: 80px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos p{ margin: 0px}
+#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo form div p.total{ font-size:18px;
+font-weight:bold; margin-bottom:20px; margin-left:72px; margin-top:-8px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos div.calcCuerpo form div p.total span{float:right; margin-right:63px;}
+p.gastos input{text-align:right}
+
+/*---*/
+div#calcSalud{ margin: 10px; width: 428px;}
+div#calcSalud input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcSalud .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcSalud p.campo_calc{ margin: 10px}
+
+
+div#calcTransporte{ margin: 10px; width: 428px;}
+div#calcTransporte input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcTransporte .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcTransporte p.campo_calc{ margin: 10px}
+
+
+div#calcDeuda{ margin: 10px; width: 411px;}
+div#calcDeuda input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcDeuda .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcDeuda p.campo_calc{ margin: 10px}
+
+div#cuerpo_pop.calculadoraEgresos div#calcDeuda p.dosRenglones{ margin-bottom:-9px; margin-left:10px;
+margin-top:-2px;}
+
+
+div#calcEdu{ margin: 10px; width: 428px;}
+div#calcEdu input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcEdu .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcEdu p.campo_calc{ margin: 10px}
+div#cuerpo_pop.calculadoraEgresos div#calcEdu p.dosRenglones{ margin-bottom:-9px; margin-left:10px;
+margin-top:-2px;}
+
+div#calcFin{ margin: 10px; width: 428px;}
+div#calcFin input[type="text"] { border:1px solid #B0BFC6; float:right; height:15px; margin-right:10px; position:relative; left:110px; text-align: right; width:80px}
+div#calcFin .campo_calc span{ float: right; padding-right:20px;}
+#overPanel div#cuerpo_pop.calculadoraEgresos   #calcFin p.campo_calc{ margin: 10px}
+
+
+/* POPUPS-> LOGIN EMPRESAS*/
+
+#cuerpo_pop.loginEmpresas { background:#FFFFFF; font-size:1em; height:600px; margin:auto; width:600px; overflow-x:hidden; overflow-y:auto; float:left; /*margin-left: -5px*/ }
+#cuerpo_pop.loginEmpresas h3{ font-family: Arial, Helvetica, sans-serif; color:#6F6F6F; font-size:14px; font-weight:normal; margin-bottom:15px; margin-top:-25px;}
+#cuerpo_pop.loginEmpresas h3 span{ color:#FF5C00; font-size:22px; font-weight:bold;font-family:'Droid Sans',Geneva,Arial,Helvetica,sans-serif;}
+#overPanel #cuerpo_pop.loginEmpresas .derecha2{ padding-left:25px; margin-bottom:-10px;}
+#overPanel #cuerpo_pop.loginEmpresas p{font-size:12px; font-weight:bold; font-family: Verdana, Geneva, sans-serif}
+#cuerpo_pop.loginEmpresas input{ height:25px}
+#cuerpo_pop.loginEmpresas input[type="text"], #cuerpo_pop.loginEmpresas input[type="password"]{ margin-top:10px; height:18px; width:200px;}
+#cuerpo_pop.loginEmpresas p.btnEnvia input[type="button"]{ text-align: center; margin-left:126px; width:auto;}
+#overPanel div#cuerpo_pop.loginEmpresas div.logoLightBox p.btnEnvia { margin-bottom:10px; margin-left:-90px; width:200px;}
+
+#cuerpo_pop.loginEmpresas .logoLightBox{ width: 200px; text-align: left; margin-left:350px;position:relative; top:-150px;}
+
+#overPanel div#cuerpo_pop.loginEmpresas div.logoLightBox ul{color:#646464;
+font-family:Verdana,Geneva,sans-serif; font-size:11px; font-weight:bold; list-style:none outside none; margin-left:-70px; margin-top:-20px; width:300px;}
+#overPanel div#cuerpo_pop.loginEmpresas div.logoLightBox ul li{ background:url(images/login_empresas_bullet.jpg) no-repeat 0px 3px; padding-left:8px;}
+
+#cuerpo_pop.loginEmpresas .logoLightBox span img{ left:-80px; position:absolute; }
+
+#overPanel div#cuerpo_pop.loginEmpresas p.login{font-weight: normal; font-size:11px; margin-bottom: 15px; margin-top:20px;}
+#overPanel div#cuerpo_pop.loginEmpresas p.login span{ margin-right:188px;}
+#overPanel div#cuerpo_pop.loginEmpresas p.login span+span{ margin-right:0px;}
+
+#overPanel div#cuerpo_pop.loginEmpresas p.registro{font-weight: normal; font-size:11px;  width:500px;  margin-left:-290px; margin-top:20px; margin-bottom: 10px;}
+#overPanel div#cuerpo_pop.loginEmpresas p.registro span a{ color:#666666}
+#overPanel div#cuerpo_pop.loginEmpresas p.registro span a:hover{ text-decoration: none}
+#overPanel div#cuerpo_pop.loginEmpresas p.registro span+span{padding-left:200px; color:#f36420 }
+#overPanel div#cuerpo_pop.loginEmpresas div.logoLightBox img.logo{margin-left:53px;
+    margin-top:25px;}
+#overPanel div#cuerpo_pop.loginEmpresas div.logoLightBox p.divLine{ background:url("images/login_empresas_line_bottom.jpg") repeat-x scroll left top transparent; height:18px; position:absolute; right:-66px; top:200px; width:600px;}
+
+/*AGREGADO 05-01-011*/
+#overPanel div#cuerpo_pop.loginEmpresas div.introLog p{ font-weight: normal;}
+div#overPanel div#cuerpo_pop.loginEmpresas div.introLog p span{ font-weight: bold;}

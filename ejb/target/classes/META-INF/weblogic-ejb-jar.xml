@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-ejb-jar xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_0.xsd http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.2/weblogic-ejb-jar.xsd">
+    <!--weblogic-version:10.3.4-->
+<!--     <wls:weblogic-enterprise-bean> -->
+<!--         <wls:ejb-name>PortalEmpleoBuscadorService</wls:ejb-name> -->
+<!--         <wls:stateless-session-descriptor></wls:stateless-session-descriptor> -->
+<!--         <wls:enable-call-by-reference>true</wls:enable-call-by-reference> -->
+<!--     </wls:weblogic-enterprise-bean> -->
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>EntrevistaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaPostulacionAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaEmpleoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+<!-- 
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>TerceraEmpresaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+ -->
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaVerDetalleAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>CandidatoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaPreguntaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>CatalogoOpcionAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaIdiomaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>DomicilioAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasRecientesAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>CandidatoRegistroAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>EmpresaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorPerfilAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+<!-- 
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>RegistroContactoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+ -->
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>TelefonoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>TestimonioAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaRequisitoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>SeguridadAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertaCandidatoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>BuscaOfertaEmpleoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>AutorizacionAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>ResumenRecientesAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorCanalAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>DepuracionCuentasAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>      
+    </wls:weblogic-enterprise-bean>
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasSFPAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>CursoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorAreaLaboralAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorFechaAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasDYEAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>CilAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasJovenesAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorEntidadAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>KioscoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>NotificacionAppServices</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>OfertasPorEscolaridadAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>SalarioMinimoAppService</wls:ejb-name>
+        <wls:stateless-session-descriptor></wls:stateless-session-descriptor>
+        <wls:enable-call-by-reference>true</wls:enable-call-by-reference>
+    </wls:weblogic-enterprise-bean>
+
+<!--     <wls:weblogic-enterprise-bean> -->
+<!--         <wls:ejb-name>OfertaCompatibilidadAppService</wls:ejb-name> -->
+<!--         <wls:stateless-session-descriptor></wls:stateless-session-descriptor> -->
+<!--         <wls:enable-call-by-reference>true</wls:enable-call-by-reference> -->
+<!--     </wls:weblogic-enterprise-bean> -->
+
+
+</wls:weblogic-ejb-jar>

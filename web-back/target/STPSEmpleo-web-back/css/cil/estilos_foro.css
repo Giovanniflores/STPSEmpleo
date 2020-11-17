@@ -1,0 +1,57 @@
+#navegacion_foro { background:url("sombra_contenido.png") repeat-x; float:left; width:211px; }
+#navegacion_foro a { background:url("bullet_naranja1.gif") no-repeat 20px 10px; color:#454545 !important; display:block; font-size:12px; padding:5px 0 5px 29px; text-decoration:none; font-weight:bold; }
+#navegacion_foro ul { margin:40px 0 0 0; }
+#navegacion_foro a:hover { background:url("bullet_naranja1.gif") no-repeat 20px 10px #4f4f4f; color:#fff !important; }
+#foro table { width:100%; }
+#foro tr{ background:url("fnd_tr_foro.gif") repeat-x bottom; }
+#foro td { padding:10px 10px 20px 10px; font-size:11px; color:#666; }
+#foro td:first-child{ border-left:1px solid #c2c2c2; }
+#foro td:last-child{ border-right:1px solid #c2c2c2; }
+#foro th { text-align:left; color:#666; font-size:11px; padding:5px; }
+/*#foro th:first-child { background:url("fnd_th1.gif") no-repeat; }
+#foro th:last-child { background:url("fnd_th2.gif") no-repeat right;  }*/
+#foro a { background:none; padding:0 20px 0 0; color:#666 !important; display:block; }
+#foro a:hover { text-decoration:underline !important; background:url("ir.gif") right center no-repeat #EBEBEB; }
+#foro .usuario p { text-align:center; }
+#redaccion .crear_carta a.bold { background:url("bt_bold.gif") no-repeat scroll 0 0 transparent; }
+#redaccion .crear_carta a.italica { background:url("bt_italica.gif") no-repeat scroll 0 0 transparent; }
+#redaccion .crear_carta a.subrayada { background:url("bt_subrayado.gif") no-repeat scroll 0 0 transparent; }
+#redaccion .crear_carta a.numerada { background:url("bt_numerdo.gif") no-repeat scroll 0 0 transparent; }
+#redaccion .crear_carta a.no_numerada { background:url("bt_no_numerado.gif") no-repeat scroll 0 0 transparent; }
+#redaccion .crear_carta { background:none; display:block; width:100%; }
+#redaccion .crear_carta p.maximo_caracteres { margin-bottom:0 !important; }
+#redaccion .crear_carta textarea { background:#ffffe5; height:250px; overflow:auto; border:1px solid #ececec; }
+table#redaccion h2 { margin:0 !important; font-size:14px !important; display:inline-block; }
+table#redaccion .usuario h4 { background:url("brdr_maximo_caracteres.jpg") no-repeat right bottom; font-size:16px; margin:10px 0; font-family:'Droid Sans'; }
+.foro_gral { border:1px solid #c7c7c7; padding:20px; }
+table#redaccion .usuario { position:relative; }
+.foro_gral a.liga_icon, .foro_gral ul ul li.titulo { background:url("fnd_encabezado.gif") repeat-x scroll 0 0 transparent; border-left:1px solid #C7C7C7; border-right:1px solid #C7C7C7; color:#F47513; display:block; font-family:'Droid Sans'; height:25px; padding:5px 0 0 30px; font-size:16px; }
+.foro_gral a:hover.liga_icon { background:#454545; }
+.foro_gral ul ul li.titulo { color:#454545; }
+.foro_gral span img { position:relative; top:30px; left:-10px; }
+.foro_gral ul li { font-size:12px; padding:15px 0; font-family:'Droid Sans'; font-size:12px; }
+.foto_foro_pregunta { float:left; margin:0 10px 0 0; position:relative;}
+.foro_gral ul li .usuario, .respuesta_gral span { border-bottom:1px dotted #C7C7C7; font-family:'Droid Sans'; font-weight:bold; margin:0 20px 10px 0; padding:10px 0 0; }
+.foro_gral #paginacion { font-family:'Droid Sans'; }
+.foro_gral #paginacion a { margin:0 10px; }
+.foro_gral #paginacion a:hover { text-decoration:underline !important; }
+.foro_gral #paginacion span { float:left; font-weight:bold; }
+.foro_gral #paginacion ul { float:left; }
+.foro_gral #paginacion ul li { border-bottom:0 none; font-size:18px; padding:8px; }
+#foro #dijit_Toolbar_0.dijit { width:400px; }
+#foro iframe#editorw_iframe { width:400px !important; }
+.grupo_respuestas_gral {margin:0 0 0 40px; }
+.foro_gral ul li.grupo_respuestas_gral .respuestas_gral .puntos { width:40px; float:right; }
+.foro_gral ul ul li.grupo_respuestas_gral .respuestas_gral .foto { width:50px; float:left; }
+.crear_carta #dijit_Toolbar_0.dijit { background:none; }
+.foro_gral ul li a.ligapregunta{ font-family:'Droid Sans';}
+.vistas { color:#454545; display:block; font-weight:bold; margin:5px 0 0; text-align:right; }
+.foro_gral ul li a { margin:0 0 0 51px; }
+.foro_gral .herramientas_foro_gral { text-align:right; } 
+.foro_gral .herramientas_foro_gral img { margin:0 0 0 20px; }
+.foro_gral p strong:first-child { background:url("activa_perfil.jpg") repeat-x; border-top:1px solid #C2C2C2; display:block; float:left; height:40px; margin:-20px 0 0 -20px; padding:15px 0 0 22px; width:619px;}
+	
+.foro_gral p strong a:first-child { color:#F47513; display:block; font-family:'Droid Sans'; height:25px; padding:5px 0 0 30px; font-size:16px; font-weight:normal; background:url("ico_regresar.png") 5px 5px no-repeat; width: 535px; }
+.foro_gral p strong a:hover:first-child { background:url("ico_regresar.png") 5px 5px no-repeat #454545; }
+
+.tema_foro { width:250px; }

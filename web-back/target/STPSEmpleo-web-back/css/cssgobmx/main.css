@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.main-footer {
+    background-color: #28292a !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+    /*min-height: 56px !important;*/
+	margin-top: 60px !important;
+    padding: 20px 0 30px !important;
+    text-align: center !important;
+}
+
+
+.main-footer .list-info {
+    background-color: #393b3c !important;
+    margin-bottom: 30px !important;
+    padding: 30px 0 70px !important;
+}
+.main-footer .list-info form label {
+    font-weight: 300 !important;
+    line-height: 110% !important;
+    margin-bottom: 15px !important;
+}
+.main-footer .list-info form .form-group-icon {
+    font-size: 14px !important;
+    max-width: none !important;
+}
+.main-footer .list-info form .form-control {
+    font-size: 14px !important;
+}
+.main-footer .list-info h5 {
+    font-weight: 300 !important;
+    margin-bottom: 20px !important;
+}
+.main-footer .list-info a {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.main-footer .list-info a.link-email {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.main-footer .list-info p {
+    margin-bottom: 15px !important;
+}
+.main-footer .list-info ul {
+    margin: 0 0 60px !important;
+    padding: 0 !important;
+}
+.main-footer .list-info ul li {
+    line-height: 110% !important;
+    list-style-type: none !important;
+    margin: 0 0 2px !important;
+    padding: 0 !important;
+}
+.main-footer .row > div {
+    margin-bottom: 15px !important;
+}
+.main-footer p {
+    font-size: 14px !important;
+    height: auto !important;
+    line-height: 136% !important;
+    margin: 0 !important;
+    position: static !important;
+}
+.gobmx-footer {
+    margin-top: 15px !important;
+}
+

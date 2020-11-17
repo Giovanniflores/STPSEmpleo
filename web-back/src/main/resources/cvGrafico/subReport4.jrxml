@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subReport2" pageWidth="595" pageHeight="842" whenNoDataType="NoDataSection" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b74dd4de-fe4f-4d39-ad56-515950ee0b77">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="idCandidato" class="java.lang.Long"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="icono" class="java.awt.Image"/>
+	<queryString>
+		<![CDATA[SELECT
+CASE WHEN GA.INICIO IS NOT NULL
+      AND GA.FIN IS NOT NULL THEN
+          TO_CHAR(GA.INICIO) || '-' || TO_CHAR(GA.FIN)
+     WHEN GA.INICIO IS NULL
+      AND GA.FIN IS NOT NULL THEN TO_CHAR(GA.FIN)
+     WHEN GA.INICIO IS NOT NULL
+      AND GA.FIN IS NULL THEN TO_CHAR(GA.INICIO)
+    ELSE ''
+    END AS FECHA
+, F_DESC_CATALOGO(8, GA.ID_NIVEL_ESTUDIO) AS NIVEL
+, CASE WHEN F_DESC_CATASOCIADO(8, GA.ID_NIVEL_ESTUDIO,
+            GA.ID_CARRERA_ESPECIALIDAD) =
+            'No especificado de nombre de carrera profesional'
+       THEN ''
+       ELSE F_DESC_CATASOCIADO(8, GA.ID_NIVEL_ESTUDIO,
+            GA.ID_CARRERA_ESPECIALIDAD)
+       END  AS CARRERA
+, F_DESC_CATALOGO(10, GA.ID_SITUACION_ACADEMICA) AS SITUACION
+, CASE WHEN GA.ESCUELA = '[Indica el nombre de la escuela]' THEN ''
+       ELSE GA.ESCUELA END AS ESCUELA
+FROM CANDIDATO_GRADO_ACADEMICO GA
+WHERE GA.ID_CANDIDATO = $P{idCandidato}
+ORDER BY GA.INICIO DESC]]>
+	</queryString>
+	<field name="FECHA" class="java.lang.String"/>
+	<field name="NIVEL" class="java.lang.String"/>
+	<field name="CARRERA" class="java.lang.String"/>
+	<field name="SITUACION" class="java.lang.String"/>
+	<field name="ESCUELA" class="java.lang.String"/>
+	<title>
+		<band height="47">
+			<staticText>
+				<reportElement x="60" y="19" width="190" height="16" forecolor="#7D7D7D" uuid="4c8ab056-4e4f-440d-a610-5f344ad1e633"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FORMACIÓN ACADÉMICA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="4" y="41" width="280" height="1" forecolor="#7D7D7D" uuid="c506e4dc-f9c2-42b1-8d7c-45b4ca4b78f3"/>
+			</line>
+			<line>
+				<reportElement x="285" y="0" width="1" height="47" forecolor="#C0C0C0" uuid="e4b3dccb-e7f8-4269-b41e-5e2d88dacd75"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<image>
+				<reportElement x="0" y="15" width="29" height="20" uuid="65246791-cc77-4717-b806-d7da84ae47c3"/>
+				<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<detail>
+		<band height="65" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="8" width="43" height="29" uuid="c906be2d-9fcf-4f98-94ee-77c4197bd7a2">
+					<printWhenExpression><![CDATA[$F{FECHA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FECHA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="0" width="236" height="15" isRemoveLineWhenBlank="true" uuid="2630731a-b971-4ff3-90ca-b98fa1198e5a">
+					<printWhenExpression><![CDATA[$F{NIVEL}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NIVEL}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="43" y="0" width="1" height="64" forecolor="#C0C0C0" uuid="d3cb6f4a-6470-44a3-9fba-0165fbad1401"/>
+				<graphicElement>
+					<pen lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="48" y="15" width="236" height="15" isRemoveLineWhenBlank="true" uuid="a01dff25-574a-475d-ba17-d274aaeb7b7d">
+					<printWhenExpression><![CDATA[$F{CARRERA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CARRERA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="30" width="236" height="15" isRemoveLineWhenBlank="true" uuid="616cd8b7-7ca5-4df4-9cc6-4ec29f6160d9">
+					<printWhenExpression><![CDATA[$F{SITUACION}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{SITUACION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="48" y="45" width="236" height="15" isRemoveLineWhenBlank="true" uuid="f292c3bd-8f47-42d3-870f-84ddc452b659">
+					<printWhenExpression><![CDATA[$F{ESCUELA}.length()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ESCUELA}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="285" y="0" width="1" height="64" forecolor="#C0C0C0" uuid="58f2f209-3e24-4d3d-884b-4144215ae605"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<noData>
+		<band height="152">
+			<frame>
+				<reportElement x="22" y="13" width="245" height="125" uuid="47dd696f-76e9-45bb-9cdc-22ff88f567e7"/>
+				<rectangle radius="0">
+					<reportElement x="5" y="5" width="233" height="110" uuid="ab91d1f1-face-46c0-80d4-2e185a224a7e"/>
+					<graphicElement>
+						<pen lineWidth="2.0" lineStyle="Dotted"/>
+					</graphicElement>
+				</rectangle>
+				<staticText>
+					<reportElement x="22" y="67" width="202" height="35" forecolor="#7D7D7D" uuid="3c676f50-80a3-4e42-b081-f04aefbd20bb"/>
+					<textElement textAlignment="Center">
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[EL CANDIDATO NO CUENTA CON
+FORMACIÓN ACADÉMICA]]></text>
+				</staticText>
+				<image>
+					<reportElement x="111" y="28" width="29" height="20" uuid="cb0eed76-1bc8-4144-9941-558c02a3412d"/>
+					<imageExpression><![CDATA[$P{icono}]]></imageExpression>
+				</image>
+			</frame>
+			<line>
+				<reportElement x="285" y="0" width="1" height="150" forecolor="#C0C0C0" uuid="8343cdd1-4a12-44d1-ae1d-a180c1b708bf"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+		</band>
+	</noData>
+</jasperReport>

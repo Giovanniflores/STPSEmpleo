@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.swb-mapa .seccion, #siteMap_rec .seccion {margin-bottom:50px; clear:both; display: block;}
+
+.swb-mapa, #siteMap_rec {float:left; width:100%; min-height:300px; margin-top:-20px}
+.swb-mapa .seccion h3 a, .indiceTematico h3 a:hover, #siteMap_rec .seccion h3 a{color: #62AC1E; text-decoration: none; clear: both; }
+.swb-mapa .seccion ul, #siteMap_rec .seccion ul { float:left; height:auto; margin-bottom:15px; margin-left:10px;}
+
+.seccion li a {color: #666 !important; text-decoration:none; font-size:12px; }
+.seccion li a:hover {color:#000 !important; text-decoration:underline !important; background:#FEFFD9; cursor:pointer; }
+h2.tituloMapa {font-size:1.2em; text-transform:uppercase; color:#62AC1E; margin-bottom:0.5em; line-height:1em}
+#tree_empleo.swb-mapa ul li {
+	list-style: none !important;
+	margin: 0 !important;}
+#tree_empleo.swb-mapa ul {
+	margin: 40px 0;}
+#tree_empleo.swb-mapa ul ul {
+	margin: auto;}
+.seccion h3,
+#tree_empleo.swb-mapa ul li ul li a {  
+	margin-bottom: 10px; 
+	border-bottom:1px solid #999; 
+	background:#F8F8F8; 
+	padding:5px 5px 2px; 
+	font-size:1.5em; 
+	font-weight: bold; 
+	color: #4f6710;
+	display: block;
+	text-decoration: none !important;}
+#tree_empleo.swb-mapa ul li ul li ul li a {
+	border-bottom: none;
+	font-size: 1em;
+	color: #666 !important;
+	font-weight: normal;
+	background:url("bullet_naranja1.gif") no-repeat scroll 0 7px #fff;
+	padding:3px 10px 0 10px;
+	margin: 0 0 10px 15px !important;
+	display: inline; }
+#tree_empleo.swb-mapa ul li ul li ul li a:hover {
+	text-decoration: underline !important;}
