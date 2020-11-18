@@ -2411,8 +2411,8 @@
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						    3000 2100 Ext. 1760, 1761<br />
-						    5781 9856<br />
-						    5577 0255</p>
+							55 9164 9670  <br />
+						    767 114 0364</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
