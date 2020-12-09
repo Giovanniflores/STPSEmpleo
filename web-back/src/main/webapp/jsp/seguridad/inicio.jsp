@@ -152,7 +152,7 @@
 					<div class="panel panel-contactoSWB act">
 						<div class="ayuda">
 							<!-- a href="#" title="Próximamente">Ayuda en línea</a-->							
-							<a href="#" id="chat">Ayuda en línea</a>
+							<a href="https://wise-interactions.com/stps-chat/" target="_blank" id="chat">Ayuda en línea</a>
 						</div>
 					</div>
 				</div>
