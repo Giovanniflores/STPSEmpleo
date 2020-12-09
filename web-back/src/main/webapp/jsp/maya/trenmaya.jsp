@@ -307,49 +307,379 @@
 					<td>Medico ocupacional</td>
 					<td> $ 19,689.00</td>
 					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387706-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
+					<td><a href="https://www.empleo.gob.mx/4411539-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
 					<td>Paramedico</td>
 					<td> $ 12,683.00</td>
 					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387801-oferta-de-empleo-de-paramedico-servicios-tecnicos-y-administrativo" target="_blank">Ver oferta</a></td>
+					<td><a href="https://www.empleo.gob.mx/4411547-oferta-de-empleo-de-paramedico-servicios-tecnicos-y-administrativo" target="_blank">Ver oferta</a></td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td>Operador de maquinaria</td>
 					<td> $ 11,791.00</td>
 					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4388332-oferta-de-empleo-de-operador-de-maquinaria" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
+					<td><a href="https://www.empleo.gob.mx/4405381-oferta-de-empleo-de-operador-maquinaria-consorcio-lamat-tramo-1-sa" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
 					<td>Técnico estimaciones obra</td>
 					<td> $ 23,595.00</td>
 					<td>10/09/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4387584-oferta-de-empleo-de-tecnico-estimaciones-obra" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
+				</tr>-->
+				<!--<tr>
 					<td>Técnico Topográfía</td>
 					<td> $23,595.00 </td>
 					<td>10/09/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4387578-oferta-de-empleo-de-tecnico-en-topografia--obra-consorcio-lamat-tr" target="_blank">Ver oferta</a></td>
-				</tr>
+				</tr>-->
 				<tr>
 					<td>Supervisores</td>
 					<td> $19,000.00 </td>
 					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387418-oferta-de-empleo-de-supervisores-capital-humano-especializado-kra-" target="_blank">Ver oferta</a></td>
+					<td><a href="https://www.empleo.gob.mx/4404137-oferta-de-empleo-de-supervisores-capital-humano-especializado-kra-" target="_blank">Ver oferta</a></td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td>Tecnico de estimaciones</td>
 					<td> $10,000.00 </td>
 					<td>17/11/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4397282-oferta-de-empleo-de-tecnico-estimaciones-azvindi-ferroviario-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
+				</tr>-->
+				<!--<tr>
 					<td>Banderero vial</td>
 					<td>$6,500.00</td>
 					<td>17/11/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4398225-oferta-de-empleo-de-banderero-vial-servicios-tecnicos-y-administra" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Medico ocupacional</td>
+					<td>$19,689.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4387706-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Paramedico </td>
+					<td>$12,683.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4387801-oferta-de-empleo-de-paramedico-servicios-tecnicos-y-administrativo" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Supervisores</td>
+					<td>$19,000.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4404137-oferta-de-empleo-de-supervisores-capital-humano-especializado-kra-" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Encargado de campamentos</td>
+					<td>$10,000.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4404285-oferta-de-empleo-de-encargado-campamentos-consorcio-tramo-dos-sa-c" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Coordinador de nominas</td>
+					<td>$3,700.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4403770-oferta-de-empleo-de-coordinador-nominas-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Contador de obra</td>
+					<td>$10,000.00</td>
+					<td>18/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4403073-oferta-de-empleo-de-contador-de-obra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Sobrestante</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411059-oferta-de-empleo-de-sobrestante-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de tractocamión cama baja</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411070-oferta-de-empleo-de-operador-tractocamion-cama-baja-consorcio-tram" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de pipa diésel</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411088-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial mecánico especializado</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411106-oferta-de-empleo-de-oficial-mecanico-especializado-consorcio-tramo" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial electromecánico</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411110-oferta-de-empleo-de-oficial-electromecanico-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de soldador</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411115-oferta-de-empleo-de-oficial-de-soldador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Lubricador</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411121-oferta-de-empleo-de-lubricador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Llantero</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411125-oferta-de-empleo-de-llantero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Ayudante de mecánico</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411129-oferta-de-empleo-de-ayudante-de-mecanico-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Ayudante de lubricador</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411135-oferta-de-empleo-de-ayudante-lubricador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Auxiliar control de costos</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411140-oferta-de-empleo-de-auxiliar-control-costos-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Auxiliar de sistemas</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394730-oferta-de-empleo-de-auxiliar-de-sistemas-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Checador de actividades</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411146-oferta-de-empleo-de-checador-actividades-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Oficial de tubero</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411151-oferta-de-empleo-de-oficial-de-tubero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de carpintero</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411155-oferta-de-empleo-de-oficial-carpintero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de fierrero</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411162-oferta-de-empleo-de-oficial-de-fierrero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de albañil</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411167-oferta-de-empleo-de-oficial-de-albanil-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de planta de luz</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411173-oferta-de-empleo-de-operador-planta-luz-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de retroexcavadora</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411178-oferta-de-empleo-de-operador-retroexcavadora-consorcio-tramo-dos-s" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de pipa de agua</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411184-oferta-de-empleo-de-operador-pipa-agua-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de motoniveladora</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411187-oferta-de-empleo-de-operador-motoniveladora-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de compactador liso</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411190-oferta-de-empleo-de-operador-compactador-liso-consorcio-tramo-dos-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de pata de cabra</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411408-oferta-de-empleo-de-operador-pata-cabra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de cargador</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411193-oferta-de-empleo-de-operador-de-cargador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de excavadora</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411198-oferta-de-empleo-de-operador-excavadora-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de tractor</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411201-oferta-de-empleo-de-operador-de-tractor-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Checador de materiales</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411210-oferta-de-empleo-de-checador-materiales-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de grúa hiab</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411215-oferta-de-empleo-de-operador-grua-hiab-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Chofer de camioneta 3 y medio</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394687-oferta-de-empleo-de-chofer-camioneta-3-y-medio-consorcio-tramo-dos" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Velador</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411219-oferta-de-empleo-de-velador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Bodeguero</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411221-oferta-de-empleo-de-bodeguero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Cabo</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411224-oferta-de-empleo-de-cabo-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Jefe de frente</td>
+					<td>$12,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411227-oferta-de-empleo-de-jefe-de-frente-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Médico de obra</td>
+					<td>$12,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411232-oferta-de-empleo-de-medico-de-obra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Auxiliar estimaciones jr</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411241-oferta-de-empleo-de-auxiliar-estimaciones-jr-consorcio-tramo-dos-s" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Auxiliar estimaciones</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411246-oferta-de-empleo-de-auxiliar-estimaciones-consorcio-tramo-dos-sa-c" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Analista de precios unitarios jr</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411249-oferta-de-empleo-de-analista-precios-unitarios-jr-consorcio-tramo-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Analista de precios unitarios</td>
+					<td>$8,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411274-oferta-de-empleo-de-analista-precios-unitarios-consorcio-tramo-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Jefe de control de proyecto</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394657-oferta-de-empleo-de-jefe-control-proyecto-consorcio-tramo-dos-sa-c" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Jefe de estimaciones</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394655-oferta-de-empleo-de-jefe-de-estimaciones-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Jefe de precios unitarios</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394652-oferta-de-empleo-de-jefe-precios-unitarios-consorcio-tramo-dos-sa-" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<!--<tr>
+					<td>Ingeniero de planeación</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4394653-oferta-de-empleo-de-ingeniero-planeacion-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Auxiliar subcontratos jr</td>
+					<td>$6,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411278-oferta-de-empleo-de-auxiliar-subcontratos-jr-consorcio-tramo-dos-s" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Auxiliar subcontratos</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411287-oferta-de-empleo-de-auxiliar-subcontratos-consorcio-tramo-dos-sa-c" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Paramédico de obra</td>
+					<td>$6,500.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411289-oferta-de-empleo-de-paramedico-de-obra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Personal de seguridad</td>
+					<td>$12,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411300-oferta-de-empleo-de-personal-seguridad-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de seguridad</td>
+					<td>$15,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411306-oferta-de-empleo-de-oficial-de-seguridad-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Jefe de frente / calidad</td>
+					<td>$12,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411316-oferta-de-empleo-de-jefe-frente--calidad-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Ingeniero mecánico</td>
+					<td>$10,000.00</td>
+					<td>29/10/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4411311-oferta-de-empleo-de-ingeniero-mecanico-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>
 			</tbody>
 		</table>
