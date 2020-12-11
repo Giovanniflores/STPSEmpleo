@@ -2120,7 +2120,7 @@
                                                 </div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:subdireccion.snyco@gmail.com">subdireccion.snyco@gmail.com</a>
+						    <a href="mailto:adela.styfe@gmail.com">adela.styfe@gmail.com</a>
 						<br /></p>
 						</div>
 					</div>
@@ -2604,7 +2604,7 @@
 			</div><!-- end panel -->
 			
 			<div class="page-header filtro ciudaddemexico">
-		        <h4><small>Dirección General de Empleo, Capacitación y Fomento Cooperativo</small></h4>
+		        <h4><small>Dirección General de Empleo</small></h4>
 		        </div>
 			
 			<div class="panel panel-default filtro ciudaddemexico">
