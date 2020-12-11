@@ -304,24 +304,6 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>Auxiliar control de costos</td>
-					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4374493-oferta-de-empleo-de-auxiliar-control-costos-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Contador de Obra</td>
-					<td> $ 10,000.00</td>
-					<td>08/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4382147-oferta-de-empleo-de-contador-de-obra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Supervisor de acsma</td>
-					<td> $ 22,798.00</td>
-					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387657-oferta-de-empleo-de-supervisor-de-acsma-servicios-tecnicos-y-admin" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
 					<td>Medico ocupacional</td>
 					<td> $ 19,689.00</td>
 					<td>21/10/2020</td>
@@ -340,58 +322,10 @@
 					<td><a href="https://www.empleo.gob.mx/4388332-oferta-de-empleo-de-operador-de-maquinaria" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
-					<td>Operador de rodillo liso</td>
-					<td> $ 8,521.00</td>
-					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4388728-oferta-de-empleo-de-operador-de-rodillo-liso" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Auxiliar control de costos</td>
-					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4374493-oferta-de-empleo-de-auxiliar-control-costos-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Oficial soldador</td>
-					<td> $6,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4377832-oferta-de-empleo-de-oficial-de-soldador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Oficial mecánico especializado</td>
-					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4377845-oferta-de-empleo-de-oficial-mecanico-especializado-consorcio-tramo" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Oficial de electromecánico</td>
-					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4377852-oferta-de-empleo-de-oficial-electromecanico-consorcio-tramo-dos-sa" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Supervisor Ambiente/obra</td>
-					<td> $ 22,441.00</td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387636-oferta-de-empleo-de-supervisor-ambiente-obra" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Técnico de Salud y Seguridad de obra</td>
-					<td> $ 18,797.00</td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387635-oferta-de-empleo-de-tecnico-de-salud-y-seguridad-de-obra" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
 					<td>Técnico estimaciones obra</td>
 					<td> $ 23,595.00</td>
 					<td>10/09/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4387584-oferta-de-empleo-de-tecnico-estimaciones-obra" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Técnico Control de Calidad</td>
-					<td> $ 18,797.00</td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387558-oferta-de-empleo-de-tecnico-control-de-calidad" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
 					<td>Técnico Topográfía</td>
@@ -400,46 +334,22 @@
 					<td><a href="https://www.empleo.gob.mx/4387578-oferta-de-empleo-de-tecnico-en-topografia--obra-consorcio-lamat-tr" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
-					<td>Operador revolverdora</td>
-					<td> $6,500.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387406-oferta-de-empleo-de-operador-revolvedora-cemex-operaciones-mexico" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Topografos y Cadeneros</td>
-					<td> $19,000.00 </td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387411-oferta-de-empleo-de-topografos-aux-topografia-cadeneros-capital-hu" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Coordinadores de Obra</td>
-					<td> $30,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387416-oferta-de-empleo-de-coordinadores-obra-capital-humano-especializad" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
 					<td>Supervisores</td>
 					<td> $19,000.00 </td>
 					<td>04/09/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4387418-oferta-de-empleo-de-supervisores-capital-humano-especializado-kra-" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
-					<td>Contador de obra</td>
+					<td>Tecnico de estimaciones</td>
 					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4382147-oferta-de-empleo-de-contador-de-obra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+					<td>17/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4397282-oferta-de-empleo-de-tecnico-estimaciones-azvindi-ferroviario-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
-					<td>Operador Tracto caminón con cama baja</td>
-					<td> $10,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4377863-oferta-de-empleo-de-operador-tractocamion-cama-baja-consorcio-tram" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
-					<td>Operador pipa diesel</td>
-					<td> $8,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4377862-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+					<td>Banderero vial</td>
+					<td>$6,500.00</td>
+					<td>17/11/2020</td>
+					<td><a href="https://www.empleo.gob.mx/4398225-oferta-de-empleo-de-banderero-vial-servicios-tecnicos-y-administra" target="_blank">Ver oferta</a></td>
 				</tr>
 			</tbody>
 		</table>

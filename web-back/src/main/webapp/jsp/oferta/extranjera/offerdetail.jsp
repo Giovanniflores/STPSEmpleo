@@ -161,7 +161,7 @@
 										<strong>Nivel de Inglés:</strong><br>
 									</c:if>
 									<c:if test="${ofertaExtranjera.pais == 'Canada'}">
-										<strong>Nivel de Inglés/Fránces:</strong><br>
+										<strong>Nivel de Fránces:</strong><br>
 									</c:if>
 									<span>${ofertaExtranjera.nivelIdiomaPrincipal}</span>
 								</div>
