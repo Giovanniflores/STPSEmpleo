@@ -2103,7 +2103,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2113,15 +2113,14 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						         5709 3233<br /> 
+						         555709 3233<br /> 
 							Ext. 3041 
 							    <br />
 							</p>
                                                 </div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						<!--    <a href="mailto:sol_qe@yahoo.com.mx">sol_qe@yahoo.com.mx</a>-->
-						N D
+						    <a href="mailto:subdireccion.snyco@gmail.com">subdireccion.snyco@gmail.com</a>
 						<br /></p>
 						</div>
 					</div>
@@ -2148,21 +2147,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 María Arellano González<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Rubén Hernández Estrada<br />
+							 Coordinador Regional del Servicio de Empleo en Álvaro Obregón</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    5276 6885 y 52766886
+						    555276 6885
+							5552766886
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:mary_arellano10@hotmail.com">mary_arellano10@hotmail.com</a><br /></p>
+						    <a href="mailto:kimbapancracia@gmail.com">kimbapancracia@gmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -2187,23 +2187,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Julio Eusebio Díaz Castillo<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Ana María Mejia Cordero<br />
+							 Coordinadora Regional del Servicio de Empleo en Azcapotzalco</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    5341 0953<br />
+						    555341 0953<br />
 						 
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						   
-						    <a href="mailto:julio_coord_azc@outlook.es">julio_coord_azc@outlook.es</a><br /></p>
+						    <a href="mailto:sneazcapotzalco@gmail.com">sneazcapotzalco@gmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -2228,24 +2228,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Luz María Ramos Zárate<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Christian Vallarta González<br />
+							 Coordionador Regional del Servicio de Empleo en Benito Juárez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    9000 2100 Ext. 1720, 1721<br />
-							5605 7111<br />
-							5688 4530<br />
-							54225300 Ext. 1270</p>
+						    555604 5737 <br />
+							555605 7111<br />
+							</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						    
-						    <a href="mailto:sejuarez@stps.gob.mx">sejuarez@stps.gob.mx</a><br /></p>
+						    <a href="mailto:sejuarez@stps.gob.mx">sejuarez@stps.gob.mx</a><br />
+							<a href="mailto:uosebju.cr@gmail.com">uosebju.cr@gmail.com</a>							
+							</p>
 						</div>
 					</div>
 				</div>
@@ -2270,24 +2271,26 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- María Dolores Gutiérrez Chávez<br /> -->
-							Erika Alejandra Gómez Ramírez<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							Lic. Juan Manuel de Jesús Muñetón Vargas<br />
+							Coordionador Regional del Servicio de Empleo en Coyoacán</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    5619 2852<br />
-							5604 5737<br /></p>
+						    555619 2852<br />
+							555604 5737<br /></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:e.udse.coyoacan@gmail.com">e.udse.coyoacan@gmail.com</a><br />
-						    <a href="mailto:vinculacion.coyoacan@hotmail.com">vinculacion.coyoacan@hotmail.com</a><br /></p>
+						    <a href="mailto:vinculacion.coyoacan@hotmail.com">vinculacion.coyoacan@hotmail.com</a><br />
+							<a href="mailto:juanmmuneton@hotmail.com">juanmmuneton@hotmail.com</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -2312,22 +2315,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Rubén Hernández Estrada<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Gabino Millán Mercado<br />
+							 Coordinador Regional del Servicio de Empleo en Cuajimalpa</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1750 y 1741<br />
-							5812 2688<br /></p>
+						    553000 2100 Ext. 1750 y 1741<br />
+							555812 2688<br /></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:secuaji@stps.gob.mx">secuaji@stps.gob.mx</a><br />
+							<a href="mailto:secuaji.coord@gmail.com">secuaji.coord@gmail.com</a>
 						     </p>
 						</div>
 					</div>
@@ -2358,22 +2362,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- Lic. Miguel Ángel Bermudez Olguin<br /> -->
-							 Christian Vallarta González<br /> 
-					Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Beatriz Guadalupe Picazo Peche<br /> 
+					Coordinadora Regional del Servicio de Empleo en Cuauhtémoc</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    5038 0200 Ext. 3045
+						    555038 0200 Ext. 3045
 						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
+							<a href="mailto:uosecuauhtemoc@gmail.com">uosecuauhtemoc@gmail.com</a><br/>
 						    <a href="mailto:c.udse.cuauh@gmail.com">c.udse.cuauh@gmail.com</a><br/>
 						     <a href="mailto:setemoc@stps.gob.mx">setemoc@stps.gob.mx</a></p>
 						</div>
@@ -2400,23 +2405,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Daniel Díaz Campos<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Eliseo Lorenzo Rodríguez<br />
+							 Coordinador Regional del Servicio de Empleo en Gustavo A. Madero</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1760, 1761<br />
-							55 9164 9670  <br />
-						    767 114 0364</p>
+							5555 9164 9670  <br />
+						    55767 114 0364</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						   		 <a href="mailto:semadero@stps.gob.mx">semadero@stps.gob.mx</a>
+								 <a href="mailto:uose.gamcor@gmail.com">uose.gamcor@gmail.com</a>
 						    </p>
 						</div>
 					</div>
@@ -2442,25 +2447,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Martha Patricia Elvira Mora<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Coordinadora Regional del Servicio de Empleo en Iztacalco</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    5654 7055<br />
-						    5650 9507<br />
-						    3182 2512
-						    
+						    555654 7055<br />
+						    553182 2512
 						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:patyelvira@hotmail.com">patyelvira@hotmail.com</a></p>
+						    <a href="mailto:patyelvira@hotmail.com">patyelvira@hotmail.com</a>
+							<a href="mailto:uose.iztacalco@hotmail.com">uose.iztacalco@hotmail.com</a>							
+							</p>
 						</div>
 					</div>
 				</div>
@@ -2486,23 +2491,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Hugo Rodríguez de la Rosa<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Coordinador Regional del Servicio de Empleo en Iztapalapa</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1781<br />
-						    5445 1086 Ext. 1780</p>
+								555595 8208
+						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:portaliztapala@hotmail.com">portaliztapala@hotmail.com</a><br />
-						    <a href="mailto:hrodriguez29@hotmail.com">hrodriguez29@hotmail.com</a></p>
+						    <a href="mailto:u.o.empleoiztapalapa@gmail.com">u.o.empleoiztapalapa@gmail.com</a><br />
+						    <a href="mailto:seiztapalapa@stps.gob.mx">seiztapalapa@stps.gob.mx</a></p>
 						</div>
 					</div>
 				</div>
@@ -2527,25 +2532,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 						<!---	 Lic. María de los Remedios Morales Sánchez<br />
 							 Jefe de Unidad Delegacional de Servicio del Empleo</p> --->
-							Lyssete Alarcón Moreno<br />
-							Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							Lic. Ariadna Tatiana Serrano Díaz<br />
+							Coordinadora Regional del Servicio de Empleo en Magdalena Contreras</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1790, 1791<br />
-						    5595 8208</p>
+						    551520 0795<br />
+						    553574 4247</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						   <a href="secretariamco@hotmail.com">secretariamco@hotmail.com</a><br />
-						   <!---  <a href="mailto:vemary.morales@hotmail.com">vemary.morales@hotmail.com</a></p> --->
+						   <a href="mailto:uose.magdalenacontreras@gmail.com">uose.magdalenacontreras@gmail.com</a></p>
 						 </p>
 						</div>
 					</div>
@@ -2564,7 +2569,7 @@
 							<p><strong>Domicilio</strong><br />
 							<!-- <strong>PROVISIONALMENTE ESTÁ UBICADA EN:</strong><br /> -->
 							<!-- Xocongo No. 58 esq. con Fernando de Alva Ixtlilx&oacute;chitl 2&deg; piso, <abbr title="Colonia">Col. </abbr>Tr&aacute;nsito<abbr title="C&oacute;digo Postal">,<br /> C.P.</abbr> 06820, Ciudad de M&eacute;xico -->
-							Lago Garda No. 124, <abbr title="Colonia">Col. </abbr>An&aacute;huac, 1ª Sección<br /> <abbr title="C&oacute;digo Postal"> C.P.</abbr> 11320, Ciudad de M&eacute;xico
+							Gobernador Rafael Rebolla No. 129, <abbr title="Colonia">Col. </abbr>San Miguel Chapultepec 1 Secc, <br /> <abbr title="C&oacute;digo Postal"> C.P.</abbr> 11850, Ciudad de M&eacute;xico
     </span></span></p>	</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -2574,24 +2579,24 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Miguel Ángel Claro León<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Coordinador Regional del Servicio de Empleo en Miguel Hidalgo</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1860<br />
-						    5386 8476</p>
+						    555271 4713<br />
+						    555386 8476</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:semiguel@stps.gob.mx">semiguel@stps.gob.mx</a><br />
+							<a href="mailto:uosemh@gmail.com">uosemh@gmail.com</a><br />
 						    <a href="mailto:miguelclaro1@hotmail.com">miguelclaro1@hotmail.com</a>
-						   
 						    </p>
 						</div>
 					</div>
@@ -2619,7 +2624,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2629,13 +2634,15 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						       5709 3233  <br />
+						       555709 3233  <br />
                                 Ext. 3001
                             </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:hortizm@cdmx.gob.mx">hortizm@cdmx.gob.mx</a></p>
+						    <a href="mailto:hortizm@cdmx.gob.mx">hortizm@cdmx.gob.mx</a>
+							<a href="mailto:dge.styfe@gmail.com">dge.styfe@gmail.com</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -2660,23 +2667,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Fátima Berenice Amezcua Martínez<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Luis Pérez<br />
+							 Coordinador Regional del Servicio de Empleo en Milpa Alta</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1800, 1801<br />
-						    5862 3150 Ext. 1009</p>
+						    558891 2525<br />
+						    555862 3150 Ext. 1009</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:unidad.malta@gmail.com">unidad.malta@gmail.com</a><br />
-						    <a href="mailto:semilpa@stps.gob.mx">semilpa@stps.gob.mx</a></p>
+						    <a href="mailto:uosemal.coord@gmail.com">uosemal.coord@gmail.com</a><br />
+						    <a href="mailto:semilpa@stps.gob.mx">semilpa@stps.gob.mx</a>
+							<a href="mailto:09perezlu@gmail.com">09perezlu@gmail.com</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -2702,25 +2711,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- Lic. Irma Aguayo Rendón<br /> -->
-							 Luis Pérez<br /> 
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Sandra Bocardo Esparza<br /> 
+							 Coordinadora Regional del Servicio de Empleo en Tláhuac</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1810, 1811<br />
-						    5842 6123<br />
-						    5842 1731</p>
+						    553000 2100 Ext. 1810, 1811<br />
+						    555842 6123<br />
+						    555842 1731</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						   
-						    <a href="mailto:udsetlh@gmail.com">udsetlh@gmail.com</a><br />
-						    <a href="mailto:09perezlu@gmail.com">09perezlu@gmail.com</a>
+						    <a href="mailto:uose.tlh@gmail.com">uose.tlh@gmail.com</a><br />
+						    <a href="mailto:boesbuc785@gmail.com">boesbuc785@gmail.com</a>
 						    </p>
 						</div>
 					</div>
@@ -2746,24 +2755,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Sandra Adriana José Carrasco<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Juan Luis Cortés López<br />
+							 Coordinador Regional del Servicio de Empleo en Tlalpan</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1820, 1821<br />
-						    5528 5502<br />
-						    5665 5712</p>
+						    553000 2100 Ext. 1820, 1821<br />
+						    555528 5502<br />
+						    555665 5712</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:udse.tlalpan@gmail.com">udse.tlalpan@gmail.com</a><br />
-						    <a href="mailto:setlalpan@stps.gob.mx">setlalpan@stps.gob.mx</a></p>
+						    <a href="mailto:setlalpan@stps.gob.mx">setlalpan@stps.gob.mx</a>
+							<a href="mailto:uose.tlanpan@gmail.com">uose.tlanpan@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -2788,22 +2798,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Manuel Dominguez Osuna<br />
-							 Encargado de Unidad Delegacional del Servicio de Empleo</p>
+							 Lic. Laura María Evangelista Cortés<br />
+							 Coordinador Regional del Servicio de Empleo en Venustiano Carranza</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 55 57686450</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+525557686450" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 55 57686450</span></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">55 57686450</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+525557686450" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span"></span></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:sevenus@stps.gob.mx">sevenus@stps.gob.mx</a><br />
-						    <a href="mailto:manuel_9658@hotmail.com">manuel_9658@hotmail.com</a></p>
+						    <a href="mailto:uosevca.coord@gmail.com">uosevca.coord@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -2828,19 +2838,20 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Fátima Berenice Amezcua Martínez<br />
-							 Encargada de Unidad Delegacional del Servicio de Empleo</p>
+							 Coordinadora Regional del Servicio de Empleo en Xochimilco</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    3000 2100 Ext. 1840, 1841<br />
-						    5676 0465<br />
-						    5641 7065</p>
+						    553000 2100 Ext. 1840, 1841<br />
+						    555676 0465<br />
+						    555641 7065</p>
+						    555641 7065</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						    
