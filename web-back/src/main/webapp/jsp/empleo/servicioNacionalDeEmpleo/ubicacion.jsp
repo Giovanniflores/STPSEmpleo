@@ -2120,7 +2120,7 @@
                                                 </div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:adela.styfe@gmail.com">adela.styfe@gmail.com</a>
+						    <a href="mailto:atencion.ciudadana.uc@gmail.com">atencion.ciudadana.uc@gmail.com</a>
 						<br /></p>
 						</div>
 					</div>
@@ -2583,7 +2583,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Miguel Ángel Claro León<br />
+							 <br />
 							 Coordinador Regional del Servicio de Empleo en Miguel Hidalgo</p>
 						</div>
 						<div class="clearfix"></div>
@@ -2594,9 +2594,9 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:semiguel@stps.gob.mx">semiguel@stps.gob.mx</a><br />
+						    <!--<a href="mailto:semiguel@stps.gob.mx">semiguel@stps.gob.mx</a><br /> -->
 							<a href="mailto:uosemh@gmail.com">uosemh@gmail.com</a><br />
-						    <a href="mailto:miguelclaro1@hotmail.com">miguelclaro1@hotmail.com</a>
+						    <!--<a href="mailto:miguelclaro1@hotmail.com">miguelclaro1@hotmail.com</a> -->
 						    </p>
 						</div>
 					</div>
