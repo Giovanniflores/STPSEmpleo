@@ -283,7 +283,7 @@
 		<div class="row">
 				<div class="col-sm-12" style="position: relative;">
 					<div class="page-header">
-						<h1 align="center">Ofertas de empleo en el Â¡Tren Maya!</h1>
+						<h1 align="center">Ofertas de empleo en el ¡Tren Maya!</h1>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -299,22 +299,34 @@
 			<thead>
 				<th>Titulo de la oferta</th>
 				<th>Salario</th>
-				<th>Fecha publicaciÃ³n</th>
+				<th>Fecha publicación</th>
 				<th>ver oferta</th>
 			</thead>
 			<tbody>
 				<tr>
+					<td>Ayudante General</td>
+					<td>$6,800.00</td>
+					<td>03/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4432632-oferta-de-empleo-de-ayudante-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de pipa diesel</td>
+					<td>$8,000.00</td>
+					<td>03/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4435563-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
 					<td>Medico ocupacional</td>
 					<td> $19,689.00</td>
 					<td>21/10/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4411539-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
-				</tr>
-				<tr>
+				</tr> -->
+				<!--<tr>
 					<td>Paramedico</td>
 					<td> $12,683.00</td>
 					<td>21/10/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4411547-oferta-de-empleo-de-paramedico-servicios-tecnicos-y-administrativo" target="_blank">Ver oferta</a></td>
-				</tr>
+				</tr> -->
 				<!--<tr>
 					<td>Operador de maquinaria</td>
 					<td> $11,791.00</td>
@@ -686,19 +698,19 @@
 			<div class="clearfix"></div>
 			<div class="row slogan slogan-2">
 				<div class="col-md-12">
-					<h2>Â¿Tienes dudas?</h2>
+					<h2>¿Tienes dudas?</h2>
 					<p>No te preocupes, estamos para apoyarte:</p>
 				</div>
 			</div>
 			<div class="row contact-links">
 				<div class="contact-opts">
 					<img alt="" src="css/images/ico-llamada.png" class="img-responsive" /></br>
-					ComunÃ­cate al</br>
+					Comunícate al</br>
 					800 841 2020
 				</div>
 				<div class="contact-opts">
 					<img alt="" src="css/images/ico-rSociales.png" class="img-responsive" /></br>
-					VisÃ­tanos en:</br>
+					Visítanos en:</br>
 					<a class="facebook-icon" href="https://www.facebook.com/empleogobmx" target="_blank">Facebook</a>
 					<a class="tweeter-icon" href="https://twitter.com/empleogob_mx" target="_blank">Tweeter</a>
 				</div>
