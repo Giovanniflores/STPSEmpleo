@@ -594,7 +594,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">624 1437849</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+526241437849" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 624 1437849</span></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">624 1437849</span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -713,7 +713,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (612) 1523185</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+526121523185" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (612) 1523185</span></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(612) 1523185</span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -1079,7 +1079,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1088,7 +1088,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						          01 (844) 412-56-76, 410-52-49<br />
+						          01 (844) 410-52-49<br />
                                                           410-33-62, 412-03-25 <br />
                                                           414-21-00 y 412-66-02<br />
                                                          </p>
@@ -1120,7 +1120,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9:00 a 14:00 hrs.</p>	
+ 								 L a V de 9:00 a 16:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1159,7 +1159,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1199,7 +1199,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1212,7 +1212,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:seecoah_admvo@stps.gob.mx">seecoah_admvo@stps.gob.mx</a><br /></p>
+						    <a href="mailto:seepiedras_tecnica@stps.gob.mx">seepiedras_tecnica@stps.gob.mx</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1238,11 +1238,11 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Diana Guadalupe Haro Martínez</p>
+							    Mario Enrique Garibay Calderón</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -1251,7 +1251,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:ieesabinas@hotmail.com">ieesabinas@hotmail.com</a><br /></p>
+						    <a href="mailto:snesabinas@gmail.com">snesabinas@gmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1277,22 +1277,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lorena Fernández Salas</p>
+							    Oscar Gabriel Parra Vazquez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						          01 (844) 410-34-22, 410-34-50 <br />
-                                                          412-71-88, 412-89-85 y 412-96-56
+                                                          412-71-88, 414 2837 y 412-96-56
                                                          </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uccoah_contraloria1@stps.gob.mx">uccoah_contraloria1@stps.gob.mx</a><br /></p>
+						    <a href="mailto:seecoah_vinculacionempleo@stps.gob.mx">seecoah_vinculacionempleo@stps.gob.mx</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1318,7 +1318,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 13 hrs.</p>	
+ 								 L a V de 9 a 16 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -5181,7 +5181,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 14 hrs.</p>	
+ 								 L a V de 8 a 17 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -5192,9 +5192,18 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (81) 20332405</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528120332405" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 20332405</span></span></span></span><br>
-    						<span class="skype_c2c_print_container notranslate">01 (81) 22220214</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528122220214" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 22220214</span></span></span></span> <br>
-    						<span><span class="skype_c2c_print_container notranslate">01 (81) 22220215</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528122220215" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 22220215</span></span></span></span></span></p>						    
+						    <!--<span class="skype_c2c_print_container notranslate">01 (81) 20332405</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528120332405" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 20332405</span></span></span></span><br>-->
+    						<!--<span class="skype_c2c_print_container notranslate">01 (81) 22220214</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528122220214" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 22220214</span></span></span></span> <br>-->
+    						<!--<span><span class="skype_c2c_print_container notranslate">01 (81) 22220215</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528122220215" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (81) 22220215</span></span></span></span></span></p>-->    						
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330016 </span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330017 </span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330018</span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330019</span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330020</span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330021</span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330022</span></span></span></span></span>
+    						<span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="#" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">(81) 20330023</span></span></span></span></span>
+    						</p>						    
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -5223,12 +5232,12 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 14 hrs.</p>	
+ 								 L a V de 8 a 17 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. Julio Solís<br />
-							    Jefe de Oficina</p>
+							    Lic. Maira Estrada <br />
+							    Jefa de Oficina</p>
 							    
 						</div>
 						<div class="clearfix"></div>
@@ -5239,7 +5248,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:julio.solis@nuevoleon.gob.mx">julio.solis@nuevoleon.gob.mx</a></p>  
+						  <a href="mailto:concertador.empresas@nuevoleon.gob.mx">concertador.empresas@nuevoleon.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
@@ -5264,11 +5273,11 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 14 hrs.</p>	
+ 								 L a V de 8 a 17 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							   Lic. Rufino Santiago<br />
+							   Lic. Juan Antonio Flores<br />
 							    Jefe de Oficina</p>
 							    
 						</div>
@@ -5283,7 +5292,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:rufino.santiago@nuevoleon.gob.mx">rufino.santiago@nuevoleon.gob.mx</a></p>  
+						  <a href="mailto:concertador.empresar@nuevoleon.gob.mx">concertador.empresar@nuevoleon.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
@@ -5308,7 +5317,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 14 hrs.</p>	
+ 								 L a V de 8 a 17 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -5421,7 +5430,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Av. Arturo B. De La Garza No. 1315 <abbr>Nte 3er. Piso Fracc. Villareal, </abbr><abbr title="C&oacute;digo Postal">C.P.</abbr> 66427.</p>
+							Av. Sendero Divisorio con,<abbr>Del Mirador S/N, Colonia: El Mirador San Nicolás de los Garza, N.L.</abbr><abbr title="C&oacute;digo Postal">C.P.</abbr>66422.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -5430,11 +5439,11 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 14 hrs.</p>	
+ 								 L a V de 8 a 17 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. Arturo García<br />
+							    Lic. Johanna Itzel Soto<br />
 							    Jefe de Oficina</p>
 							    
 						</div>
@@ -5446,8 +5455,8 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:uongarza_director@stps.gob.mx">espacio.laboral@yahoo.com</a><br>
-						  <a href="mailto:arturogarcia70@hotmail.com">arturogarcia70@hotmail.com</a></p>  
+						  <a href="mailto:itzel.soto@outlook.com">itzel.soto@outlook.com</a><br>
+						  <!--<a href="mailto:arturogarcia70@hotmail.com">arturogarcia70@hotmail.com</a></p> -->  
 						</div>
 					</div>
 				</div>
