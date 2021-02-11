@@ -2873,8 +2873,8 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Lic. Alberto Terrones B. No. 107, <abbr title="Colonia">Col. </abbr>Victoria de Durango Centro,
-    <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
+							Lic. Alberto Terrones B. No. 107,Zona Centro
+   							 <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -2887,7 +2887,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Ing. Gerardo Alvarado Solórsano</p>
+							    Ing. Luis Carlos Alarcón Jáquez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -2896,12 +2896,14 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-							<a href="mailto:gerardo.alvarados@durango.gob.mx">gerardo.alvarados@durango.gob.mx</a>
+							<a href="mailto:luiscarlos.alarcon@durango.gob.mx">luiscarlos.alarcon@durango.gob.mx</a>
 						  <br /></p>
 						</div>
 					</div>
 				</div>
 			</div><!-- end panel -->
+			
+			
 			
 			<div class="page-header filtro durango">
 		        <h4><small>Gómez Palacio</small></h4>
@@ -2930,26 +2932,65 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Alejandra Vázquez Hidalgo</p>
+							    Lic. Leticia Guadalupe González Mijares</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (871) 71 52 123</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528717152123" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(871) 71 52 123</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528717152123" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:ale_vazhi@hotmail.com">ale_vazhi@hotmail.com</a><br /></p>
+						    <a href="mailto:javier_lety@hotmail.com">javier_lety@hotmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
 			</div><!-- end panel -->
 			
-			<div class="page-header filtro durango">
-		        <h4><small>Lerdo</small></h4>
-			</div>
+			
 			
 			<div class="panel panel-default filtro durango">
+				<div class="panel-heading">Unidad Central</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6">
+							<p><strong>Domicilio</strong><br />
+							Lic. Alberto Terrones B. No. 107,Zona Centro
+   							 <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
+						</div>
+						<div class="col-sm-6">
+							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
+							    Durango, Durango.</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Horarios de atenci&oacute;n</strong><br />
+ 								 L a V de 8:00 a 16:00 hrs.</p>	
+						</div>
+						<div class="col-sm-6">
+							 <p><strong>Responsable</strong><br />
+							    C.P. Sonia de los Reyes Cisneros</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
+						    <span class="skype_c2c_print_container notranslate">(618) 810 24 96 </span></p>
+						</div>
+						<div class="col-sm-6">
+							<p><strong>Correo electr&oacute;nico</strong><br />
+							<a href="mailto:sonia_23@hotmail.com">sonia_23@hotmail.com</a>
+						  <br /></p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end panel -->
+			
+			
+			<!-- <div class="page-header filtro durango">
+		        <h4><small>Lerdo</small></h4>
+			</div> -->
+			
+			<!-- <div class="panel panel-default filtro durango">
 				<div class="panel-heading">Módulo</div>
 				<div class="panel-body">
 					<div class="row">
@@ -2982,7 +3023,7 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- end panel -->
+			</div> --><!-- end panel -->
 			
 			<div class="page-header filtro guanajuato">
 		        <h4>Entidad - <small>Guanajuato</small></h4>
@@ -6097,11 +6138,11 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Calle Vicente Guerrero No. 4<abbr> </abbr><abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 76300.</p>
+							Calle Mariano Matamoros Núm. 45, <abbr> </abbr><abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr>76340 .</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Jalpan de Sierra, Querétaro.</p>
+							    Jalpan de Serra, Querétaro.</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
