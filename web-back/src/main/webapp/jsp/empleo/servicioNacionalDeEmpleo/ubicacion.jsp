@@ -594,7 +594,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">624 1437849</span></p>
+						    <span class="skype_c2c_print_container notranslate">624 1437849</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+526241437849" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 624 1437849</span></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -713,7 +713,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">(612) 1523185</span></p>
+						    <span class="skype_c2c_print_container notranslate">01 (612) 1523185</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+526121523185" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span">01 (612) 1523185</span></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -1079,7 +1079,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1088,7 +1088,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						          01 (844) 410-52-49<br />
+						          01 (844) 412-56-76, 410-52-49<br />
                                                           410-33-62, 412-03-25 <br />
                                                           414-21-00 y 412-66-02<br />
                                                          </p>
@@ -1120,7 +1120,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9:00 a 16:00 hrs.</p>	
+ 								 L a V de 9:00 a 14:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1159,7 +1159,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1199,7 +1199,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1212,7 +1212,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:seepiedras_tecnica@stps.gob.mx">seepiedras_tecnica@stps.gob.mx</a><br /></p>
+						    <a href="mailto:seecoah_admvo@stps.gob.mx">seecoah_admvo@stps.gob.mx</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1238,11 +1238,11 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Mario Enrique Garibay Calderón</p>
+							    Diana Guadalupe Haro Martínez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -1251,7 +1251,7 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:snesabinas@gmail.com">snesabinas@gmail.com</a><br /></p>
+						    <a href="mailto:ieesabinas@hotmail.com">ieesabinas@hotmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1277,22 +1277,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Oscar Gabriel Parra Vazquez</p>
+							    Lorena Fernández Salas</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						          01 (844) 410-34-22, 410-34-50 <br />
-                                                          412-71-88, 414 2837 y 412-96-56
+                                                          412-71-88, 412-89-85 y 412-96-56
                                                          </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:seecoah_vinculacionempleo@stps.gob.mx">seecoah_vinculacionempleo@stps.gob.mx</a><br /></p>
+						    <a href="mailto:uccoah_contraloria1@stps.gob.mx">uccoah_contraloria1@stps.gob.mx</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -1318,7 +1318,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 9 a 16 hrs.</p>	
+ 								 L a V de 9 a 13 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2103,20 +2103,18 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.				 
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							Lic. Angélica María Rebollo Quintana</br>
+							 Maestra Adela Ruíz Belenguer</br>
 							 Subdirectora de Normatividad y Coordinación Operativa</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						         555709 3233<br /> 
-							Ext. 3042 
+							Ext. 3041 
 							    <br />
 							</p>
                                                 </div>
@@ -2124,52 +2122,6 @@
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:atencion.ciudadana.uc@gmail.com">atencion.ciudadana.uc@gmail.com</a>
 						<br /></p>
-						</div>
-					</div>
-				</div>
-			</div><!-- end panel -->
-			
-			<div class="page-header filtro ciudaddemexico">
-		        <h4><small>Dirección General de Empleo</small></h4>
-		        </div>
-			
-			<div class="panel panel-default filtro ciudaddemexico">
-				<div class="panel-heading"></div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-sm-6">
-							<p><strong>Domicilio</strong><br />
-							Calz. San Antonio Abad No. 32, <abbr title="Colonia">Col. </abbr>Tr&aacute;nsito, Deleg. Cuauhtémoc,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 06820.
-    						</span></span></p>	
-    					</div>
-					<!---<div class="col-sm-6">
-							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Cuauhtémoc, Ciudad de México</p> 
-						</div>--->
-						<div class="clearfix"></div>
-						<div class="col-sm-6">
-							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 						     </p>	
-						</div>
-						<div class="col-sm-6">
-							 <p><strong>Responsable</strong><br />
-							Lic. Oscar Hugo Ortíz Milán<br />
-							 Director General de Empleo</p>
-						</div>
-						<div class="clearfix"></div>
-						<div class="col-sm-6">
-							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						       555709 3233  <br />
-                                Ext. 3001
-                            </p>
-						</div>
-						<div class="col-sm-6">
-							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:hortizm@cdmx.gob.mx">hortizm@cdmx.gob.mx</a>
-							<a href="mailto:dge.styfe@gmail.com">dge.styfe@gmail.com</a>
-							</p>
 						</div>
 					</div>
 				</div>
@@ -2195,23 +2147,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								L a J de 9:00 a 18:00 hrs.<br/>
- 								Viernes de 9:00 a 15:00 hrs.	 
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Lic. Rubén Hernández Estrada<br />
-								 Coordinador Regional del Servicio de Empleo en Álvaro Obregón</p>
+							 Coordinador Regional del Servicio de Empleo en Álvaro Obregón</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    55 7196 3260(WhatsApp)
+						    555276 6885
+							5552766886
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uoseaob@gmail.com">uoseaob@gmail.com</a><br /></p>
+						    <a href="mailto:kimbapancracia@gmail.com">kimbapancracia@gmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -2236,25 +2187,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Ana María Mejía Cordero<br />
+							 Ana María Mejia Cordero<br />
 							 Coordinadora Regional del Servicio de Empleo en Azcapotzalco</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    55 3057 1881 (WhatsApp)<br />
+						    555341 0953<br />
 						 
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						   
-						    <a href="mailto:uoseazc.vl@gmail.com">uoseazc.vl@gmail.com</a><br /></p>
+						    <a href="mailto:sneazcapotzalco@gmail.com">sneazcapotzalco@gmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
@@ -2279,26 +2228,24 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								L a J de 9:00 a 18:00 hrs.<br/>
- 								Viernes de 9:00 a 15:00 hrs.	 
- 							 </p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Ariadna Tatiana Serrano Díaz<br />
-							 Coordinadora Regional del Servicio de Empleo en Benito Juárez
-							 </p>
+							 Lic. Christian Vallarta González<br />
+							 Coordionador Regional del Servicio de Empleo en Benito Juárez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    	56 2392 1529 (WhatsApp)
+						    555604 5737 <br />
+							555605 7111<br />
 							</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						    
-						    <a href="mailto:sejuarez@stps.gob.mx">uosebju.vl@gmail.com</a>
-							<!--<a href="mailto:uosebju.cr@gmail.com">uosebju.cr@gmail.com</a> -->							
+						    <a href="mailto:sejuarez@stps.gob.mx">sejuarez@stps.gob.mx</a><br />
+							<a href="mailto:uosebju.cr@gmail.com">uosebju.cr@gmail.com</a>							
 							</p>
 						</div>
 					</div>
@@ -2324,27 +2271,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								L a J de 9:00 a 18:00 hrs.<br/>
- 								Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- María Dolores Gutiérrez Chávez<br /> -->
 							Lic. Juan Manuel de Jesús Muñetón Vargas<br />
-							Coordinador Regional del Servicio de Empleo en Coyoacán</p>
+							Coordionador Regional del Servicio de Empleo en Coyoacán</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						   		55 2271 4920 (WhatsApp)
-							</p>
+						    555619 2852<br />
+							555604 5737<br /></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uosecoy.vl@gmail.com">uosecoy.vl@gmail.com</a><br />
-						    <!-- <a href="mailto:vinculacion.coyoacan@hotmail.com">vinculacion.coyoacan@hotmail.com</a><br />
-							<a href="mailto:juanmmuneton@hotmail.com">juanmmuneton@hotmail.com</a>-->
+						    <a href="mailto:e.udse.coyoacan@gmail.com">e.udse.coyoacan@gmail.com</a><br />
+						    <a href="mailto:vinculacion.coyoacan@hotmail.com">vinculacion.coyoacan@hotmail.com</a><br />
+							<a href="mailto:juanmmuneton@hotmail.com">juanmmuneton@hotmail.com</a>
 							</p>
 						</div>
 					</div>
@@ -2361,7 +2306,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Av. Veracruz No. 133, <abbr title="Colonia">Col. </abbr>Cuajimalpa,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 5000, Ciudad de M&eacute;xico</p>
+							Av. Veracruz No. 121, <abbr title="Colonia">Col. </abbr>Cuajimalpa,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 5000, Ciudad de M&eacute;xico</p>
     						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -2370,9 +2315,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2382,14 +2325,13 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						      555812 2688 (Teléfono fijo)<br />
-						      55 2725 3197 (WhatsApp)
-						      </p>
+						    553000 2100 Ext. 1750 y 1741<br />
+							555812 2688<br /></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:secuaji.vl@gmail.com">secuaji.vl@gmail.com</a><br />
-							<!--<a href="mailto:secuaji.coord@gmail.com">secuaji.coord@gmail.com</a> -->
+						    <a href="mailto:secuaji@stps.gob.mx">secuaji@stps.gob.mx</a><br />
+							<a href="mailto:secuaji.coord@gmail.com">secuaji.coord@gmail.com</a>
 						     </p>
 						</div>
 					</div>
@@ -2420,28 +2362,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- Lic. Miguel Ángel Bermudez Olguin<br /> -->
-							 Lic.Beatriz Guadalupe Picazo Peche<br /> 
+							 Beatriz Guadalupe Picazo Peche<br /> 
 					Coordinadora Regional del Servicio de Empleo en Cuauhtémoc</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    55 2709 7654 
-							55 2529 3194 (WhatsApp)
+						    555038 0200 Ext. 3045
 						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 							<a href="mailto:uosecuauhtemoc@gmail.com">uosecuauhtemoc@gmail.com</a><br/>
-						    <!-- <a href="mailto:c.udse.cuauh@gmail.com">c.udse.cuauh@gmail.com</a><br/>
-						     <a href="mailto:setemoc@stps.gob.mx">setemoc@stps.gob.mx</a></p> -->
+						    <a href="mailto:c.udse.cuauh@gmail.com">c.udse.cuauh@gmail.com</a><br/>
+						     <a href="mailto:setemoc@stps.gob.mx">setemoc@stps.gob.mx</a></p>
 						</div>
 					</div>
 				</div>
@@ -2466,25 +2405,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								L a J de 9:00 a 18:00 hrs.<br/>
- 								Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Ing. Eliseo Lorenzo Rodríguez<br />
+							 Lic. Eliseo Lorenzo Rodríguez<br />
 							 Coordinador Regional del Servicio de Empleo en Gustavo A. Madero</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-							55 2225 3342  <br />
-						    55 5750 2954 (WhatsApp)</p>
+							5555 9164 9670  <br />
+						    55767 114 0364</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						   		 <a href="mailto:uosegamvin@gmail.com">uosegamvin@gmail.com</a>
-								 <!--<a href="mailto:uose.gamcor@gmail.com">uose.gamcor@gmail.com</a> -->
+						   		 <a href="mailto:semadero@stps.gob.mx">semadero@stps.gob.mx</a>
+								 <a href="mailto:uose.gamcor@gmail.com">uose.gamcor@gmail.com</a>
 						    </p>
 						</div>
 					</div>
@@ -2510,25 +2447,24 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 						     </p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 C.Martha Patricia Elvira Mora<br />
+							 Martha Patricia Elvira Mora<br />
 							 Coordinadora Regional del Servicio de Empleo en Iztacalco</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    	55 2782 1237 (WhatsApp)
+						    555654 7055<br />
+						    553182 2512
 						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uose.iztacalco.vinculacion@gmail.com">uose.iztacalco.vinculacion@gmail.com</a>
-							<!--<a href="mailto:uose.iztacalco@hotmail.com">uose.iztacalco@hotmail.com</a> -->							
+						    <a href="mailto:patyelvira@hotmail.com">patyelvira@hotmail.com</a>
+							<a href="mailto:uose.iztacalco@hotmail.com">uose.iztacalco@hotmail.com</a>							
 							</p>
 						</div>
 					</div>
@@ -2555,26 +2491,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							 </p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic.Hugo Rodríguez de la Rosa<br />
+							 Hugo Rodríguez de la Rosa<br />
 							 Coordinador Regional del Servicio de Empleo en Iztapalapa</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-								55 2219 7280 (WhatsApp)<br/>
-								55 2636 0011 (Teléfono fijo)
+								555595 8208
 						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:seuoseiztapalapa@gmail.com">seuoseiztapalapa@gmail.com</a><br />
-						    <a href="mailto:uoseizp.vl@gmail.com">uoseizp.vl@gmail.com</a></p>
+						    <a href="mailto:u.o.empleoiztapalapa@gmail.com">u.o.empleoiztapalapa@gmail.com</a><br />
+						    <a href="mailto:seiztapalapa@stps.gob.mx">seiztapalapa@stps.gob.mx</a></p>
 						</div>
 					</div>
 				</div>
@@ -2599,9 +2532,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2613,13 +2544,13 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-								55 1196 9297 (teléfono fijo)						    
-						    </p>
+						    551520 0795<br />
+						    553574 4247</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						   <a href="mailto:consejeriarh.ursemco@gmail.com">consejeriarh.ursemco@gmail.com</a><br />
-						   <!--<a href="mailto:uose.magdalenacontreras@gmail.com">uose.magdalenacontreras@gmail.com</a></p> -->
+						   <a href="secretariamco@hotmail.com">secretariamco@hotmail.com</a><br />
+						   <a href="mailto:uose.magdalenacontreras@gmail.com">uose.magdalenacontreras@gmail.com</a></p>
 						 </p>
 						</div>
 					</div>
@@ -2648,27 +2579,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 	Lic. Zury Sarahi Rodriguez Silva
 							 <br />
 							 Coordinador Regional del Servicio de Empleo en Miguel Hidalgo</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-							    55 9164 9670 <br />
-							    55 7717 4203 (WhatsApp)
-							 </p>
+						    555271 4713<br />
+						    555386 8476</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <!--<a href="mailto:semiguel@stps.gob.mx">semiguel@stps.gob.mx</a><br /> -->
-							<a href="mailto:caasmhi@gmail.com">caasmhi@gmail.com</a><br />
+							<a href="mailto:uosemh@gmail.com">uosemh@gmail.com</a><br />
 						    <!--<a href="mailto:miguelclaro1@hotmail.com">miguelclaro1@hotmail.com</a> -->
 						    </p>
 						</div>
@@ -2676,6 +2603,50 @@
 				</div>
 			</div><!-- end panel -->
 			
+			<div class="page-header filtro ciudaddemexico">
+		        <h4><small>Dirección General de Empleo</small></h4>
+		        </div>
+			
+			<div class="panel panel-default filtro ciudaddemexico">
+				<div class="panel-heading"></div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6">
+							<p><strong>Domicilio</strong><br />
+							Calz. San Antonio Abad No. 32, <abbr title="Colonia">Col. </abbr>Tr&aacute;nsito, Deleg. Cuauhtémoc,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 06820.
+    </span></span></p>	</div>
+					<!---<div class="col-sm-6">
+							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
+							    Cuauhtémoc, Ciudad de México</p> 
+							   
+							     
+						</div>--->
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Horarios de atenci&oacute;n</strong><br />
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
+						</div>
+						<div class="col-sm-6">
+							 <p><strong>Responsable</strong><br />
+							Lic. Oscar Hugo Ortíz Milán<br />
+							 Director General de Empleo</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
+						       555709 3233  <br />
+                                Ext. 3001
+                            </p>
+						</div>
+						<div class="col-sm-6">
+							<p><strong>Correo electr&oacute;nico</strong><br />
+						    <a href="mailto:hortizm@cdmx.gob.mx">hortizm@cdmx.gob.mx</a>
+							<a href="mailto:dge.styfe@gmail.com">dge.styfe@gmail.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end panel -->
 			
 			<div class="page-header filtro ciudaddemexico">
 		        <h4><small>Milpa Alta</small></h4>
@@ -2696,26 +2667,24 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 C. Luis Pérez<br />
+							 Lic. Luis Pérez<br />
 							 Coordinador Regional del Servicio de Empleo en Milpa Alta</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    	55 5949 1816 (teléfono fijo)
-						     </p>
+						    558891 2525<br />
+						    555862 3150 Ext. 1009</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
 						    <a href="mailto:uosemal.coord@gmail.com">uosemal.coord@gmail.com</a><br />
-						    <!-- <a href="mailto:semilpa@stps.gob.mx">semilpa@stps.gob.mx</a>
-							<a href="mailto:09perezlu@gmail.com">09perezlu@gmail.com</a> -->
+						    <a href="mailto:semilpa@stps.gob.mx">semilpa@stps.gob.mx</a>
+							<a href="mailto:09perezlu@gmail.com">09perezlu@gmail.com</a>
 							</p>
 						</div>
 					</div>
@@ -2742,27 +2711,25 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 <!-- Lic. Irma Aguayo Rendón<br /> -->
-							 T.S.Sandra Bocardo Esparza<br /> 
+							 Sandra Bocardo Esparza<br /> 
 							 Coordinadora Regional del Servicio de Empleo en Tláhuac</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-								55 4544 9707 (Whatsapp)
-								55 5842 6123, 55 58421731 y 55 2161 6535 (teléfono fijo)							 
-							 </p>
+						    553000 2100 Ext. 1810, 1811<br />
+						    555842 6123<br />
+						    555842 1731</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						   
 						    <a href="mailto:uose.tlh@gmail.com">uose.tlh@gmail.com</a><br />
-						    <a href="mailto:uose.tlh.vl@gmail.com ">uose.tlh.vl@gmail.com </a>
+						    <a href="mailto:boesbuc785@gmail.com">boesbuc785@gmail.com</a>
 						    </p>
 						</div>
 					</div>
@@ -2788,9 +2755,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							 </p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2800,14 +2765,15 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-							 	56 1841 7188  
-						    </p>
+						    553000 2100 Ext. 1820, 1821<br />
+						    555528 5502<br />
+						    555665 5712</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uose.tlalpan@gmail.com">uose.tlalpan@gmail.com</a><br />
-						    <!-- <a href="mailto:setlalpan@stps.gob.mx">setlalpan@stps.gob.mx</a>
-							<a href="mailto:uose.tlanpan@gmail.com">uose.tlanpan@gmail.com</a></p> -->
+						    <a href="mailto:udse.tlalpan@gmail.com">udse.tlalpan@gmail.com</a><br />
+						    <a href="mailto:setlalpan@stps.gob.mx">setlalpan@stps.gob.mx</a>
+							<a href="mailto:uose.tlanpan@gmail.com">uose.tlanpan@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -2832,25 +2798,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
-							 	L a J de 9:00 a 18:00 hrs.<br/>
- 								Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Laura Evangelista Cortés<br />
-							 Coordinadora Regional del Servicio de Empleo en Venustiano Carranza</p>
+							 Lic. Laura María Evangelista Cortés<br />
+							 Coordinador Regional del Servicio de Empleo en Venustiano Carranza</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-							 	55 2702 6809 (WhatsApp)<br/>
-								55 9170 0269 (WhatsApp)
-						     </p>
+						    <span class="skype_c2c_print_container notranslate">55 57686450</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+525557686450" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /><span class="skype_c2c_text_span"></span></span></span></span></p>
+						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:uosevca.vl@gmail.com">uosevca.vl@gmail.com</a><br />
-						    <!-- <a href="mailto:uosevca.coord@gmail.com">uosevca.coord@gmail.com</a></p> -->
+						    <a href="mailto:sevenus@stps.gob.mx">sevenus@stps.gob.mx</a><br />
+						    <a href="mailto:uosevca.coord@gmail.com">uosevca.coord@gmail.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -2875,9 +2838,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a J de 9:00 a 18:00 hrs.<br/>
- 								 Viernes de 9:00 a 15:00 hrs.
- 							</p>	
+ 								 L a V de 9:00 a 15:00 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -2887,13 +2848,14 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    	55 4089 7514 (WhatsApp)<br/>
-								55 8848 4102 y 55 7261 8515 (teléfono fijo)
-						    </p>
+						    553000 2100 Ext. 1840, 1841<br />
+						    555676 0465<br />
+						    555641 7065</p>
+						    555641 7065</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />						    
-						    <!--<a href="mailto:semilco@stps.gob.mx">semilco@stps.gob.mx</a><br /> -->
+						    <a href="mailto:semilco@stps.gob.mx">semilco@stps.gob.mx</a><br />
 						    <a href="mailto:unidad.xoch@gmail.com">unidad.xoch@gmail.com</a>
 						    </p>
 						</div>
@@ -2911,8 +2873,8 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Lic. Alberto Terrones B. No. 107,Zona Centro
-   							 <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
+							Lic. Alberto Terrones B. No. 107, <abbr title="Colonia">Col. </abbr>Victoria de Durango Centro,
+    <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -2925,7 +2887,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Ing. Luis Carlos Alarcón Jáquez</p>
+							    Ing. Gerardo Alvarado Solórsano</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -2934,14 +2896,12 @@
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-							<a href="mailto:luiscarlos.alarcon@durango.gob.mx">luiscarlos.alarcon@durango.gob.mx</a>
+							<a href="mailto:gerardo.alvarados@durango.gob.mx">gerardo.alvarados@durango.gob.mx</a>
 						  <br /></p>
 						</div>
 					</div>
 				</div>
 			</div><!-- end panel -->
-			
-			
 			
 			<div class="page-header filtro durango">
 		        <h4><small>Gómez Palacio</small></h4>
@@ -2970,65 +2930,26 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. Leticia Guadalupe González Mijares</p>
+							    Alejandra Vázquez Hidalgo</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">(871) 71 52 123</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528717152123" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">01 (871) 71 52 123</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+528717152123" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:javier_lety@hotmail.com">javier_lety@hotmail.com</a><br /></p>
+						    <a href="mailto:ale_vazhi@hotmail.com">ale_vazhi@hotmail.com</a><br /></p>
 						</div>
 					</div>
 				</div>
 			</div><!-- end panel -->
 			
-			
+			<div class="page-header filtro durango">
+		        <h4><small>Lerdo</small></h4>
+			</div>
 			
 			<div class="panel panel-default filtro durango">
-				<div class="panel-heading">Unidad Central</div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-sm-6">
-							<p><strong>Domicilio</strong><br />
-							Lic. Alberto Terrones B. No. 107,Zona Centro
-   							 <abbr title="C&oacute;digo Postal">C.P.</abbr> 34000.</p>
-						</div>
-						<div class="col-sm-6">
-							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Durango, Durango.</p>
-						</div>
-						<div class="clearfix"></div>
-						<div class="col-sm-6">
-							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8:00 a 16:00 hrs.</p>	
-						</div>
-						<div class="col-sm-6">
-							 <p><strong>Responsable</strong><br />
-							    C.P. Sonia de los Reyes Cisneros</p>
-						</div>
-						<div class="clearfix"></div>
-						<div class="col-sm-6">
-							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">(618) 810 24 96 </span></p>
-						</div>
-						<div class="col-sm-6">
-							<p><strong>Correo electr&oacute;nico</strong><br />
-							<a href="mailto:sonia_23@hotmail.com">sonia_23@hotmail.com</a>
-						  <br /></p>
-						</div>
-					</div>
-				</div>
-			</div><!-- end panel -->
-			
-			
-			<!-- <div class="page-header filtro durango">
-		        <h4><small>Lerdo</small></h4>
-			</div> -->
-			
-			<!-- <div class="panel panel-default filtro durango">
 				<div class="panel-heading">Módulo</div>
 				<div class="panel-body">
 					<div class="row">
@@ -3061,7 +2982,7 @@
 						</div>
 					</div>
 				</div>
-			</div> --><!-- end panel -->
+			</div><!-- end panel -->
 			
 			<div class="page-header filtro guanajuato">
 		        <h4>Entidad - <small>Guanajuato</small></h4>
@@ -6176,11 +6097,11 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Calle Mariano Matamoros Núm. 45, <abbr> </abbr><abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr>76340 .</p>
+							Calle Vicente Guerrero No. 4<abbr> </abbr><abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 76300.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Jalpan de Serra, Querétaro.</p>
+							    Jalpan de Sierra, Querétaro.</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
