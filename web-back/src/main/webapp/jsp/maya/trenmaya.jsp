@@ -303,11 +303,11 @@
 				<th>ver oferta</th>
 			</thead>
 			<tbody>
-				<tr>
+				 <tr>
 					<td>Ayudante General</td>
 					<td>$6,800.00</td>
-					<td>03/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4432632-oferta-de-empleo-de-ayudante-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
+					<td>26/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4446909-oferta-de-empleo-de-ayudante-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
 					<td>Operador de pipa diesel</td>
@@ -315,30 +315,30 @@
 					<td>03/02/2021</td>
 					<td><a href="https://www.empleo.gob.mx/4435563-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>
-				<!--<tr>
+				<tr>
 					<td>Medico ocupacional</td>
-					<td> $19,689.00</td>
-					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411539-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
-				</tr> -->
-				<!--<tr>
-					<td>Paramedico</td>
-					<td> $12,683.00</td>
-					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411547-oferta-de-empleo-de-paramedico-servicios-tecnicos-y-administrativo" target="_blank">Ver oferta</a></td>
-				</tr> -->
-				<!--<tr>
-					<td>Operador de maquinaria</td>
-					<td> $11,791.00</td>
-					<td>21/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4405381-oferta-de-empleo-de-operador-maquinaria-consorcio-lamat-tramo-1-sa" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
-					<td>Técnico estimaciones obra</td>
-					<td> $23,595.00</td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387584-oferta-de-empleo-de-tecnico-estimaciones-obra" target="_blank">Ver oferta</a></td>
-				</tr>-->
+					<td> $18,000.00</td>
+					<td>26/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4446547-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Supervisor de seguridad laboral acsma</td>
+					<td> $22,798.00</td>
+					<td>26/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4445108-oferta-de-empleo-de-supervisor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Instructor de seguridad laboral acsma</td>
+					<td> $16,000.00</td>
+					<td>26/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4445182-oferta-de-empleo-de-instructor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Consultor sap</td>
+					<td> $42,000.00</td>
+					<td>26/02/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4448504-oferta-de-empleo-de-consultor-sap-fondo-nacional-fomento-al-turism" target="_blank">Ver oferta</a></td>
+				</tr>
 				<!--<tr>
 					<td>Técnico Topográfía</td>
 					<td> $23,595.00 </td>
