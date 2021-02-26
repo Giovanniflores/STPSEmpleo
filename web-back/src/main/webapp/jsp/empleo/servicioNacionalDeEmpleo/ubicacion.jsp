@@ -5104,7 +5104,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							  Lic. Abril Fernanada Dufor López</p>
+							  Lic. Abril Fernanda Dufor López</p>
 							    
 						</div>
 						<div class="clearfix"></div>
@@ -5120,6 +5120,50 @@
 					</div>
 				</div>
 			</div><!-- end panel -->
+			
+			<div class="page-header filtro nayarit">
+		        <h4><small>Mezcales, Bahía de Banderas </small></h4>
+			</div>
+			
+			<div class="panel panel-default filtro nayarit">
+				<div class="panel-heading">Unidad Regional</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-sm-6">
+							<p><strong>Domicilio</strong><br />
+							Carretera Federal 200 Tepic-Puerto Vallarta No. 256 Norte,<abbr title="Colonia">Col. </abbr> Las Parotas<abbr title="C&oacute;digo Postal">C.P.</abbr> 63735.</p>
+						</div>
+						<div class="col-sm-6">
+							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
+							    Mezcales, Bahía de Banderas, Nayarit.</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Horarios de atenci&oacute;n</strong><br />
+ 							 L a V de 8:00 a 16:00 hrs.</p>		
+						</div>
+						<div class="col-sm-6">
+							 <p><strong>Responsable</strong><br />
+							  L.A.E. Leonardo Cadena Sánchez</p>
+							    
+						</div>
+						<div class="clearfix"></div>
+						<div class="col-sm-6">
+							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
+						    (329) 6-88-59-66 (directo)<br /><br />
+						    </p>						    
+						</div>
+						<div class="col-sm-6">
+							<p><strong>Correo electr&oacute;nico</strong><br />
+						  		<a href="mailto:leonardocadena.sne@gmail.com">leonardocadena.sne@gmail.com</a>
+						  		<a href="mailto:snebadeba@gmail.com">snebadeba@gmail.com</a>
+						  	</p>  
+						</div>
+					</div>
+				</div>
+			</div><!-- end panel -->
+			
+			
 									
 			<div class="page-header filtro nuevoleon">
 		        <h4>Entidad - <small>Nuevo León</small></h4>
@@ -6138,7 +6182,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Calle Cristóbal Colón No. 191, entre Av. Héroes y Av. 16 de Septiembre,<abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 77000.</p>
+							Calle Cristóbal Colón No. 191 Planta Alta, entre Av. Héroes y Av. 16 de Septiembre,<abbr title="Colonia">Col. </abbr>Centro,<abbr title="C&oacute;digo Postal"> C.P.</abbr> 77000.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -6151,16 +6195,16 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							   L.C. Ricardo Chávez Bravo<br />
+							   Lic. David Ernesto Xec Beltrán <br />
 							   Coordinador General del Servicio Estatal del Empleo y Capacitación para el Trabajo de Quintana Roo</p>
 							    
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (983) 832-87-96</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529838324567" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
-						    01(983) 832-45-67<br />
-						   01 (983) 833-06-62<br />
+						    <span class="skype_c2c_print_container notranslate">(983) 832-87-96</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529838324567" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
+						    (983) 832-45-67<br />
+						    (983) 833-06-62<br />
 						   </p>
 						</div>
 						<div class="col-sm-6">
@@ -6194,15 +6238,15 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. David Ernesto Xec Beltrán <br />
-							    Coordinador de la Unidad Regional</p>
+							    Pendiente <br />
+							 </p>
 							    
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    01 (998) 8922094<br />
-						    <span class="skype_c2c_print_container notranslate">01 (988) 8980732</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529888980732" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br /></p>
+						    (998) 8922094<br />
+						    <span class="skype_c2c_print_container notranslate">(988) 8980732</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529888980732" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br /></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -6222,7 +6266,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br /> 
-							Calle Cristóbal Colón No. 191 entre Av. Heroes y Av. 16 de Septiembre,<abbr title="Colonia">Col. </abbr>Centro, <abbr title="C&oacute;digo Postal">C.P.</abbr> 77000.</p>
+							Calle Cristóbal Colón No. 191 Planta Baja entre Av. Heroes y Av. 16 de Septiembre,<abbr title="Colonia">Col. </abbr>Centro, <abbr title="C&oacute;digo Postal">C.P.</abbr> 77000.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -6242,9 +6286,9 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						         <span>01 (983) 832 45 67</span><br />
-                                                         <span>01 (983) 832 87 96</span><br />
-                                                         <span>01 (983) 833 06 62</span><br />
+						         <span>(983) 832 45 67</span><br />
+                                                         <span>(983) 832 87 96</span><br />
+                                                         <span>(983) 833 06 62</span><br />
                                                           </p>
 						</div>
 						<div class="col-sm-6">
@@ -6285,8 +6329,8 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    01 (984) 8732138<br />
-						    <span class="skype_c2c_print_container notranslate">01 (984) 8030060</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529848030060" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
+						     (984) 8732138<br />
+						    <span class="skype_c2c_print_container notranslate">(984) 8030060</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529848030060" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
    							</p>
 						</div>
 						<div class="col-sm-6">
