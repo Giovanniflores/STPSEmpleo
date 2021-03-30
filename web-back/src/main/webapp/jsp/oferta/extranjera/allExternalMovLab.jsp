@@ -330,7 +330,7 @@
 			            </c:if>
 			            <p>Publicación: <fmt:formatDate value="${ofertasCanal.fechaRegistro}" pattern="dd/MM/yyyy" /></br>
 			            	<fmt:setLocale value = "es_MX"/>
-			            	Sueldo Neto: <fmt:formatNumber value = "${ofertasCanal.salarioMensual}" type = "currency"/></p>         
+			            	Sueldo bruto: <fmt:formatNumber value = "${ofertasCanal.salarioMensual}" type = "currency"/></p>         
 			        	<a href=<c:url value = "${context}/ofertasExtranjeras.do?method=detailHome&id=${ofertasCanal.idOfertaExtranjera}&tl=${fn:replace(blanc,'/','')}&cy=${fn:replace(ofertasCanal.pais,' ','-')}"/>><span>ver oferta</span></a>
 			        </li>
 				</c:forEach>
