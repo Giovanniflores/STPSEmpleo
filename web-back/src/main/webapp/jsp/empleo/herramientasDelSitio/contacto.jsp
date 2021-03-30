@@ -51,10 +51,10 @@
 
 	            
 	            <h3>Subsecretaría de Empleo y Productividad Laboral</h3>
-	            <p>Av. Paseo de la reforma 93, piso 12, Col. Tabacalera.</p>
-	            <p>Delegación Cuauhtémoc.</p>
+	            <p>La Morena 804</p>
+	            <p>Colonia Narvarte Poniente</p>
 	            <p>Ciudad de México.</p>
-	            <p>C.P. 06030</p>
+	            <p>C.P.03020</p>
 	          
 	          
 	            <h3>Coordinación General del Servicio Nacional de Empleo</h3>
