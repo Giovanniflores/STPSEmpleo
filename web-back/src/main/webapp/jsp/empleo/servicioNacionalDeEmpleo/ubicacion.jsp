@@ -1370,7 +1370,7 @@
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						    (312) 316 20 00 </br>
-						    Ext. 2277</p>
+						    Ext. 26122</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -1478,7 +1478,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Calle 2&deg; Av. Sur y Calle Central s/n, 1er Piso, <abbr title="Colonia">Col.</abbr> Centro, <abbr title="C&oacute;digo Postal"> C.P.</abbr> 29000.</p>
+							Calle Central y Esquina 2° Av. Sur Poniente S/N, 1er Piso, <abbr title="Colonia">Col.</abbr> Centro, <abbr title="C&oacute;digo Postal"> C.P.</abbr> 29000.</p>
     						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -1487,7 +1487,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
@@ -1498,7 +1498,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (961)&nbsp; 6189440</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529616189440" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
+						    <span class="skype_c2c_print_container notranslate">(961)&nbsp; 6189440</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529616189440" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span><br />
     Ext. 63026</p>
 						</div>
 						<div class="col-sm-6">
@@ -1528,23 +1528,23 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							Lic. Mario Caralampio Hernández López<br/>
+							Vacante<br/>
 							Cargo<br/>
 							Delegado de la Unidad Regional</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (963) 6320082</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529636320082" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(963) 6320082</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529636320082" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:comitan@empleos.chiapas.gob.mx">comitan@empleos.chiapas.gob.mx</a><br/>
-						    <a href="mailto:mchernandez@empleos.chiapas.gob.mx">mchernandez@empleos.chiapas.gob.mx</a></p>
+						    <a href="mailto:vinculacionlaboral2019@gmail.com">vinculacionlaboral2019@gmail.com</a><br/>
+						    <!--<a href="mailto:mchernandez@empleos.chiapas.gob.mx">mchernandez@empleos.chiapas.gob.mx</a> --></p>
    
 						</div>
 					</div>
@@ -1570,28 +1570,28 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
 							 Lic. Ramiro Alberto Villegas López</br>
-							 Delegado de la Unidad Regional</p>
+							 Encargado Regional Palenque</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (916) 3451618</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529163451618" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(916) 3451618</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529163451618" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:rvillegas@empleos.chiapas.gob.mx">rvillegas@empleos.chiapas.gob.mx</a></p>
-    <p><span><a href="mailto:palenque@empleos.chiapas.gob.mx">palenque@empleos.chiapas.gob.mx</a></span></p>
+						    <a href="mailto:snepalenque@gmail.com ">snepalenque@gmail.com</a></p>
+    <p><span><a href="mailto:seeplq@hotmail.com">seeplq@hotmail.com</a></span></p>
 						</div>
 					</div>
 				</div>
 			</div><!-- end panel -->
 			
-			<div class="page-header filtro chiapas">
+			<!-- <div class="page-header filtro chiapas">
 		        <h4><small>Pichucalco</small></h4>
 		        </div>
 			
@@ -1629,7 +1629,7 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- end panel -->
+			</div> --><!-- end panel -->
 			
 			<div class="page-header filtro chiapas">
 		        <h4><small>San Cristóbal de las Casas</small></h4>
@@ -1650,22 +1650,24 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Profr. Nicolás Lorenzo Álvarez Martínez</br>
+							 Lic. José Luis López Sarmiento</br>
 							 Delegado de la Unidad Regional</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (967) 6780682</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(967) 6780682</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span>
+						    <span class="skype_c2c_print_container notranslate">961 330 7042</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span>
+						    </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-				              <p><span><a href="mailto:sancristobal@empleos.chiapas.gob.mx">sancristobal@empleos.chiapas.gob.mx</a></span></p>
-				               <p><span><a href="mailto:nalvarez@empleos.chiapas.gob.mx">nalvarez@empleos.chiapas.gob.mx</a></span></p>
+				              <p><span><a href="mailto:joses242011@hotmail.com">joses242011@hotmail.com</a></span></p>
+				               <p><span><a href="mailto:sne.ursclc@gmail.com">sne.ursclc@gmail.com</a></span></p>
 						</div>
 					</div>
 				</div>
@@ -1690,22 +1692,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Alejandro Gustavo Navarro Samayoa</br>
-							 Delegado de la Unidad Regional</p>
+							 Lic. Edgar Gonzalo Orozco Martínez</br>
+							 Coordinador Regional Tuxtla Gutiérrez</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (961) 611 43 76</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">(961) 121 4692</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:anavarro@empleos.chiapas.gob.mx">anavarro@empleos.chiapas.gob.mx</a></p>
-    <p><span><a href="mailto:tuxtla@empleos.chiapas.gob.mx">tuxtla@empleos.chiapas.gob.mx</a></span></p>
+						    <a href="mailto:eorozco@empleos.chiapas.gob.mx">eorozco@empleos.chiapas.gob.mx</a></p>
+    <p><span><a href="mailto:sne.urtgz@gmail.com">sne.urtgz@gmail.com</a></span></p>
 						</div>
 					</div>
 				</div>
@@ -1721,7 +1723,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							1era Av. Sur Prolongación Unidad Administrativa, Edif. B, Planta Baja, Col. <abbr title="Colonia">Las Palmas </abbr>, <br />C.P.</abbr> 30709.</p>
+							Boulevard Díaz Ordaz N° 11, Col. <abbr title="Colonia">Cedros Erika</abbr>, <br />C.P.</abbr> 30709.</p>
     						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -1730,22 +1732,22 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Horarios de atenci&oacute;n</strong><br />
- 								 L a V de 8 a 16 hrs.</p>	
+ 								 L a V de 9 a 15 hrs.</p>	
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 LIc. Luis Hipólito Cortes Magariño</br>
-							 Delegado de la Unidad Regional</p>
+							 Ing. Fernando del Castillo Lizárraga </br>
+							 Coordinador Regional Tapachula</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    <span class="skype_c2c_print_container notranslate">01 (962) 626 05 76 y 01 (962) 628 71 47</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
+						    <span class="skype_c2c_print_container notranslate">962 625 4496</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+529676780682" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						    <a href="mailto:lcortes@empleos.chiapas.gob.mx">lcortes@empleos.chiapas.gob.mx</a></p>
-    						<p><span><a href="mailto:tapachula@empleos.chiapas.gob.mx">tapachula@empleos.chiapas.gob.mx</a></span></p>
+						    <a href="mailto:oficinaenlacetapachula@gmail.com">oficinaenlacetapachula@gmail.com</a></p>
+    						<!--<p><span><a href="mailto:tapachula@empleos.chiapas.gob.mx">tapachula@empleos.chiapas.gob.mx</a></span></p> -->
 						</div>
 					</div>
 				</div>
@@ -1817,7 +1819,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							 Lic. Zazai Rubio Hernández</br>
+							 Lic. Zazil Rubio Hernández</br>
 							 Coordinador de la Unidad Regional</p>
 						</div>
 						<div class="clearfix"></div>
@@ -3367,7 +3369,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						    (747) 47 223 46
+						    (747) 47 16 213
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -3682,7 +3684,7 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						   01 (771) 71 78 000 <br />Ext. 2791</p>
+						   (771) 71 78 000 <br />Ext. 2791</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
@@ -3703,7 +3705,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Plaza del Nacionalismo S/N (Parque Infantil la Tortuga), <abbr title="Colonia">Col. </abbr> Centro, <span><abbr title="C&oacute;digo Postal">C.P.</abbr> 42800</span></p>
+							Plazuela de la Estación S/N, <abbr title="Colonia">Col. </abbr> Centro, <span><abbr title="C&oacute;digo Postal">C.P.</abbr> 42800</span></p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -3722,8 +3724,8 @@
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-						               <span>01 (773) 7320496</span><br />
-                                                               <span>01 (773) 1003399</span><br /> 
+						               <span>(773) 7320496</span><br />
+                                                               <span>(773) 1003399</span><br /> 
                                                           </p>
 						</div>
 						<div class="col-sm-6">
@@ -5058,7 +5060,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Avenida Emiliano Zapata  ,<abbr title="Colonia"> Col.</abbr>Benito Juárez<br />, Xochitepec, Morelos.</p>
+							Avenida Emiliano Zapata s/n,<abbr title="Colonia"> Col.</abbr>Benito Juárez<br />, Xochitepec, Morelos.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -5077,8 +5079,6 @@
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
-							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />N/D
-							 </p>
 						    <!-- <span class="skype_c2c_print_container notranslate">01 (734) 3440722</span><span data-ismobile="false" data-isrtl="false" data-isfreecall="false" data-numbertype="paid" data-numbertocall="+527343440722" onclick="SkypeClick2Call.MenuInjectionHandler.makeCall(this, event)" onmouseout="SkypeClick2Call.MenuInjectionHandler.hideMenu(this, event)" onmouseover="SkypeClick2Call.MenuInjectionHandler.showMenu(this, event)" tabindex="-1" dir="ltr" class="skype_c2c_container notranslate" id="skype_c2c_container"><span skypeaction="skype_dropdown" dir="ltr" class="skype_c2c_highlighting_inactive_common"><span id="non_free_num_ui" class="skype_c2c_textarea_span"><img width="0" height="0" src="resource://skype_ff_extension-at-jetpack/skype_ff_extension/data/call_skype_logo.png" class="skype_c2c_logo_img" alt="" /></span></span></span></p>-->
 						     <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
 						    	777 144 5304<br /><br />
@@ -5905,7 +5905,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Callej&oacute;n De La 10 Norte No. 806,Barrio El Alto, Paseo ,<abbr title="Colonia">Col. </abbr>San Francisco,
+							Callej&oacute;n De La 10 Norte No. 806,Barrio El Alto, Paseo ,San Francisco,
     <abbr title="C&oacute;digo Postal">C.P.</abbr> 72000.</p>
 						</div>
 						<div class="col-sm-6">
@@ -5936,7 +5936,7 @@
 				</div>
 			</div><!-- end panel -->
                         
-                        	<div class="panel panel-default filtro puebla">
+               <div class="panel panel-default filtro puebla">
 				<div class="panel-heading">Vinculación Laboral</div>
 				<div class="panel-body">
 					<div class="row">
@@ -6027,7 +6027,7 @@
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Teuzitl&aacute;nn, Puebla.</p>
+							    Teziutlan, Puebla.</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -7214,19 +7214,18 @@ L a v de 8 a 15 hrs.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. Lorenzo Guzmán Vázquez</p>
-							    
+							    Ing. Alfonso Mario Vidal Gordillo</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-    					                  01 (993) 312 3009 <br />
+    					                  (993) 312 3009 <br />
 							  Ext. 119<br />
                                                          </p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:lorenguzman39@gmail.com">lorenguzman39@gmail.com</a></p>  
+						  <a href="mailto:alfonsovidal@tabasco.gob.mx">alfonsovidal@tabasco.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
@@ -7242,7 +7241,7 @@ L a v de 8 a 15 hrs.</p>
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Av. Lázaro Cárdenas del Río S/N entre calle Manuel Leyva y Joaquín Cuevas, <abbr title="C&oacute;digo Postal">C.P.</abbr> 86500.</p>
+							Av. Lázaro Cárdenas del Río S/N,Col. Centro, <abbr title="C&oacute;digo Postal">C.P.</abbr> 86500.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
@@ -7255,17 +7254,17 @@ L a v de 8 a 15 hrs.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Gloria Maria Montejo Cano</p>
+							    Lic. Gloria Maria Montejo Cano</p>
 							    
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-    					    01 (937) 372 6995</p>
+    					   937 688 1617</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:montejocano@hotmail.com">montejocano@hotmail.com</a></p>  
+						  <a href="mailto:gloriamontejo@tabasco.gob.mx">gloriamontejo@tabasco.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
@@ -7297,17 +7296,17 @@ L a v de 8 a 15 hrs.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							    Lic. Roberto Castillo Díaz</p>
+							   Lic. Alejandra García Najera</p>
 							    
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-    					    01 (932) 322 2489</p>
+    					    (932) 322 2489</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:castillo.jr4@gmail.com">castillo.jr4@gmail.com</a></p>  
+						  <a href="mailto:alejandranajera@tabasco.gob.mx">alejandranajera@tabasco.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
@@ -7315,7 +7314,7 @@ L a v de 8 a 15 hrs.</p>
 			
 
 			<div class="page-header filtro tabasco">
-		        <h4><small>TENOSIQUE</small></h4>
+		        <h4><small>EMILIANO ZAPATA</small></h4>
 			</div>
 			
 			<div class="panel panel-default filtro tabasco">
@@ -7324,11 +7323,11 @@ L a v de 8 a 15 hrs.</p>
 					<div class="row">
 						<div class="col-sm-6">
 							<p><strong>Domicilio</strong><br />
-							Calle Camino a San Juan No. 2, <abbr title="Colonia">Col. </abbr>Estaci&oacute;n Nueva, <br /><abbr title="C&oacute;digo Postal">C.P.</abbr> 86900</p>
+							Av. Mariano Abasolo s/n, Esq. Calle Agrarista,<abbr title="Colonia">Col. </abbr>Las Lomas, <br /><abbr title="C&oacute;digo Postal">C.P.</abbr>86997</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Municipio o Delegaci&oacute;n</strong><br />
-							    Tenosique, Tabasco.</p>
+							   Emiliano Zapata, Tabasco.</p>
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
@@ -7337,17 +7336,17 @@ L a v de 8 a 15 hrs.</p>
 						</div>
 						<div class="col-sm-6">
 							 <p><strong>Responsable</strong><br />
-							   Lic. Alfonso Manuel Pérez López</p>
+							   Lic. José Enrique Palmer Abreu</p>
 							    
 						</div>
 						<div class="clearfix"></div>
 						<div class="col-sm-6">
 							 <p><strong>Tel&eacute;fono(s) y extensi&oacute;n </strong><br />
-    					    01 (934) 342 1776</p>
+    					    (934) 343 2051</p>
 						</div>
 						<div class="col-sm-6">
 							<p><strong>Correo electr&oacute;nico</strong><br />
-						  <a href="mailto:ampl1975@hotmail.com">ampl1975@hotmail.com</a></p>  
+						  <a href="mailto:ampl1975@hotmail.com">josepalmer@tabasco.gob.mx</a></p>  
 						</div>
 					</div>
 				</div>
