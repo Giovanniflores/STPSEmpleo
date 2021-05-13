@@ -303,65 +303,245 @@
 				<th>ver oferta</th>
 			</thead>
 			<tbody>
-				 <tr>
-					<td>Ayudante General</td>
-					<td>$6,800.00</td>
-					<td>26/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4446909-oferta-de-empleo-de-ayudante-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
+				<tr>
+					<td>Supervisores</td>
+					<td>$16,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498293-oferta-de-empleo-de-supervisores-pro-sevitium-adminstracion-especi" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
+					<td>Abogados</td>
+					<td>$20,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498281-oferta-de-empleo-de-abogados-pro-sevitium-adminstracion-especializ" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Jefe de Planilla</td>
+					<td>$16,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498217-oferta-de-empleo-de-jefe-de-planilla-china-communications-construc" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Topografos</td>
+					<td>$18,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498192-oferta-de-empleo-de-topografo-china-communications-construction-co" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Arquitecto Q/C</td>
+					<td>$19,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498182-oferta-de-empleo-de-arquitecto-qc-china-communications-constructio" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Ingeniero Civil</td>
+					<td>$19,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498169-oferta-de-empleo-de-ingeniero-civil-china-communications-construct" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Plomeros</td>
+					<td>$10,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498138-oferta-de-empleo-de-plomero-china-communications-construction-comp" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Mecanico (diesel y gasolina)</td>
+					<td>$9,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498161-oferta-de-empleo-de-mecanido-diesel-y-gasolina-china-communication" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Soldador</td>
+					<td>$9,200.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498133-oferta-de-empleo-de-soldador-china-communications-construction-com" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Carpinteros</td>
+					<td>$9,200.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498112-oferta-de-empleo-de-carpinteros-china-communications-construction-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Herreros</td>
+					<td>$9,200.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498099-oferta-de-empleo-de-herreros-china-communications-construction-com" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Albañiles</td>
+					<td>$9,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498092-oferta-de-empleo-de-albaniles-china-communications-construction-co" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Ayudantes Generales</td>
+					<td>$8,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498083-oferta-de-empleo-de-ayudantes-generales-china-communications-const" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Tecnico en Topografìa</td>
+					<td>$13,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4498074-oferta-de-empleo-de-tecnico-topografia-china-communications-constr" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Mecanico Diesel</td>
+					<td>$14,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495511-oferta-de-empleo-de-mecanico-diesel-servicios-tecnicos-y-administr" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Mecanico General</td>
+					<td>$12,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495517-oferta-de-empleo-de-mecanico-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operado de pipa de combustible</td>
+					<td>$17,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495534-oferta-de-empleo-de-operador-pipa-combustible-servicios-tecnicos-y" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial Electricista Corriente Directa</td>
+					<td>$10,700.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495514-oferta-de-empleo-de-oficial-electricista-corriente-directa-servici" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Maniobrista</td>
+					<td>$12,800.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495897-oferta-de-empleo-de-maniobrista-servicios-tecnicos-y-administrativ" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Auxiliar de Almacen</td>
+					<td>$12,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4496147-oferta-de-empleo-de-auxiliar-de-almacen-servicios-tecnicos-y-admin" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de Trituradora</td>
+					<td>$17,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4496130-oferta-de-empleo-de-operador-trituradora-servicios-tecnicos-y-admi" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!--<tr>
+					<td>Banderero vial </td>
+					<td>$6,500.00</td>
+					<td>19/04/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4479428-oferta-de-empleo-de-banderero-vial-servicios-tecnicos-y-administra" target="_blank">Ver oferta</a></td>
+				</tr> -->
+				<tr>
+					<td>Operador de tractocompactador </td>
+					<td>$10,898.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4487523-oferta-de-empleo-de-operador-tractocompactador-servicios-tecnicos-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!-- <tr>
+					<td>Operador de tractocompactador </td>
+					<td>$10,898.00</td>
+					<td>25/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4466953-oferta-de-empleo-de-operador-cargador-frontal-servicios-tecnicos-y" target="_blank">Ver oferta</a></td>
+				</tr>-->
+				<tr>
+					<td>Operador de tractor </td>
+					<td>$10,898.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4487512-oferta-de-empleo-de-operador-de-tractor-servicios-tecnicos-y-admin" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de motoconformadora</td>
+					<td>$10,898.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4487547-oferta-de-empleo-de-operador-motoconformadora-servicios-tecnicos-y" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!-- <tr>
+					<td>Operador de excavadora</td>
+					<td>$10,898.00</td>
+					<td>25/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4466728-oferta-de-empleo-de-operador-excavadora-servicios-tecnicos-y-admin" target="_blank">Ver oferta</a></td>
+				</tr> -->
+				<tr>
+					<td>Operador de retrocargador</td>
+					<td>$10,898.00</td>
+					<td>25/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4487532-oferta-de-empleo-de-operador-retrocargador-servicios-tecnicos-y-ad" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Operador de compactador mixto</td>
+					<td>$10,898.00</td>
+					<td>25/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4466927-oferta-de-empleo-de-operador-compactador-mixto-servicios-tecnicos-" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!-- <tr>
+					<td>Checador de asistencia</td>
+					<td>$10,898.00</td>
+					<td>25/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4458726-oferta-de-empleo-de-checador-asistencia-servicios-tecnicos-y-admin" target="_blank">Ver oferta</a></td>
+				</tr> -->
+				 <tr>
+					<td>Ayudante General</td>
+					<td>$6,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495695-oferta-de-empleo-de-ayudante-general-servicios-tecnicos-y-administ" target="_blank">Ver oferta</a></td>
+				</tr>
+				<!-- <tr>
 					<td>Operador de pipa diesel</td>
 					<td>$8,000.00</td>
 					<td>03/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4435563-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>
+					<td><a href="https://www.empleo.gob.mx/4453361-oferta-de-empleo-de-operador-pipa-diesel-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr> -->
 				<tr>
 					<td>Medico ocupacional</td>
 					<td> $18,000.00</td>
-					<td>26/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4446547-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4494826-oferta-de-empleo-de-medico-ocupacional-servicios-tecnicos-y-admini" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
 					<td>Supervisor de seguridad laboral acsma</td>
 					<td> $22,798.00</td>
-					<td>26/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4445108-oferta-de-empleo-de-supervisor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
+					<td>19/04/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4470072-oferta-de-empleo-de-supervisor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
 				</tr>
 				<tr>
 					<td>Instructor de seguridad laboral acsma</td>
-					<td> $16,000.00</td>
+					<td> $15,798.00</td>
 					<td>26/02/2021</td>
-					<td><a href="https://www.empleo.gob.mx/4445182-oferta-de-empleo-de-instructor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
+					<td><a href="https://www.empleo.gob.mx/4470082-oferta-de-empleo-de-instructor-seguridad-laboral-acsma-servicios-t" target="_blank">Ver oferta</a></td>
 				</tr>
-				<tr>
+				<!-- <tr>
 					<td>Consultor sap</td>
 					<td> $42,000.00</td>
 					<td>26/02/2021</td>
 					<td><a href="https://www.empleo.gob.mx/4448504-oferta-de-empleo-de-consultor-sap-fondo-nacional-fomento-al-turism" target="_blank">Ver oferta</a></td>
-				</tr>
+				</tr> -->
+				<!-- <tr>
+					<td>Analista de imss siroc</td>
+					<td>$12,000.00</td>
+					<td>03/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4450656-oferta-de-empleo-de-analista-imss-siroc-azvindi-ferroviario-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr> -->
+				<!-- <tr>
+					<td>Auxiliar administrativo</td>
+					<td>$10,000.00</td>
+					<td>03/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4452449-oferta-de-empleo-de-auxiliar-administrativo-azvindi-ferroviario-sa" target="_blank">Ver oferta</a></td>
+				</tr> -->
 				<!--<tr>
-					<td>TÃ©cnico TopogrÃ¡fÃ­a</td>
-					<td> $23,595.00 </td>
-					<td>10/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4387578-oferta-de-empleo-de-tecnico-en-topografia--obra-consorcio-lamat-tr" target="_blank">Ver oferta</a></td>
-				</tr>-->
+					<td>Dibujante cadista</td>
+					<td>$15,000.00</td>
+					<td>03/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4453183-oferta-de-empleo-de-dibujante-cadista-azvindi-ferroviario-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr> -->
 				<!--<tr>
-					<td>Supervisores</td>
-					<td> $19,000.00 </td>
-					<td>04/09/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4404137-oferta-de-empleo-de-supervisores-capital-humano-especializado-kra-" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
-					<td>Tecnico de estimaciones</td>
-					<td> $10,000.00 </td>
-					<td>17/11/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4397282-oferta-de-empleo-de-tecnico-estimaciones-azvindi-ferroviario-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
-					<td>Banderero vial</td>
-					<td>$6,500.00</td>
-					<td>17/11/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4398225-oferta-de-empleo-de-banderero-vial-servicios-tecnicos-y-administra" target="_blank">Ver oferta</a></td>
+					<td>Auxiliar administrativo </td>
+					<td>$10,000.00</td>
+					<td>03/03/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4445013-oferta-de-empleo-de-auxiliar-administrativo-azvindi-ferroviario-sa" target="_blank">Ver oferta</a></td>
 				</tr>-->
 				<!--<tr>
 					<td>Medico ocupacional</td>
@@ -483,24 +663,24 @@
 					<td>29/10/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4411151-oferta-de-empleo-de-oficial-de-tubero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>-->
-				<!--<tr>
+				<tr>
 					<td>Oficial de carpintero</td>
-					<td>$6,000.00</td>
-					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411155-oferta-de-empleo-de-oficial-carpintero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
+					<td>11,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4496056-oferta-de-empleo-de-oficial-carpintero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
 					<td>Oficial de fierrero</td>
-					<td>$6,000.00</td>
-					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411162-oferta-de-empleo-de-oficial-de-fierrero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
-					<td>Oficial de albaÃ±il</td>
-					<td>$6,000.00</td>
-					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411167-oferta-de-empleo-de-oficial-de-albanil-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
+					<td>$11,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495955-oferta-de-empleo-de-oficial-de-fierrero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
+					<td>Oficial de albañil</td>
+					<td>$11,500.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4496033-oferta-de-empleo-de-oficial-de-albanil-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
 				<!--<tr>
 					<td>Operador de planta de luz</td>
 					<td>$6,000.00</td>
@@ -537,18 +717,18 @@
 					<td>29/10/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4411408-oferta-de-empleo-de-operador-pata-cabra-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>-->
-				<!--<tr>
+				<tr>
 					<td>Operador de cargador</td>
-					<td>$6,000.00</td>
+					<td>$17,000.00</td>
 					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411193-oferta-de-empleo-de-operador-de-cargador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
-				<!--<tr>
+					<td><a href="https://www.empleo.gob.mx/4496080-oferta-de-empleo-de-operador-de-cargador-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
+				<tr>
 					<td>Operador de excavadora</td>
-					<td>$6,000.00</td>
-					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411198-oferta-de-empleo-de-operador-excavadora-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
+					<td>$17,000.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4496107-oferta-de-empleo-de-operador-excavadora-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
 				<!--<tr>
 					<td>Operador de tractor</td>
 					<td>$8,000.00</td>
@@ -585,12 +765,12 @@
 					<td>29/10/2020</td>
 					<td><a href="https://www.empleo.gob.mx/4411221-oferta-de-empleo-de-bodeguero-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
 				</tr>-->
-				<!--<tr>
+				<tr>
 					<td>Cabo</td>
-					<td>$6,000.00</td>
-					<td>29/10/2020</td>
-					<td><a href="https://www.empleo.gob.mx/4411224-oferta-de-empleo-de-cabo-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
-				</tr>-->
+					<td>$17,140.00</td>
+					<td>13/05/2021</td>
+					<td><a href="https://www.empleo.gob.mx/4495615-oferta-de-empleo-de-cabo-consorcio-tramo-dos-sa-cv" target="_blank">Ver oferta</a></td>
+				</tr>
 				<!--<tr>
 					<td>Jefe de frente</td>
 					<td>$12,000.00</td>
